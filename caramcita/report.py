@@ -38,6 +38,11 @@ _DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domin
 _MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 
 
+def _fmt_long(d: datetime, tz: ZoneInfo) -> str:
+    l = d.astimezone(tz)
+    return f"{_DAYS[l.weekday()]} {l.day} de {_MONTHS[l.month - 1]} de {l.year}, {l.strftime('%H:%M')}"
+
+
 def _day_label(day: str, today: str) -> str:
     d = datetime.strptime(day, "%Y-%m-%d")
     if day == today:
@@ -124,7 +129,7 @@ def build_context(state: State, cfg: dict[str, Any], sources_meta: list[dict[str
     return {
         "site": cfg["site"],
         "min_bedrooms": cfg["min_bedrooms"],
-        "generated": now.astimezone(tz).strftime("%A %d/%m/%Y %H:%M").capitalize(),
+        "generated": _fmt_long(now, tz),
         "generated_iso": now.isoformat(),
         "news": news,
         "news_count": sum(len(d["cards"]) for d in news),
