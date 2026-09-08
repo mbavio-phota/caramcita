@@ -1,6 +1,7 @@
 {
  "version": 1,
  "baseline_done": true,
+ "baseline_at": null,
  "last_summary_date": "2026-09-08",
  "telegram_chat_id": null,
  "listings": {
@@ -43,8 +44,9 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -93,8 +95,9 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -143,8 +146,9 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -192,8 +196,9 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -244,14 +249,64 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
      "at": "2026-09-08T18:58:45+00:00",
      "price": 1600.0,
      "currency": "USD"
+    }
+   ]
+  },
+  "lequio:168572": {
+   "listing": {
+    "source": "lequio",
+    "source_id": "168572",
+    "url": "https://lequiopropiedades.com.ar/ad/alquiler-propiedad-anisacate-cordoba",
+    "title": "ALQUILER PROPIEDAD ANISACATE, CORDOBA",
+    "description": "",
+    "price": 600000.0,
+    "currency": "ARS",
+    "locality": "Anisacate",
+    "address": "Anisacate, Córdoba, Argentina",
+    "bedrooms": 3,
+    "property_type": "Casa",
+    "operation": "En Alquiler",
+    "images": [
+     "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1749250227qwlmn-whatsapp-image-2025-06-06-at-165355.jpeg"
+    ],
+    "agency": "Lequio Propiedades",
+    "lat": null,
+    "lng": null,
+    "extra": {
+     "slug": "alquiler-propiedad-anisacate-cordoba",
+     "codigo": "168572",
+     "estado": "Alquilo",
+     "m2": "1",
+     "banios": 1,
+     "img_hash": ""
+    },
+    "key": "lequio:168572"
+   },
+   "verdict": {
+    "status": "match",
+    "reason": "exact",
+    "locality": "Anisacate",
+    "bedrooms": 3
+   },
+   "first_seen": "2026-09-08T19:22:36+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
+   "gone_since": null,
+   "back_at": null,
+   "price_changed_at": null,
+   "price_history": [
+    {
+     "at": "2026-09-08T19:22:36+00:00",
+     "price": 600000.0,
+     "currency": "ARS"
     }
    ]
   },
@@ -291,8 +346,9 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -341,8 +397,9 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -391,8 +448,9 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -441,8 +499,9 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -490,8 +549,9 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -540,8 +600,9 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -596,8 +657,9 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -640,8 +702,9 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -684,8 +747,9 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T18:58:45+00:00",
+   "last_seen": "2026-09-08T19:22:36+00:00",
    "gone_since": null,
+   "back_at": null,
    "price_changed_at": null,
    "price_history": [
     {
@@ -698,123 +762,140 @@
  },
  "sources": {
   "consulting": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 2,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "facundosanchez": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 0,
-   "zero_streak": 1,
-   "error": null
+   "zero_streak": 2,
+   "error": null,
+   "error_streak": 0
   },
   "faretta": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 7,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "fiornovelli": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 6,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "goyatucci": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 11,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "guillermocortes": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 18,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "invertir": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 6,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "juarezbeltran": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 66,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "lavoz": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 13,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "lequio": {
-   "last_run": "2026-09-08T19:07:31+00:00",
-   "last_ok": null,
-   "last_count": 0,
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
+   "last_count": 12,
    "zero_streak": 0,
-   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+   "error": null,
+   "error_streak": 0
   },
   "mercadolibre": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 42,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "raices": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 0,
-   "zero_streak": 1,
-   "error": null
+   "zero_streak": 2,
+   "error": null,
+   "error_streak": 0
   },
   "ruartemoyano": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 13,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "terra": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 11,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "villalosaromos": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 29,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "zaratemedinadiaz": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 2,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   },
   "zonaprop": {
-   "last_run": "2026-09-08T18:58:45+00:00",
-   "last_ok": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:22:36+00:00",
+   "last_ok": "2026-09-08T19:22:36+00:00",
    "last_count": 14,
    "zero_streak": 0,
-   "error": null
+   "error": null,
+   "error_streak": 0
   }
  },
  "runs": [
@@ -905,6 +986,83 @@
     "lequio": {
      "count": 0,
      "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+    }
+   }
+  },
+  {
+   "at": "2026-09-08T19:22:36+00:00",
+   "baseline": false,
+   "new": 0,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "lavoz": {
+     "count": 13,
+     "error": null
+    },
+    "mercadolibre": {
+     "count": 42,
+     "error": null
+    },
+    "zonaprop": {
+     "count": 14,
+     "error": null
+    },
+    "consulting": {
+     "count": 2,
+     "error": null
+    },
+    "guillermocortes": {
+     "count": 18,
+     "error": null
+    },
+    "invertir": {
+     "count": 6,
+     "error": null
+    },
+    "goyatucci": {
+     "count": 11,
+     "error": null
+    },
+    "terra": {
+     "count": 11,
+     "error": null
+    },
+    "faretta": {
+     "count": 7,
+     "error": null
+    },
+    "fiornovelli": {
+     "count": 6,
+     "error": null
+    },
+    "raices": {
+     "count": 0,
+     "error": null
+    },
+    "facundosanchez": {
+     "count": 0,
+     "error": null
+    },
+    "villalosaromos": {
+     "count": 29,
+     "error": null
+    },
+    "lequio": {
+     "count": 12,
+     "error": null
+    },
+    "ruartemoyano": {
+     "count": 13,
+     "error": null
+    },
+    "juarezbeltran": {
+     "count": 66,
+     "error": null
+    },
+    "zaratemedinadiaz": {
+     "count": 2,
+     "error": null
     }
    }
   }
