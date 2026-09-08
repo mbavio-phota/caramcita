@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import logging
 import re
+import time
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -84,22 +85,47 @@ class Adapter(Source):
         seen: dict[str, Listing] = {}
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            ctx = browser.new_context(locale="es-AR", user_agent=UA, viewport={"width": 1280, "height": 900})
-            page = ctx.new_page()
             for url in self.urls:
-                page.goto(url, wait_until="domcontentloaded", timeout=60_000)
-                try:
-                    page.wait_for_selector('[data-qa="posting PROPERTY"], [data-qa="NO_RESULTS"], h1', timeout=25_000)
-                except Exception:  # noqa: BLE001
-                    pass
-                page.wait_for_timeout(2_500)
-                html = page.content()
-                title = page.title()
-                if "Just a moment" in title or "cf-chl" in html or "challenge-platform" in html and 'data-qa="posting' not in html:
+                # Un contexto nuevo (cookies limpias) por URL: la segunda navegación en el mismo
+                # contexto dispara el challenge de Cloudflare y en headless no se resuelve solo.
+                html = self._load_fresh(browser, url)
+                if html is None:
+                    time.sleep(15)  # segundo intento tras una pausa
+                    html = self._load_fresh(browser, url)
+                if html is None:
                     browser.close()
                     raise BlockedError(f"Cloudflare challenge en {url}")
-                for l in parse_html(html, self):
+                found = parse_html(html, self)
+                for l in found:
                     seen.setdefault(l.key, l)
-                log.info("zonaprop %s → %d avisos", url, len(seen))
+                log.info("zonaprop %s → %d avisos (%d acumulados)", url, len(found), len(seen))
             browser.close()
         return list(seen.values())
+
+    def _load_fresh(self, browser, url: str) -> str | None:
+        ctx = browser.new_context(locale="es-AR", user_agent=UA, viewport={"width": 1280, "height": 900})
+        try:
+            return self._load(ctx.new_page(), url)
+        finally:
+            ctx.close()
+
+    @staticmethod
+    def _is_challenge(page) -> bool:
+        t = page.title().lower()
+        return "un momento" in t or "just a moment" in t or "attention required" in t
+
+    def _load(self, page, url: str) -> str | None:
+        """Carga la URL y espera a que el challenge pasivo de Cloudflare se resuelva. None si no pasa."""
+        page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+        for _ in range(15):  # hasta ~30 s
+            if not self._is_challenge(page):
+                break
+            page.wait_for_timeout(2_000)
+        if self._is_challenge(page):
+            return None
+        try:
+            page.wait_for_selector('[data-qa="posting PROPERTY"], h1', timeout=20_000)
+        except Exception:  # noqa: BLE001
+            pass
+        page.wait_for_timeout(1_500)
+        return page.content()
