@@ -52,6 +52,13 @@ class TestLocality:
         # "Córdoba" solo no es barrio Córdoba de Alta Gracia
         assert match_locality(clf, locality="Córdoba", texts=["Casa en Córdoba"]) == (None, "unknown")
 
+    def test_barrio_beats_neighbour_locality_from_source(self, clf):
+        # MercadoLibre archiva Tierra Alta bajo Malagueño
+        assert match_locality(clf, locality="Santa María", texts=["Tierra Alta al 2100, Malagueño"]) == ("Alta Gracia", "barrio")
+
+    def test_excluded_without_barrio_still_excluded(self, clf):
+        assert match_locality(clf, locality="Malagueño", texts=["Casa en Malagueño centro"]) == (None, "excluded")
+
     def test_barrio_cordoba_with_alta_gracia_context(self, clf):
         assert match_locality(clf, locality="", texts=["Casa en Barrio Córdoba, Alta Gracia"]) == ("Alta Gracia", "text")
 
@@ -111,6 +118,7 @@ class TestTemporary:
     @pytest.mark.parametrize(
         "op,text,expected",
         [
+            ("Alquiler", "cocina con comedor diario", False),
             ("Alquiler", "", False),
             ("Alquileres Temporarios", "", True),
             ("Alquiler", "alquiler temporario por temporada", True),
@@ -163,6 +171,10 @@ class TestEvaluate:
     def test_maybe_location_and_bedrooms_is_location(self, clf):
         v = clf.evaluate(mk(title="Casa con pileta", locality="", property_type="Casa", operation="Alquiler"))
         assert v.status == "maybe_location"
+
+    def test_title_departamento_beats_source_type(self, clf):
+        v = clf.evaluate(mk(title="Departamento en alquiler en V. Camiares", locality="Alta Gracia", property_type="Casas", operation="Alquileres", bedrooms=3))
+        assert v.status == "rejected"
 
     def test_unknown_type_with_house_text(self, clf):
         v = clf.evaluate(mk(title="Alquilo casa 3 dorm Falda del Carmen", locality="", property_type="", operation=""))

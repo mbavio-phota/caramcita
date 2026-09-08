@@ -1,0 +1,489 @@
+{
+ "code": 200,
+ "status": "OK",
+ "message": null,
+ "data": {
+  "results": {
+   "data": [
+    {
+     "id": 5636915,
+     "site_id": 3,
+     "initial_order": "9995117873299501784403275",
+     "publish_date": "21.08.2026",
+     "url": "https://clasificados.lavoz.com.ar/avisos/inmuebles/casa/5636915/se-alquila-casa-potrerillo-de-larreta-alta-gracia-064grupofuturosi",
+     "title": "SE ALQUILA CASA POTRERILLO DE LARRETA ALTA GRACIA #064GRUPOFUTUROSI",
+     "body": "Casa en el Exclusivo Barrio El Potrerillo de Larreta- Alta Gracia\n\nCaracteristicas de la propiedad:\n\nPosee un lote de 1177 mts y 215 mts construidos.\n\nDistribuida perfectamente en DOS pisos lo que le aporta un mayor aprovechamiento a cada espacio y privacidad.\n\nPlanta Baja: -Playroom -Baño -Lavadero -Cocheras semi cubiertas -Gran Patio y Piscina. -Sala de Estar -Comedor -Cocina equipada con bajo mesada y alacenas -Galeria con asador-\n\nSegundo Piso zona Privada: -Tres dormitorios cada uno con su respectivo placard empotrado -Baño completo -Dormitorio Principal -Salida a Terraza con increibles v",
+     "body_excerpt": "Casa en el Exclusivo Barrio El Potrerillo de Larreta- Alta Gracia\nCaracteristicas de la pr ...",
+     "category": {
+      "id": 6330,
+      "name": "inmuebles",
+      "label": "Inmuebles"
+     },
+     "subcategory": {
+      "id": 6331,
+      "name": "casa",
+      "label": "Casas",
+      "node_type": "aviso_casa"
+     },
+     "third_level": {
+      "name": "Alquileres"
+     },
+     "filter": "filters=tid:6331",
+     "filter_full": "filters=tid:6331 ss_operacion:Alquileres",
+     "price": {
+      "currency": "U$S",
+      "amount": "1.600"
+     },
+     "address": {
+      "province": "Córdoba",
+      "city": "Alta Gracia",
+      "neighborhood": "Potrerillo de Larreta",
+      "latitude": "-31.648174647629123",
+      "longitude": "-64.47856744836625"
+     },
+     "user": {
+      "id": 289742,
+      "name": "ALEJANDRO MENNA",
+      "role_name": "Inmobiliaria",
+      "trade_name": "Grupo Futuro",
+      "microsite_url": null,
+      "logo": {
+       "original": {
+        "url": "https://cdncla.lavoz.com.ar/files/logos-concesionaria/picture-289742.webp"
+       }
+      }
+     },
+     "products": {
+      "highlight": "Gratuito",
+      "improvements": []
+     },
+     "real_estate": {
+      "number_bedrooms": "3 Dormitorios",
+      "number_bathrooms": "2 Baños",
+      "total_area": 215,
+      "neighborhood_type": "Country",
+      "apt_credit": null,
+      "apto_blanqueo": false,
+      "apt_deed": null,
+      "ceduc_pertain": false,
+      "cpi_pertain": false,
+      "rentas_account_number": true
+     },
+     "vehicles": {
+      "model": null,
+      "kilometres": null,
+      "used_year": null,
+      "fuel": null,
+      "transmission": null,
+      "ccac_pertain": false
+     },
+     "multimedia": {
+      "images": {
+       "count": 3,
+       "carousel": [
+        {
+         "delta": 0,
+         "original": {
+          "url": "https://cdncla.lavoz.com.ar/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-9e8a4352-e284-48a8-9311-f78eacb770f0.webp"
+         },
+         "thumbnails": {
+          "desktop_grid": [
+           {
+            "width": 280,
+            "height": 280,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/280x280/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-9e8a4352-e284-48a8-9311-f78eacb770f0.webp"
+           }
+          ],
+          "desktop_list": [
+           {
+            "width": 512,
+            "height": 352,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/512x352/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-9e8a4352-e284-48a8-9311-f78eacb770f0.webp"
+           }
+          ],
+          "mobile": [
+           {
+            "width": 210,
+            "height": 210,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/210x210/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-9e8a4352-e284-48a8-9311-f78eacb770f0.webp"
+           }
+          ],
+          "super_featured": [
+           {
+            "width": 800,
+            "height": 450,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/800x450/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-9e8a4352-e284-48a8-9311-f78eacb770f0.webp"
+           }
+          ]
+         }
+        },
+        {
+         "delta": 1,
+         "original": {
+          "url": "https://cdncla.lavoz.com.ar/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-75c2a1bc-deeb-4975-b804-3318401b2699.webp"
+         },
+         "thumbnails": {
+          "desktop_grid": [
+           {
+            "width": 280,
+            "height": 280,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/280x280/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-75c2a1bc-deeb-4975-b804-3318401b2699.webp"
+           }
+          ],
+          "desktop_list": [
+           {
+            "width": 512,
+            "height": 352,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/512x352/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-75c2a1bc-deeb-4975-b804-3318401b2699.webp"
+           }
+          ],
+          "mobile": [
+           {
+            "width": 210,
+            "height": 210,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/210x210/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-75c2a1bc-deeb-4975-b804-3318401b2699.webp"
+           }
+          ],
+          "super_featured": [
+           {
+            "width": 800,
+            "height": 450,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/800x450/avisos/aviso_casa/5636915/inmuebles-casa-alquileres-5636915-75c2a1bc-deeb-4975-b804-3318401b2699.webp"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": 5644305,
+     "site_id": 3,
+     "initial_order": "9998017888484091786128051",
+     "publish_date": "08.09.2026",
+     "url": "https://clasificados.lavoz.com.ar/avisos/inmuebles/casa/5644305/dique-chico-alquiler-2-dormitorios",
+     "title": "Dique Chico Alquiler 2 Dormitorios",
+     "body": "Casa en alquiler ubicada en la tranquila localidad de Dique Chico. Esta propiedad de 1 planta cuenta con 90 m² de superficie construida sobre un terreno total de 600 m². El sector social dispone de living, comedor y comedor diario, integrados a una cocina equipada con termotanque y calefacción.[[inline-break]]La zona íntima se compone de 2 dormitorios y 1 baño completo, con antebaño . En el exterior, el inmueble ofrece un patio con jardín, un quincho con parrilla ideal para reuniones y cochera semicubierta para 2 vehículos. Esta propiedad permite mascotas. Se encuentra en un entorno residencia",
+     "body_excerpt": "Casa en alquiler ubicada en la tranquila localidad de Dique Chico. Esta propiedad de 1 pla ...",
+     "category": {
+      "id": 6330,
+      "name": "inmuebles",
+      "label": "Inmuebles"
+     },
+     "subcategory": {
+      "id": 6331,
+      "name": "casa",
+      "label": "Casas",
+      "node_type": "aviso_casa"
+     },
+     "third_level": {
+      "name": "Alquileres"
+     },
+     "filter": "filters=tid:6331",
+     "filter_full": "filters=tid:6331 ss_operacion:Alquileres",
+     "price": {
+      "currency": "$",
+      "amount": "690.000"
+     },
+     "address": {
+      "province": "Córdoba",
+      "city": "Anisacate",
+      "neighborhood": null,
+      "latitude": null,
+      "longitude": null
+     },
+     "user": {
+      "id": 104269,
+      "name": "Olga Olmos",
+      "role_name": "Inmobiliaria",
+      "trade_name": "Inmobiliaria Olga Olmos",
+      "microsite_url": "sitio/inmobiliariaolgaolmos",
+      "logo": {
+       "original": {
+        "url": "https://cdncla.lavoz.com.ar/files/logos-concesionaria/picture-104269.webp"
+       }
+      }
+     },
+     "products": {
+      "highlight": "Premium",
+      "improvements": []
+     },
+     "real_estate": {
+      "number_bedrooms": "2 Dormitorios",
+      "number_bathrooms": "1 Baño",
+      "total_area": 600,
+      "neighborhood_type": "Abierto",
+      "apt_credit": null,
+      "apto_blanqueo": false,
+      "apt_deed": null,
+      "ceduc_pertain": false,
+      "cpi_pertain": true,
+      "rentas_account_number": false
+     },
+     "vehicles": {
+      "model": null,
+      "kilometres": null,
+      "used_year": null,
+      "fuel": null,
+      "transmission": null,
+      "ccac_pertain": false
+     },
+     "multimedia": {
+      "images": {
+       "count": 12,
+       "carousel": [
+        {
+         "delta": 0,
+         "original": {
+          "url": "https://cdncla.lavoz.com.ar/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-cf4ea760-f810-4e86-ab0b-fb6bd6717e0c.webp"
+         },
+         "thumbnails": {
+          "desktop_grid": [
+           {
+            "width": 280,
+            "height": 280,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/280x280/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-cf4ea760-f810-4e86-ab0b-fb6bd6717e0c.webp"
+           }
+          ],
+          "desktop_list": [
+           {
+            "width": 512,
+            "height": 352,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/512x352/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-cf4ea760-f810-4e86-ab0b-fb6bd6717e0c.webp"
+           }
+          ],
+          "mobile": [
+           {
+            "width": 210,
+            "height": 210,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/210x210/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-cf4ea760-f810-4e86-ab0b-fb6bd6717e0c.webp"
+           }
+          ],
+          "super_featured": [
+           {
+            "width": 800,
+            "height": 450,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/800x450/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-cf4ea760-f810-4e86-ab0b-fb6bd6717e0c.webp"
+           }
+          ]
+         }
+        },
+        {
+         "delta": 1,
+         "original": {
+          "url": "https://cdncla.lavoz.com.ar/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-42d55fb4-09e3-43e0-aa78-fe7d5215b5a4.webp"
+         },
+         "thumbnails": {
+          "desktop_grid": [
+           {
+            "width": 280,
+            "height": 280,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/280x280/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-42d55fb4-09e3-43e0-aa78-fe7d5215b5a4.webp"
+           }
+          ],
+          "desktop_list": [
+           {
+            "width": 512,
+            "height": 352,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/512x352/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-42d55fb4-09e3-43e0-aa78-fe7d5215b5a4.webp"
+           }
+          ],
+          "mobile": [
+           {
+            "width": 210,
+            "height": 210,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/210x210/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-42d55fb4-09e3-43e0-aa78-fe7d5215b5a4.webp"
+           }
+          ],
+          "super_featured": [
+           {
+            "width": 800,
+            "height": 450,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/800x450/avisos/aviso_casa/5644305/inmuebles-casa-alquileres-5644305-42d55fb4-09e3-43e0-aa78-fe7d5215b5a4.webp"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": 5137750,
+     "site_id": 3,
+     "initial_order": "9995017887891021788789102",
+     "publish_date": "07.09.2026",
+     "url": "https://clasificados.lavoz.com.ar/avisos/inmuebles/casa/5137750/departamento-en-alquiler-en-barrio-v-camiares-alta-gracia",
+     "title": "Departamento en alquiler en barrio V. Camiares - Alta Gracia",
+     "body": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ comedor amplia, baño, cochera y patio con asador. Techo de losa - Pisos de porcelanato. Villa Camiares - Alta Gracia[[inline-break]]\n[[inline-break]]\nOtros Servicios:[[inline-break]]\n[[inline-break]]\nPatio",
+     "body_excerpt": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ come ...",
+     "category": {
+      "id": 6330,
+      "name": "inmuebles",
+      "label": "Inmuebles"
+     },
+     "subcategory": {
+      "id": 6331,
+      "name": "casa",
+      "label": "Casas",
+      "node_type": "aviso_casa"
+     },
+     "third_level": {
+      "name": "Alquileres"
+     },
+     "filter": "filters=tid:6331",
+     "filter_full": "filters=tid:6331 ss_operacion:Alquileres",
+     "price": {
+      "currency": "$",
+      "amount": "650.000"
+     },
+     "address": {
+      "province": "Córdoba",
+      "city": "Alta Gracia",
+      "neighborhood": null,
+      "latitude": "-31.62966347",
+      "longitude": "-64.43753815"
+     },
+     "user": {
+      "id": 213639,
+      "name": "Ramon Eduardo Rando",
+      "role_name": "Inmobiliaria",
+      "trade_name": "Eduardo Rando Negocios Inmobiliarios",
+      "microsite_url": null,
+      "logo": {
+       "original": {
+        "url": "https://cdncla.lavoz.com.ar/https://static1.adinco.net/https:/thumb_/static1.sosiva451.com/915101_a/116da99f-9830-49a1-b15c-34ffc9b89d69_small.jpg"
+       }
+      }
+     },
+     "products": {
+      "highlight": "Gratuito",
+      "improvements": []
+     },
+     "real_estate": {
+      "number_bedrooms": "2 Dormitorios",
+      "number_bathrooms": "2 Baños",
+      "total_area": 140,
+      "neighborhood_type": null,
+      "apt_credit": "No",
+      "apto_blanqueo": false,
+      "apt_deed": null,
+      "ceduc_pertain": false,
+      "cpi_pertain": true,
+      "rentas_account_number": false
+     },
+     "vehicles": {
+      "model": null,
+      "kilometres": null,
+      "used_year": null,
+      "fuel": null,
+      "transmission": null,
+      "ccac_pertain": false
+     },
+     "multimedia": {
+      "images": {
+       "count": 3,
+       "carousel": [
+        {
+         "delta": 0,
+         "original": {
+          "url": "https://cdncla.lavoz.com.ar/files/avisos/aviso_casa/aviso-casa-alquileres-401610-329.webp"
+         },
+         "thumbnails": {
+          "desktop_grid": [
+           {
+            "width": 280,
+            "height": 280,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/280x280/files/avisos/aviso_casa/aviso-casa-alquileres-401610-329.webp"
+           }
+          ],
+          "desktop_list": [
+           {
+            "width": 512,
+            "height": 352,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/512x352/files/avisos/aviso_casa/aviso-casa-alquileres-401610-329.webp"
+           }
+          ],
+          "mobile": [
+           {
+            "width": 210,
+            "height": 210,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/210x210/files/avisos/aviso_casa/aviso-casa-alquileres-401610-329.webp"
+           }
+          ],
+          "super_featured": [
+           {
+            "width": 800,
+            "height": 450,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/800x450/files/avisos/aviso_casa/aviso-casa-alquileres-401610-329.webp"
+           }
+          ]
+         }
+        },
+        {
+         "delta": 1,
+         "original": {
+          "url": "https://cdncla.lavoz.com.ar/files/avisos/aviso_casa/aviso-casa-alquileres-401610-521.webp"
+         },
+         "thumbnails": {
+          "desktop_grid": [
+           {
+            "width": 280,
+            "height": 280,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/280x280/files/avisos/aviso_casa/aviso-casa-alquileres-401610-521.webp"
+           }
+          ],
+          "desktop_list": [
+           {
+            "width": 512,
+            "height": 352,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/512x352/files/avisos/aviso_casa/aviso-casa-alquileres-401610-521.webp"
+           }
+          ],
+          "mobile": [
+           {
+            "width": 210,
+            "height": 210,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/210x210/files/avisos/aviso_casa/aviso-casa-alquileres-401610-521.webp"
+           }
+          ],
+          "super_featured": [
+           {
+            "width": 800,
+            "height": 450,
+            "url": "https://cdncla.lavoz.com.ar/resizeImage/800x450/files/avisos/aviso_casa/aviso-casa-alquileres-401610-521.webp"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "links": {
+    "first": "?page=1&filters=tid%3A6330%20tid%3A6331%20ss_operacion%3AAlquileres%20tid_location_should%3A3202%20tid_location_should%3A3206%20tid_location_should%3A3299",
+    "last": "?page=1&filters=tid%3A6330%20tid%3A6331%20ss_operacion%3AAlquileres%20tid_location_should%3A3202%20tid_location_should%3A3206%20tid_location_should%3A3299",
+    "prev": null,
+    "next": null
+   },
+   "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "path": "",
+    "per_page": 24,
+    "to": 3,
+    "total": 3
+   }
+  },
+  "metadata": {
+   "title": "Alquileres de Casas en Anisacate",
+   "category": "Inmuebles",
+   "province": "",
+   "city": "Anisacate",
+   "neighborhood": ""
+  }
+ }
+}

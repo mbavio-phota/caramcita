@@ -56,24 +56,33 @@ class Classifier:
                 best = m.start()
         return best
 
+    def _barrio(self, *texts: str) -> str | None:
+        for name, rx in self.barrios:
+            if any(rx.search(t) for t in texts if t):
+                return name
+        return None
+
     def match_locality(self, locality: str, texts: list[str]) -> tuple[str | None, str]:
         loc = normalize(locality)
+        text = " | ".join(normalize(t) for t in texts if t)
         if loc:
-            if self._first_excluded(loc) is not None and self._first_alias(loc) is None:
-                return None, "excluded"
             hit = self._first_alias(loc)
             if hit:
                 return hit[0], "exact"
-        text = " | ".join(normalize(t) for t in texts if t)
+            if self._first_excluded(loc) is not None:
+                # un barrio conocido gana aunque la fuente lo archive bajo una localidad vecina
+                # (p. ej. Tierra Alta figura como Malagueño en MercadoLibre)
+                b = self._barrio(loc, text)
+                return (b, "barrio") if b else (None, "excluded")
         alias_hit = self._first_alias(text)
         excl_pos = self._first_excluded(text)
         if alias_hit and (excl_pos is None or alias_hit[1] <= excl_pos):
             return alias_hit[0], "text"
+        b = self._barrio(loc, text)
+        if b:
+            return b, "barrio"
         if excl_pos is not None:
             return None, "excluded"
-        for name, rx in self.barrios:
-            if rx.search(text) or rx.search(loc):
-                return name, "barrio"
         return None, "unknown"
 
     # ---- evaluación completa --------------------------------------------
@@ -81,7 +90,7 @@ class Classifier:
         text = " ".join(x for x in [l.title, l.description] if x)
         if is_temporary(l.operation, text):
             return Verdict("rejected", "temporario o venta")
-        ptype = classify_property_type(l.property_type, text)
+        ptype = classify_property_type(l.property_type, text, title=l.title)
         if ptype == "excluded":
             return Verdict("rejected", f"tipo excluido: {l.property_type or 'según texto'}")
         locality, how = self.match_locality(l.locality, [l.address, l.title, l.description])
@@ -139,8 +148,11 @@ _HOUSE_RE = re.compile(r"(?<![a-z0-9])(" + "|".join(_HOUSE_KW) + r")(?![a-z0-9])
 _EXCL_RE = re.compile(r"(?<![a-z0-9])(" + "|".join(_EXCL_KW) + r")(?![a-z0-9])")
 
 
-def classify_property_type(ptype: str, text: str) -> str:
+def classify_property_type(ptype: str, text: str, title: str = "") -> str:
     p = normalize(ptype)
+    ti = normalize(title)
+    if ti and _EXCL_RE.search(ti) and not _HOUSE_RE.search(ti):
+        return "excluded"
     if p:
         if _HOUSE_RE.search(p):
             return "casa"
@@ -156,7 +168,7 @@ def classify_property_type(ptype: str, text: str) -> str:
 
 # ---- temporario / venta --------------------------------------------------
 _TEMP_RE = re.compile(
-    r"temporari[oa]s?|temporal(es)?|temporada|por dia|por noche|diario|turistic[oa]s?|vacacion|fin(es)? de semana|estadia"
+    r"temporari[oa]s?|temporal(es)?|temporada|por dia|por noche|alquiler diario|turistic[oa]s?|vacacion(es|al)?|fin(es)? de semana|estadia"
 )
 _ANNUAL_RE = re.compile(r"anual|permanente|no temporar|24 meses|largo plazo|contrato de 2|contrato de 3|contrato de 24|contrato de 36")
 
