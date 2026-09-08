@@ -53,6 +53,24 @@ def _day_label(day: str, today: str) -> str:
     return f"{_DAYS[d.weekday()].capitalize()} {d.day} de {_MONTHS[d.month - 1]}"
 
 
+_SMALL = {"de", "del", "en", "la", "el", "los", "las", "con", "y", "a", "al", "por", "para", "sin", "o", "u"}
+
+
+def tidy_title(t: str) -> str:
+    """Los avisos suelen venir EN MAYÚSCULAS; se pasan a Mayúscula Inicial sin tocar los demás."""
+    letters = [ch for ch in t if ch.isalpha()]
+    if not letters or sum(ch.isupper() for ch in letters) < 0.7 * len(letters):
+        return t
+    words = []
+    for i, w in enumerate(t.split()):
+        lw = w.lower()
+        if i and lw in _SMALL:
+            words.append(lw)
+        else:
+            words.append(lw[:1].upper() + lw[1:])
+    return " ".join(words)
+
+
 def card_view(c: Card, now: datetime, tz: ZoneInfo, baseline_at: datetime | None) -> dict[str, Any]:
     p = c.primary
     l, v = p.listing, p.verdict
@@ -67,7 +85,7 @@ def card_view(c: Card, now: datetime, tz: ZoneInfo, baseline_at: datetime | None
     prev_price = p.price_history[-2].price if price_changed else None
     return {
         "key": c.key,
-        "title": l.title,
+        "title": tidy_title(l.title),
         "url": l.url,
         "image": (l.images[0] if l.images else None),
         "locality": v.locality or (l.locality or None),
@@ -80,8 +98,8 @@ def card_view(c: Card, now: datetime, tz: ZoneInfo, baseline_at: datetime | None
         "price_dir": ("down" if (prev_price is not None and l.price is not None and l.price < prev_price) else "up") if price_changed else None,
         "address": l.address,
         "description": (l.description or "")[:400],
-        "agency": l.agency,
-        "sources": [{"name": e.listing.agency or e.listing.source, "url": e.listing.url, "source": e.listing.source} for e in sorted(c.entries, key=lambda e: e.first_seen)],
+        "agency": tidy_title(l.agency),
+        "sources": [{"name": tidy_title(e.listing.agency or e.listing.source), "url": e.listing.url, "source": e.listing.source} for e in sorted(c.entries, key=lambda e: e.first_seen)],
         "status": v.status,
         "is_new": is_new,
         "is_gone": gone,

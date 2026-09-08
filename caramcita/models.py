@@ -1,7 +1,16 @@
 from __future__ import annotations
 
+import html
+import re
 from dataclasses import dataclass, field, asdict
 from typing import Any
+
+
+def clean_text(s: str | None) -> str:
+    """Entidades HTML decodificadas y espacios colapsados; las fuentes mandan '&amp;' y saltos raros."""
+    if not s:
+        return ""
+    return re.sub(r"[ \t\r\f\v]+", " ", html.unescape(s)).strip()
 
 
 @dataclass
@@ -25,6 +34,13 @@ class Listing:
     lat: float | None = None
     lng: float | None = None
     extra: dict[str, Any] = field(default_factory=dict)
+
+    def __post_init__(self) -> None:
+        self.title = clean_text(self.title)
+        self.description = clean_text(self.description)
+        self.agency = clean_text(self.agency)
+        self.address = clean_text(self.address)
+        self.locality = clean_text(self.locality)
 
     @property
     def key(self) -> str:

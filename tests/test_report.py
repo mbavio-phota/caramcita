@@ -53,3 +53,15 @@ def test_back_badge_health_and_rfc822(tmp_path):
     assert lequio["status"].startswith("sin datos todavía") and not lequio["broken"]
     feed = (tmp_path / "feed.xml").read_text()
     assert "+0000" in feed and "T12:00:00" not in feed
+
+
+def test_tidy_title():
+    from caramcita.report import tidy_title
+    assert tidy_title("ALQUILER PROPIEDAD ANISACATE, CORDOBA") == "Alquiler Propiedad Anisacate, Cordoba"
+    assert tidy_title("SE ALQUILA CASA DE 3 DORM EN EL GOLF") == "Se Alquila Casa de 3 Dorm en el Golf"
+    assert tidy_title("Casa en El Golf") == "Casa en El Golf"
+
+
+def test_listing_unescapes_entities():
+    l = Listing(source="a", source_id="1", url="u", title="B&amp;C  Negocios", agency="Zarate &amp; Medina")
+    assert l.title == "B&C Negocios" and l.agency == "Zarate & Medina"

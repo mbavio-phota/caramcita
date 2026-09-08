@@ -3,201 +3,295 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>{{ site.title }} · {{ generated }}</title>
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#f7f4ee;--ink:#1b1a17;--muted:#6b675e;--rule:#d9d3c6;--card:#fffdf8;--accent:#8b2f1c;--accent-ink:#fff;
-  --ok:#2e6b3a;--warn:#a1611a;--bad:#a12626;--star:#c58a00;--chip:#ece7dc;
+  --paper:#ffffff;--ink:#111111;--ink-2:#5c5c5c;--hair:#d6d6d6;--rule:#111111;--signal:#1f45d6;--signal-ink:#ffffff;--plate:#efefef;
+  --measure:64ch;
 }
 @media (prefers-color-scheme: dark){
-  :root{--bg:#161512;--ink:#ebe6da;--muted:#a09a8c;--rule:#39362f;--card:#1f1d19;--accent:#e0684d;--accent-ink:#161512;--chip:#2a2823;--ok:#7fc58e;--warn:#e0a95a;--bad:#e57373;--star:#f2c14e}
+  :root{--paper:#121212;--ink:#f1f1f1;--ink-2:#a3a3a3;--hair:#2e2e2e;--rule:#f1f1f1;--signal:#8ea2ff;--signal-ink:#121212;--plate:#1f1f1f}
 }
-*{box-sizing:border-box}
-html{color-scheme:light dark}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 Georgia,"Times New Roman",serif}
-a{color:inherit}
-.wrap{max-width:1100px;margin:0 auto;padding:0 20px 60px}
-header.mast{border-bottom:3px double var(--ink);padding:26px 0 12px;text-align:center}
-.mast h1{font:700 54px/1 "Playfair Display",Georgia,serif;letter-spacing:-.01em;margin:0}
-.mast .sub{color:var(--muted);font-style:italic;margin:8px 0 0}
-.mast .meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--rule);margin-top:14px;padding-top:8px;font:13px/1.4 system-ui,sans-serif;color:var(--muted)}
-.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font:14px system-ui,sans-serif;padding:14px 0;border-bottom:1px solid var(--rule)}
-.toolbar label{display:flex;gap:6px;align-items:center;cursor:pointer}
-.toolbar .sp{flex:1}
-.toolbar a{color:var(--muted)}
-h2.sec{font:700 26px/1.1 Georgia,serif;margin:34px 0 6px;padding-bottom:6px;border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:10px}
-h2.sec small{font:13px system-ui,sans-serif;color:var(--muted);font-weight:400}
-h3.day{font:italic 15px Georgia,serif;color:var(--muted);margin:22px 0 8px;border-bottom:1px dotted var(--rule)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:12px}
-.card{background:var(--card);border:1px solid var(--rule);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;position:relative;transition:opacity .2s}
-.card.hidden-card{opacity:.35}
-.card.starred{box-shadow:0 0 0 2px var(--star)}
-.card .img{aspect-ratio:4/3;background:var(--chip);display:block;overflow:hidden}
-.card .img img{width:100%;height:100%;object-fit:cover;display:block}
-.card .img .noimg{display:flex;height:100%;align-items:center;justify-content:center;color:var(--muted);font:13px system-ui,sans-serif}
-.card .body{padding:12px 14px 10px;display:flex;flex-direction:column;gap:6px;flex:1}
-.card h4{margin:0;font:700 17px/1.25 Georgia,serif}
-.card h4 a{text-decoration:none}
-.card h4 a:hover{text-decoration:underline}
-.facts{display:flex;flex-wrap:wrap;gap:6px 12px;font:14px system-ui,sans-serif}
-.facts .price{font-weight:700;font-size:16px}
-.facts .prev{color:var(--muted);text-decoration:line-through;font-weight:400;margin-left:4px}
-.facts .down{color:var(--ok)} .facts .up{color:var(--bad)}
-.desc{font:14px/1.4 Georgia,serif;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.srcs{font:12px system-ui,sans-serif;color:var(--muted);margin-top:auto;padding-top:6px;border-top:1px dotted var(--rule);display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
-.badges{position:absolute;top:8px;left:8px;display:flex;gap:4px;flex-wrap:wrap}
-.badge{font:700 11px/1 system-ui,sans-serif;padding:5px 7px;border-radius:3px;background:var(--chip);color:var(--ink);text-transform:uppercase;letter-spacing:.04em}
-.badge.new{background:var(--accent);color:var(--accent-ink)}
-.badge.gone{background:var(--bad);color:#fff}
-.badge.q{background:var(--warn);color:#fff}
-.acts{position:absolute;top:8px;right:8px;display:flex;gap:4px}
-.acts button{border:0;background:rgba(0,0,0,.55);color:#fff;width:30px;height:30px;border-radius:15px;cursor:pointer;font-size:15px;line-height:30px;padding:0}
-.acts button:hover{background:rgba(0,0,0,.8)}
-.card.starred .acts .star{background:var(--star);color:#000}
-.empty{color:var(--muted);font-style:italic;padding:14px 0}
-table.health{width:100%;border-collapse:collapse;font:13px system-ui,sans-serif;margin-top:10px}
-table.health th,table.health td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule)}
-.dot{display:inline-block;width:9px;height:9px;border-radius:5px;margin-right:6px;vertical-align:middle}
-.dot.ok{background:var(--ok)} .dot.bad{background:var(--bad)} .dot.warn{background:var(--warn)}
-.manual{columns:2;column-gap:30px;font:14px system-ui,sans-serif;margin:8px 0 0;padding-left:18px}
-@media (max-width:600px){.mast h1{font-size:38px}.manual{columns:1}}
-footer{margin-top:50px;border-top:3px double var(--ink);padding-top:12px;font:13px system-ui,sans-serif;color:var(--muted)}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:"Schibsted Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:16px;line-height:1.5;font-feature-settings:"kern" 1;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--signal);color:var(--signal-ink)}
+:focus-visible{outline:2px solid var(--signal);outline-offset:3px;border-radius:1px}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.18em}
+a:hover{color:var(--signal)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}
+button:hover{color:var(--signal)}
+img{display:block;max-width:100%}
+.page{max-width:1120px;margin:0 auto;padding:0 clamp(16px,4vw,40px) 96px}
+
+/* masthead: one ruled line */
+.mast{display:grid;grid-template-columns:1fr auto 1fr;align-items:baseline;gap:16px;padding:22px 0 12px;border-bottom:1px solid var(--rule)}
+.mast .name{font-weight:800;font-size:22px;letter-spacing:-.02em;text-decoration:none}
+.mast .edition{font-size:14px;color:var(--ink-2);text-align:center}
+.mast .count{font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+.mast .count b{font-weight:700}
+.mast .count .new{color:var(--signal);font-weight:700}
+.sub{font-size:14px;color:var(--ink-2);padding:10px 0 0;max-width:var(--measure)}
+
+/* controls line */
+.controls{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;padding:14px 0 0;font-size:14px}
+.controls .sp{flex:1}
+.controls .links{display:inline-flex;gap:22px;white-space:nowrap;margin-left:auto}
+.controls label{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.controls input{appearance:none;width:14px;height:14px;border:1px solid var(--ink);margin:0;cursor:pointer}
+.controls input:checked{background:var(--ink);box-shadow:inset 0 0 0 3px var(--paper)}
+.controls input:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+.controls a{color:var(--ink-2)}
+
+/* sections */
+.sec{margin-top:48px;border-top:1px solid var(--rule);padding-top:10px;display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.entry:has(+ .sec),.ledger,.manual{margin-bottom:0}
+.entry:has(+ .sec){border-bottom:0}
+.sec h2{font-size:15px;font-weight:700;letter-spacing:.02em}
+.sec .note{font-size:14px;color:var(--ink-2);text-align:right}
+.day{margin-top:26px;font-size:14px;color:var(--ink-2);display:flex;justify-content:space-between;border-bottom:1px solid var(--hair);padding-bottom:6px}
+.empty{padding:26px 0 0;color:var(--ink-2);max-width:var(--measure)}
+
+/* entry = headline + fact strip + plate */
+.entry{display:grid;grid-template-columns:minmax(0,1fr) 220px;column-gap:32px;row-gap:0;padding:26px 0;border-bottom:1px solid var(--hair);align-items:start}
+.entry.compact{grid-template-columns:minmax(0,1fr) 120px;padding:18px 0}
+.entry .text{min-width:0}
+.entry h3{font-size:clamp(22px,2.4vw,30px);line-height:1.12;font-weight:700;letter-spacing:-.018em;text-wrap:balance;max-width:26ch}
+.entry.compact h3{font-size:22px;letter-spacing:-.014em;max-width:40ch}
+.entry.compact .facts{font-size:15px}
+.entry h3 a{text-decoration:none}
+.entry h3 a:hover{text-decoration:underline;color:inherit}
+.entry .mark{color:var(--signal);font-weight:700}
+.entry.gone h3{color:var(--ink-2);text-decoration:line-through;text-decoration-thickness:1px}
+/* separadores: cada dato lleva un filete a la izquierda; el contenedor recorta el primero de cada línea */
+.facts{display:flex;flex-wrap:wrap;row-gap:4px;margin:10px 0 0 -11px;overflow:hidden;font-size:16px;line-height:1.35}
+.facts > span{padding:0 12px;margin-left:-2px;border-left:1px solid var(--hair);white-space:nowrap}
+.ledger .n,.day span:last-child{font-variant-numeric:tabular-nums}
+.facts .price{font-weight:700}
+.facts .was{color:var(--ink-2);text-decoration:line-through;font-weight:400;margin-left:8px}
+.facts .q{color:var(--ink-2)}
+.addr{margin-top:6px;font-size:14px;color:var(--ink-2)}
+.desc{margin-top:10px;font-size:15px;line-height:1.5;color:var(--ink-2);max-width:var(--measure);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.meta{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:12px;font-size:13px;color:var(--ink-2)}
+.meta .acts{margin-left:auto;display:flex;gap:18px}
+.meta a,.meta button{color:var(--ink-2)}
+.meta a:hover,.meta button:hover{color:var(--signal)}
+.entry.starred .acts .star{color:var(--signal);font-weight:700}
+.plate{aspect-ratio:4/3;background:var(--plate);overflow:hidden;display:block}
+.plate img{width:100%;height:100%;object-fit:cover;filter:saturate(.92)}
+.plate .none{height:100%;display:flex;align-items:end;padding:8px;font-size:12px;color:var(--ink-2)}
+.entry.compact .plate{aspect-ratio:1/1}
+
+/* hidden entries */
+.entry.is-hidden{display:none}
+.entry.is-hidden.reveal{display:flex;justify-content:space-between;gap:16px;padding:10px 0;color:var(--ink-2);font-size:14px}
+.entry.is-hidden.reveal .text,.entry.is-hidden.reveal .plate{display:none}
+.entry .ghost{display:none}
+.entry.is-hidden.reveal .ghost{display:contents}
+.entry .ghost button{color:var(--ink-2)}
+
+/* register table */
+.ledger{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}
+.ledger th{text-align:left;font-weight:700;padding:6px 0;border-bottom:1px solid var(--rule)}
+.ledger td{padding:9px 0;border-bottom:1px solid var(--hair);vertical-align:top}
+.ledger td+td,.ledger th+th{padding-left:18px}
+.ledger .n{text-align:right;padding-right:0}
+.ledger .bad{font-weight:700}
+.ledger .dim{color:var(--ink-2)}
+
+.manual{columns:2;column-gap:40px;list-style:none;padding:0;margin-top:14px;font-size:15px}
+.manual li{break-inside:avoid;padding:8px 0;border-bottom:1px solid var(--hair)}
+.manual a{text-decoration:none}
+.manual a:hover{text-decoration:underline}
+
+footer{margin-top:64px;padding-top:12px;border-top:1px solid var(--rule);font-size:13px;color:var(--ink-2);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* escritorio: los avisos en tres columnas, como una página de diario */
+@media (min-width:900px){
+  .rack{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid var(--hair)}
+  .rack .entry{display:flex;flex-direction:column;padding:22px 24px 22px 0;border-bottom:0;border-left:1px solid var(--hair);padding-left:24px;min-width:0}
+  .rack .entry:nth-child(3n+1){border-left:0;padding-left:0}
+  .rack .entry:nth-child(n+4){border-top:1px solid var(--hair)}
+  .rack .entry .plate{order:-1;aspect-ratio:4/3;margin-bottom:16px;width:100%}
+  .rack .entry h3{font-size:24px;letter-spacing:-.016em;max-width:none}
+  .rack .entry.compact h3{font-size:22px}
+  .rack .entry .facts{margin-top:8px;font-size:15px}
+  .rack .entry .facts .price{font-size:18px;flex-basis:100%;margin-bottom:2px}
+  /* un solo aviso en la grilla: a todo el ancho, con la foto a un tercio */
+  .rack:has(> .entry:only-child){display:block}
+  .rack > .entry:only-child{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,33%);column-gap:40px;border-left:0;padding-left:0;padding-right:0}
+  .rack > .entry:only-child .plate{order:0;margin:0}
+  .rack > .entry:only-child h3{font-size:clamp(26px,2.6vw,32px);max-width:24ch}
+  .rack > .entry:only-child .facts{font-size:16px}
+  .rack > .entry:only-child .facts .price{flex-basis:auto;font-size:16px;margin:0 0 0 -2px}
+  .rack > .entry:only-child .meta{margin-top:14px}
+  .rack .entry .desc{-webkit-line-clamp:3}
+  .rack .entry .meta{margin-top:auto;padding-top:12px}
+  .rack .entry.is-hidden.reveal{flex-direction:row;align-items:baseline}
+  .entry:has(+ .sec){border-bottom:0}
+  .rack:has(+ .sec){border-bottom:0}
+}
+@media (max-width:720px){
+  .mast{grid-template-columns:1fr auto;padding-top:18px}
+  .mast .edition{grid-column:1 / -1;grid-row:2;text-align:left;font-size:13px}
+  .mast .count{text-align:right}
+  .entry{grid-template-columns:minmax(0,1fr) 104px;column-gap:16px;padding:20px 0}
+  .entry .plate{aspect-ratio:1/1}
+  .entry.compact{grid-template-columns:minmax(0,1fr) 72px}
+  .facts{font-size:15px}
+  .facts > span{padding-right:10px;margin-right:10px}
+  .manual{columns:1}
+  .sec{margin-top:40px;flex-direction:column;gap:2px}
+  .sec .note{text-align:left}
+  .controls{gap:6px 18px}
+}
+@media (prefers-reduced-motion: no-preference){
+  .entry{transition:opacity .25s cubic-bezier(.2,.7,.2,1)}
+}
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="page">
+
 <header class="mast">
-  <h1>{{ site.title }}</h1>
-  <p class="sub">{{ site.subtitle }}</p>
-  <div class="meta">
-    <span>Edición del {{ generated }}</span>
-    <span>Casas · {{ min_bedrooms }}+ dormitorios · alquiler anual</span>
-    <span>{{ active|length }} vigentes · {{ news_count }} nuevas esta semana</span>
+  <a class="name" href="./">{{ site.title }}</a>
+  <div class="edition">Edición del {{ generated }}</div>
+  <div class="count">
+    {% if news_count %}<span class="new">{{ news_count }} {{ 'nueva' if news_count == 1 else 'nuevas' }}</span> · {% endif %}<b>{{ active|length }}</b> vigentes
   </div>
 </header>
+<p class="sub">Casas en alquiler anual con {{ min_bedrooms }} o más dormitorios en {{ localities[:-1]|join(', ') }} y {{ localities[-1] }}. Actualizado cuatro veces por día desde {{ health|length }} fuentes.</p>
 
-<div class="toolbar">
+<div class="controls">
   <label><input type="checkbox" id="showHidden"> Mostrar ocultas</label>
-  <label><input type="checkbox" id="onlyStarred"> Sólo favoritas</label>
-  <span class="sp"></span>
-  <a href="feed.xml">RSS</a>
-  <a href="data.json">JSON</a>
+  <label><input type="checkbox" id="onlyStarred"> Sólo guardadas</label>
+  <span class="links"><a href="feed.xml">RSS</a><a href="data.json">JSON</a></span>
 </div>
 
-{% macro card(c) %}
-<article class="card" data-key="{{ c.key }}">
-  <a class="img" href="{{ c.url }}" target="_blank" rel="noopener">
-    {% if c.image %}<img src="{{ c.image }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% else %}<div class="noimg">sin foto</div>{% endif %}
-  </a>
-  <div class="badges">
-    {% if c.is_new and not c.is_gone %}<span class="badge new">Nuevo</span>{% endif %}
-    {% if c.is_gone %}<span class="badge gone">Ya no disponible</span>{% endif %}
-    {% if c.is_back %}<span class="badge">Volvió</span>{% endif %}
-    {% if c.status == 'maybe_location' %}<span class="badge q">Ubicación?</span>{% endif %}
-    {% if c.status == 'maybe_bedrooms' %}<span class="badge q">Dormitorios?</span>{% endif %}
-    {% if c.prev_price %}<span class="badge">Precio {{ '↓' if c.price_dir == 'down' else '↑' }}</span>{% endif %}
-  </div>
-  <div class="acts">
-    <button class="star" title="Favorita">★</button>
-    <button class="hide" title="Ocultar">✕</button>
-  </div>
-  <div class="body">
-    <h4><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.title }}</a></h4>
+{% macro entry(c, compact=False) %}
+<article class="entry{% if compact %} compact{% endif %}{% if c.is_gone %} gone{% endif %}" data-key="{{ c.key }}">
+  <div class="text">
+    <h3>
+      {% if c.is_new and not c.is_gone %}<span class="mark">Nueva</span> {% endif %}{% if c.is_back and not c.is_gone %}<span class="mark">Volvió</span> {% endif %}<a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.title }}</a>
+    </h3>
     <div class="facts">
-      <span class="price {{ c.price_dir or '' }}">{{ c.price }}{% if c.prev_price %}<span class="prev">{{ c.prev_price }}</span>{% endif %}</span>
-      <span>{{ c.bedrooms ~ ' dorm' if c.bedrooms else '? dorm' }}</span>
-      <span>{{ c.locality or 'ubicación sin dato' }}{% if c.locality and not c.locality_confirmed %} (?){% endif %}</span>
+      <span class="price">{{ c.price }}{% if c.prev_price %}<span class="was">{{ c.prev_price }}</span>{% endif %}</span>
+      <span>{{ c.bedrooms ~ ' dorm' if c.bedrooms else '¿dorm?' }}</span>
+      <span>{% if c.locality %}{{ c.locality }}{% if not c.locality_confirmed %} <span class="q">(sin confirmar)</span>{% endif %}{% else %}<span class="q">ubicación sin confirmar</span>{% endif %}</span>
+      {% if c.agency %}<span>{{ c.agency }}</span>{% endif %}
     </div>
-    {% if c.address %}<div class="facts" style="color:var(--muted)">{{ c.address }}</div>{% endif %}
-    {% if c.description %}<p class="desc">{{ c.description }}</p>{% endif %}
-    <div class="srcs">
+    {% if c.address and not compact %}<div class="addr">{{ c.address }}</div>{% endif %}
+    {% if c.description and not compact %}<p class="desc">{{ c.description }}</p>{% endif %}
+    <div class="meta">
+      <span>{% if c.is_gone %}Se fue el {{ c.gone_since }}{% else %}Visto el {{ c.first_seen }}{% endif %}</span>
       {% for s in c.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% endfor %}
-      <span style="margin-left:auto">visto {{ c.first_seen }}{% if c.is_gone %} · se fue {{ c.gone_since }}{% endif %}</span>
+      <span class="acts"><button class="star" type="button">Guardar</button><button class="hide" type="button">Ocultar</button></span>
     </div>
   </div>
+  <a class="plate" href="{{ c.url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+    {% if c.image %}<img src="{{ c.image }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% else %}<span class="none">sin foto</span>{% endif %}
+  </a>
+  <div class="ghost"><span>Oculta: {{ c.title }}</span><button class="unhide" type="button">Mostrar</button></div>
 </article>
 {% endmacro %}
 
-<h2 class="sec">Novedades <small>últimos 7 días</small></h2>
+<div class="sec"><h2>Novedades</h2><span class="note">Últimos 7 días</span></div>
 {% if news %}
   {% for d in news %}
-  <h3 class="day">{{ d.label }} <span style="font-style:normal">· {{ d.cards|length }}</span></h3>
-  <div class="grid">{% for c in d.cards %}{{ card(c) }}{% endfor %}</div>
+  <div class="day" data-day><span>{{ d.label }}</span><span>{{ d.cards|length }}</span></div>
+  <div class="rack">{% for c in d.cards %}{{ entry(c) }}{% endfor %}</div>
   {% endfor %}
 {% else %}
-  <p class="empty">Sin novedades. Todo lo publicado ya estaba la última vez.</p>
+  <p class="empty">Sin novedades. Todo lo publicado ya estaba en la edición anterior.</p>
 {% endif %}
 
-<h2 class="sec">Todas las vigentes <small>{{ active|length }} casas que cumplen los requisitos</small></h2>
-{% if active %}<div class="grid">{% for c in active %}{{ card(c) }}{% endfor %}</div>{% else %}<p class="empty">Nada por ahora.</p>{% endif %}
+<div class="sec"><h2>Todas las vigentes</h2><span class="note">{{ active|length }} casas que cumplen los requisitos, la más reciente primero</span></div>
+{% if active %}<div class="rack">{% for c in active %}{{ entry(c, compact=True) }}{% endfor %}</div>{% else %}<p class="empty">Nada por ahora.</p>{% endif %}
 
 {% if maybe_loc %}
-<h2 class="sec">Ubicación sin confirmar <small>{{ min_bedrooms }}+ dormitorios, pero no se pudo confirmar la localidad</small></h2>
-<div class="grid">{% for c in maybe_loc %}{{ card(c) }}{% endfor %}</div>
+<div class="sec"><h2>Ubicación sin confirmar</h2><span class="note">{{ min_bedrooms }}+ dormitorios, pero el aviso no dice bien dónde</span></div>
+<div class="rack">{% for c in maybe_loc %}{{ entry(c, compact=True) }}{% endfor %}</div>
 {% endif %}
 
 {% if maybe_beds %}
-<h2 class="sec">Dormitorios sin dato <small>en zona, pero el aviso no dice cuántos dormitorios</small></h2>
-<div class="grid">{% for c in maybe_beds %}{{ card(c) }}{% endfor %}</div>
+<div class="sec"><h2>Dormitorios sin dato</h2><span class="note">En zona, pero el aviso no dice cuántos dormitorios</span></div>
+<div class="rack">{% for c in maybe_beds %}{{ entry(c, compact=True) }}{% endfor %}</div>
 {% endif %}
 
 {% if gone %}
-<h2 class="sec">Ya no disponibles <small>desaparecieron de la fuente en los últimos 7 días</small></h2>
-<div class="grid">{% for c in gone %}{{ card(c) }}{% endfor %}</div>
+<div class="sec"><h2>Ya no disponibles</h2><span class="note">Desaparecieron de la fuente en los últimos 7 días</span></div>
+<div class="rack">{% for c in gone %}{{ entry(c, compact=True) }}{% endfor %}</div>
 {% endif %}
 
-<h2 class="sec">Estado de las fuentes</h2>
-<table class="health">
-<thead><tr><th>Fuente</th><th>Último OK</th><th>Avisos</th><th>Estado</th></tr></thead>
+<div class="sec"><h2>Fuentes</h2><span class="note">Estado de la última corrida</span></div>
+<table class="ledger">
+<thead><tr><th>Fuente</th><th>Último OK</th><th class="n">Avisos</th><th>Estado</th></tr></thead>
 <tbody>
 {% for h in health %}
 <tr>
   <td>{% if h.url %}<a href="{{ h.url }}" target="_blank" rel="noopener">{{ h.name }}</a>{% else %}{{ h.name }}{% endif %}</td>
-  <td>{{ h.last_ok }}</td>
-  <td>{{ h.last_count }}</td>
-  <td><span class="dot {{ 'ok' if h.ok else ('bad' if h.broken else 'warn') }}"></span>{{ h.status }}</td>
+  <td class="dim">{{ h.last_ok }}</td>
+  <td class="n">{{ h.last_count }}</td>
+  <td class="{{ 'bad' if h.broken else 'dim' }}">{{ h.status }}</td>
 </tr>
 {% endfor %}
 </tbody>
 </table>
 
-<h2 class="sec">También revisar a mano <small>inmobiliarias sin web scrapeable</small></h2>
+<div class="sec"><h2>Revisar a mano</h2><span class="note">Inmobiliarias sin web que se pueda leer automáticamente</span></div>
 <ul class="manual">
 {% for m in manual_check %}<li><a href="{{ m.url }}" target="_blank" rel="noopener">{{ m.name }}</a></li>{% endfor %}
 </ul>
 
-<footer>Generado automáticamente. Las marcas de favorita y ocultar se guardan sólo en este navegador.</footer>
+<footer>
+  <span>Generado automáticamente. Guardar y ocultar quedan sólo en este navegador.</span>
+  <span>{{ site.title }}</span>
+</footer>
 </div>
 <script>
 (function(){
   var KEY='caramcita:marks';
   function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}}
   function save(m){try{localStorage.setItem(KEY,JSON.stringify(m))}catch(e){}}
+  function pref(k,v){try{if(v===undefined)return localStorage.getItem(k)==='1';localStorage.setItem(k,v?'1':'0')}catch(e){return false}}
   var marks=load();
   var showHidden=document.getElementById('showHidden'), onlyStarred=document.getElementById('onlyStarred');
-  try{showHidden.checked=localStorage.getItem('caramcita:showHidden')==='1';onlyStarred.checked=localStorage.getItem('caramcita:onlyStarred')==='1'}catch(e){}
+  showHidden.checked=pref('caramcita:showHidden'); onlyStarred.checked=pref('caramcita:onlyStarred');
   function apply(){
-    document.querySelectorAll('.card').forEach(function(el){
-      var k=el.dataset.key, m=marks[k]||{};
+    document.querySelectorAll('.entry').forEach(function(el){
+      var m=marks[el.dataset.key]||{};
       el.classList.toggle('starred',!!m.star);
-      el.classList.toggle('hidden-card',!!m.hide);
-      var hide=(m.hide&&!showHidden.checked)||(onlyStarred.checked&&!m.star);
-      el.style.display=hide?'none':'';
+      el.classList.toggle('is-hidden',!!m.hide);
+      el.classList.toggle('reveal',!!m.hide&&showHidden.checked);
+      var star=el.querySelector('.acts .star'); if(star) star.textContent=m.star?'Guardada':'Guardar';
+      el.style.display=(onlyStarred.checked&&!m.star)?'none':'';
     });
-    document.querySelectorAll('h3.day').forEach(function(h){
-      var g=h.nextElementSibling; var any=g&&[].some.call(g.children,function(c){return c.style.display!=='none'});
-      h.style.display=any?'':'none'; if(g)g.style.display=any?'':'none';
+    document.querySelectorAll('[data-day]').forEach(function(h){
+      var rack=h.nextElementSibling, any=false;
+      if(rack) rack.querySelectorAll('.entry').forEach(function(n){ if(n.style.display!=='none'&&!(n.classList.contains('is-hidden')&&!n.classList.contains('reveal'))) any=true; });
+      h.style.display=any?'':'none'; if(rack) rack.style.display=any?'':'none';
     });
   }
   document.addEventListener('click',function(ev){
-    var b=ev.target.closest('.acts button'); if(!b)return;
-    var k=b.closest('.card').dataset.key; var m=marks[k]||{};
-    if(b.classList.contains('star'))m.star=!m.star; else m.hide=!m.hide;
+    var b=ev.target.closest('.entry button'); if(!b)return;
+    var el=b.closest('.entry'), k=el.dataset.key, m=marks[k]||{};
+    if(b.classList.contains('star')) m.star=!m.star;
+    else if(b.classList.contains('hide')) m.hide=true;
+    else if(b.classList.contains('unhide')) m.hide=false;
     marks[k]=m; save(marks); apply();
   });
-  showHidden.addEventListener('change',function(){try{localStorage.setItem('caramcita:showHidden',showHidden.checked?'1':'0')}catch(e){}apply()});
-  onlyStarred.addEventListener('change',function(){try{localStorage.setItem('caramcita:onlyStarred',onlyStarred.checked?'1':'0')}catch(e){}apply()});
+  showHidden.addEventListener('change',function(){pref('caramcita:showHidden',showHidden.checked);apply()});
+  onlyStarred.addEventListener('change',function(){pref('caramcita:onlyStarred',onlyStarred.checked);apply()});
   apply();
 })();
 </script>

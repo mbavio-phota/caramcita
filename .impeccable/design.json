@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-08T17:30:00-03:00",
+  "title": "Design System: Caramcita",
+  "extensions": {
+    "colorMeta": {
+      "signal": { "role": "primary", "displayName": "Cobalt Signal", "canonical": "#1f45d6", "dark": "#8ea2ff", "tonalRamp": ["oklch(18% 0.10 268)", "oklch(28% 0.16 268)", "oklch(38% 0.20 268)", "oklch(48% 0.22 268)", "oklch(60% 0.19 268)", "oklch(72% 0.14 268)", "oklch(84% 0.08 268)", "oklch(95% 0.03 268)"] },
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff", "dark": "#121212", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(100% 0 0)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#111111", "dark": "#f1f1f1", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"] },
+      "ink-2": { "role": "neutral", "displayName": "Ink 2 (de-emphasis)", "canonical": "#5c5c5c", "dark": "#a3a3a3", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(47% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"] },
+      "rule": { "role": "neutral", "displayName": "Rule (full strength)", "canonical": "#111111", "dark": "#f1f1f1" },
+      "hair": { "role": "neutral", "displayName": "Hairline", "canonical": "#d6d6d6", "dark": "#2e2e2e", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"] },
+      "plate": { "role": "neutral", "displayName": "Plate", "canonical": "#efefef", "dark": "#1f1f1f" },
+      "signal-ink": { "role": "neutral", "displayName": "Signal Ink (selection text)", "canonical": "#ffffff", "dark": "#121212" }
+    },
+    "typographyMeta": {
+      "headline": { "displayName": "Headline", "purpose": "Entry titles. 24px in the desktop rack, 22px compact, clamp(26px,2.6vw,32px) for a lone entry." },
+      "title": { "displayName": "Title", "purpose": "The masthead name only." },
+      "section": { "displayName": "Section", "purpose": "Section heads (Novedades, Todas las vigentes, Fuentes)." },
+      "body": { "displayName": "Body", "purpose": "Intro and empty-state copy; measure 64ch." },
+      "facts": { "displayName": "Facts", "purpose": "The price-bedrooms-locality-agency strip; price at 700 (18px in the rack). 15px in rack, compact and mobile." },
+      "small": { "displayName": "Small", "purpose": "Edition line, controls, notes, day labels, address, ledger, hidden-reveal line." },
+      "label": { "displayName": "Label", "purpose": "Meta line and footer." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "entry-fade", "value": "opacity .25s cubic-bezier(.2,.7,.2,1)", "purpose": "Entries fading on hide/reveal; only under prefers-reduced-motion: no-preference." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "720px", "note": "max-width: masthead stacks, plates shrink to 104px/72px squares, manual list one column." },
+      { "name": "rack", "value": "900px", "note": "min-width: entries become a three-column rack with hairline column borders; a lone entry goes full width with the plate at 33%." }
+    ],
+    "focus": { "value": "outline: 2px solid var(--signal); outline-offset: 3px; border-radius: 1px" },
+    "selection": { "value": "background: var(--signal); color: var(--signal-ink)" },
+    "image": { "value": "filter: saturate(.92); object-fit: cover" }
+  },
+  "components": [
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "refersTo": "masthead-name",
+      "description": "One ruled line: name left, edition centre, counts right with the new count in signal.",
+      "html": "<header class=\"ds-mast\"><a class=\"ds-mast-name\" href=\"#\">Caramcita</a><div class=\"ds-mast-edition\">Edición del martes 8 de septiembre de 2026, 16:53</div><div class=\"ds-mast-count\"><span class=\"ds-mast-new\">1 nueva</span> · <b>13</b> vigentes</div></header>",
+      "css": ".ds-mast{display:grid;grid-template-columns:1fr auto 1fr;align-items:baseline;gap:16px;padding:22px 0 12px;border-bottom:1px solid #111;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;color:#111;background:#fff}.ds-mast-name{font-weight:800;font-size:22px;letter-spacing:-.02em;text-decoration:none;color:inherit}.ds-mast-name:hover{color:#1f45d6}.ds-mast-edition{font-size:14px;color:#5c5c5c;text-align:center}.ds-mast-count{font-size:14px;text-align:right;font-variant-numeric:tabular-nums}.ds-mast-count b{font-weight:700}.ds-mast-new{color:#1f45d6;font-weight:700}"
+    },
+    {
+      "name": "Controls line",
+      "kind": "input",
+      "refersTo": "checkbox",
+      "description": "Square ink-bordered checkboxes with word labels, and text links pushed right.",
+      "html": "<div class=\"ds-controls\"><label><input type=\"checkbox\"> Mostrar ocultas</label><label><input type=\"checkbox\" checked> Sólo guardadas</label><span class=\"ds-controls-links\"><a href=\"#\">RSS</a><a href=\"#\">JSON</a></span></div>",
+      "css": ".ds-controls{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;padding:14px 0 0;font-size:14px;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;color:#111;background:#fff}.ds-controls label{display:inline-flex;align-items:center;gap:8px;cursor:pointer}.ds-controls input{appearance:none;-webkit-appearance:none;width:14px;height:14px;border:1px solid #111;margin:0;cursor:pointer;background:#fff}.ds-controls input:checked{background:#111;box-shadow:inset 0 0 0 3px #fff}.ds-controls input:focus-visible{outline:2px solid #1f45d6;outline-offset:2px}.ds-controls-links{display:inline-flex;gap:22px;margin-left:auto}.ds-controls a{color:#5c5c5c;text-decoration-thickness:1px;text-underline-offset:.18em}.ds-controls a:hover{color:#1f45d6}"
+    },
+    {
+      "name": "Section rule",
+      "kind": "custom",
+      "refersTo": "section-head",
+      "description": "Full rule, head left, note right; the only section boundary the system has.",
+      "html": "<div class=\"ds-sec\"><h2>Novedades</h2><span class=\"ds-sec-note\">Últimos 7 días</span></div>",
+      "css": ".ds-sec{margin-top:48px;border-top:1px solid #111;padding-top:10px;display:flex;align-items:baseline;justify-content:space-between;gap:16px;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;color:#111;background:#fff}.ds-sec h2{margin:0;font-size:15px;font-weight:700;letter-spacing:.02em}.ds-sec-note{font-size:14px;color:#5c5c5c;text-align:right}"
+    },
+    {
+      "name": "Entry (new)",
+      "kind": "card",
+      "refersTo": "entry-headline",
+      "description": "Headline with the Nueva mark, fact strip with hairline separators, meta line with text buttons, square plate on the right.",
+      "html": "<article class=\"ds-entry\"><div class=\"ds-entry-text\"><h3><span class=\"ds-mark\">Nueva</span> <a href=\"#\">Alquiler Propiedad Anisacate, Cordoba</a></h3><div class=\"ds-facts\"><span class=\"ds-price\">$ 600.000<span class=\"ds-was\">$ 650.000</span></span><span>3 dorm</span><span>Anisacate</span><span>Lequio Propiedades</span></div><div class=\"ds-addr\">Anisacate, Córdoba, Argentina</div><div class=\"ds-meta\"><span>Visto el 08/09 16:22</span><a href=\"#\">Lequio Propiedades</a><span class=\"ds-acts\"><button type=\"button\">Guardar</button><button type=\"button\">Ocultar</button></span></div></div><a class=\"ds-plate\" href=\"#\" tabindex=\"-1\" aria-hidden=\"true\"><span class=\"ds-plate-none\">sin foto</span></a></article>",
+      "css": ".ds-entry{display:grid;grid-template-columns:minmax(0,1fr) 220px;column-gap:32px;padding:26px 0;border-bottom:1px solid #d6d6d6;align-items:start;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;color:#111;background:#fff;font-size:16px;line-height:1.5}.ds-entry-text{min-width:0}.ds-entry h3{margin:0;font-size:clamp(22px,2.4vw,30px);line-height:1.12;font-weight:700;letter-spacing:-.018em;text-wrap:balance;max-width:26ch}.ds-entry h3 a{color:inherit;text-decoration:none}.ds-entry h3 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}.ds-mark{color:#1f45d6;font-weight:700}.ds-facts{display:flex;flex-wrap:wrap;row-gap:4px;margin:10px 0 0 -13px;overflow:hidden;font-size:16px;line-height:1.35}.ds-facts>span{padding:0 12px;border-left:1px solid #d6d6d6;white-space:nowrap}.ds-price{font-weight:700}.ds-was{color:#5c5c5c;text-decoration:line-through;font-weight:400;margin-left:8px}.ds-addr{margin-top:6px;font-size:14px;color:#5c5c5c}.ds-meta{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:12px;font-size:13px;color:#5c5c5c}.ds-acts{margin-left:auto;display:flex;gap:18px}.ds-meta a,.ds-meta button{color:#5c5c5c;font:inherit;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}.ds-meta a:hover,.ds-meta button:hover{color:#1f45d6}.ds-meta button:focus-visible,.ds-entry a:focus-visible{outline:2px solid #1f45d6;outline-offset:3px;border-radius:1px}.ds-plate{aspect-ratio:4/3;background:#efefef;overflow:hidden;display:block}.ds-plate-none{height:100%;display:flex;align-items:end;padding:8px;font-size:12px;color:#5c5c5c}"
+    },
+    {
+      "name": "Entry (gone)",
+      "kind": "card",
+      "refersTo": "entry-headline",
+      "description": "The gone state: headline in ink-2 with a 1px strike; no badge.",
+      "html": "<article class=\"ds-entry ds-gone\"><div class=\"ds-entry-text\"><h3><a href=\"#\">Casa en alquiler en Barrio Norte</a></h3><div class=\"ds-facts\"><span class=\"ds-price\">$ 800.000</span><span>3 dorm</span><span>Alta Gracia</span><span>Goya Tucci</span></div><div class=\"ds-meta\"><span>Se fue el 07/09</span><a href=\"#\">Goya Tucci</a></div></div></article>",
+      "css": ".ds-entry{display:grid;grid-template-columns:minmax(0,1fr) 120px;column-gap:32px;padding:18px 0;border-bottom:1px solid #d6d6d6;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;color:#111;background:#fff;font-size:16px;line-height:1.5}.ds-entry h3{margin:0;font-size:22px;line-height:1.12;font-weight:700;letter-spacing:-.014em}.ds-entry h3 a{color:inherit;text-decoration:none}.ds-gone h3{color:#5c5c5c;text-decoration:line-through;text-decoration-thickness:1px}.ds-facts{display:flex;flex-wrap:wrap;row-gap:4px;margin:10px 0 0 -13px;overflow:hidden;font-size:15px;line-height:1.35}.ds-facts>span{padding:0 12px;border-left:1px solid #d6d6d6;white-space:nowrap}.ds-price{font-weight:700}.ds-meta{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:12px;font-size:13px;color:#5c5c5c}.ds-meta a{color:#5c5c5c;text-decoration-thickness:1px;text-underline-offset:.18em}.ds-meta a:hover{color:#1f45d6}"
+    },
+    {
+      "name": "Ledger",
+      "kind": "custom",
+      "refersTo": "section-head",
+      "description": "Source-health register: header over a full rule, rows over hairlines, tabular counts right-aligned, broken sources in bold ink.",
+      "html": "<table class=\"ds-ledger\"><thead><tr><th>Fuente</th><th>Último OK</th><th class=\"ds-n\">Avisos</th><th>Estado</th></tr></thead><tbody><tr><td><a href=\"#\">Zonaprop</a></td><td class=\"ds-dim\">08/09 16:22</td><td class=\"ds-n\">7</td><td class=\"ds-dim\">ok</td></tr><tr><td><a href=\"#\">La Voz</a></td><td class=\"ds-dim\">06/09 04:10</td><td class=\"ds-n\">0</td><td class=\"ds-bad\">falla desde hace 2 días</td></tr></tbody></table>",
+      "css": ".ds-ledger{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;color:#111;background:#fff}.ds-ledger th{text-align:left;font-weight:700;padding:6px 0;border-bottom:1px solid #111}.ds-ledger td{padding:9px 0;border-bottom:1px solid #d6d6d6;vertical-align:top}.ds-ledger td+td,.ds-ledger th+th{padding-left:18px}.ds-n{text-align:right;font-variant-numeric:tabular-nums}.ds-bad{font-weight:700}.ds-dim{color:#5c5c5c}.ds-ledger a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.18em}.ds-ledger a:hover{color:#1f45d6}"
+    },
+    {
+      "name": "Manual list",
+      "kind": "custom",
+      "refersTo": "meta-link",
+      "description": "Two-column list of agencies to check by hand; hairline under each item, undecorated links.",
+      "html": "<ul class=\"ds-manual\"><li><a href=\"#\">Inmobiliaria Sierras</a></li><li><a href=\"#\">Propiedades del Valle</a></li><li><a href=\"#\">Estudio Anisacate</a></li><li><a href=\"#\">Casa Falda</a></li></ul>",
+      "css": ".ds-manual{columns:2;column-gap:40px;list-style:none;padding:0;margin:14px 0 0;font-size:15px;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;color:#111;background:#fff}.ds-manual li{break-inside:avoid;padding:8px 0;border-bottom:1px solid #d6d6d6}.ds-manual a{color:inherit;text-decoration:none}.ds-manual a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em;color:#1f45d6}"
+    },
+    {
+      "name": "Footer",
+      "kind": "custom",
+      "refersTo": "meta-link",
+      "description": "Full rule, label-size ink-2, two spans spread.",
+      "html": "<footer class=\"ds-footer\"><span>Generado automáticamente. Guardar y ocultar quedan sólo en este navegador.</span><span>Caramcita</span></footer>",
+      "css": ".ds-footer{margin-top:64px;padding-top:12px;border-top:1px solid #111;font-size:13px;color:#5c5c5c;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;background:#fff}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Faktaruta Front Page",
+    "overview": "A Nordic daily's front page reduced to its fact boxes. Every house is a headline plus a ruled strip of facts; the page is hairline rules and one grotesk, and it refuses the photo-card grid with coloured badges every listing site ships. Density is low, so each entry gets room, but nothing inside a module is decorated.\n\nTwo grounds only: white paper in light, near-black in dark. One signal colour, cobalt, for what is new and for hover. Everything else is ink at two strengths. State is typographic (weight, rule, strike, colour on a word), never a pill, icon or shadow.",
+    "keyCharacteristics": [
+      "Hairline rules do all the structure; no boxes, no cards.",
+      "One face, Schibsted Grotesk, in seven size steps; rank by weight before size.",
+      "Cobalt is a word, not a surface.",
+      "Grey (ink-2) means lower rank, never disabled."
+    ],
+    "rules": [
+      { "name": "The One Signal Rule", "body": "Cobalt appears on words and rings only. A second hue is a defect.", "section": "colors" },
+      { "name": "The Weight Before Size Rule", "body": "Inside a line, rank is weight (price 700, rest 400); size steps separate headline, facts and meta.", "section": "typography" },
+      { "name": "The Two Rules Rule", "body": "Full-ink rule for section boundaries, hairline for everything inside.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do express every state with weight, a rule, a strike, or the signal on a word.",
+      "Do keep the two line strengths and radius 0.",
+      "Do keep ink-2 text at or above 4.5:1 in both themes."
+    ],
+    "donts": [
+      "Don't add cards, boxes or shadows.",
+      "Don't add pills, badges, chips or filled buttons.",
+      "Don't add icons; controls are words.",
+      "Don't introduce a second colour or a cream ground.",
+      "Don't add a second typeface."
+    ]
+  }
+}
