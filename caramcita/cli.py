@@ -58,6 +58,11 @@ def fetch_one(spec, http) -> SourceResult:
         return SourceResult(src.slug, [], f"{type(e).__name__}: {e}"[:200])
 
 
+def host() -> str:
+    """'mac' cuando corre en la Mac (launchd o a mano), 'ci' en GitHub Actions."""
+    return os.environ.get("CARAMCITA_HOST") or ("ci" if os.environ.get("GITHUB_ACTIONS") else "mac")
+
+
 def fetch_all(specs, http, only=None, with_browser=False, snap_dir: Path | None = None, now: datetime | None = None) -> dict[str, SourceResult]:
     results: dict[str, SourceResult] = {}
     now = now or _now()
@@ -65,10 +70,12 @@ def fetch_all(specs, http, only=None, with_browser=False, snap_dir: Path | None 
         if only and spec["slug"] not in only:
             continue
         src = build_source(spec)
-        if not src.needs_browser:
+        mac_only = spec.get("run_from") == "mac" and host() != "mac"
+        if not src.needs_browser and not mac_only:
             results[src.slug] = fetch_one(spec, http)
             continue
-        res = fetch_one(spec, http) if with_browser else None
+        can_try = (not src.needs_browser or with_browser) and not mac_only
+        res = fetch_one(spec, http) if can_try else None
         if res is not None and res.ok:
             results[src.slug] = res
             continue
@@ -78,7 +85,8 @@ def fetch_all(specs, http, only=None, with_browser=False, snap_dir: Path | None 
         elif res is not None:
             results[src.slug] = res  # falló y no hay snapshot: queda el error
         else:
-            log.info("[%s] necesita navegador y no hay snapshot; omitida", src.slug)
+            log.info("[%s] %s y no hay snapshot fresco; omitida", src.slug,
+                     "se corre desde la Mac" if mac_only else "necesita navegador")
     return results
 
 
@@ -189,23 +197,34 @@ def _daily_summary(state: State, cfg, tg: Telegram, ctx, now: datetime) -> None:
 
 
 def cmd_snapshot(args) -> int:
-    """Corre una fuente (con navegador si hace falta) y guarda sus avisos crudos en snapshots/<slug>.json."""
+    """Corre fuentes (con navegador si hace falta) y guarda sus avisos crudos en snapshots/<slug>.json."""
     cfg = load_config()
-    spec = next((s for s in load_sources() if s["slug"] == args.slug), None)
-    if not spec:
-        print(f"fuente desconocida: {args.slug}", file=sys.stderr)
+    specs = load_sources()
+    slugs = list(args.slugs)
+    if args.mac:
+        slugs += [s["slug"] for s in specs if s.get("run_from") == "mac" and s["slug"] not in slugs]
+    if not slugs:
+        print("indicá slugs o --mac", file=sys.stderr)
         return 1
     http = Http(delay=cfg.get("request_delay_seconds", 3))
-    res = fetch_one(spec, http)
-    if not res.ok:
-        print(f"falló: {res.error}", file=sys.stderr)
-        return 2
-    out = Path(args.snapshots) / f"{args.slug}.json"
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps({"fetched_at": _now().isoformat(), "listings": [l.to_dict() for l in res.listings]},
-                              ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"{len(res.listings)} avisos → {out}")
-    return 0
+    rc = 0
+    for slug in slugs:
+        spec = next((s for s in specs if s["slug"] == slug), None)
+        if not spec:
+            print(f"fuente desconocida: {slug}", file=sys.stderr)
+            rc = 1
+            continue
+        res = fetch_one(spec, http)
+        if not res.ok:
+            print(f"{slug}: falló: {res.error}", file=sys.stderr)
+            rc = 2
+            continue
+        out = Path(args.snapshots) / f"{slug}.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps({"fetched_at": _now().isoformat(), "listings": [l.to_dict() for l in res.listings]},
+                                  ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"{slug}: {len(res.listings)} avisos → {out}")
+    return rc
 
 
 def cmd_render(args) -> int:
@@ -261,8 +280,9 @@ def main(argv=None) -> int:
     r.add_argument("--snapshots", default=str(ROOT / "snapshots"))
     r.set_defaults(fn=cmd_run)
 
-    sn = sub.add_parser("snapshot", help="guarda los avisos crudos de una fuente (para fuentes con navegador corridas aparte)")
-    sn.add_argument("slug")
+    sn = sub.add_parser("snapshot", help="guarda los avisos crudos de fuentes que se corren aparte (desde la Mac)")
+    sn.add_argument("slugs", nargs="*")
+    sn.add_argument("--mac", action="store_true", help="todas las fuentes con run_from: mac")
     sn.add_argument("--snapshots", default=str(ROOT / "snapshots"))
     sn.set_defaults(fn=cmd_snapshot)
 

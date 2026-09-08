@@ -1,6 +1,8 @@
 # Fuentes a consultar. adapter = módulo en caramcita/sources/. params van al constructor.
 # Para agregar una inmobiliaria en una plataforma conocida (wp_houzez, wp_rest, tokko_html, wasi)
 # alcanza con agregar una entrada acá.
+# run_from: mac  → el sitio bloquea a GitHub Actions; se scrapea desde la Mac (launchd) y GitHub usa
+#                  el snapshot en snapshots/<slug>.json. Sin snapshot fresco, la fuente se omite sin error.
 sources:
   # ---- portales ----------------------------------------------------------
   - slug: lavoz
@@ -92,6 +94,7 @@ sources:
     name: Lequio Propiedades
     adapter: lequio
     url: https://lequiopropiedades.com.ar/listing?user_id=69&purpose=rent
+    run_from: mac   # el servidor corta la conexión TLS desde las IPs de GitHub
 
   - slug: ruartemoyano
     name: Ruarte Moyano

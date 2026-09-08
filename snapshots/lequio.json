@@ -1,0 +1,335 @@
+{
+ "fetched_at": "2026-09-08T19:10:29+00:00",
+ "listings": [
+  {
+   "source": "lequio",
+   "source_id": "212222",
+   "url": "https://lequiopropiedades.com.ar/ad/alquiler-de-dpto-de-2-dormitorios-en-alta-gracia",
+   "title": "Alquiler de Dpto de 2 dormitorios en Alta Gracia",
+   "description": "",
+   "price": 570000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Av. Belgrano 43, X5186 Alta Gracia, Córdoba, Argentina",
+   "bedrooms": 2,
+   "property_type": "Departamento",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/WM-4671-1776378272pvyew-whatsapp-image-2026-04-16-at-190946-1.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "alquiler-de-dpto-de-2-dormitorios-en-alta-gracia",
+    "codigo": "212222",
+    "estado": "Alquilo",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:212222"
+  },
+  {
+   "source": "lequio",
+   "source_id": "212217",
+   "url": "https://lequiopropiedades.com.ar/ad/alquiler-dpto-1-dormitorio-en-alta-gracia",
+   "title": "Alquiler Dpto 1 dormitorio en Alta Gracia",
+   "description": "",
+   "price": 450000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Av. Belgrano 43, X5186 Alta Gracia, Córdoba, Argentina",
+   "bedrooms": 1,
+   "property_type": "Departamento",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/WM-8020-1776377003slduy-whatsapp-image-2026-04-16-at-185726-2.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "alquiler-dpto-1-dormitorio-en-alta-gracia",
+    "codigo": "212217",
+    "estado": "Alquilo",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:212217"
+  },
+  {
+   "source": "lequio",
+   "source_id": "168573",
+   "url": "https://lequiopropiedades.com.ar/ad/dpto-2-dormitorios-barrio-camara-de-alta-gracia-cordoba",
+   "title": "DPTO 2 DORMITORIOS BARRIO CAMARA DE ALTA GRACIA, CORDOBA",
+   "description": "",
+   "price": 600000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Alta Gracia, Córdoba, Argentina",
+   "bedrooms": 2,
+   "property_type": "Departamento",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1749250644ai5wy-whatsapp-image-2025-06-06-at-165618-1.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "dpto-2-dormitorios-barrio-camara-de-alta-gracia-cordoba",
+    "codigo": "168573",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:168573"
+  },
+  {
+   "source": "lequio",
+   "source_id": "168572",
+   "url": "https://lequiopropiedades.com.ar/ad/alquiler-propiedad-anisacate-cordoba",
+   "title": "ALQUILER PROPIEDAD ANISACATE, CORDOBA",
+   "description": "",
+   "price": 600000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "Anisacate, Córdoba, Argentina",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1749250227qwlmn-whatsapp-image-2025-06-06-at-165355.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "alquiler-propiedad-anisacate-cordoba",
+    "codigo": "168572",
+    "estado": "Alquilo",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:168572"
+  },
+  {
+   "source": "lequio",
+   "source_id": "168569",
+   "url": "https://lequiopropiedades.com.ar/ad/casa-en-alquiler-61",
+   "title": "CASA EN ALQUILER",
+   "description": "",
+   "price": 450000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Diamante, Alta Gracia, Córdoba, Argentina",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1749249534iwqib-whatsapp-image-2025-06-06-at-165310.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "casa-en-alquiler-61",
+    "codigo": "168569",
+    "estado": "Alquilo",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:168569"
+  },
+  {
+   "source": "lequio",
+   "source_id": "133590",
+   "url": "https://lequiopropiedades.com.ar/ad/alquiler-dpto-en-alta-gracia",
+   "title": "Alquiler Dpto en Alta Gracia",
+   "description": "",
+   "price": 240000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "av belgrano 43",
+   "bedrooms": 1,
+   "property_type": "Departamento",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/17236353990hgrp-whatsapp-image-2024-08-09-at-094558-2.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "alquiler-dpto-en-alta-gracia",
+    "codigo": "133590",
+    "estado": "Alquilo",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:133590"
+  },
+  {
+   "source": "lequio",
+   "source_id": "129928",
+   "url": "https://lequiopropiedades.com.ar/ad/alquiler-local-comercial-25",
+   "title": "Alquiler Local comercial",
+   "description": "",
+   "price": 225000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Alta",
+   "bedrooms": null,
+   "property_type": "Local Comercial",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/placeholder.png"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "alquiler-local-comercial-25",
+    "codigo": "129928",
+    "m2": "1"
+   },
+   "key": "lequio:129928"
+  },
+  {
+   "source": "lequio",
+   "source_id": "133589",
+   "url": "https://lequiopropiedades.com.ar/ad/alquiler-excelente-propiedad-en-valle-alegre",
+   "title": "Alquiler excelente propiedad en Valle Alegre",
+   "description": "",
+   "price": 360000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "valle alegre",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1723634633ay7ys-whatsapp-image-2024-08-12-at-163645.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "alquiler-excelente-propiedad-en-valle-alegre",
+    "codigo": "133589",
+    "estado": "Alquilo",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:133589"
+  },
+  {
+   "source": "lequio",
+   "source_id": "120209",
+   "url": "https://lequiopropiedades.com.ar/ad/cabana-amoblada-en-villa-san-isidro-cordoba",
+   "title": "CABAÑA AMOBLADA EN VILLA SAN ISIDRO, CORDOBA",
+   "description": "",
+   "price": null,
+   "currency": null,
+   "locality": "Anisacate",
+   "address": "Villa San I",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1713447477puvxd-whatsapp-image-2024-04-18-at-095712-1.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "cabana-amoblada-en-villa-san-isidro-cordoba",
+    "codigo": "120209",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:120209"
+  },
+  {
+   "source": "lequio",
+   "source_id": "118167",
+   "url": "https://lequiopropiedades.com.ar/ad/alquiler-de-monoambiente-temporario-o-permanente",
+   "title": "Alquiler de Monoambiente Temporario o Permanente",
+   "description": "",
+   "price": null,
+   "currency": null,
+   "locality": "Alta Gracia",
+   "address": "ALTA",
+   "bedrooms": 1,
+   "property_type": "Cabaña",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1711636874fhb0g-whatsapp-image-2024-03-28-at-112142.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "alquiler-de-monoambiente-temporario-o-permanente",
+    "codigo": "118167",
+    "estado": "Amoblado",
+    "m2": "1",
+    "banios": 1
+   },
+   "key": "lequio:118167"
+  },
+  {
+   "source": "lequio",
+   "source_id": "12056",
+   "url": "https://lequiopropiedades.com.ar/ad/oficina-en-inmejorable-ubicacion-de-alta-gracia",
+   "title": "OFICINA EN INMEJORABLE UBICACIÓN DE ALTA GRACIA",
+   "description": "",
+   "price": 30000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Belgrano 43",
+   "bedrooms": null,
+   "property_type": "Oficina",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1598885954iaa7a-whatsapp-image-2020-08-26-at-164833-1.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "oficina-en-inmejorable-ubicacion-de-alta-gracia",
+    "codigo": "12056",
+    "m2": "0",
+    "banios": 1
+   },
+   "key": "lequio:12056"
+  },
+  {
+   "source": "lequio",
+   "source_id": "13866",
+   "url": "https://lequiopropiedades.com.ar/ad/casa-en-potrero-de-garay-cordoba",
+   "title": "Casa en Potrero de Garay, Córdoba",
+   "description": "",
+   "price": 10000.0,
+   "currency": "ARS",
+   "locality": "Potrero De Garay",
+   "address": "cerro colorado y pampa de achala",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "En Alquiler",
+   "images": [
+    "https://lequiopropiedades.com.ar/uploads/lequiopropiedades/images/thumbs/1601306150xafmb-whatsapp-image-2020-09-25-at-184711.jpeg"
+   ],
+   "agency": "Lequio Propiedades",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "slug": "casa-en-potrero-de-garay-cordoba",
+    "codigo": "13866",
+    "m2": "0",
+    "banios": 2
+   },
+   "key": "lequio:13866"
+  }
+ ]
+}

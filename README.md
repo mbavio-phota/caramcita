@@ -54,7 +54,7 @@ para algunas fuentes.
 
 Zonaprop está detrás de un challenge de Cloudflare y se scrapea con Playwright. Se intenta desde GitHub
 Actions; si Cloudflare lo bloquea, el plan B es un job `launchd` en la Mac que sube un snapshot al repo
-(ver `launchd/README.md`).
+(ver `launchd/README.md`). Lequio Propiedades bloquea a GitHub y sólo se lee con ese mismo job.
 
 ## Cómo funciona
 
