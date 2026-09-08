@@ -1,7 +1,7 @@
 {
  "version": 1,
  "baseline_done": true,
- "last_summary_date": null,
+ "last_summary_date": "2026-09-08",
  "telegram_chat_id": null,
  "listings": {
   "fiornovelli:12287": {
@@ -761,11 +761,11 @@
    "error": null
   },
   "lequio": {
-   "last_run": "2026-09-08T18:58:45+00:00",
+   "last_run": "2026-09-08T19:07:31+00:00",
    "last_ok": null,
    "last_count": 0,
    "zero_streak": 0,
-   "error": "ConnectTimeout: timed out"
+   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
   },
   "mercadolibre": {
    "last_run": "2026-09-08T18:58:45+00:00",
@@ -892,6 +892,19 @@
     "zaratemedinadiaz": {
      "count": 2,
      "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-09-08T19:07:31+00:00",
+   "baseline": false,
+   "new": 0,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "lequio": {
+     "count": 0,
+     "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
     }
    }
   }

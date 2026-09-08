@@ -1,6 +1,179 @@
 {
- "generated": "2026-09-08T18:58:45+00:00",
+ "generated": "2026-09-08T19:07:31+00:00",
  "cards": [
+  {
+   "key": "fiornovelli:12287",
+   "title": "ALQUILER – Casa Potrerillo de Larreta L11 – P422, Alta Gracia",
+   "url": "https://www.ericafiornovelli.com.ar/propiedad/208130_alquiler-casa-potrerillo-de-larreta-l11-p422-alta-gracia/",
+   "image": "https://storage.googleapis.com/portales-prod-images/308/property-images/2026/3/60f8e160-bf88-438f-9f82-3506f8ccdcad.jpeg",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 4,
+   "price": "USD 2.000",
+   "price_raw": 2000.0,
+   "currency": "USD",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "potrerillo de",
+   "description": "Ubicada en la exclusiva zona de Potrerillo de Larreta, Alta Gracia, esta impresionante casa a estrenar ofrece un estilo de vida inigualable con todas las comodidades modernas. Con un precio de U$D 2.000, la propiedad cuenta con 370 m2 construidos, distribuidos en 5 amplios ambientes que incluyen 4 dormitorios y 4 baños. Cada detalle ha sido cuidadosamente diseñado, destacando la calidad de las pue",
+   "agency": "Erica Fiornovelli",
+   "sources": [
+    {
+     "name": "Erica Fiornovelli",
+     "url": "https://www.ericafiornovelli.com.ar/propiedad/208130_alquiler-casa-potrerillo-de-larreta-l11-p422-alta-gracia/",
+     "source": "fiornovelli"
+    },
+    {
+     "name": "ERICAFIORNOVELLI",
+     "url": "https://casa.mercadolibre.com.ar/MLA-1882679411-alquiler-casa-potrerillo-de-larreta-l11-p422-alta-gracia-_JM",
+     "source": "mercadolibre"
+    }
+   ],
+   "status": "match",
+   "is_new": false,
+   "is_gone": false,
+   "first_seen": "08/09 15:58",
+   "first_seen_day": "2026-09-08",
+   "first_seen_iso": "2026-09-08T18:58:45+00:00",
+   "last_seen": "08/09 15:58",
+   "gone_since": null,
+   "extra": {
+    "area": "Potrerillo de Larreta",
+    "ref": "ERI-208130",
+    "m2": "370",
+    "m2_terreno": "370",
+    "banos": "4",
+    "cochera": "1",
+    "ambientes": "5"
+   }
+  },
+  {
+   "key": "fiornovelli:13133",
+   "title": "ALQUILER – Casa Villa la Bolsa",
+   "url": "https://www.ericafiornovelli.com.ar/propiedad/228525_alquiler-casa-villa-la-bolsa/",
+   "image": "https://storage.googleapis.com/portales-prod-images/308/property-images/2026/8/05786501-38fc-4aa5-877d-b5ee56ecbe57.jpeg",
+   "locality": "Villa La Bolsa",
+   "locality_confirmed": true,
+   "bedrooms": 4,
+   "price": "$ 1.600.000",
+   "price_raw": 1600000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "los tilos 118",
+   "description": "Ubicada en calle Los Tilos en Villa La Bolsa, esta moderna casa en alquiler ofrece un estilo de vida confortable y contemporáneo. Está propiedad cuenta con 6 ambientes bien distribuidos, incluyendo 4 acogedores dormitorios, uno de ellos en suite con vestidor y 3 baños, lo que la convierte en un espacio ideal para familias o grupos que buscan comodidad y funcionalidad. La cocina y el comedor se int",
+   "agency": "Erica Fiornovelli",
+   "sources": [
+    {
+     "name": "Erica Fiornovelli",
+     "url": "https://www.ericafiornovelli.com.ar/propiedad/228525_alquiler-casa-villa-la-bolsa/",
+     "source": "fiornovelli"
+    },
+    {
+     "name": "ERICAFIORNOVELLI",
+     "url": "https://casa.mercadolibre.com.ar/MLA-3809097312-alquiler-casa-villa-la-bolsa-_JM",
+     "source": "mercadolibre"
+    }
+   ],
+   "status": "match",
+   "is_new": false,
+   "is_gone": false,
+   "first_seen": "08/09 15:58",
+   "first_seen_day": "2026-09-08",
+   "first_seen_iso": "2026-09-08T18:58:45+00:00",
+   "last_seen": "08/09 15:58",
+   "gone_since": null,
+   "extra": {
+    "area": "Villa La Bolsa",
+    "ref": "ERI-228525",
+    "m2": "300",
+    "m2_terreno": "300",
+    "banos": "3",
+    "cochera": "1",
+    "ambientes": "6"
+   }
+  },
+  {
+   "key": "goyatucci:6883",
+   "title": "Casa en venta c/ cochera en La Hornilla",
+   "url": "https://www.goyatucci.com.ar/propiedad/200307_casa-en-venta-c-cochera-en-la-hornilla/",
+   "image": "https://storage.googleapis.com/portales-prod-images/472/property-images/2025/8/968bb5d5-08a3-4b8c-92b3-cfc18699de8a_wm.jpeg",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 900.000",
+   "price_raw": 900000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Cerro Colorado",
+   "description": "GOYA TUCCI Negocios Inmobiliarios ALQUILA casa en 2 plantas Ubicada en La Hornilla, en Alta Gracia, La propiedad cuenta con 3 dormitorios con placar y baño sectorizado en planta alta r ofrece dos cocheras descubiertas, garantizando la comodidad de estacionamiento. Además, su distribución incluye un acogedor living-comedor y una cocina completamente equipada, perfecta para aquellos que disfrutan de",
+   "agency": "Goya Tucci",
+   "sources": [
+    {
+     "name": "Goya Tucci",
+     "url": "https://www.goyatucci.com.ar/propiedad/200307_casa-en-venta-c-cochera-en-la-hornilla/",
+     "source": "goyatucci"
+    }
+   ],
+   "status": "match",
+   "is_new": false,
+   "is_gone": false,
+   "first_seen": "08/09 15:58",
+   "first_seen_day": "2026-09-08",
+   "first_seen_iso": "2026-09-08T18:58:45+00:00",
+   "last_seen": "08/09 15:58",
+   "gone_since": null,
+   "extra": {
+    "area": "La Hornilla",
+    "ref": "GOY-200307",
+    "m2": "170.00",
+    "m2_terreno": "170.00",
+    "banos": "3",
+    "cochera": "2",
+    "ambientes": "5"
+   }
+  },
+  {
+   "key": "goyatucci:7247",
+   "title": "Casa en alquiler en Barrio Norte",
+   "url": "https://www.goyatucci.com.ar/propiedad/223315_casa-en-alquiler-en-barrio-norte/",
+   "image": "https://storage.googleapis.com/portales-prod-images/472/property-images/2026/8/713f0739-6b38-4484-a601-9735d5a8549d_wm.jpeg",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 800.000",
+   "price_raw": 800000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Brasil 481",
+   "description": "GOYA TUCCI Negocios Inmobiliarios ALQUILA casa sobre Brasil 481, oportunidad única para quienes buscan comodidad y funcionalidad. Con un precio de AR$ 800.000 mas impuestos, la propiedad cuenta con 3 dormitorios, baño y terraza en Planta Alta y cocina-comedor, estar, baño y patio embaldosado con asador, creando un ambiente cálido y acogedorlo que la convierte en un hogar perfecto para familias o c",
+   "agency": "Goya Tucci",
+   "sources": [
+    {
+     "name": "Goya Tucci",
+     "url": "https://www.goyatucci.com.ar/propiedad/223315_casa-en-alquiler-en-barrio-norte/",
+     "source": "goyatucci"
+    }
+   ],
+   "status": "match",
+   "is_new": false,
+   "is_gone": false,
+   "first_seen": "08/09 15:58",
+   "first_seen_day": "2026-09-08",
+   "first_seen_iso": "2026-09-08T18:58:45+00:00",
+   "last_seen": "08/09 15:58",
+   "gone_since": null,
+   "extra": {
+    "area": "Barrio Norte",
+    "ref": "GOY-223315",
+    "m2": "120.00",
+    "m2_terreno": "175.00",
+    "banos": "2",
+    "ambientes": "5"
+   }
+  },
   {
    "key": "lavoz:5636915",
    "title": "SE ALQUILA CASA POTRERILLO DE LARRETA ALTA GRACIA #064GRUPOFUTUROSI",
@@ -43,92 +216,6 @@
    }
   },
   {
-   "key": "mercadolibre:MLA3809097312",
-   "title": "Alquiler - Casa Villa La Bolsa",
-   "url": "https://casa.mercadolibre.com.ar/MLA-3809097312-alquiler-casa-villa-la-bolsa-_JM",
-   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_982196-MLA116372073295_082026-E.webp",
-   "locality": "Villa La Bolsa",
-   "locality_confirmed": true,
-   "bedrooms": 4,
-   "price": "$ 1.600.000",
-   "price_raw": 1600000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "Los Tilos 118, Villa La Bolsa",
-   "description": "",
-   "agency": "ERICAFIORNOVELLI",
-   "sources": [
-    {
-     "name": "ERICAFIORNOVELLI",
-     "url": "https://casa.mercadolibre.com.ar/MLA-3809097312-alquiler-casa-villa-la-bolsa-_JM",
-     "source": "mercadolibre"
-    },
-    {
-     "name": "Erica Fiornovelli",
-     "url": "https://www.ericafiornovelli.com.ar/propiedad/228525_alquiler-casa-villa-la-bolsa/",
-     "source": "fiornovelli"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": false,
-   "first_seen": "08/09 15:58",
-   "first_seen_day": "2026-09-08",
-   "first_seen_iso": "2026-09-08T18:58:45+00:00",
-   "last_seen": "08/09 15:58",
-   "gone_since": null,
-   "extra": {
-    "attrs": "6 ambs. | 3 baños | 300 m² cubiertos",
-    "bathrooms": "3",
-    "rooms": "6",
-    "covered_m2": "300",
-    "floor_size": 300,
-    "date_posted": "2026-08-18",
-    "ml_locality": "Santa María"
-   }
-  },
-  {
-   "key": "mercadolibre:MLA3810990048",
-   "title": "Casa Amoblada, 3 Dormitorios , Piscina En Alquiler",
-   "url": "https://casa.mercadolibre.com.ar/MLA-3810990048-casa-amoblada-3-dormitorios-piscina-en-alquiler-_JM",
-   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_999681-MLA116380059519_082026-E.webp",
-   "locality": "Anisacate",
-   "locality_confirmed": true,
-   "bedrooms": 3,
-   "price": "$ 800.000",
-   "price_raw": 800000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "Villa Rio Anisacate, Anisacate, Anisacate",
-   "description": "",
-   "agency": "VILLARREAL INMOBILIARIA",
-   "sources": [
-    {
-     "name": "VILLARREAL INMOBILIARIA",
-     "url": "https://casa.mercadolibre.com.ar/MLA-3810990048-casa-amoblada-3-dormitorios-piscina-en-alquiler-_JM",
-     "source": "mercadolibre"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": false,
-   "first_seen": "08/09 15:58",
-   "first_seen_day": "2026-09-08",
-   "first_seen_iso": "2026-09-08T18:58:45+00:00",
-   "last_seen": "08/09 15:58",
-   "gone_since": null,
-   "extra": {
-    "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
-    "bathrooms": "1",
-    "covered_m2": "100",
-    "floor_size": 100,
-    "date_posted": "2026-08-18",
-    "ml_locality": "Santa María"
-   }
-  },
-  {
    "key": "mercadolibre:MLA1873585011",
    "title": "Casa En Alquiler En Barrio Cerrado Tierralta!",
    "url": "https://casa.mercadolibre.com.ar/MLA-1873585011-casa-en-alquiler-en-barrio-cerrado-tierralta-_JM",
@@ -163,47 +250,6 @@
     "attrs": "3 dormitorios | 2 baños",
     "bathrooms": "2",
     "date_posted": "2026-07-03",
-    "ml_locality": "Santa María"
-   }
-  },
-  {
-   "key": "mercadolibre:MLA3923660562",
-   "title": "Barrio Privado Tierra Alta - 3 Dormitorios - Vista",
-   "url": "https://casa.mercadolibre.com.ar/MLA-3923660562-barrio-privado-tierra-alta-3-dormitorios-vista-_JM",
-   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_765141-MLA115861350102_092026-E.webp",
-   "locality": "Alta Gracia",
-   "locality_confirmed": true,
-   "bedrooms": 3,
-   "price": "$ 1.600.000",
-   "price_raw": 1600000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "Tierra Alta Al 2100, Malagueño",
-   "description": "",
-   "agency": "Sebastian Menendez Negocios Inmobiliarios",
-   "sources": [
-    {
-     "name": "Sebastian Menendez Negocios Inmobiliarios",
-     "url": "https://casa.mercadolibre.com.ar/MLA-3923660562-barrio-privado-tierra-alta-3-dormitorios-vista-_JM",
-     "source": "mercadolibre"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": false,
-   "first_seen": "08/09 15:58",
-   "first_seen_day": "2026-09-08",
-   "first_seen_iso": "2026-09-08T18:58:45+00:00",
-   "last_seen": "08/09 15:58",
-   "gone_since": null,
-   "extra": {
-    "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
-    "bathrooms": "3",
-    "rooms": "6",
-    "covered_m2": "290",
-    "floor_size": 290,
-    "date_posted": "2026-09-07",
     "ml_locality": "Santa María"
    }
   },
@@ -249,31 +295,26 @@
    }
   },
   {
-   "key": "mercadolibre:MLA1882679411",
-   "title": "Alquiler Casa Potrerillo De Larreta L11 - P422, Alta Gracia",
-   "url": "https://casa.mercadolibre.com.ar/MLA-1882679411-alquiler-casa-potrerillo-de-larreta-l11-p422-alta-gracia-_JM",
-   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_945490-MLA113068134592_072026-E.webp",
-   "locality": "Alta Gracia",
+   "key": "mercadolibre:MLA3810990048",
+   "title": "Casa Amoblada, 3 Dormitorios , Piscina En Alquiler",
+   "url": "https://casa.mercadolibre.com.ar/MLA-3810990048-casa-amoblada-3-dormitorios-piscina-en-alquiler-_JM",
+   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_999681-MLA116380059519_082026-E.webp",
+   "locality": "Anisacate",
    "locality_confirmed": true,
-   "bedrooms": 4,
-   "price": "USD 2.000",
-   "price_raw": 2000.0,
-   "currency": "USD",
+   "bedrooms": 3,
+   "price": "$ 800.000",
+   "price_raw": 800000.0,
+   "currency": "ARS",
    "prev_price": null,
    "price_dir": null,
-   "address": "Potrerillo De, Potrerillo De Larreta",
+   "address": "Villa Rio Anisacate, Anisacate, Anisacate",
    "description": "",
-   "agency": "ERICAFIORNOVELLI",
+   "agency": "VILLARREAL INMOBILIARIA",
    "sources": [
     {
-     "name": "ERICAFIORNOVELLI",
-     "url": "https://casa.mercadolibre.com.ar/MLA-1882679411-alquiler-casa-potrerillo-de-larreta-l11-p422-alta-gracia-_JM",
+     "name": "VILLARREAL INMOBILIARIA",
+     "url": "https://casa.mercadolibre.com.ar/MLA-3810990048-casa-amoblada-3-dormitorios-piscina-en-alquiler-_JM",
      "source": "mercadolibre"
-    },
-    {
-     "name": "Erica Fiornovelli",
-     "url": "https://www.ericafiornovelli.com.ar/propiedad/208130_alquiler-casa-potrerillo-de-larreta-l11-p422-alta-gracia/",
-     "source": "fiornovelli"
     }
    ],
    "status": "match",
@@ -285,13 +326,88 @@
    "last_seen": "08/09 15:58",
    "gone_since": null,
    "extra": {
-    "attrs": "5 ambs. | 4 baños | 370 m² cubiertos",
-    "bathrooms": "4",
-    "rooms": "5",
-    "covered_m2": "370",
-    "floor_size": 370,
-    "date_posted": "2026-07-08",
-    "ml_locality": "Alta Gracia"
+    "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
+    "bathrooms": "1",
+    "covered_m2": "100",
+    "floor_size": 100,
+    "date_posted": "2026-08-18",
+    "ml_locality": "Santa María"
+   }
+  },
+  {
+   "key": "mercadolibre:MLA3923660562",
+   "title": "Barrio Privado Tierra Alta - 3 Dormitorios - Vista",
+   "url": "https://casa.mercadolibre.com.ar/MLA-3923660562-barrio-privado-tierra-alta-3-dormitorios-vista-_JM",
+   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_765141-MLA115861350102_092026-E.webp",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 1.600.000",
+   "price_raw": 1600000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Tierra Alta Al 2100, Malagueño",
+   "description": "",
+   "agency": "Sebastian Menendez Negocios Inmobiliarios",
+   "sources": [
+    {
+     "name": "Sebastian Menendez Negocios Inmobiliarios",
+     "url": "https://casa.mercadolibre.com.ar/MLA-3923660562-barrio-privado-tierra-alta-3-dormitorios-vista-_JM",
+     "source": "mercadolibre"
+    }
+   ],
+   "status": "match",
+   "is_new": false,
+   "is_gone": false,
+   "first_seen": "08/09 15:58",
+   "first_seen_day": "2026-09-08",
+   "first_seen_iso": "2026-09-08T18:58:45+00:00",
+   "last_seen": "08/09 15:58",
+   "gone_since": null,
+   "extra": {
+    "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
+    "bathrooms": "3",
+    "rooms": "6",
+    "covered_m2": "290",
+    "floor_size": 290,
+    "date_posted": "2026-09-07",
+    "ml_locality": "Santa María"
+   }
+  },
+  {
+   "key": "villalosaromos:7930",
+   "title": "ALQUILER PERMANENTE – EL DESCANSO ANISACATE",
+   "url": "https://inmobiliariavillalosaromos.com.ar/property/alquiler-permanente-el-descanso-anisacate/",
+   "image": "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/9c13f3f7-96f0-4ebb-bfad-74bf404fb05e.jpeg",
+   "locality": "Anisacate",
+   "locality_confirmed": true,
+   "bedrooms": 4,
+   "price": "$ 800.000",
+   "price_raw": 800000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "",
+   "description": "CASA EN ALQUILER PERMANENTE Ubicada en El Descanso- Anisacate. A dos cuadras de ruta 5 Posee 4 dormitorios, amplia galería, parque , pileta. Precio mensual: $800.000 Viví rodeado de naturaleza, con espacio, comodidad para toda la familia.",
+   "agency": "Inmobiliaria Villa Los Aromos",
+   "sources": [
+    {
+     "name": "Inmobiliaria Villa Los Aromos",
+     "url": "https://inmobiliariavillalosaromos.com.ar/property/alquiler-permanente-el-descanso-anisacate/",
+     "source": "villalosaromos"
+    }
+   ],
+   "status": "match",
+   "is_new": false,
+   "is_gone": false,
+   "first_seen": "08/09 15:58",
+   "first_seen_day": "2026-09-08",
+   "first_seen_iso": "2026-09-08T18:58:45+00:00",
+   "last_seen": "08/09 15:58",
+   "gone_since": null,
+   "extra": {
+    "categoria": "Alquiler Permanente"
    }
   },
   {
@@ -362,122 +478,6 @@
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
-   }
-  },
-  {
-   "key": "goyatucci:7247",
-   "title": "Casa en alquiler en Barrio Norte",
-   "url": "https://www.goyatucci.com.ar/propiedad/223315_casa-en-alquiler-en-barrio-norte/",
-   "image": "https://storage.googleapis.com/portales-prod-images/472/property-images/2026/8/713f0739-6b38-4484-a601-9735d5a8549d_wm.jpeg",
-   "locality": "Alta Gracia",
-   "locality_confirmed": true,
-   "bedrooms": 3,
-   "price": "$ 800.000",
-   "price_raw": 800000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "Brasil 481",
-   "description": "GOYA TUCCI Negocios Inmobiliarios ALQUILA casa sobre Brasil 481, oportunidad única para quienes buscan comodidad y funcionalidad. Con un precio de AR$ 800.000 mas impuestos, la propiedad cuenta con 3 dormitorios, baño y terraza en Planta Alta y cocina-comedor, estar, baño y patio embaldosado con asador, creando un ambiente cálido y acogedorlo que la convierte en un hogar perfecto para familias o c",
-   "agency": "Goya Tucci",
-   "sources": [
-    {
-     "name": "Goya Tucci",
-     "url": "https://www.goyatucci.com.ar/propiedad/223315_casa-en-alquiler-en-barrio-norte/",
-     "source": "goyatucci"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": false,
-   "first_seen": "08/09 15:58",
-   "first_seen_day": "2026-09-08",
-   "first_seen_iso": "2026-09-08T18:58:45+00:00",
-   "last_seen": "08/09 15:58",
-   "gone_since": null,
-   "extra": {
-    "area": "Barrio Norte",
-    "ref": "GOY-223315",
-    "m2": "120.00",
-    "m2_terreno": "175.00",
-    "banos": "2",
-    "ambientes": "5"
-   }
-  },
-  {
-   "key": "goyatucci:6883",
-   "title": "Casa en venta c/ cochera en La Hornilla",
-   "url": "https://www.goyatucci.com.ar/propiedad/200307_casa-en-venta-c-cochera-en-la-hornilla/",
-   "image": "https://storage.googleapis.com/portales-prod-images/472/property-images/2025/8/968bb5d5-08a3-4b8c-92b3-cfc18699de8a_wm.jpeg",
-   "locality": "Alta Gracia",
-   "locality_confirmed": true,
-   "bedrooms": 3,
-   "price": "$ 900.000",
-   "price_raw": 900000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "Cerro Colorado",
-   "description": "GOYA TUCCI Negocios Inmobiliarios ALQUILA casa en 2 plantas Ubicada en La Hornilla, en Alta Gracia, La propiedad cuenta con 3 dormitorios con placar y baño sectorizado en planta alta r ofrece dos cocheras descubiertas, garantizando la comodidad de estacionamiento. Además, su distribución incluye un acogedor living-comedor y una cocina completamente equipada, perfecta para aquellos que disfrutan de",
-   "agency": "Goya Tucci",
-   "sources": [
-    {
-     "name": "Goya Tucci",
-     "url": "https://www.goyatucci.com.ar/propiedad/200307_casa-en-venta-c-cochera-en-la-hornilla/",
-     "source": "goyatucci"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": false,
-   "first_seen": "08/09 15:58",
-   "first_seen_day": "2026-09-08",
-   "first_seen_iso": "2026-09-08T18:58:45+00:00",
-   "last_seen": "08/09 15:58",
-   "gone_since": null,
-   "extra": {
-    "area": "La Hornilla",
-    "ref": "GOY-200307",
-    "m2": "170.00",
-    "m2_terreno": "170.00",
-    "banos": "3",
-    "cochera": "2",
-    "ambientes": "5"
-   }
-  },
-  {
-   "key": "villalosaromos:7930",
-   "title": "ALQUILER PERMANENTE – EL DESCANSO ANISACATE",
-   "url": "https://inmobiliariavillalosaromos.com.ar/property/alquiler-permanente-el-descanso-anisacate/",
-   "image": "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/9c13f3f7-96f0-4ebb-bfad-74bf404fb05e.jpeg",
-   "locality": "Anisacate",
-   "locality_confirmed": true,
-   "bedrooms": 4,
-   "price": "$ 800.000",
-   "price_raw": 800000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "",
-   "description": "CASA EN ALQUILER PERMANENTE Ubicada en El Descanso- Anisacate. A dos cuadras de ruta 5 Posee 4 dormitorios, amplia galería, parque , pileta. Precio mensual: $800.000 Viví rodeado de naturaleza, con espacio, comodidad para toda la familia.",
-   "agency": "Inmobiliaria Villa Los Aromos",
-   "sources": [
-    {
-     "name": "Inmobiliaria Villa Los Aromos",
-     "url": "https://inmobiliariavillalosaromos.com.ar/property/alquiler-permanente-el-descanso-anisacate/",
-     "source": "villalosaromos"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": false,
-   "first_seen": "08/09 15:58",
-   "first_seen_day": "2026-09-08",
-   "first_seen_iso": "2026-09-08T18:58:45+00:00",
-   "last_seen": "08/09 15:58",
-   "gone_since": null,
-   "extra": {
-    "categoria": "Alquiler Permanente"
    }
   }
  ]
