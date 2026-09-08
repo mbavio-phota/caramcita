@@ -62,9 +62,14 @@ class Classifier:
                 return name
         return None
 
-    def match_locality(self, locality: str, texts: list[str]) -> tuple[str | None, str]:
+    def match_locality(self, locality: str, texts: list[str], title: str = "") -> tuple[str | None, str]:
         loc = normalize(locality)
         text = " | ".join(normalize(t) for t in texts if t)
+        ti = normalize(title)
+        if ti and self._first_excluded(ti) is not None and self._first_alias(ti) is None and not self._barrio(ti):
+            # el título nombra sólo una localidad vecina: manda sobre lo que diga la fuente
+            # (p. ej. "Alquiler Villa del Prado ..." etiquetado como Alta Gracia)
+            return None, "excluded"
         if loc:
             hit = self._first_alias(loc)
             if hit:
@@ -88,12 +93,12 @@ class Classifier:
     # ---- evaluación completa --------------------------------------------
     def evaluate(self, l: Listing) -> Verdict:
         text = " ".join(x for x in [l.title, l.description] if x)
-        if is_temporary(l.operation, text):
+        if is_temporary(l.operation, text, title=l.title):
             return Verdict("rejected", "temporario o venta")
         ptype = classify_property_type(l.property_type, text, title=l.title)
         if ptype == "excluded":
             return Verdict("rejected", f"tipo excluido: {l.property_type or 'según texto'}")
-        locality, how = self.match_locality(l.locality, [l.address, l.title, l.description])
+        locality, how = self.match_locality(l.locality, [l.address, l.title, l.description], title=l.title)
         if how == "excluded":
             return Verdict("rejected", "localidad fuera de zona")
         bedrooms = parse_bedrooms(l.bedrooms, text)
@@ -106,8 +111,8 @@ class Classifier:
         return Verdict("match", how, locality, bedrooms)
 
 
-def match_locality(clf: Classifier, locality: str, texts: list[str]) -> tuple[str | None, str]:
-    return clf.match_locality(locality, texts)
+def match_locality(clf: Classifier, locality: str, texts: list[str], title: str = "") -> tuple[str | None, str]:
+    return clf.match_locality(locality, texts, title=title)
 
 
 # ---- dormitorios ---------------------------------------------------------
@@ -177,13 +182,15 @@ _TEMP_RE = re.compile(
 _ANNUAL_RE = re.compile(r"anual|permanente|no temporar|24 meses|largo plazo|contrato de 2|contrato de 3|contrato de 24|contrato de 36")
 
 
-def is_temporary(operation: str, text: str) -> bool:
+def is_temporary(operation: str, text: str, title: str = "") -> bool:
     op = normalize(operation)
     if op:
         if _TEMP_OP_RE.search(op):
             return True
         if "venta" in op and "alquiler" not in op:
             return True
+    if re.match(r"\s*venta\b", normalize(title)) and "alquil" not in normalize(title):
+        return True  # "VENTA - ..." publicado bajo alquiler por error de carga
     t = normalize(text)
     if _ANNUAL_RE.search(t):
         return False

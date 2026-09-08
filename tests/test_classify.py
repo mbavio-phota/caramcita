@@ -59,6 +59,12 @@ class TestLocality:
     def test_excluded_without_barrio_still_excluded(self, clf):
         assert match_locality(clf, locality="Malagueño", texts=["Casa en Malagueño centro"]) == (None, "excluded")
 
+    def test_title_naming_only_neighbour_beats_source_locality(self, clf):
+        assert match_locality(clf, locality="Alta Gracia", texts=[], title="Alquiler Villa del Prado Barrio La Donosa Casa Nueva") == (None, "excluded")
+
+    def test_title_with_both_keeps_whitelist(self, clf):
+        assert match_locality(clf, locality="Alta Gracia", texts=[], title="Casa en Alta Gracia camino a Potrero de Garay")[0] == "Alta Gracia"
+
     def test_barrio_cordoba_with_alta_gracia_context(self, clf):
         assert match_locality(clf, locality="", texts=["Casa en Barrio Córdoba, Alta Gracia"]) == ("Alta Gracia", "text")
 
@@ -174,6 +180,14 @@ class TestEvaluate:
     def test_maybe_location_and_bedrooms_is_location(self, clf):
         v = clf.evaluate(mk(title="Casa con pileta", locality="", property_type="Casa", operation="Alquiler"))
         assert v.status == "maybe_location"
+
+    def test_title_venta_prefix_rejected(self, clf):
+        v = clf.evaluate(mk(title="VENTA - Casoria Casas Village - 3 dormitorios", locality="Alta Gracia", property_type="Casa", operation="Alquiler", bedrooms=3))
+        assert v.status == "rejected"
+
+    def test_title_en_venta_mid_kept(self, clf):
+        v = clf.evaluate(mk(title="Casa en venta c/ cochera en La Hornilla", locality="Alta Gracia", property_type="Casa", operation="Alquiler", bedrooms=3))
+        assert v.status == "match"
 
     def test_title_departamento_beats_source_type(self, clf):
         v = clf.evaluate(mk(title="Departamento en alquiler en V. Camiares", locality="Alta Gracia", property_type="Casas", operation="Alquileres", bedrooms=3))
