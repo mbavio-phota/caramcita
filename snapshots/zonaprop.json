@@ -1,0 +1,341 @@
+{
+ "fetched_at": "2026-09-08T19:30:37+00:00",
+ "listings": [
+  {
+   "source": "zonaprop",
+   "source_id": "59219512",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
+   "title": "Casa en alquiler reserva tajamar",
+   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
+   "price": 650000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
+   },
+   "key": "zonaprop:59219512"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "52371416",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
+   "title": "Departamento en alquiler en barrio v. camiares alta",
+   "description": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ comedor amplia, baño, cochera y patio con asador. Techo de losa - Pisos de porcelanato. Villa Camiares - Alta Gracia. Servicios: Agua Corriente, Electricidad",
+   "price": 650000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Jasilsacat 247, Villa Camiares, Alta Gracia",
+   "bedrooms": 2,
+   "property_type": "Departamento",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/52/37/14/16/360x266/1882197217.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
+   },
+   "key": "zonaprop:52371416"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "60008685",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-b-portales-del-tala-alta-gracia-60008685.html",
+   "title": "Casa en alquiler en b portales del tala alta gracia",
+   "description": "En esta oportunidad grupo vag servicios inmobiliarios te ofrece esta hermosa casa en alquiler ubicada en barrio portales del tala en Alta Gracia, Ubicada en barrio semi cerrado con vigilancia, en pleno crecimiento, con calles adoquinadas y seguridad nocturna, tranquilo y familiar, entorno agradable, vistas a las sierras y agil acceso, cerco perimetral, alumbrado público y espacios verdes; A solo 30 minutos de Cordoba Capital y a 4 minutos del centro de Alta Gracia, altura Ruta Provincial C45 camino a Falda del CarmenLa propiedad posee: 2 dormitorios1 bañoliving/comedorcocina integradapatio grandecochera semicubiertaprecio de alquiler: $600. 000Tiene gas envasado¡¡Escribimos y coordinamos para visitarla!!",
+   "price": 600000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Numero 2, Alta Gracia, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/00/86/85/360x266/2074958352.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "400 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:60008685"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "58369751",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-el-potrerillo-de-larreta-58369751.html",
+   "title": "Casa el potrerillo de larreta",
+   "description": "Franco zamoraservicios inmobiliariosofreceen venta Y/O alquiler permanentecasaubicación: spa resort potrerillo de larretacomodidades: 3 dormitorios uno con baño en suite, todos con placarddos baños completos/ un toilletegalería techadacochera semi cubiertaasadorpileta con hidromasajeen caso de alquiler( x 1 año) venta usd 350. 000documentación al día! franco zamoraservicios inmobiliarioscpi 7972",
+   "price": 1450.0,
+   "currency": "USD",
+   "locality": "Alta Gracia",
+   "address": "Mza al 400, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/58/36/97/51/360x266/2033015038.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1177 m² tot. 12 amb. 3 dorm. 2 coch."
+   },
+   "key": "zonaprop:58369751"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59793406",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcapa-casa-potrerillo-de-larreta-59793406.html",
+   "title": "Casa potrerillo de larreta",
+   "description": "Viví la experiencia Potrerillo de Larreta. Esta excelente casa de 3 dormitorios combina diseño, comodidad y naturaleza en un entorno único. Cuenta con un amplio living-comedor con hogar a leña, cocina integrada, ambientes muy luminosos y climatizados con aire acondicionado. El sector exterior invita a disfrutar cada momento: gran galería con asador, pileta, parque con frondosa arboleda y cochera. Un espacio pensado para quienes valoran la tranquilidad, la privacidad y el contacto con la naturaleza, sin resignar confort. Una oportunidad para vivir en uno de los barrios más exclusivos de Córdoba, rodeado de paisajes serranos y un ambiente inmejorable.",
+   "price": 2100000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Potrerillo de Larreta Country Club Acceso, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/79/34/06/360x266/2069824833.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "220 m² tot. 3 dorm. 2 baños"
+   },
+   "key": "zonaprop:59793406"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "57998459",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alquiler-casa-amoblada-y-con-pileta!-villa-los-aromos-57998459.html",
+   "title": "Alquiler casa amoblada y con pileta! villa los aromos",
+   "description": "Casa amoblada en villa los aromos!! Alquiler: $950. 000 + impuestos Y servicios. completamente amoblada! 3 dormitorios. 1 baño completo. cocina semi integrada. living comedor amplio. galeria muy amplia. 2000M2 de terreno aproximadamente. pileta con sistema de filtrado. asador Y horno chileno. requisitos: 3 recibos de sueldo O 2 recibos de sueldo Y una garantia propietaria. gastos: comision inmobiliaria: 5% del monto total del contrato. certificacion de firmas ante escribano, aproximadamente $18. 000 cada firma.",
+   "price": 900000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "las cascadas 150, Villa Los Aromos, Córdoba",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/57/99/84/59/360x266/2022662880.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "2000 m² tot. 5 amb. 3 dorm. 1 baño 2 coch."
+   },
+   "key": "zonaprop:57998459"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59344948",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-villa-los-aromos-59344948.html",
+   "title": "Casa en villa los aromos",
+   "description": "Alquiler Casa Los Aromos amoblada. Viví con comodidad y tranquilidad en esta casa de 2 dormitorios, ubicada en una zona segura de Villa Los Aromos, a solo 400 metros del río. Construida en 2022, ofrece 75 m² totales sobre lote de 100 m², pensados para mudarte sin preocuparte por nada: está completamente amoblada y lista para entrar. Los ambientes son luminosos y funcionales, con aire acondicionado para tu confort. Dispone de 1 baño, cochera techada para 2 vehículos y gas natural, ideal para un consumo eficiente. El corazón social de la casa es su espacio con asador tradicional y anafe, perfecto para reuniones y buenos momentos al aire libre. Acepta mascotas. Un hogar listo, cómodo y en excelentes condiciones, en un entorno natural y seguro donde vas a querer quedarte. Consultanos para coordinar tu visita y conocé tu próxima casa en Los Aromos.",
+   "price": 900000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Nogales al 400, Villa Los Aromos, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/34/49/48/360x266/2058914608.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "500 m² tot. 3 amb. 2 dorm. 1 baño 2 coch."
+   },
+   "key": "zonaprop:59344948"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59571635",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-anisacate-con-pileta-59571635.html",
+   "title": "Casa en alquiler anisacate con pileta",
+   "description": "Casa en AnisacateUbicada en el mejor barrio de Anisacate, muy tranquilo y arbolado, a 1000 mts del rio y a 40 minutos del centro de la ciudad CórdobaPisos de madera lustrados, construcción sólida, fresca y bien mantenida, un parque enormeTerreno de 1000 metros cuadradosParquización de arboles añososPileta de 3x7 mts. AsadorCuarto de HerramientasSistema de riego por aspersiónCochera / galería Living con hogar a leña y piso de parquetSala de Lectura con hogar y piso de parquetBaño Principal con bañera Cocina Lavadero Comedor diario Comedor Dormitorio Principal Dormitorio secundario Baño secundario ferrer lanfranchi | Inmuebles y DesarrollosConsultá por más propiedades en Docta Urbanización (Boulevard, Avenida, Central, Parque), Nobu, Siete Soles (Heredades, Alqarias, Parterres, Mitte, Verandas, Duplares), Manantiales (Campos, Colinas, Costas, Cuestas, Pampas, Prados, Quebradas, Rincones, San Ignacio, Solares, Terrazas, Riberas, Brisas, Manantiales Country, Altos, Miradores, Lomas, Abras, Las Tipas) Cañuelas, La Cascada, La Ernestina, Claros del Bosque, Claros Village, AcquaVista, Tejas 3, Tejas 4, Distrito Sur, Greenville, La Calandria, Campo Chico, Mansos del sur, Valle Cercano, Carrara de Horizonte, Universitario de Horizonte, Lomas del Chateau, Balcones del Este, Tejas 4, Las Cañitas, Valle del Golf, Paso de Piedra, Estación del Carmen, Causana, Nuevo Malagueño, La Arbolada, Carlos Paz, Tres Gracias, Potrerillo de Larreta, Campos del Virrey, La Melinca, El Anglo, Lomas de la Estancia, Puerto del Águila, Comarca de Allende, Antigua Estancia, Barrio Norte 1 y 2, La Morada, San Isidro, Chacras de la Villa, La Cercanía, San Francisco, Las Corzuelas, Aires del Noreste, Villa Catalina, Bela Vista, Talar de Mendiolaza, Talar del Este, Cuatro Vientos, Molinos de Viento, San Alfonso del Talar, Estancia El Terrón, Cuatro Hojas, Estancia Q2, La Herradura, La Serena, Fincas del Sol, Sierranueva, La Paloma, Cumbres del Golf, Terrazas de Villa Allende, Bosque Alegre, Corral de Barrancas, Lomas del Cigarral, La Adela, La Pampeana, Estancia San Miguel, Lomas del Chañar, La Bancaria, Santina Norte, Piana, Jardin Ingles, Lomas de la Carolina, Las Delicias, La Pankana, Cinco Lomas, El Bosque, La Rufina, Chacra del Norte, Chacras Green, La Deseada, Colinas de la Deseada, Maitenes de la Deseada, Vistas de la Deseada, Cuesta Colorada, La Estanzuela, La Cuesta, El Buen Aire (Ascochinga), Camino del Alba (Ascochinga), Estancia La Julieta (San Clemente), Lomas del Rey (Mayu Sumaj), El Condor (Potrero de Garay) y otros!",
+   "price": 1000000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "Casa en Alquiler con Pileta y Parque en Anisacate, Anisacate, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/57/16/35/360x266/2064439517.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1000 m² tot. 5 amb. 2 dorm. 2 baños 3 coch."
+   },
+   "key": "zonaprop:59571635"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59655839",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
+   "title": "Se alquila casa de 2 dorm. en anisacate",
+   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
+   "price": 900000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
+   },
+   "key": "zonaprop:59655839"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "50356032",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
+   "title": "Casa en alquiler dos dorm. anisacate",
+   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
+   "price": 480000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "El Ombú 100, Anisacate, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:50356032"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "58556420",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alq.-exc-casa-2-dor.-amoblada-villa-los-aromos!-58556420.html",
+   "title": "Alq. exc casa 2 dor. amoblada villa los aromos!",
+   "description": "Alquilo excelente casa de 2 dormitorios con pileta en las sierras! se encuentra amoblada como se ve en fotos (pueden sacarse los muebles). Ideal para pasar un semestre O un año en las sierras de córdoba con naturaleza plena. ubicación: A 45 min de Córdoba, - A 15 min de Alta Gracia, - A 5 min de La Bolsa, - A 2 cuadras del Rioservicios activos: luz - agua - gasrequisitos casa Villa Los Aromos: 3 garantes recibo superior a $1. 300. 000 c/u. Alquiler inicial $600. 000, contrato anual o por 2 años, aumento cuatrimestral. Impuestos muni, renta + agua + luz + gas depende el consumo, paga el inquilino. Espero tu consulta al Ver datos cari.",
+   "price": 600000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Avenida los Aromos al 5000, Villa Los Aromos, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/58/55/64/20/360x266/2038172026.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "450 m² tot. 3 amb. 2 dorm. 2 baños 2 coch."
+   },
+   "key": "zonaprop:58556420"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59852272",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
+   "title": "Casa en venta o alquiler en los aromos a 200 m del",
+   "description": "Inmobiliaria Casermeiro",
+   "price": 800000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
+   },
+   "key": "zonaprop:59852272"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:59898621"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59506827",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-exc.-de-2-o-3-dorm.-gran-terreno.-anisacate-59506827.html",
+   "title": "Casa exc. de 2 o 3 dorm. gran terreno. anisacate",
+   "description": "Casa de 2 o 3 dormitorios (uno grande con baño en suite), baño principal, Living, cocina/ comedor, lavadero, galería/ cochera, asador y patio con terreno amplio. Barrio El Aromo - Anisacate. Servicios: Electricidad",
+   "price": 750000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "La Bolsa 450, Anisacate, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/50/68/27/360x266/2062884089.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "600 m² tot. 3 amb. 2 dorm. 2 baños"
+   },
+   "key": "zonaprop:59506827"
+  }
+ ]
+}
