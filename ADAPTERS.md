@@ -16,7 +16,9 @@ class Adapter(Source):
 Reglas:
 
 - Usar **sólo** `http.get(url)` / `http.get_text(url)` / `http.get_json(url)` (ya tienen user-agent de
-  navegador, pausa entre pedidos y reintentos). No crear clientes propios.
+  navegador, pausa entre pedidos y reintentos). No crear clientes propios. Excepción: una fuente detrás
+  de un challenge de Cloudflare puede usar Playwright y marcar `needs_browser = True` (ver `zonaprop.py`);
+  es la única que puede esperar/pausar por su cuenta.
 - Devolver un `Listing` por aviso con `self.listing(source_id=..., url=..., title=..., ...)`
   (`self.listing` completa `source` y `agency`). Campos:
   - `source_id`: id estable dentro de la fuente (id numérico, slug de la URL, etc.). Nunca el índice.
@@ -27,17 +29,19 @@ Reglas:
   - `locality`: la localidad tal como la da la fuente (campo estructurado si existe; si no, vacío).
     NO adivinar desde el texto: el clasificador ya lo hace.
   - `address`: dirección/barrio si existe.
-  - `bedrooms`: entero si la fuente lo da como dato estructurado; si no, `None` (el clasificador lo
-    saca del texto).
+  - `bedrooms`: entero si la fuente lo da como dato estructurado (campo, atributo o chip de
+    características tipo "3 dorm."); nunca desde la descripción libre (el clasificador lo saca de ahí).
   - `property_type`: tal como lo da la fuente ("Casa", "Departamento", ...). Vacío si no hay.
-  - `operation`: tal como lo da la fuente ("Alquiler", "Alquiler temporario", "Venta"). Vacío si no hay.
+  - `operation`: tal como lo da la fuente ("Alquiler", "Alquiler temporario", "Venta"). Si la fuente
+    sólo lo codifica en el título o en la URL (p. ej. "ALQUILER PERMANENTE – ..." o `/alquiler/`),
+    tomarlo de ahí. Vacío si no hay.
   - `images`: URLs absolutas; primera = foto principal.
   - `lat`, `lng` si están.
   - `extra`: dict con lo que sobre (m², baños, cochera, código de referencia...).
-- Filtrar del lado del adaptador **sólo** lo que la fuente ya filtra por URL (p. ej. pedir sólo
-  alquileres). Todo lo demás (localidad, dormitorios, tipo) lo decide `caramcita.classify`. Devolver
-  departamentos o 2 dormitorios está bien: se descartan después. Pero si la fuente permite filtrar por
-  operación=alquiler, hacerlo para no traer ventas.
+- Filtrar del lado del adaptador **sólo** operación (alquiler vs. venta) y estado (un aviso marcado
+  "Alquilado" no sirve). Todo lo demás (localidad, dormitorios, tipo) lo decide `caramcita.classify`.
+  Devolver departamentos o 2 dormitorios está bien: se descartan después. Si la fuente permite filtrar
+  por operación=alquiler en la URL, hacerlo para no traer ventas.
 - Paginar hasta el final (con un tope razonable, p. ej. 10 páginas).
 - Ante un aviso que no se puede parsear, saltearlo con `log.warning`, nunca tirar la corrida.
 - Sin sleeps propios ni threads.
@@ -52,4 +56,8 @@ Fixtures y tests:
 
 Plataformas compartidas: si el sitio es WordPress con tema Houzez/RealHomes o un CPT `property`,
 Tokko Broker, Wasi, etc., escribir un adaptador genérico parametrizado por `base` (y lo que haga falta)
-para que la próxima inmobiliaria sea una línea en `sources.yaml`.
+para que la próxima inmobiliaria sea una línea en `sources.yaml`. Adaptadores existentes por plataforma:
+`wp_houzez`, `wp_realhomes`, `wp_rest` (CPT a elección), `tokko_html`, `wasi`.
+
+Si el sitio bloquea a GitHub Actions (timeouts o 403 sólo desde allá), agregar `run_from: mac` a la
+entrada en `sources.yaml`: se scrapea desde la Mac con `caramcita snapshot --mac` y GitHub usa el snapshot.

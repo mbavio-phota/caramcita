@@ -201,3 +201,17 @@ class TestEvaluate:
         # Sin tipo ni pista → se muestra pero no se descarta
         v = clf.evaluate(mk(title="Propiedad 3 dormitorios", locality="Alta Gracia", property_type="", operation="Alquiler", bedrooms=3))
         assert v.status == "match"
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("1 dormitorio en planta baja y 2 dormitorios en planta alta", 2),
+    ("1 dorm de servicio, 3 dormitorios principales", 3),
+])
+def test_bedrooms_takes_max_from_text(text, expected):
+    assert parse_bedrooms(None, text) == expected
+
+
+def test_generic_words_do_not_exclude(clf):
+    for title in ["Casa con techo de tejas, 3 dormitorios", "Casa cerca del observatorio", "Casa en Av. General Paz 300"]:
+        v = clf.evaluate(mk(title=title, locality="Alta Gracia", property_type="Casa", operation="Alquiler", bedrooms=3))
+        assert v.status == "match", title

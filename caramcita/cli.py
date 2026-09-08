@@ -118,6 +118,8 @@ def cmd_run(args) -> int:
 
     # el diario
     ctx = render(state, cfg, specs, Path(args.out), now)
+    if not args.dry_run:
+        state.save(state_path)  # antes de avisar: si Telegram falla, no se repiten avisos en la próxima
 
     # avisos
     tg = Telegram(chat_id=os.environ.get("TELEGRAM_CHAT_ID") or state.telegram_chat_id)
@@ -137,21 +139,7 @@ def cmd_run(args) -> int:
     if changes.baseline:
         log.info("Primera corrida: %d avisos como base, sin notificar", len(state.listings))
     elif not args.no_notify:
-        cards = {e.key: c for c in cluster(list(state.listings.values())) for e in c.entries}
-        announced: set[str] = set()
-        for e in changes.new:
-            card = cards.get(e.key)
-            if card and card.key in announced:
-                continue
-            others = [o for o in (card.entries if card else []) if o.key != e.key]
-            tg.send(listing_message(e, site_url, others), photo=(e.listing.images[0] if e.listing.images else None))
-            if card:
-                announced.add(card.key)
-        for e, old, new in changes.price_changed:
-            if e.verdict.status == "match":
-                tg.send(price_message(e, old, new, site_url))
-        _health_alerts(state, cfg, tg)
-        _daily_summary(state, cfg, tg, ctx, now)
+        _notify(state, cfg, tg, ctx, changes, now, site_url)
 
     if not args.dry_run:
         state.save(state_path)
@@ -161,19 +149,47 @@ def cmd_run(args) -> int:
     return 0
 
 
+def _safe_send(tg: Telegram, text: str, photo: str | None = None) -> None:
+    try:
+        tg.send(text, photo=photo)
+    except Exception as e:  # noqa: BLE001 - un aviso fallido no frena la corrida ni repite los demás
+        log.error("Telegram falló: %s", e)
+
+
+def _notify(state: State, cfg, tg: Telegram, ctx, changes, now: datetime, site_url: str) -> None:
+    cards = {e.key: c for c in cluster(list(state.listings.values())) for e in c.entries}
+    new_keys = {e.key for e in changes.new}
+    announced: set[str] = set()
+    for e in changes.new:
+        if e.verdict.status != "match":
+            continue  # los "sin confirmar" van al diario y al resumen, no como mensaje propio
+        card = cards.get(e.key)
+        if card:
+            if card.key in announced:
+                continue
+            if any(o.key not in new_keys for o in card.entries):
+                continue  # es la misma casa que ya conocíamos por otra fuente
+            announced.add(card.key)
+        others = [o for o in (card.entries if card else []) if o.key != e.key]
+        _safe_send(tg, listing_message(e, site_url, others), photo=(e.listing.images[0] if e.listing.images else None))
+    for e, old, new in changes.price_changed:
+        if e.verdict.status == "match" and e.listing.currency == e.price_history[-2].currency:
+            _safe_send(tg, price_message(e, old, new, site_url))
+    _health_alerts(state, cfg, tg)
+    _daily_summary(state, cfg, tg, ctx, now)
+
+
 def _health_alerts(state: State, cfg, tg: Telegram) -> None:
+    """Un solo aviso cuando una fuente llega a N corridas seguidas con error o sin resultados."""
     thr = cfg.get("zero_streak_alert", 2)
     bad = []
     for slug, h in state.sources.items():
-        if h.error and (state.runs[-1]["sources"].get(slug, {}).get("error")):
-            # avisar sólo cuando la falla lleva 2 corridas seguidas
-            prev = state.runs[-2]["sources"].get(slug, {}) if len(state.runs) > 1 else {}
-            if prev.get("error"):
-                bad.append(f"• {slug}: error ({esc(h.error[:60])})")
+        if h.error_streak == thr:
+            bad.append(f"• {slug}: error ({esc((h.error or '')[:60])})")
         elif h.zero_streak == thr:
             bad.append(f"• {slug}: {h.zero_streak} corridas seguidas sin resultados")
     if bad:
-        tg.send("<b>⚠️ Fuentes con problemas</b>\n" + "\n".join(bad))
+        _safe_send(tg, "<b>⚠️ Fuentes con problemas</b>\n" + "\n".join(bad))
 
 
 def _daily_summary(state: State, cfg, tg: Telegram, ctx, now: datetime) -> None:
@@ -185,14 +201,14 @@ def _daily_summary(state: State, cfg, tg: Telegram, ctx, now: datetime) -> None:
         return
     last24 = [c for d in ctx["news"] for c in d["cards"]
               if (now - datetime.fromisoformat(c["first_seen_iso"])).total_seconds() < 24 * 3600]
-    broken = [h["name"] for h in ctx["health"] if not h["ok"]]
+    broken = [h["name"] for h in ctx["health"] if h["broken"]]
     lines = [f"<b>☕ Resumen {local.strftime('%d/%m')}</b>",
              f"{len(last24)} novedades en 24 h · {len(ctx['active'])} casas vigentes"]
     if ctx["maybe_loc"] or ctx["maybe_beds"]:
         lines.append(f"{len(ctx['maybe_loc'])} con ubicación sin confirmar · {len(ctx['maybe_beds'])} sin dato de dormitorios")
     lines.append(("Fuentes con problemas: " + ", ".join(esc(b) for b in broken)) if broken else "Todas las fuentes OK")
     lines.append(f'<a href="{esc(cfg["site"]["base_url"])}">Abrir el diario</a>')
-    tg.send("\n".join(lines))
+    _safe_send(tg, "\n".join(lines))
     state.last_summary_date = today
 
 

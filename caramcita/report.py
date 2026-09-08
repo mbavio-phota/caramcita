@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 from collections import defaultdict
 from datetime import datetime, timedelta
+from email.utils import format_datetime
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -11,7 +12,7 @@ from zoneinfo import ZoneInfo
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .dedupe import Card, cluster
-from .state import Entry, State
+from .state import Entry, SourceHealth, State
 
 TEMPLATES = Path(__file__).parent / "templates"
 NEW_DAYS = 7
@@ -57,7 +58,12 @@ def card_view(c: Card, now: datetime, tz: ZoneInfo, baseline_at: datetime | None
     l, v = p.listing, p.verdict
     is_new = baseline_at is not None and p.first_seen > baseline_at and (now - p.first_seen) <= timedelta(days=NEW_DAYS)
     gone = all(e.gone_since is not None for e in c.entries)
-    price_changed = p.price_changed_at is not None and (now - p.price_changed_at) <= timedelta(days=NEW_DAYS) and len(p.price_history) > 1
+    is_back = (not gone) and any(e.back_at is not None and (now - e.back_at) <= timedelta(days=NEW_DAYS) for e in c.entries)
+    price_changed = (
+        p.price_changed_at is not None and (now - p.price_changed_at) <= timedelta(days=NEW_DAYS)
+        and len(p.price_history) > 1 and p.price_history[-2].price is not None and l.price is not None
+        and p.price_history[-2].currency == l.currency
+    )
     prev_price = p.price_history[-2].price if price_changed else None
     return {
         "key": c.key,
@@ -79,9 +85,11 @@ def card_view(c: Card, now: datetime, tz: ZoneInfo, baseline_at: datetime | None
         "status": v.status,
         "is_new": is_new,
         "is_gone": gone,
+        "is_back": is_back,
         "first_seen": _fmt_dt(p.first_seen, tz),
         "first_seen_day": _day(p.first_seen, tz),
         "first_seen_iso": p.first_seen.isoformat(),
+        "first_seen_rfc822": format_datetime(p.first_seen),
         "last_seen": _fmt_dt(max(e.last_seen for e in c.entries), tz),
         "gone_since": _fmt_dt(p.gone_since, tz) if gone else None,
         "extra": {k: v for k, v in l.extra.items() if k not in ("img_hash",)},
@@ -90,11 +98,12 @@ def card_view(c: Card, now: datetime, tz: ZoneInfo, baseline_at: datetime | None
 
 def build_context(state: State, cfg: dict[str, Any], sources_meta: list[dict[str, Any]], now: datetime) -> dict[str, Any]:
     tz = ZoneInfo(cfg["telegram"]["timezone"])
-    baseline_at = None
-    for r in state.runs:
-        if r.get("baseline"):
-            baseline_at = datetime.fromisoformat(r["at"])
-            break
+    baseline_at = state.baseline_at
+    if baseline_at is None:  # estados anteriores a que se guardara baseline_at
+        for r in state.runs:
+            if r.get("baseline"):
+                baseline_at = datetime.fromisoformat(r["at"])
+                break
     entries = list(state.listings.values())
     cards = [card_view(c, now, tz, baseline_at) for c in cluster(entries)]
     cards.sort(key=lambda c: c["first_seen_iso"], reverse=True)
@@ -111,11 +120,25 @@ def build_context(state: State, cfg: dict[str, Any], sources_meta: list[dict[str
     maybe_beds = [c for c in cards if not c["is_gone"] and c["status"] == "maybe_bedrooms"]
     gone = [c for c in cards if c["is_gone"]]
 
-    meta_by_slug = {s["slug"]: s for s in sources_meta}
+    thr = cfg.get("zero_streak_alert", 2)
     health = []
-    for slug, h in sorted(state.sources.items()):
+    slugs = [s["slug"] for s in sources_meta] + [s for s in sorted(state.sources) if s not in {m["slug"] for m in sources_meta}]
+    meta_by_slug = {s["slug"]: s for s in sources_meta}
+    for slug in slugs:
         m = meta_by_slug.get(slug, {})
+        h = state.sources.get(slug, SourceHealth())
         stale = h.last_ok is None or (now - h.last_ok) > timedelta(hours=13)
+        broken = h.error is not None or h.zero_streak >= thr
+        if h.error:
+            status = f"error: {h.error[:80]}"
+        elif h.zero_streak >= thr:
+            status = f"{h.zero_streak} corridas sin resultados"
+        elif h.last_ok is None:
+            status = "sin datos todavía" + (" (se corre desde la Mac)" if m.get("run_from") == "mac" else "")
+        elif stale:
+            status = "sin datos recientes" + (" (se corre desde la Mac)" if m.get("run_from") == "mac" else "")
+        else:
+            status = "ok"
         health.append({
             "slug": slug,
             "name": m.get("name", slug),
@@ -124,13 +147,16 @@ def build_context(state: State, cfg: dict[str, Any], sources_meta: list[dict[str
             "last_count": h.last_count,
             "error": h.error,
             "zero_streak": h.zero_streak,
-            "ok": (not stale) and h.error is None and h.zero_streak < cfg.get("zero_streak_alert", 2),
+            "broken": broken,          # para el resumen de Telegram
+            "ok": not broken and not stale,
+            "status": status,
         })
     return {
         "site": cfg["site"],
         "min_bedrooms": cfg["min_bedrooms"],
         "generated": _fmt_long(now, tz),
         "generated_iso": now.isoformat(),
+        "generated_rfc822": format_datetime(now),
         "news": news,
         "news_count": sum(len(d["cards"]) for d in news),
         "active": active,

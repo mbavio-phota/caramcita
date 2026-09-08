@@ -32,6 +32,7 @@ class Entry:
     first_seen: datetime
     last_seen: datetime
     gone_since: datetime | None = None
+    back_at: datetime | None = None
     price_changed_at: datetime | None = None
     price_history: list[PricePoint] = field(default_factory=list)
 
@@ -46,6 +47,7 @@ class Entry:
             "first_seen": _iso(self.first_seen),
             "last_seen": _iso(self.last_seen),
             "gone_since": _iso(self.gone_since),
+            "back_at": _iso(self.back_at),
             "price_changed_at": _iso(self.price_changed_at),
             "price_history": [{"at": _iso(p.at), "price": p.price, "currency": p.currency} for p in self.price_history],
         }
@@ -58,6 +60,7 @@ class Entry:
             first_seen=_dt(d["first_seen"]),
             last_seen=_dt(d["last_seen"]),
             gone_since=_dt(d.get("gone_since")),
+            back_at=_dt(d.get("back_at")),
             price_changed_at=_dt(d.get("price_changed_at")),
             price_history=[PricePoint(_dt(p["at"]), p["price"], p["currency"]) for p in d.get("price_history", [])],
         )
@@ -70,6 +73,7 @@ class SourceHealth:
     last_count: int = 0
     zero_streak: int = 0
     error: str | None = None
+    error_streak: int = 0
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -78,11 +82,13 @@ class SourceHealth:
             "last_count": self.last_count,
             "zero_streak": self.zero_streak,
             "error": self.error,
+            "error_streak": self.error_streak,
         }
 
     @classmethod
     def from_dict(cls, d: dict[str, Any]) -> "SourceHealth":
-        return cls(_dt(d.get("last_run")), _dt(d.get("last_ok")), d.get("last_count", 0), d.get("zero_streak", 0), d.get("error"))
+        return cls(_dt(d.get("last_run")), _dt(d.get("last_ok")), d.get("last_count", 0), d.get("zero_streak", 0),
+                   d.get("error"), d.get("error_streak", 0))
 
 
 @dataclass
@@ -111,6 +117,7 @@ class State:
     sources: dict[str, SourceHealth]
     runs: list[dict[str, Any]]
     baseline_done: bool = False
+    baseline_at: datetime | None = None
     last_summary_date: str | None = None  # YYYY-MM-DD (hora local) del último resumen enviado
     telegram_chat_id: str | None = None  # se descubre solo la primera vez que el bot recibe un mensaje
 
@@ -129,6 +136,7 @@ class State:
             sources={k: SourceHealth.from_dict(v) for k, v in d.get("sources", {}).items()},
             runs=d.get("runs", []),
             baseline_done=d.get("baseline_done", False),
+            baseline_at=_dt(d.get("baseline_at")),
             last_summary_date=d.get("last_summary_date"),
             telegram_chat_id=d.get("telegram_chat_id"),
         )
@@ -137,6 +145,7 @@ class State:
         d = {
             "version": 1,
             "baseline_done": self.baseline_done,
+            "baseline_at": _iso(self.baseline_at),
             "last_summary_date": self.last_summary_date,
             "telegram_chat_id": self.telegram_chat_id,
             "listings": {k: v.to_dict() for k, v in sorted(self.listings.items())},
@@ -159,20 +168,27 @@ def apply_run(
     """Fusiona los resultados de una corrida en el estado y devuelve las novedades."""
     baseline = not state.baseline_done
     ch = Changes(baseline=baseline)
+    if baseline:
+        state.baseline_at = now
 
     seen_ok_sources = {s for s, r in results.items() if r.ok}
 
     # 1. avisos presentes en esta corrida
     for src, res in results.items():
         health = state.sources.setdefault(src, SourceHealth())
+        # primera vez que esta fuente responde bien: sus avisos son base, no novedades
+        # (evita inundar Telegram al agregar una fuente o al correr con --only)
+        source_baseline = baseline or health.last_ok is None
         health.last_run = now
         if res.ok:
             health.last_ok = now
             health.last_count = len(res.listings)
             health.error = None
+            health.error_streak = 0
             health.zero_streak = health.zero_streak + 1 if not res.listings else 0
         else:
             health.error = res.error
+            health.error_streak += 1
         if not res.ok:
             continue
         for l in res.listings:
@@ -186,13 +202,16 @@ def apply_run(
                 e = Entry(listing=l, verdict=v, first_seen=now, last_seen=now,
                           price_history=[PricePoint(now, l.price, l.currency)])
                 state.listings[l.key] = e
-                if not baseline:
+                if not source_baseline:
                     ch.new.append(e)
                 continue
             old_price, old_cur = e.listing.price, e.listing.currency
             if e.gone_since is not None:
                 e.gone_since = None
+                e.back_at = now
                 ch.back.append(e)
+            if "img_hash" in e.listing.extra and "img_hash" not in l.extra:
+                l.extra["img_hash"] = e.listing.extra["img_hash"]
             e.listing, e.verdict, e.last_seen = l, v, now
             if l.price != old_price or l.currency != old_cur:
                 e.price_history.append(PricePoint(now, l.price, l.currency))

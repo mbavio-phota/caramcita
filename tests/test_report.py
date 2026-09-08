@@ -33,3 +33,23 @@ def test_render_smoke(tmp_path):
     feed = (tmp_path / "feed.xml").read_text()
     assert "<item>" in feed and "Casa nueva" in feed
     assert (tmp_path / "data.json").exists()
+
+
+def test_back_badge_health_and_rfc822(tmp_path):
+    cfg = load_config()
+    st = State.empty()
+    ok = Verdict("match", "exact", "Alta Gracia", 3)
+    a, b = L("1", "Casa uno"), L("2", "Casa dos")
+    apply_run(st, {"lavoz": SourceResult("lavoz", [a, b])}, {a.key: ok, b.key: ok}, T0)
+    apply_run(st, {"lavoz": SourceResult("lavoz", [a])}, {a.key: ok}, T0 + timedelta(hours=6))
+    apply_run(st, {"lavoz": SourceResult("lavoz", [a, b])}, {a.key: ok, b.key: ok}, T0 + timedelta(hours=12))
+    specs = [{"slug": "lavoz", "name": "La Voz"}, {"slug": "lequio", "name": "Lequio", "run_from": "mac"}]
+    ctx = render(st, cfg, specs, tmp_path, T0 + timedelta(hours=13))
+    two = next(c for c in ctx["all_cards"] if c["title"] == "Casa dos")
+    assert two["is_back"] and not two["is_gone"]
+    html = (tmp_path / "index.html").read_text()
+    assert "Volvió" in html
+    lequio = next(h for h in ctx["health"] if h["slug"] == "lequio")
+    assert lequio["status"].startswith("sin datos todavía") and not lequio["broken"]
+    feed = (tmp_path / "feed.xml").read_text()
+    assert "+0000" in feed and "T12:00:00" not in feed

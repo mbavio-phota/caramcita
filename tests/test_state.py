@@ -114,3 +114,39 @@ def test_roundtrip_json(tmp_path):
     st2 = State.load(p)
     assert st2.listings["a:1"].price_history[-1].price == 110.0
     assert st2.baseline_done and st2.listings["a:1"].first_seen == T0
+
+
+def test_baseline_at_persisted(tmp_path):
+    st = State.empty()
+    run(st, [L("1")])
+    p = tmp_path / "s.json"
+    st.save(p)
+    assert State.load(p).baseline_at == T0
+
+
+def test_new_source_first_result_is_not_new():
+    st = State.empty()
+    run(st, [L("1", src="a")])
+    ch = run(st, [L("1", src="a"), L("1", src="b"), L("2", src="b")], at=T0 + timedelta(hours=6))
+    assert ch.new == []  # fuente b recién agregada: base
+    ch = run(st, [L("1", src="a"), L("1", src="b"), L("3", src="b")], at=T0 + timedelta(hours=12))
+    assert [e.key for e in ch.new] == ["b:3"]
+
+
+def test_img_hash_survives_refresh():
+    st = State.empty()
+    run(st, [L("1")])
+    st.listings["a:1"].listing.extra["img_hash"] = "abcd"
+    run(st, [L("1")], at=T0 + timedelta(hours=6))
+    assert st.listings["a:1"].listing.extra["img_hash"] == "abcd"
+
+
+def test_error_streak_and_back_at():
+    st = State.empty()
+    run(st, [L("1"), L("2")])
+    run(st, [L("1")], at=T0 + timedelta(hours=6), errors={"b": "x"})
+    run(st, [L("1"), L("2")], at=T0 + timedelta(hours=12), errors={"b": "x"})
+    assert st.sources["b"].error_streak == 2
+    assert st.listings["a:2"].back_at == T0 + timedelta(hours=12)
+    run(st, [L("1"), L("2"), L("1", src="b")], at=T0 + timedelta(hours=18))
+    assert st.sources["b"].error_streak == 0

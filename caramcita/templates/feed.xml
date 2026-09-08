@@ -6,13 +6,13 @@
 <atom:link href="{{ site.base_url }}feed.xml" rel="self" type="application/rss+xml"/>
 <description>{{ site.subtitle }}</description>
 <language>es-AR</language>
-<lastBuildDate>{{ generated_iso }}</lastBuildDate>
+<lastBuildDate>{{ generated_rfc822 }}</lastBuildDate>
 {% for c in all_cards if c.is_new %}
 <item>
 <title>{% if c.status != 'match' %}[?] {% endif %}{{ c.title }} · {{ c.locality or 'ubicación?' }} · {{ c.bedrooms or '?' }} dorm · {{ c.price }}</title>
 <link>{{ c.url }}</link>
 <guid isPermaLink="false">{{ c.key }}</guid>
-<pubDate>{{ c.first_seen_iso }}</pubDate>
+<pubDate>{{ c.first_seen_rfc822 }}</pubDate>
 <description>{{ c.agency }} — {{ c.description }}</description>
 </item>
 {% endfor %}

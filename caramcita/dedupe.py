@@ -39,7 +39,9 @@ def _same_price(a: Entry, b: Entry) -> bool:
 def _same_house(a: Entry, b: Entry) -> bool:
     if a.listing.source == b.listing.source:
         return False
-    if a.verdict.locality != b.verdict.locality or a.verdict.bedrooms != b.verdict.bedrooms:
+    if a.verdict.locality is None or a.verdict.locality != b.verdict.locality:
+        return False
+    if a.verdict.bedrooms != b.verdict.bedrooms:
         return False
     if not _same_price(a, b):
         return False

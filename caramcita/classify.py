@@ -134,12 +134,14 @@ def parse_bedrooms(structured: int | None, text: str) -> int | None:
             n = 0
         if n > 0:
             return n
-    m = _BED_RE.search(normalize(text))
-    if not m:
-        return None
-    tok = m.group(1)
-    n = int(tok) if tok.isdigit() else _NUM_WORDS[tok]
-    return n if 0 < n < 20 else None
+    # del texto libre se toma el mayor valor mencionado ("1 dorm de servicio, 3 dormitorios" → 3)
+    best: int | None = None
+    for m in _BED_RE.finditer(normalize(text)):
+        tok = m.group(1)
+        n = int(tok) if tok.isdigit() else _NUM_WORDS[tok]
+        if 0 < n < 20 and (best is None or n > best):
+            best = n
+    return best
 
 
 # ---- tipo de propiedad ---------------------------------------------------
