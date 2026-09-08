@@ -115,8 +115,7 @@ class Adapter(Source):
                 extra["bathrooms"] = int(m.group(1))
             elif t.lower().startswith("sup"):
                 extra["surface"] = t
-        if bedrooms is None and isinstance(about.get("numberOfRooms"), int) and about.get("@type") == "House":
-            bedrooms = None  # numberOfRooms son ambientes, no dormitorios: no lo usamos
+        # (about.numberOfRooms del JSON-LD son ambientes, no dormitorios: no se usa)
 
         price_el = card.select_one(".price[data-price]")
         price: float | None = None

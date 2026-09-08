@@ -1,0 +1,48 @@
+[
+ {
+  "id": 20223,
+  "link": "https://facundosanchez.com.ar/property/casa-en-venta-b-el-golf-alta-gracia/",
+  "slug": "casa-en-venta-b-el-golf-alta-gracia",
+  "title": {
+   "rendered": "Casa en venta B° El Golf, Alta Gracia"
+  },
+  "content": {
+   "rendered": "\n<p class=\"wp-block-paragraph\">Se vende casa a reciclar ubicada sobre calle Las Hortencias, la misma posee tres dormitorios, cocina/comedor, living, baño, cochera, galeria, deposito y jardin dando un total de 204m2 cubiertos, todo esto sobre un lote de 3440m2. La propiedad tiene fondo que linda con el Arroyo de la Estancia Vieja, una zona rodeada de naturaleza, a pocos metros del Parque Garcia Lorca. Titulo perfecto</p>\n",
+   "protected": false
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 20224,
+     "source_url": "https://facundosanchez.com.ar/wp-content/uploads/2026/08/sdfghfd.jpeg"
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 50,
+      "name": "Casas",
+      "slug": "casas",
+      "taxonomy": "property_type"
+     }
+    ],
+    [
+     {
+      "id": 91,
+      "name": "Venta",
+      "slug": "venta",
+      "taxonomy": "property_status"
+     }
+    ],
+    [
+     {
+      "id": 36,
+      "name": "Alta Gracia",
+      "slug": "alta-gracia",
+      "taxonomy": "property_city"
+     }
+    ]
+   ]
+  }
+ }
+]

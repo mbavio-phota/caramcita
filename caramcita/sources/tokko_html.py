@@ -47,8 +47,8 @@ class Adapter(Source):
         for page in range(1, max_pages + 1):
             url = self.page_url(base, operation, ptypes, page)
             html = http.get_text(url)
-            if NO_MORE in html:
-                break
+            # OJO: la página completa incluye el literal "--NoMoreProperties--" dentro de su JS, así que
+            # el fin se detecta por ausencia de cards (la respuesta de fin es sólo el marcador).
             cards = BeautifulSoup(html, "lxml").select("li[prop-id]")
             if not cards:
                 break

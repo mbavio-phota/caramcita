@@ -1,0 +1,20 @@
+[
+ {
+  "id": 11,
+  "name": "Alquiler",
+  "slug": "alquiler",
+  "count": 6
+ },
+ {
+  "id": 25,
+  "name": "Alquiler temporario",
+  "slug": "alquiler-temporario",
+  "count": 2
+ },
+ {
+  "id": 12,
+  "name": "Venta",
+  "slug": "venta",
+  "count": 144
+ }
+]

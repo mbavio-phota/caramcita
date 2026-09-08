@@ -112,8 +112,8 @@ class Adapter(Source):
                 extra["bathrooms"] = int(n)
             elif label.startswith("garaje") or label.startswith("cochera"):
                 extra["garages"] = int(n)
-        if bedrooms == 0 and (ptype or "").lower() in ("local", "lote", "terreno", "oficina", "galpon", "galpón"):
-            bedrooms = None
+        if bedrooms == 0:
+            bedrooms = None  # Wasi muestra 0 cuando el dato no está cargado
         price_el = card.select_one(".areaPrecio p") or card.select_one(".areaPrecio")
         price, currency = parse_price(text_of(price_el))
 

@@ -42,10 +42,17 @@ class Http:
             self._pace()
             try:
                 r = self.client.get(url, **kw)
-                if r.status_code >= 500 or r.status_code in (429,):
+                if 400 <= r.status_code < 500 and r.status_code != 429:
+                    r.raise_for_status()  # 4xx: no tiene sentido reintentar
+                if r.status_code >= 500 or r.status_code == 429:
                     raise httpx.HTTPStatusError(f"{r.status_code} en {url}", request=r.request, response=r)
-                r.raise_for_status()
                 return r
+            except httpx.HTTPStatusError as e:
+                if e.response is not None and 400 <= e.response.status_code < 500 and e.response.status_code != 429:
+                    raise
+                err = e
+                log.warning("GET %s falló (%s/%s): %s", url, attempt + 1, self.retries + 1, e)
+                time.sleep(2 * (attempt + 1))
             except (httpx.HTTPError, httpx.TransportError) as e:
                 err = e
                 log.warning("GET %s falló (%s/%s): %s", url, attempt + 1, self.retries + 1, e)

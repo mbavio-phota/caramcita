@@ -119,6 +119,9 @@ class TestTemporary:
         "op,text,expected",
         [
             ("Alquiler", "cocina con comedor diario", False),
+            ("Alquiler", "pileta lista para la temporada de verano", False),
+            ("Alquiler", "ideal para vacaciones en familia", False),
+            ("Alquiler", "se alquila por temporada", True),
             ("Alquiler", "", False),
             ("Alquileres Temporarios", "", True),
             ("Alquiler", "alquiler temporario por temporada", True),

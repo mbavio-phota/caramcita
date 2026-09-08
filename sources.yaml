@@ -97,7 +97,7 @@ sources:
     name: Ruarte Moyano
     adapter: tokko_html
     url: https://www.ruartemoyano.com.ar/Alquiler
-    params: { base: "https://www.ruartemoyano.com.ar" }
+    params: { base: "https://www.ruartemoyano.com.ar", ptypes: "" }  # todos los tipos; el clasificador filtra
 
   - slug: juarezbeltran
     name: Juárez Beltrán

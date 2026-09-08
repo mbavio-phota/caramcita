@@ -1,0 +1,178 @@
+[
+ {
+  "id": 3795,
+  "date": "2026-07-16T12:40:51",
+  "date_gmt": "2026-07-16T15:40:51",
+  "guid": {
+   "rendered": "https://inmobiliariainvertir.com/inmueble/casa-nueva-en-villa-del-prado-a-5-cuadras-de-la-autovia-ruta-5-3/"
+  },
+  "modified": "2026-09-04T14:11:41",
+  "modified_gmt": "2026-09-04T17:11:41",
+  "slug": "casa-nueva-en-villa-del-prado-a-5-cuadras-de-la-autovia-ruta-5-3",
+  "status": "publish",
+  "type": "inmueble",
+  "link": "https://inmobiliariainvertir.com/inmueble/casa-nueva-en-villa-del-prado-a-5-cuadras-de-la-autovia-ruta-5-3/",
+  "title": {
+   "rendered": "Alquiler Villa del Prado Barrio La Donosa Casa Nueva de 1 dormitorio A 5 cuadras de la Autovia Ruta 5"
+  },
+  "content": {
+   "rendered": "<p>Inmobiliaria Invertir presenta una casa nueva en alquiler en Villa del Prado.<br />\nUbicada sobre calle 12 en Barrio La Donosa, a solo 5 cuadras del ingreso.<br />\nUna zona tranquila y a solo 5 cuadras de la autovía ruta 5, 20 min de córdoba capital y a 7 min de Alta Gracia.<br />\nLa casa nueva consta de:<br />\n&#8211; 1 dormitorio<br />\n&#8211; 1 baño<br />\n&#8211; Cocina comedor<br />\n&#8211; Galería techada<br />\n&#8211; Patio<br />\nSuperficie cubierta: 55m2<br />\nRequisitos:<br />\n&#8211; Mes adelantado o proporcional de mes.<br />\n&#8211; Mes de depósito (se puede financiar hasta 3 cuo"
+  },
+  "featured_media": 3788,
+  "template": "",
+  "destacados": [],
+  "ubicaciones": [
+   5,
+   65
+  ],
+  "tipo-operacion": [
+   11
+  ],
+  "tipo-inmueble": [
+   13
+  ],
+  "class_list": [
+   "post-3795",
+   "inmueble",
+   "type-inmueble",
+   "status-publish",
+   "has-post-thumbnail",
+   "hentry",
+   "ubicaciones-alta-gracia",
+   "ubicaciones-villa-del-prado",
+   "tipo-operacion-alquiler",
+   "tipo-inmueble-casa"
+  ],
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 3788,
+     "media_details": {
+      "width": 700
+     },
+     "source_url": "https://inmobiliariainvertir.com/wp-content/uploads/jet-engine-forms/7/2026/07/Captura-de-pantalla-2026-07-16-122802.png"
+    }
+   ],
+   "wp:term": [
+    [],
+    [
+     {
+      "id": 5,
+      "name": "Alta Gracia",
+      "slug": "alta-gracia",
+      "taxonomy": "ubicaciones"
+     },
+     {
+      "id": 65,
+      "name": "Villa del Prado",
+      "slug": "villa-del-prado",
+      "taxonomy": "ubicaciones"
+     }
+    ],
+    [
+     {
+      "id": 11,
+      "name": "Alquiler",
+      "slug": "alquiler",
+      "taxonomy": "tipo-operacion"
+     }
+    ],
+    [
+     {
+      "id": 13,
+      "name": "Casa",
+      "slug": "casa",
+      "taxonomy": "tipo-inmueble"
+     }
+    ]
+   ]
+  },
+  "excerpt": {
+   "rendered": ""
+  }
+ },
+ {
+  "id": 3582,
+  "date": "2026-06-08T13:59:46",
+  "date_gmt": "2026-06-08T16:59:46",
+  "guid": {
+   "rendered": "https://inmobiliariainvertir.com/inmueble/casa-en-alquiler-en-anisacate-ubicada-en-b-parque-la-lila/"
+  },
+  "modified": "2026-09-04T14:10:47",
+  "modified_gmt": "2026-09-04T17:10:47",
+  "slug": "casa-en-alquiler-en-anisacate-ubicada-en-b-parque-la-lila",
+  "status": "publish",
+  "type": "inmueble",
+  "link": "https://inmobiliariainvertir.com/inmueble/casa-en-alquiler-en-anisacate-ubicada-en-b-parque-la-lila/",
+  "title": {
+   "rendered": "Alquiler Anisacate Barrio Parque La Lila Casa de 2 dormitorios"
+  },
+  "content": {
+   "rendered": "<p>Inmobiliaria Invertir presenta una casa en alquiler permanente en Anisacate.<br />\nUbicada sobre calle La Falda 360, Barrio Parque La Lila. A solo 3 cuadras y media de ruta 5.<br />\nConsta de:<br />\n&#8211; 2 dormitorios<br />\n&#8211; cocina comedor<br />\n&#8211; antebaño y baño<br />\n&#8211; cochera<br />\n&#8211; patio amplio<br />\nSuperficie del terreno: 10 x 40<br />\nRequisitos:<br />\n&#8211; 2 garantías de recibo de sueldo o propietaria.<br />\n&#8211; Mes adelantado<br />\n&#8211; Mes de depósito (se puede hacer en 3 cuotas)<br />\n&#8211; Mes de comisión inmobiliaria (hasta en 3 cuotas)<"
+  },
+  "featured_media": 3571,
+  "template": "",
+  "destacados": [],
+  "ubicaciones": [
+   28
+  ],
+  "tipo-operacion": [
+   11
+  ],
+  "tipo-inmueble": [
+   13
+  ],
+  "class_list": [
+   "post-3582",
+   "inmueble",
+   "type-inmueble",
+   "status-publish",
+   "has-post-thumbnail",
+   "hentry",
+   "ubicaciones-anisacate",
+   "tipo-operacion-alquiler",
+   "tipo-inmueble-casa"
+  ],
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 3571,
+     "media_details": {
+      "width": 700
+     },
+     "source_url": "https://inmobiliariainvertir.com/wp-content/uploads/jet-engine-forms/7/2026/06/Captura-de-pantalla-2026-06-08-115507.png"
+    }
+   ],
+   "wp:term": [
+    [],
+    [
+     {
+      "id": 28,
+      "name": "Anisacate",
+      "slug": "anisacate",
+      "taxonomy": "ubicaciones"
+     }
+    ],
+    [
+     {
+      "id": 11,
+      "name": "Alquiler",
+      "slug": "alquiler",
+      "taxonomy": "tipo-operacion"
+     }
+    ],
+    [
+     {
+      "id": 13,
+      "name": "Casa",
+      "slug": "casa",
+      "taxonomy": "tipo-inmueble"
+     }
+    ]
+   ]
+  },
+  "excerpt": {
+   "rendered": ""
+  }
+ }
+]

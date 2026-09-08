@@ -167,8 +167,12 @@ def classify_property_type(ptype: str, text: str, title: str = "") -> str:
 
 
 # ---- temporario / venta --------------------------------------------------
+# en el campo "operación" de la fuente alcanza con una palabra; en el texto libre se exige una frase
+# ("temporada" sola aparece en "pileta para la temporada", "vacaciones" en "ideal para vacaciones").
+_TEMP_OP_RE = re.compile(r"temporari[oa]s?|temporal(es)?|temporada|por dia|turistic[oa]s?|vacacion")
 _TEMP_RE = re.compile(
-    r"temporari[oa]s?|temporal(es)?|temporada|por dia|por noche|alquiler diario|turistic[oa]s?|vacacion(es|al)?|fin(es)? de semana|estadia"
+    r"temporari[oa]s?|alquiler temporal|por temporada|solo temporada|por dia|por noche|alquiler diario"
+    r"|alquiler turistico|uso turistico|alquiler vacacional|por semana|fines? de semana"
 )
 _ANNUAL_RE = re.compile(r"anual|permanente|no temporar|24 meses|largo plazo|contrato de 2|contrato de 3|contrato de 24|contrato de 36")
 
@@ -176,7 +180,7 @@ _ANNUAL_RE = re.compile(r"anual|permanente|no temporar|24 meses|largo plazo|cont
 def is_temporary(operation: str, text: str) -> bool:
     op = normalize(operation)
     if op:
-        if _TEMP_RE.search(op):
+        if _TEMP_OP_RE.search(op):
             return True
         if "venta" in op and "alquiler" not in op:
             return True
