@@ -1,0 +1,111 @@
+# Fuentes a consultar. adapter = módulo en caramcita/sources/. params van al constructor.
+# Para agregar una inmobiliaria en una plataforma conocida (wp_houzez, wp_rest, tokko_html, wasi)
+# alcanza con agregar una entrada acá.
+sources:
+  # ---- portales ----------------------------------------------------------
+  - slug: lavoz
+    name: Clasificados La Voz
+    adapter: lavoz
+    url: https://clasificados.lavoz.com.ar/inmuebles/casas/alquileres?ciudad=alta-gracia
+    params:
+      # tids de localidad en La Voz: Alta Gracia 3202, Anisacate 3206, La Bolsa 3299
+      location_tids: [3202, 3206, 3299]
+
+  - slug: mercadolibre
+    name: MercadoLibre Inmuebles
+    adapter: mercadolibre
+    url: https://inmuebles.mercadolibre.com.ar/casas/alquiler/cordoba/santa-maria/
+    params:
+      urls:
+        - https://inmuebles.mercadolibre.com.ar/casas/alquiler/cordoba/santa-maria/
+        - https://inmuebles.mercadolibre.com.ar/casas/alquiler/cordoba/alta-gracia/
+
+  - slug: zonaprop
+    name: Zonaprop
+    adapter: zonaprop
+    url: https://www.zonaprop.com.ar/casas-alquiler-alta-gracia.html
+    params:
+      urls:
+        - https://www.zonaprop.com.ar/casas-alquiler-alta-gracia.html
+        - https://www.zonaprop.com.ar/casas-alquiler-anisacate.html
+        - https://www.zonaprop.com.ar/casas-alquiler-falda-del-carmen.html
+        - https://www.zonaprop.com.ar/casas-alquiler-villa-la-bolsa.html
+
+  # ---- inmobiliarias locales ---------------------------------------------
+  - slug: consulting
+    name: Consulting Inmobiliaria
+    adapter: consulting
+    url: https://consultinginmobiliaria.com/
+
+  - slug: guillermocortes
+    name: Guillermo Cortes
+    adapter: guillermocortes
+    url: https://guillermocortes.com.ar/alquileres
+
+  - slug: invertir
+    name: Inmobiliaria Invertir
+    adapter: invertir
+    url: https://inmobiliariainvertir.com/en-alquiler/
+
+  - slug: goyatucci
+    name: Goya Tucci
+    adapter: wp_houzez
+    url: https://www.goyatucci.com.ar/estado/en-alquiler/
+    params: { base: "https://www.goyatucci.com.ar" }
+
+  - slug: terra
+    name: Inmobiliaria Terra
+    adapter: wp_houzez
+    url: https://inmobiliaria-terra.com.ar/alquileres
+    params: { base: "https://inmobiliaria-terra.com.ar" }
+
+  - slug: faretta
+    name: Ariel Faretta
+    adapter: wp_houzez
+    url: https://arielfaretta.com.ar/estado/alquiler/
+    params: { base: "https://arielfaretta.com.ar" }
+
+  - slug: fiornovelli
+    name: Erica Fiornovelli
+    adapter: wp_houzez
+    url: https://www.ericafiornovelli.com.ar/estado/en-alquiler/
+    params: { base: "https://www.ericafiornovelli.com.ar" }
+
+  - slug: raices
+    name: Raíces Alta Gracia
+    adapter: wp_realhomes
+    url: https://raicesaltagracia.com.ar/properties-search/?status=alquiler
+    params: { base: "https://raicesaltagracia.com.ar" }
+
+  - slug: facundosanchez
+    name: Facundo Sánchez
+    adapter: wp_rest
+    url: https://facundosanchez.com.ar/property_status/alquiler/
+    params: { base: "https://facundosanchez.com.ar", post_type: "property" }
+
+  - slug: villalosaromos
+    name: Inmobiliaria Villa Los Aromos
+    adapter: villalosaromos
+    url: https://inmobiliariavillalosaromos.com.ar/property/
+
+  - slug: lequio
+    name: Lequio Propiedades
+    adapter: lequio
+    url: https://lequiopropiedades.com.ar/listing?user_id=69&purpose=rent
+
+  - slug: ruartemoyano
+    name: Ruarte Moyano
+    adapter: tokko_html
+    url: https://www.ruartemoyano.com.ar/Alquiler
+    params: { base: "https://www.ruartemoyano.com.ar" }
+
+  - slug: juarezbeltran
+    name: Juárez Beltrán
+    adapter: juarezbeltran
+    url: https://juarezbeltran.com.ar/propiedades?operacion=alquiler
+
+  - slug: zaratemedinadiaz
+    name: Zarate & Medina Díaz
+    adapter: wasi
+    url: https://zarate-medinadiaz.com.ar/s/alquileres
+    params: { base: "https://zarate-medinadiaz.com.ar" }

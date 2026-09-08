@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.mrbavio.caramcita.zonaprop</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>$HOME/dev/mrbavio/caramcita/launchd/zonaprop-snapshot.sh</string>
+  </array>
+  <!-- 15 minutos antes de cada corrida en GitHub Actions (02:00, 08:00, 14:00, 20:00) -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>1</integer><key>Minute</key><integer>45</integer></dict>
+    <dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>45</integer></dict>
+    <dict><key>Hour</key><integer>13</integer><key>Minute</key><integer>45</integer></dict>
+    <dict><key>Hour</key><integer>19</integer><key>Minute</key><integer>45</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>/tmp/caramcita-zonaprop.log</string>
+  <key>StandardErrorPath</key><string>/tmp/caramcita-zonaprop.log</string>
+  <key>RunAtLoad</key><false/>
+</dict>
+</plist>

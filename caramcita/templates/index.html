@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }} · {{ generated }}</title>
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="feed.xml">
+<style>
+:root{
+  --bg:#f7f4ee;--ink:#1b1a17;--muted:#6b675e;--rule:#d9d3c6;--card:#fffdf8;--accent:#8b2f1c;--accent-ink:#fff;
+  --ok:#2e6b3a;--warn:#a1611a;--bad:#a12626;--star:#c58a00;--chip:#ece7dc;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#161512;--ink:#ebe6da;--muted:#a09a8c;--rule:#39362f;--card:#1f1d19;--accent:#e0684d;--accent-ink:#161512;--chip:#2a2823;--ok:#7fc58e;--warn:#e0a95a;--bad:#e57373;--star:#f2c14e}
+}
+*{box-sizing:border-box}
+html{color-scheme:light dark}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 Georgia,"Times New Roman",serif}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px 60px}
+header.mast{border-bottom:3px double var(--ink);padding:26px 0 12px;text-align:center}
+.mast h1{font:700 54px/1 "Playfair Display",Georgia,serif;letter-spacing:-.01em;margin:0}
+.mast .sub{color:var(--muted);font-style:italic;margin:8px 0 0}
+.mast .meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--rule);margin-top:14px;padding-top:8px;font:13px/1.4 system-ui,sans-serif;color:var(--muted)}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font:14px system-ui,sans-serif;padding:14px 0;border-bottom:1px solid var(--rule)}
+.toolbar label{display:flex;gap:6px;align-items:center;cursor:pointer}
+.toolbar .sp{flex:1}
+.toolbar a{color:var(--muted)}
+h2.sec{font:700 26px/1.1 Georgia,serif;margin:34px 0 6px;padding-bottom:6px;border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:10px}
+h2.sec small{font:13px system-ui,sans-serif;color:var(--muted);font-weight:400}
+h3.day{font:italic 15px Georgia,serif;color:var(--muted);margin:22px 0 8px;border-bottom:1px dotted var(--rule)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:12px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;position:relative;transition:opacity .2s}
+.card.hidden-card{opacity:.35}
+.card.starred{box-shadow:0 0 0 2px var(--star)}
+.card .img{aspect-ratio:4/3;background:var(--chip);display:block;overflow:hidden}
+.card .img img{width:100%;height:100%;object-fit:cover;display:block}
+.card .img .noimg{display:flex;height:100%;align-items:center;justify-content:center;color:var(--muted);font:13px system-ui,sans-serif}
+.card .body{padding:12px 14px 10px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h4{margin:0;font:700 17px/1.25 Georgia,serif}
+.card h4 a{text-decoration:none}
+.card h4 a:hover{text-decoration:underline}
+.facts{display:flex;flex-wrap:wrap;gap:6px 12px;font:14px system-ui,sans-serif}
+.facts .price{font-weight:700;font-size:16px}
+.facts .prev{color:var(--muted);text-decoration:line-through;font-weight:400;margin-left:4px}
+.facts .down{color:var(--ok)} .facts .up{color:var(--bad)}
+.desc{font:14px/1.4 Georgia,serif;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.srcs{font:12px system-ui,sans-serif;color:var(--muted);margin-top:auto;padding-top:6px;border-top:1px dotted var(--rule);display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.badges{position:absolute;top:8px;left:8px;display:flex;gap:4px;flex-wrap:wrap}
+.badge{font:700 11px/1 system-ui,sans-serif;padding:5px 7px;border-radius:3px;background:var(--chip);color:var(--ink);text-transform:uppercase;letter-spacing:.04em}
+.badge.new{background:var(--accent);color:var(--accent-ink)}
+.badge.gone{background:var(--bad);color:#fff}
+.badge.q{background:var(--warn);color:#fff}
+.acts{position:absolute;top:8px;right:8px;display:flex;gap:4px}
+.acts button{border:0;background:rgba(0,0,0,.55);color:#fff;width:30px;height:30px;border-radius:15px;cursor:pointer;font-size:15px;line-height:30px;padding:0}
+.acts button:hover{background:rgba(0,0,0,.8)}
+.card.starred .acts .star{background:var(--star);color:#000}
+.empty{color:var(--muted);font-style:italic;padding:14px 0}
+table.health{width:100%;border-collapse:collapse;font:13px system-ui,sans-serif;margin-top:10px}
+table.health th,table.health td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:5px;margin-right:6px;vertical-align:middle}
+.dot.ok{background:var(--ok)} .dot.bad{background:var(--bad)}
+.manual{columns:2;column-gap:30px;font:14px system-ui,sans-serif;margin:8px 0 0;padding-left:18px}
+@media (max-width:600px){.mast h1{font-size:38px}.manual{columns:1}}
+footer{margin-top:50px;border-top:3px double var(--ink);padding-top:12px;font:13px system-ui,sans-serif;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="mast">
+  <h1>{{ site.title }}</h1>
+  <p class="sub">{{ site.subtitle }}</p>
+  <div class="meta">
+    <span>Edición del {{ generated }}</span>
+    <span>Casas · {{ min_bedrooms }}+ dormitorios · alquiler anual</span>
+    <span>{{ active|length }} vigentes · {{ news_count }} nuevas esta semana</span>
+  </div>
+</header>
+
+<div class="toolbar">
+  <label><input type="checkbox" id="showHidden"> Mostrar ocultas</label>
+  <label><input type="checkbox" id="onlyStarred"> Sólo favoritas</label>
+  <span class="sp"></span>
+  <a href="feed.xml">RSS</a>
+  <a href="data.json">JSON</a>
+</div>
+
+{% macro card(c) %}
+<article class="card" data-key="{{ c.key }}">
+  <a class="img" href="{{ c.url }}" target="_blank" rel="noopener">
+    {% if c.image %}<img src="{{ c.image }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% else %}<div class="noimg">sin foto</div>{% endif %}
+  </a>
+  <div class="badges">
+    {% if c.is_new and not c.is_gone %}<span class="badge new">Nuevo</span>{% endif %}
+    {% if c.is_gone %}<span class="badge gone">Ya no disponible</span>{% endif %}
+    {% if c.status == 'maybe_location' %}<span class="badge q">Ubicación?</span>{% endif %}
+    {% if c.status == 'maybe_bedrooms' %}<span class="badge q">Dormitorios?</span>{% endif %}
+    {% if c.prev_price %}<span class="badge">Precio {{ '↓' if c.price_dir == 'down' else '↑' }}</span>{% endif %}
+  </div>
+  <div class="acts">
+    <button class="star" title="Favorita">★</button>
+    <button class="hide" title="Ocultar">✕</button>
+  </div>
+  <div class="body">
+    <h4><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.title }}</a></h4>
+    <div class="facts">
+      <span class="price {{ c.price_dir or '' }}">{{ c.price }}{% if c.prev_price %}<span class="prev">{{ c.prev_price }}</span>{% endif %}</span>
+      <span>{{ c.bedrooms ~ ' dorm' if c.bedrooms else '? dorm' }}</span>
+      <span>{{ c.locality or 'ubicación sin dato' }}{% if c.locality and not c.locality_confirmed %} (?){% endif %}</span>
+    </div>
+    {% if c.address %}<div class="facts" style="color:var(--muted)">{{ c.address }}</div>{% endif %}
+    {% if c.description %}<p class="desc">{{ c.description }}</p>{% endif %}
+    <div class="srcs">
+      {% for s in c.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% endfor %}
+      <span style="margin-left:auto">visto {{ c.first_seen }}{% if c.is_gone %} · se fue {{ c.gone_since }}{% endif %}</span>
+    </div>
+  </div>
+</article>
+{% endmacro %}
+
+<h2 class="sec">Novedades <small>últimos 7 días</small></h2>
+{% if news %}
+  {% for d in news %}
+  <h3 class="day">{{ d.label }} <span style="font-style:normal">· {{ d.cards|length }}</span></h3>
+  <div class="grid">{% for c in d.cards %}{{ card(c) }}{% endfor %}</div>
+  {% endfor %}
+{% else %}
+  <p class="empty">Sin novedades. Todo lo publicado ya estaba la última vez.</p>
+{% endif %}
+
+<h2 class="sec">Todas las vigentes <small>{{ active|length }} casas que cumplen los requisitos</small></h2>
+{% if active %}<div class="grid">{% for c in active %}{{ card(c) }}{% endfor %}</div>{% else %}<p class="empty">Nada por ahora.</p>{% endif %}
+
+{% if maybe_loc %}
+<h2 class="sec">Ubicación sin confirmar <small>{{ min_bedrooms }}+ dormitorios, pero no se pudo confirmar la localidad</small></h2>
+<div class="grid">{% for c in maybe_loc %}{{ card(c) }}{% endfor %}</div>
+{% endif %}
+
+{% if maybe_beds %}
+<h2 class="sec">Dormitorios sin dato <small>en zona, pero el aviso no dice cuántos dormitorios</small></h2>
+<div class="grid">{% for c in maybe_beds %}{{ card(c) }}{% endfor %}</div>
+{% endif %}
+
+{% if gone %}
+<h2 class="sec">Ya no disponibles <small>desaparecieron de la fuente en los últimos 7 días</small></h2>
+<div class="grid">{% for c in gone %}{{ card(c) }}{% endfor %}</div>
+{% endif %}
+
+<h2 class="sec">Estado de las fuentes</h2>
+<table class="health">
+<thead><tr><th>Fuente</th><th>Último OK</th><th>Avisos</th><th>Estado</th></tr></thead>
+<tbody>
+{% for h in health %}
+<tr>
+  <td>{% if h.url %}<a href="{{ h.url }}" target="_blank" rel="noopener">{{ h.name }}</a>{% else %}{{ h.name }}{% endif %}</td>
+  <td>{{ h.last_ok }}</td>
+  <td>{{ h.last_count }}</td>
+  <td><span class="dot {{ 'ok' if h.ok else 'bad' }}"></span>{% if h.error %}error: {{ h.error[:80] }}{% elif h.zero_streak >= 2 %}{{ h.zero_streak }} corridas sin resultados{% elif h.ok %}ok{% else %}sin datos recientes{% endif %}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+<h2 class="sec">También revisar a mano <small>inmobiliarias sin web scrapeable</small></h2>
+<ul class="manual">
+{% for m in manual_check %}<li><a href="{{ m.url }}" target="_blank" rel="noopener">{{ m.name }}</a></li>{% endfor %}
+</ul>
+
+<footer>Generado automáticamente. Las marcas de favorita y ocultar se guardan sólo en este navegador.</footer>
+</div>
+<script>
+(function(){
+  var KEY='caramcita:marks';
+  function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}}
+  function save(m){try{localStorage.setItem(KEY,JSON.stringify(m))}catch(e){}}
+  var marks=load();
+  var showHidden=document.getElementById('showHidden'), onlyStarred=document.getElementById('onlyStarred');
+  try{showHidden.checked=localStorage.getItem('caramcita:showHidden')==='1';onlyStarred.checked=localStorage.getItem('caramcita:onlyStarred')==='1'}catch(e){}
+  function apply(){
+    document.querySelectorAll('.card').forEach(function(el){
+      var k=el.dataset.key, m=marks[k]||{};
+      el.classList.toggle('starred',!!m.star);
+      el.classList.toggle('hidden-card',!!m.hide);
+      var hide=(m.hide&&!showHidden.checked)||(onlyStarred.checked&&!m.star);
+      el.style.display=hide?'none':'';
+    });
+    document.querySelectorAll('h3.day').forEach(function(h){
+      var g=h.nextElementSibling; var any=g&&[].some.call(g.children,function(c){return c.style.display!=='none'});
+      h.style.display=any?'':'none'; if(g)g.style.display=any?'':'none';
+    });
+  }
+  document.addEventListener('click',function(ev){
+    var b=ev.target.closest('.acts button'); if(!b)return;
+    var k=b.closest('.card').dataset.key; var m=marks[k]||{};
+    if(b.classList.contains('star'))m.star=!m.star; else m.hide=!m.hide;
+    marks[k]=m; save(marks); apply();
+  });
+  showHidden.addEventListener('change',function(){try{localStorage.setItem('caramcita:showHidden',showHidden.checked?'1':'0')}catch(e){}apply()});
+  onlyStarred.addEventListener('change',function(){try{localStorage.setItem('caramcita:onlyStarred',onlyStarred.checked?'1':'0')}catch(e){}apply()});
+  apply();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+# Requisitos mínimos y zona de búsqueda.
+min_bedrooms: 3
+retention_days: 7          # cuánto se muestra un aviso después de desaparecer
+zero_streak_alert: 2       # corridas seguidas con 0 resultados antes de avisar
+request_delay_seconds: 3
+
+# Localidades aceptadas. La clave es el nombre canónico; los alias se comparan
+# sin acentos ni mayúsculas contra localidad, dirección, título y descripción.
+localities:
+  Alta Gracia:
+    aliases: ["alta gracia"]
+    barrios:
+      - "el golf"
+      - "villa camino real"
+      - "camino real"
+      - "parque virrey"
+      - "villa oviedo"
+      - "villa del golf"
+      - "barrio norte"
+      - "sabattini"
+      - "cafferata"
+      - "residencial sur"
+      - "liniers"
+      - "poluyan"
+      - "los nogales"
+      - "barrio cordoba"
+      - "estacion del carmen"
+      - "potrerillo de larreta"
+      - "el potrerillo"
+      - "villa parque"
+      - "nuestra señora de lourdes"
+      - "lourdes"
+      - "santa teresa"
+      - "carlos pellegrini"
+      - "villa camiares"
+      - "camiares"
+      - "santa maria de alta gracia"
+      - "la perla"
+      - "pueyrredon"
+      - "villa alto plaza"
+      - "los paraisos"
+      - "el crucero"
+      - "solares de alta gracia"
+      - "altos de alta gracia"
+      - "tierra alta"
+      - "ayres del potrerillo"
+      - "villa golf"
+  Falda del Carmen:
+    aliases: ["falda del carmen"]
+  Anisacate:
+    aliases: ["anisacate"]
+  Valle de Anisacate:
+    aliases: ["valle de anisacate", "valle anisacate"]
+  Villa La Bolsa:
+    aliases: ["villa la bolsa", "la bolsa"]
+
+# Localidades vecinas que NO entran, pero cuya mención descarta el aviso
+# (evita que "a 10 km de Alta Gracia" cuente como Alta Gracia).
+excluded_localities:
+  - "potrero de garay"
+  - "la serranita"
+  - "villa ciudad de america"
+  - "los aromos"
+  - "villa los aromos"
+  - "villa del prado"
+  - "despeñaderos"
+  - "despenaderos"
+  - "san agustin"
+  - "villa parque santa ana"
+  - "bouwer"
+  - "rafael garcia"
+  - "dique chico"
+  - "cordoba capital"
+  - "malagueño"
+  - "malagueno"
+  - "villa carlos paz"
+  - "la falda"
+  - "san clemente"
+  - "jose de la quintana"
+  - "la paisanita"
+  - "villa general belgrano"
+
+telegram:
+  daily_summary_hour_local: 8      # hora Argentina (UTC-3) del resumen diario
+  timezone: "America/Argentina/Cordoba"
+
+site:
+  title: "Caramcita"
+  subtitle: "Casas en alquiler anual · Alta Gracia, Falda del Carmen, Anisacate, Valle de Anisacate y Villa La Bolsa"
+  base_url: "https://mbavio-phota.github.io/caramcita/"
+
+manual_check:
+  - { name: "Inmobiliaria Alta Gracia", url: "https://www.instagram.com/inmobiliariaaltagracia/" }
+  - { name: "Inmobiliaria Llorens", url: "https://www.facebook.com/search/top?q=inmobiliaria%20llorens%20alta%20gracia" }
+  - { name: "Inmobiliaria Saieg", url: "https://www.instagram.com/explore/search/keyword/?q=inmobiliaria%20saieg" }
+  - { name: "Fernanda Igarza Propiedades", url: "https://www.instagram.com/explore/search/keyword/?q=igarza%20propiedades" }
+  - { name: "Familia Servicios Inmobiliarios", url: "https://www.instagram.com/explore/search/keyword/?q=familia%20servicios%20inmobiliarios%20alta%20gracia" }
+  - { name: "Martínez Inmobiliaria", url: "https://www.instagram.com/explore/search/keyword/?q=martinez%20inmobiliaria%20alta%20gracia" }
+  - { name: "Inmobiliaria Del Centro", url: "https://www.instagram.com/explore/search/keyword/?q=inmobiliaria%20del%20centro%20alta%20gracia" }
+  - { name: "Cadenza Propiedades", url: "https://www.instagram.com/explore/search/keyword/?q=cadenza%20propiedades" }
+  - { name: "Emirat Propiedades", url: "https://www.instagram.com/explore/search/keyword/?q=emirat%20propiedades" }
+  - { name: "Lizzi Propiedades", url: "https://www.lizzipropiedades.com.ar/Alquiler" }
+  - { name: "Roggero & Roma", url: "https://roggeroyroma.com.ar/properties?city=Alta%20Gracia" }
+  - { name: "Grupo Forte", url: "https://www.grupoforteinmobiliaria.com/properties/operation/forRent" }
+  - { name: "Facebook Marketplace", url: "https://www.facebook.com/marketplace/category/propertyrentals?query=alta%20gracia%20casa%203%20dormitorios" }
+  - { name: "Zonaprop (manual)", url: "https://www.zonaprop.com.ar/casas-alquiler-alta-gracia-3-habitaciones.html" }
+  - { name: "Argenprop (manual)", url: "https://www.argenprop.com/casas/alquiler/alta-gracia-santa-maria/3-dormitorios" }

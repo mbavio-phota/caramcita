@@ -1,0 +1,66 @@
+name: caramcita
+
+on:
+  schedule:
+    # 02:00, 08:00, 14:00, 20:00 hora Argentina (UTC-3)
+    - cron: "0 5,11,17,23 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "slugs de fuentes a correr (separados por espacio); vacío = todas"
+        required: false
+        default: ""
+
+concurrency:
+  group: caramcita-run
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar
+        run: |
+          pip install -q -e ".[browser]"
+          python -m playwright install --with-deps chromium
+
+      - name: Correr
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TZ: America/Argentina/Cordoba
+        run: |
+          ONLY="${{ github.event.inputs.only }}"
+          if [ -n "$ONLY" ]; then
+            caramcita run --browser --only $ONLY
+          else
+            caramcita run --browser
+          fi
+
+      - name: Publicar estado y diario
+        run: |
+          git config user.name "caramcita-bot"
+          git config user.email "caramcita-bot@users.noreply.github.com"
+          git add state.json docs
+          if git diff --cached --quiet; then
+            echo "sin cambios"; exit 0
+          fi
+          git commit -q -m "edición $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -X theirs && sleep 3
+          done
+          exit 1
