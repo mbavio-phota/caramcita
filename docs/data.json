@@ -1,6 +1,49 @@
 {
- "generated": "2026-09-09T09:20:45+00:00",
+ "generated": "2026-09-09T14:58:10+00:00",
  "cards": [
+  {
+   "key": "mercadolibre:MLA3931140660",
+   "title": "Casa En Alquiler C/ Cochera Y Quincho En Alta Gracia",
+   "url": "https://casa.mercadolibre.com.ar/MLA-3931140660-casa-en-alquiler-c-cochera-y-quincho-en-alta-gracia-_JM",
+   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_790245-MLA115945691714_092026-E.webp",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 860.000",
+   "price_raw": 860000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Manuel Solares 516",
+   "description": "",
+   "agency": "Carloshernncortez",
+   "sources": [
+    {
+     "name": "Carloshernncortez",
+     "url": "https://casa.mercadolibre.com.ar/MLA-3931140660-casa-en-alquiler-c-cochera-y-quincho-en-alta-gracia-_JM",
+     "source": "mercadolibre"
+    }
+   ],
+   "status": "match",
+   "is_new": true,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "09/09 11:58",
+   "first_seen_day": "2026-09-09",
+   "first_seen_iso": "2026-09-09T14:58:10+00:00",
+   "first_seen_rfc822": "Wed, 09 Sep 2026 14:58:10 +0000",
+   "last_seen": "09/09 11:58",
+   "gone_since": null,
+   "extra": {
+    "attrs": "6 ambs. | 2 baños | 80 m² cubiertos",
+    "bathrooms": "2",
+    "rooms": "6",
+    "covered_m2": "80",
+    "floor_size": 80,
+    "date_posted": "2026-09-09",
+    "ml_locality": "Alta Gracia"
+   }
+  },
   {
    "key": "mercadolibre:MLA2073739471",
    "title": "Casa En Potrerillo De Larreta",
@@ -32,7 +75,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -74,7 +117,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -120,7 +163,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -168,7 +211,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -211,7 +254,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -254,7 +297,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -296,7 +339,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -339,7 +382,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -379,7 +422,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 4 baños | 150 m² cubiertos",
@@ -422,7 +465,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -464,7 +507,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -501,14 +544,14 @@
    ],
    "status": "match",
    "is_new": false,
-   "is_gone": true,
-   "is_back": false,
+   "is_gone": false,
+   "is_back": true,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 21:57",
-   "gone_since": "09/09 06:20",
+   "last_seen": "09/09 11:58",
+   "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
    }
@@ -544,7 +587,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "features": "1177 m² tot. 12 amb. 3 dorm. 2 coch."
@@ -581,7 +624,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 06:20",
+   "last_seen": "09/09 11:58",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
