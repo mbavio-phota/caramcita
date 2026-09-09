@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-09T04:45:35+00:00",
+ "fetched_at": "2026-09-09T10:45:33+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -27,27 +27,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60008685",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-b-portales-del-tala-alta-gracia-60008685.html",
-   "title": "Casa en alquiler en b portales del tala alta gracia",
-   "description": "En esta oportunidad grupo vag servicios inmobiliarios te ofrece esta hermosa casa en alquiler ubicada en barrio portales del tala en Alta Gracia, Ubicada en barrio semi cerrado con vigilancia, en pleno crecimiento, con calles adoquinadas y seguridad nocturna, tranquilo y familiar, entorno agradable, vistas a las sierras y agil acceso, cerco perimetral, alumbrado público y espacios verdes; A solo 30 minutos de Cordoba Capital y a 4 minutos del centro de Alta Gracia, altura Ruta Provincial C45 camino a Falda del CarmenLa propiedad posee: 2 dormitorios1 bañoliving/comedorcocina integradapatio grandecochera semicubiertaprecio de alquiler: $600. 000Tiene gas envasado¡¡Escribimos y coordinamos para visitarla!!",
-   "price": 600000.0,
+   "source_id": "52371416",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
+   "title": "Departamento en alquiler en barrio v. camiares alta",
+   "description": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ comedor amplia, baño, cochera y patio con asador. Techo de losa - Pisos de porcelanato. Villa Camiares - Alta Gracia. Servicios: Agua Corriente, Electricidad",
+   "price": 650000.0,
    "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Numero 2, Alta Gracia, Córdoba",
+   "address": "Jasilsacat 247, Villa Camiares, Alta Gracia",
    "bedrooms": 2,
-   "property_type": "Casa",
+   "property_type": "Departamento",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/00/86/85/360x266/2074958352.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/52/37/14/16/360x266/1882197217.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "400 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+    "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
    },
-   "key": "zonaprop:60008685"
+   "key": "zonaprop:52371416"
   },
   {
    "source": "zonaprop",
@@ -75,27 +75,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "52371416",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
-   "title": "Departamento en alquiler en barrio v. camiares alta",
-   "description": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ comedor amplia, baño, cochera y patio con asador. Techo de losa - Pisos de porcelanato. Villa Camiares - Alta Gracia. Servicios: Agua Corriente, Electricidad",
-   "price": 650000.0,
+   "source_id": "60008685",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-b-portales-del-tala-alta-gracia-60008685.html",
+   "title": "Casa en alquiler en b portales del tala alta gracia",
+   "description": "En esta oportunidad grupo vag servicios inmobiliarios te ofrece esta hermosa casa en alquiler ubicada en barrio portales del tala en Alta Gracia, Ubicada en barrio semi cerrado con vigilancia, en pleno crecimiento, con calles adoquinadas y seguridad nocturna, tranquilo y familiar, entorno agradable, vistas a las sierras y agil acceso, cerco perimetral, alumbrado público y espacios verdes; A solo 30 minutos de Cordoba Capital y a 4 minutos del centro de Alta Gracia, altura Ruta Provincial C45 camino a Falda del CarmenLa propiedad posee: 2 dormitorios1 bañoliving/comedorcocina integradapatio grandecochera semicubiertaprecio de alquiler: $600. 000Tiene gas envasado¡¡Escribimos y coordinamos para visitarla!!",
+   "price": 600000.0,
    "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Jasilsacat 247, Villa Camiares, Alta Gracia",
+   "address": "Numero 2, Alta Gracia, Córdoba",
    "bedrooms": 2,
-   "property_type": "Departamento",
+   "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/52/37/14/16/360x266/1882197217.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/00/86/85/360x266/2074958352.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
+    "features": "400 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
    },
-   "key": "zonaprop:52371416"
+   "key": "zonaprop:60008685"
   },
   {
    "source": "zonaprop",
@@ -243,6 +243,30 @@
   },
   {
    "source": "zonaprop",
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:59898621"
+  },
+  {
+   "source": "zonaprop",
    "source_id": "59655839",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
    "title": "Se alquila casa de 2 dorm. en anisacate",
@@ -288,30 +312,6 @@
     "features": "450 m² tot. 3 amb. 2 dorm. 2 baños 2 coch."
    },
    "key": "zonaprop:58556420"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "59898621",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
-   "title": "Casa en alquiler un dormitorio villa los aromos",
-   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
-   "price": 400000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:59898621"
   },
   {
    "source": "zonaprop",
