@@ -249,7 +249,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:13:43+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -298,7 +298,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T19:22:36+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -346,7 +346,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -397,7 +397,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -448,7 +448,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -456,6 +456,56 @@
     {
      "at": "2026-09-08T18:58:45+00:00",
      "price": 1500000.0,
+     "currency": "ARS"
+    }
+   ]
+  },
+  "mercadolibre:MLA2073739471": {
+   "listing": {
+    "source": "mercadolibre",
+    "source_id": "MLA2073739471",
+    "url": "https://casa.mercadolibre.com.ar/MLA-2073739471-casa-en-potrerillo-de-larreta-_JM",
+    "title": "Casa En Potrerillo De Larreta",
+    "description": "",
+    "price": 1950000.0,
+    "currency": "ARS",
+    "locality": "Santa María",
+    "address": "9G58+M4 Alta Gracia, Córdoba Province, Argentina, Potrerillo De Larreta",
+    "bedrooms": 3,
+    "property_type": "Casa",
+    "operation": "Alquiler",
+    "images": [
+     "https://http2.mlstatic.com/D_NQ_NP_2X_986971-MLA115666792139_082026-E.webp"
+    ],
+    "agency": "MercadoLibre Inmuebles",
+    "lat": null,
+    "lng": null,
+    "extra": {
+     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
+     "bathrooms": "2",
+     "covered_m2": "220",
+     "floor_size": 220,
+     "date_posted": "2026-09-08",
+     "ml_locality": "Santa María",
+     "img_hash": "64c3c36363b75757"
+    },
+    "key": "mercadolibre:MLA2073739471"
+   },
+   "verdict": {
+    "status": "match",
+    "reason": "text",
+    "locality": "Alta Gracia",
+    "bedrooms": 3
+   },
+   "first_seen": "2026-09-09T00:57:42+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
+   "gone_since": null,
+   "back_at": null,
+   "price_changed_at": null,
+   "price_history": [
+    {
+     "at": "2026-09-09T00:57:42+00:00",
+     "price": 1950000.0,
      "currency": "ARS"
     }
    ]
@@ -499,7 +549,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -549,7 +599,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -600,7 +650,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -657,7 +707,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -702,7 +752,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -747,7 +797,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-08T20:00:17+00:00",
+   "last_seen": "2026-09-09T00:57:42+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -762,136 +812,136 @@
  },
  "sources": {
   "consulting": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "facundosanchez": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 0,
-   "zero_streak": 4,
+   "zero_streak": 5,
    "error": null,
    "error_streak": 0
   },
   "faretta": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 7,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "fiornovelli": {
-   "last_run": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
    "last_ok": "2026-09-08T20:00:17+00:00",
    "last_count": 6,
    "zero_streak": 0,
-   "error": null,
-   "error_streak": 0
+   "error": "ConnectTimeout: timed out",
+   "error_streak": 1
   },
   "goyatucci": {
-   "last_run": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
    "last_ok": "2026-09-08T20:00:17+00:00",
    "last_count": 11,
    "zero_streak": 0,
-   "error": null,
-   "error_streak": 0
+   "error": "ConnectTimeout: timed out",
+   "error_streak": 1
   },
   "guillermocortes": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 18,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "invertir": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 6,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "juarezbeltran": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 66,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lavoz": {
-   "last_run": "2026-09-08T20:13:43+00:00",
-   "last_ok": "2026-09-08T20:13:43+00:00",
-   "last_count": 13,
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
+   "last_count": 14,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lequio": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "mercadolibre": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
-   "last_count": 42,
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
+   "last_count": 43,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "raices": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 0,
-   "zero_streak": 4,
+   "zero_streak": 5,
    "error": null,
    "error_streak": 0
   },
   "ruartemoyano": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 13,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "terra": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 11,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "villalosaromos": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 29,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zaratemedinadiaz": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zonaprop": {
-   "last_run": "2026-09-08T20:00:17+00:00",
-   "last_ok": "2026-09-08T20:00:17+00:00",
+   "last_run": "2026-09-09T00:57:42+00:00",
+   "last_ok": "2026-09-09T00:57:42+00:00",
    "last_count": 14,
    "zero_streak": 0,
    "error": null,
@@ -1229,6 +1279,83 @@
    "sources": {
     "lavoz": {
      "count": 13,
+     "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-09-09T00:57:42+00:00",
+   "baseline": false,
+   "new": 1,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "lavoz": {
+     "count": 14,
+     "error": null
+    },
+    "mercadolibre": {
+     "count": 43,
+     "error": null
+    },
+    "zonaprop": {
+     "count": 14,
+     "error": null
+    },
+    "consulting": {
+     "count": 2,
+     "error": null
+    },
+    "guillermocortes": {
+     "count": 18,
+     "error": null
+    },
+    "invertir": {
+     "count": 6,
+     "error": null
+    },
+    "goyatucci": {
+     "count": 0,
+     "error": "ConnectTimeout: timed out"
+    },
+    "terra": {
+     "count": 11,
+     "error": null
+    },
+    "faretta": {
+     "count": 7,
+     "error": null
+    },
+    "fiornovelli": {
+     "count": 0,
+     "error": "ConnectTimeout: timed out"
+    },
+    "raices": {
+     "count": 0,
+     "error": null
+    },
+    "facundosanchez": {
+     "count": 0,
+     "error": null
+    },
+    "villalosaromos": {
+     "count": 29,
+     "error": null
+    },
+    "lequio": {
+     "count": 12,
+     "error": null
+    },
+    "ruartemoyano": {
+     "count": 13,
+     "error": null
+    },
+    "juarezbeltran": {
+     "count": 66,
+     "error": null
+    },
+    "zaratemedinadiaz": {
+     "count": 2,
      "error": null
     }
    }

@@ -1,6 +1,48 @@
 {
- "generated": "2026-09-08T20:13:43+00:00",
+ "generated": "2026-09-09T00:57:42+00:00",
  "cards": [
+  {
+   "key": "mercadolibre:MLA2073739471",
+   "title": "Casa En Potrerillo De Larreta",
+   "url": "https://casa.mercadolibre.com.ar/MLA-2073739471-casa-en-potrerillo-de-larreta-_JM",
+   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_986971-MLA115666792139_082026-E.webp",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 1.950.000",
+   "price_raw": 1950000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "9G58+M4 Alta Gracia, Córdoba Province, Argentina, Potrerillo De Larreta",
+   "description": "",
+   "agency": "MercadoLibre Inmuebles",
+   "sources": [
+    {
+     "name": "MercadoLibre Inmuebles",
+     "url": "https://casa.mercadolibre.com.ar/MLA-2073739471-casa-en-potrerillo-de-larreta-_JM",
+     "source": "mercadolibre"
+    }
+   ],
+   "status": "match",
+   "is_new": true,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "08/09 21:57",
+   "first_seen_day": "2026-09-08",
+   "first_seen_iso": "2026-09-09T00:57:42+00:00",
+   "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
+   "last_seen": "08/09 21:57",
+   "gone_since": null,
+   "extra": {
+    "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
+    "bathrooms": "2",
+    "covered_m2": "220",
+    "floor_size": 220,
+    "date_posted": "2026-09-08",
+    "ml_locality": "Santa María"
+   }
+  },
   {
    "key": "lequio:168572",
    "title": "Alquiler Propiedad Anisacate, Cordoba",
@@ -32,7 +74,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -78,7 +120,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -126,7 +168,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -254,7 +296,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:13",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -297,7 +339,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -337,7 +379,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 4 baños | 150 m² cubiertos",
@@ -380,7 +422,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -422,7 +464,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -465,7 +507,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
@@ -502,7 +544,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "features": "1177 m² tot. 12 amb. 3 dorm. 2 coch."
@@ -539,7 +581,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "08/09 17:00",
+   "last_seen": "08/09 21:57",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
