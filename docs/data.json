@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T00:45:11+00:00",
+ "generated": "2026-09-10T09:19:43+00:00",
  "cards": [
   {
    "key": "mercadolibre:MLA3931140660",
@@ -32,7 +32,7 @@
    "first_seen_day": "2026-09-09",
    "first_seen_iso": "2026-09-09T14:58:10+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 14:58:10 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 2 baños | 80 m² cubiertos",
@@ -75,7 +75,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -117,7 +117,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -163,7 +163,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -211,7 +211,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -254,7 +254,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -297,7 +297,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -339,7 +339,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -382,7 +382,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -416,14 +416,14 @@
    ],
    "status": "match",
    "is_new": false,
-   "is_gone": false,
+   "is_gone": true,
    "is_back": false,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
    "last_seen": "09/09 21:45",
-   "gone_since": null,
+   "gone_since": "10/09 06:19",
    "extra": {
     "attrs": "6 ambs. | 4 baños | 150 m² cubiertos",
     "bathrooms": "4",
@@ -465,7 +465,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -501,14 +501,14 @@
    ],
    "status": "match",
    "is_new": false,
-   "is_gone": false,
+   "is_gone": true,
    "is_back": false,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
    "last_seen": "09/09 21:45",
-   "gone_since": null,
+   "gone_since": "10/09 06:19",
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
     "bathrooms": "3",
@@ -526,14 +526,14 @@
    "image": "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/9c13f3f7-96f0-4ebb-bfad-74bf404fb05e.jpeg",
    "locality": "Anisacate",
    "locality_confirmed": true,
-   "bedrooms": 4,
-   "price": "$ 800.000",
-   "price_raw": 800000.0,
-   "currency": "ARS",
+   "bedrooms": null,
+   "price": "Consultar",
+   "price_raw": null,
+   "currency": null,
    "prev_price": null,
    "price_dir": null,
    "address": "",
-   "description": "CASA EN ALQUILER PERMANENTE Ubicada en El Descanso- Anisacate. A dos cuadras de ruta 5 Posee 4 dormitorios, amplia galería, parque , pileta. Precio mensual: $800.000 Viví rodeado de naturaleza, con espacio, comodidad para toda la familia.",
+   "description": "CASA EN ALQUILER PERMANENTE Ubicada en El Descanso- Anisacate. A...",
    "agency": "Inmobiliaria Villa Los Aromos",
    "sources": [
     {
@@ -542,16 +542,16 @@
      "source": "villalosaromos"
     }
    ],
-   "status": "match",
+   "status": "maybe_bedrooms",
    "is_new": false,
-   "is_gone": true,
-   "is_back": false,
+   "is_gone": false,
+   "is_back": true,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 16:35",
-   "gone_since": "09/09 21:45",
+   "last_seen": "10/09 06:19",
+   "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
    }
@@ -587,7 +587,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "features": "1177 m² tot. 12 amb. 3 dorm. 2 coch."
@@ -624,7 +624,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
+   "last_seen": "10/09 06:19",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
