@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-10T10:45:34+00:00",
+ "fetched_at": "2026-09-10T16:45:36+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -24,30 +24,6 @@
     "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
    },
    "key": "zonaprop:59219512"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "58369751",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-el-potrerillo-de-larreta-58369751.html",
-   "title": "Casa el potrerillo de larreta",
-   "description": "Franco zamoraservicios inmobiliariosofreceen venta Y/O alquiler permanentecasaubicación: spa resort potrerillo de larretacomodidades: 3 dormitorios uno con baño en suite, todos con placarddos baños completos/ un toilletegalería techadacochera semi cubiertaasadorpileta con hidromasajeen caso de alquiler( x 1 año) venta usd 350. 000documentación al día! franco zamoraservicios inmobiliarioscpi 7972",
-   "price": 1450.0,
-   "currency": "USD",
-   "locality": "Alta Gracia",
-   "address": "Mza al 400, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 3,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/58/36/97/51/360x266/2033015038.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1177 m² tot. 12 amb. 3 dorm. 2 coch."
-   },
-   "key": "zonaprop:58369751"
   },
   {
    "source": "zonaprop",
@@ -195,51 +171,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "58556420",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alq.-exc-casa-2-dor.-amoblada-villa-los-aromos!-58556420.html",
-   "title": "Alq. exc casa 2 dor. amoblada villa los aromos!",
-   "description": "Alquilo excelente casa de 2 dormitorios con pileta en las sierras! se encuentra amoblada como se ve en fotos (pueden sacarse los muebles). Ideal para pasar un semestre O un año en las sierras de córdoba con naturaleza plena. ubicación: A 45 min de Córdoba, - A 15 min de Alta Gracia, - A 5 min de La Bolsa, - A 2 cuadras del Rioservicios activos: luz - agua - gasrequisitos casa Villa Los Aromos: 3 garantes recibo superior a $1. 300. 000 c/u. Alquiler inicial $600. 000, contrato anual o por 2 años, aumento cuatrimestral. Impuestos muni, renta + agua + luz + gas depende el consumo, paga el inquilino. Espero tu consulta al Ver datos cari.",
-   "price": 600000.0,
+   "source_id": "59852272",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
+   "title": "Casa en venta o alquiler en los aromos a 200 m del",
+   "description": "Inmobiliaria Casermeiro",
+   "price": 800000.0,
    "currency": "ARS",
    "locality": "Villa Los Aromos",
-   "address": "Avenida los Aromos al 5000, Villa Los Aromos, Córdoba",
+   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
    "bedrooms": 2,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/58/55/64/20/360x266/2038172026.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "450 m² tot. 3 amb. 2 dorm. 2 baños 2 coch."
+    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
    },
-   "key": "zonaprop:58556420"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "50356032",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
-   "title": "Casa en alquiler dos dorm. anisacate",
-   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
-   "price": 480000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "El Ombú 100, Anisacate, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:50356032"
+   "key": "zonaprop:59852272"
   },
   {
    "source": "zonaprop",
@@ -267,6 +219,54 @@
   },
   {
    "source": "zonaprop",
+   "source_id": "50356032",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
+   "title": "Casa en alquiler dos dorm. anisacate",
+   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
+   "price": 480000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "El Ombú 100, Anisacate, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:50356032"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "58556420",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alq.-exc-casa-2-dor.-amoblada-villa-los-aromos!-58556420.html",
+   "title": "Alq. exc casa 2 dor. amoblada villa los aromos!",
+   "description": "Alquilo excelente casa de 2 dormitorios con pileta en las sierras! se encuentra amoblada como se ve en fotos (pueden sacarse los muebles). Ideal para pasar un semestre O un año en las sierras de córdoba con naturaleza plena. ubicación: A 45 min de Córdoba, - A 15 min de Alta Gracia, - A 5 min de La Bolsa, - A 2 cuadras del Rioservicios activos: luz - agua - gasrequisitos casa Villa Los Aromos: 3 garantes recibo superior a $1. 300. 000 c/u. Alquiler inicial $600. 000, contrato anual o por 2 años, aumento cuatrimestral. Impuestos muni, renta + agua + luz + gas depende el consumo, paga el inquilino. Espero tu consulta al Ver datos cari.",
+   "price": 600000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Avenida los Aromos al 5000, Villa Los Aromos, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/58/55/64/20/360x266/2038172026.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "450 m² tot. 3 amb. 2 dorm. 2 baños 2 coch."
+   },
+   "key": "zonaprop:58556420"
+  },
+  {
+   "source": "zonaprop",
    "source_id": "59898621",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
    "title": "Casa en alquiler un dormitorio villa los aromos",
@@ -288,30 +288,6 @@
     "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:59898621"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "59852272",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
-   "title": "Casa en venta o alquiler en los aromos a 200 m del",
-   "description": "Inmobiliaria Casermeiro",
-   "price": 800000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
-   },
-   "key": "zonaprop:59852272"
   },
   {
    "source": "zonaprop",
