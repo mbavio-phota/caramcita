@@ -1,6 +1,49 @@
 {
- "generated": "2026-09-10T14:43:39+00:00",
+ "generated": "2026-09-10T19:25:33+00:00",
  "cards": [
+  {
+   "key": "mercadolibre:MLA3936330828",
+   "title": "Alquiler Casa 3 Dormitorios En Valle Del Golf",
+   "url": "https://casa.mercadolibre.com.ar/MLA-3936330828-alquiler-casa-3-dormitorios-en-valle-del-golf-_JM",
+   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923607-MLA116006305226_092026-E.webp",
+   "locality": "Santa María",
+   "locality_confirmed": false,
+   "bedrooms": 3,
+   "price": "USD 1.700",
+   "price_raw": 1700.0,
+   "currency": "USD",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Ruta Provincial C45 0",
+   "description": "",
+   "agency": "Ultraremax20221121185234",
+   "sources": [
+    {
+     "name": "Ultraremax20221121185234",
+     "url": "https://casa.mercadolibre.com.ar/MLA-3936330828-alquiler-casa-3-dormitorios-en-valle-del-golf-_JM",
+     "source": "mercadolibre"
+    }
+   ],
+   "status": "maybe_location",
+   "is_new": true,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "10/09 16:25",
+   "first_seen_day": "2026-09-10",
+   "first_seen_iso": "2026-09-10T19:25:33+00:00",
+   "first_seen_rfc822": "Thu, 10 Sep 2026 19:25:33 +0000",
+   "last_seen": "10/09 16:25",
+   "gone_since": null,
+   "extra": {
+    "attrs": "6 ambs. | 2 baños | 230 m² cubiertos",
+    "bathrooms": "2",
+    "rooms": "6",
+    "covered_m2": "230",
+    "floor_size": 230,
+    "date_posted": "2026-09-10",
+    "ml_locality": "Santa María"
+   }
+  },
   {
    "key": "juarezbeltran:4485864",
    "title": "Duplex 3 dormitorios. 3 baños. Amplio. Luminoso. Jardín con asador. Disponible a partir del 15 de seotiembre.",
@@ -32,7 +75,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T14:43:39+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 14:43:39 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "bathrooms": 3,
@@ -114,7 +157,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -156,7 +199,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -202,7 +245,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -250,7 +293,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -293,7 +336,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -336,7 +379,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -378,7 +421,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -421,7 +464,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -504,7 +547,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -546,7 +589,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -565,14 +608,14 @@
    "image": "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/9c13f3f7-96f0-4ebb-bfad-74bf404fb05e.jpeg",
    "locality": "Anisacate",
    "locality_confirmed": true,
-   "bedrooms": null,
-   "price": "Consultar",
-   "price_raw": null,
-   "currency": null,
+   "bedrooms": 4,
+   "price": "$ 800.000",
+   "price_raw": 800000.0,
+   "currency": "ARS",
    "prev_price": null,
    "price_dir": null,
    "address": "",
-   "description": "CASA EN ALQUILER PERMANENTE Ubicada en El Descanso- Anisacate. A...",
+   "description": "CASA EN ALQUILER PERMANENTE Ubicada en El Descanso- Anisacate. A dos cuadras de ruta 5 Posee 4 dormitorios, amplia galería, parque , pileta. Precio mensual: $800.000 Viví rodeado de naturaleza, con espacio, comodidad para toda la familia.",
    "agency": "Inmobiliaria Villa Los Aromos",
    "sources": [
     {
@@ -581,16 +624,16 @@
      "source": "villalosaromos"
     }
    ],
-   "status": "maybe_bedrooms",
+   "status": "match",
    "is_new": false,
-   "is_gone": true,
-   "is_back": false,
+   "is_gone": false,
+   "is_back": true,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 06:19",
-   "gone_since": "10/09 11:43",
+   "last_seen": "10/09 16:25",
+   "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
    }
@@ -620,14 +663,14 @@
    ],
    "status": "match",
    "is_new": false,
-   "is_gone": false,
+   "is_gone": true,
    "is_back": false,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
    "last_seen": "10/09 11:43",
-   "gone_since": null,
+   "gone_since": "10/09 16:25",
    "extra": {
     "features": "1177 m² tot. 12 amb. 3 dorm. 2 coch."
    }
@@ -663,7 +706,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 11:43",
+   "last_seen": "10/09 16:25",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
