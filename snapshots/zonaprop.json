@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-10T04:45:35+00:00",
+ "fetched_at": "2026-09-10T10:45:34+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -51,30 +51,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60008685",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-b-portales-del-tala-alta-gracia-60008685.html",
-   "title": "Casa en alquiler en b portales del tala alta gracia",
-   "description": "En esta oportunidad grupo vag servicios inmobiliarios te ofrece esta hermosa casa en alquiler ubicada en barrio portales del tala en Alta Gracia, Ubicada en barrio semi cerrado con vigilancia, en pleno crecimiento, con calles adoquinadas y seguridad nocturna, tranquilo y familiar, entorno agradable, vistas a las sierras y agil acceso, cerco perimetral, alumbrado público y espacios verdes; A solo 30 minutos de Cordoba Capital y a 4 minutos del centro de Alta Gracia, altura Ruta Provincial C45 camino a Falda del CarmenLa propiedad posee: 2 dormitorios1 bañoliving/comedorcocina integradapatio grandecochera semicubiertaprecio de alquiler: $600. 000Tiene gas envasado¡¡Escribimos y coordinamos para visitarla!!",
-   "price": 600000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Numero 2, Alta Gracia, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/00/86/85/360x266/2074958352.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "400 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:60008685"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "52371416",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
    "title": "Departamento en alquiler en barrio v. camiares alta",
@@ -96,6 +72,30 @@
     "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
    },
    "key": "zonaprop:52371416"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "60008685",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-b-portales-del-tala-alta-gracia-60008685.html",
+   "title": "Casa en alquiler en b portales del tala alta gracia",
+   "description": "En esta oportunidad grupo vag servicios inmobiliarios te ofrece esta hermosa casa en alquiler ubicada en barrio portales del tala en Alta Gracia, Ubicada en barrio semi cerrado con vigilancia, en pleno crecimiento, con calles adoquinadas y seguridad nocturna, tranquilo y familiar, entorno agradable, vistas a las sierras y agil acceso, cerco perimetral, alumbrado público y espacios verdes; A solo 30 minutos de Cordoba Capital y a 4 minutos del centro de Alta Gracia, altura Ruta Provincial C45 camino a Falda del CarmenLa propiedad posee: 2 dormitorios1 bañoliving/comedorcocina integradapatio grandecochera semicubiertaprecio de alquiler: $600. 000Tiene gas envasado¡¡Escribimos y coordinamos para visitarla!!",
+   "price": 600000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Numero 2, Alta Gracia, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/00/86/85/360x266/2074958352.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "400 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:60008685"
   },
   {
    "source": "zonaprop",
@@ -195,30 +195,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59655839",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
-   "title": "Se alquila casa de 2 dorm. en anisacate",
-   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
-   "price": 900000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
-   },
-   "key": "zonaprop:59655839"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "58556420",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alq.-exc-casa-2-dor.-amoblada-villa-los-aromos!-58556420.html",
    "title": "Alq. exc casa 2 dor. amoblada villa los aromos!",
@@ -243,30 +219,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59898621",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
-   "title": "Casa en alquiler un dormitorio villa los aromos",
-   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
-   "price": 400000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:59898621"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "50356032",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
    "title": "Casa en alquiler dos dorm. anisacate",
@@ -288,6 +240,54 @@
     "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:50356032"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59655839",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
+   "title": "Se alquila casa de 2 dorm. en anisacate",
+   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
+   "price": 900000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
+   },
+   "key": "zonaprop:59655839"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:59898621"
   },
   {
    "source": "zonaprop",
