@@ -1,6 +1,80 @@
 {
- "generated": "2026-09-10T19:25:33+00:00",
+ "generated": "2026-09-11T00:45:38+00:00",
  "cards": [
+  {
+   "key": "zonaprop:58810024",
+   "title": "Casa en alquiler en potrerillo de larreta",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
+   "image": "https://imgar.zonapropcdn.com/avisos/1/00/58/81/00/24/360x266/2062133401.jpg?isFirstImage=true",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 4,
+   "price": "USD 2.000",
+   "price_raw": 2000.0,
+   "currency": "USD",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "camino a los paredones km3, El Potrerillo de Larreta, Alta Gracia",
+   "description": "Ubicada en el exclusivo entorno de Potrerillo de Larreta Country Golf Club, esta residencia ofrece una experiencia única de confort, estilo y contacto con la naturaleza. Con una arquitectura de líneas elegantes y una calidad constructiva excepcional, cada espacio ha sido diseñado para disfrutar de la tranquilidad y el paisaje serrano. La propiedad cuenta con amplios y luminosos ambientes, totaliza",
+   "agency": "Zonaprop",
+   "sources": [
+    {
+     "name": "Zonaprop",
+     "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
+     "source": "zonaprop"
+    }
+   ],
+   "status": "match",
+   "is_new": true,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "10/09 21:45",
+   "first_seen_day": "2026-09-10",
+   "first_seen_iso": "2026-09-11T00:45:38+00:00",
+   "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
+   "last_seen": "10/09 21:45",
+   "gone_since": null,
+   "extra": {
+    "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
+   }
+  },
+  {
+   "key": "zonaprop:59559291",
+   "title": "Casa de categoria amoblada en alquiler frente al golf",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
+   "image": "https://imgar.zonapropcdn.com/avisos/1/00/59/55/92/91/360x266/2064162668.jpg?isFirstImage=true",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "USD 1.800",
+   "price_raw": 1800.0,
+   "currency": "USD",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "description": "Esta residencia, ubicada frente al hoyo 1 de Potrerillo de Larreta Country Golf Club, ofrece una de las vistas más privilegiadas del barrio, con un paisaje abierto e ininterrumpido hacia las sierras que transforma cada amanecer y atardecer en un verdadero espectáculo. Desarrollada íntegramente en una sola planta sobre un imponente lote de 2. 300 m², la casa cuenta con 190 m² cubiertos, donde la am",
+   "agency": "Zonaprop",
+   "sources": [
+    {
+     "name": "Zonaprop",
+     "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
+     "source": "zonaprop"
+    }
+   ],
+   "status": "match",
+   "is_new": true,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "10/09 21:45",
+   "first_seen_day": "2026-09-10",
+   "first_seen_iso": "2026-09-11T00:45:38+00:00",
+   "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
+   "last_seen": "10/09 21:45",
+   "gone_since": null,
+   "extra": {
+    "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
+   }
+  },
   {
    "key": "mercadolibre:MLA3936330828",
    "title": "Alquiler Casa 3 Dormitorios En Valle Del Golf",
@@ -32,7 +106,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T19:25:33+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 19:25:33 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 2 baños | 230 m² cubiertos",
@@ -75,7 +149,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T14:43:39+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 14:43:39 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "bathrooms": 3,
@@ -157,7 +231,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -199,7 +273,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -245,7 +319,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -293,7 +367,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -336,7 +410,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -379,7 +453,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -421,7 +495,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -464,7 +538,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -547,7 +621,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -589,7 +663,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -632,7 +706,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
@@ -706,7 +780,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "10/09 16:25",
+   "last_seen": "10/09 21:45",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"

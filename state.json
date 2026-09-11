@@ -44,7 +44,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -95,7 +95,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -146,7 +146,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -196,7 +196,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -243,7 +243,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-10T14:43:39+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -296,7 +296,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -345,7 +345,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T19:22:36+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -393,7 +393,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -444,7 +444,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -545,7 +545,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-09T00:57:42+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -596,7 +596,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -646,7 +646,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -697,7 +697,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": "2026-09-10T14:43:39+00:00",
    "price_changed_at": null,
@@ -799,7 +799,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-10T19:25:33+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -856,7 +856,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": "2026-09-10T19:25:33+00:00",
    "price_changed_at": "2026-09-10T19:25:33+00:00",
@@ -923,6 +923,96 @@
     }
    ]
   },
+  "zonaprop:58810024": {
+   "listing": {
+    "source": "zonaprop",
+    "source_id": "58810024",
+    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
+    "title": "Casa en alquiler en potrerillo de larreta",
+    "description": "Ubicada en el exclusivo entorno de Potrerillo de Larreta Country Golf Club, esta residencia ofrece una experiencia única de confort, estilo y contacto con la naturaleza. Con una arquitectura de líneas elegantes y una calidad constructiva excepcional, cada espacio ha sido diseñado para disfrutar de la tranquilidad y el paisaje serrano. La propiedad cuenta con amplios y luminosos ambientes, totalizando 4 habitaciones y 4 baños, brindando privacidad y comodidad para toda la familia. Características destacadas: - Cuatro dormitorios de generosas dimensiones. - Cuatro baños completos con terminaciones de primera calidad. - Amplio living comedor con vistas panorámicas a las sierras. - Cocina totalmente equipada. - Calefacción central por loza radiante. - Gran galería con área de parrilla. - Piscina con vista abierta. - Seguridad las 24hs, barrio cerrado. - Campo de Golf de primera categoría. Con una ubicación privilegiada dentro del country, esta casa ofrece un equilibrio perfecto entre naturaleza, confort y exclusividad. Ideal para quienes buscan disfrutar de la vida en un entorno seguro, con servicios de primer nivel y un paisaje incomparable.",
+    "price": 2000.0,
+    "currency": "USD",
+    "locality": "Alta Gracia",
+    "address": "camino a los paredones km3, El Potrerillo de Larreta, Alta Gracia",
+    "bedrooms": 4,
+    "property_type": "Casa",
+    "operation": "Alquiler",
+    "images": [
+     "https://imgar.zonapropcdn.com/avisos/1/00/58/81/00/24/360x266/2062133401.jpg?isFirstImage=true"
+    ],
+    "agency": "Zonaprop",
+    "lat": null,
+    "lng": null,
+    "extra": {
+     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch.",
+     "img_hash": "2300081d94415353"
+    },
+    "key": "zonaprop:58810024"
+   },
+   "verdict": {
+    "status": "match",
+    "reason": "exact",
+    "locality": "Alta Gracia",
+    "bedrooms": 4
+   },
+   "first_seen": "2026-09-11T00:45:38+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
+   "gone_since": null,
+   "back_at": null,
+   "price_changed_at": null,
+   "price_history": [
+    {
+     "at": "2026-09-11T00:45:38+00:00",
+     "price": 2000.0,
+     "currency": "USD"
+    }
+   ]
+  },
+  "zonaprop:59559291": {
+   "listing": {
+    "source": "zonaprop",
+    "source_id": "59559291",
+    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
+    "title": "Casa de categoria amoblada en alquiler frente al golf",
+    "description": "Esta residencia, ubicada frente al hoyo 1 de Potrerillo de Larreta Country Golf Club, ofrece una de las vistas más privilegiadas del barrio, con un paisaje abierto e ininterrumpido hacia las sierras que transforma cada amanecer y atardecer en un verdadero espectáculo. Desarrollada íntegramente en una sola planta sobre un imponente lote de 2. 300 m², la casa cuenta con 190 m² cubiertos, donde la amplitud, la funcionalidad y la conexión con el exterior son protagonistas. El área social está compuesta por un amplio y luminoso living-comedor, con grandes visuales hacia el jardín y el paisaje. Dispone de tres dormitorios, destacándose la suite principal con baño privado y vestidor abierto, además de un segundo baño completo que aporta comodidad para toda la familia. El exterior invita a disfrutar al máximo del entorno, con un amplio jardín, una gran piscina y una espaciosa galería quincho con asador, ideal para reuniones, momentos de descanso o simplemente para contemplar la tranquilidad y las vistas. Alquilar esta propiedad significa acceder a un estilo de vida privilegiado dentro de Potrerillo de Larreta Country Golf Club, un entorno que combina naturaleza, seguridad, privacidad y una de las mejores canchas de golf de la región, a pocos minutos de la ciudad de Córdoba y de Alta Gracia. Una oportunidad para quienes buscan vivir rodeados de naturaleza, con confort, privacidad y un paisaje incomparable. Características destacadas. Lote de 2. 300 m². 190 m² cubiertos. Desarrollada completamente en una sola planta. Frente al hoyo 1 de la cancha de golf. Espectaculares vistas abiertas a las sierras. 3 dormitorios. Suite principal con baño privado y vestidor abierto. 2 baños. Amplio living-comedor. Gran piscina. Galería quincho con asador. Excelente orientación y entorno de máxima privacidad. Consultanos por disponibilidad, plazo de alquiler y condiciones.",
+    "price": 1800.0,
+    "currency": "USD",
+    "locality": "Alta Gracia",
+    "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+    "bedrooms": 3,
+    "property_type": "Casa",
+    "operation": "Alquiler",
+    "images": [
+     "https://imgar.zonapropcdn.com/avisos/1/00/59/55/92/91/360x266/2064162668.jpg?isFirstImage=true"
+    ],
+    "agency": "Zonaprop",
+    "lat": null,
+    "lng": null,
+    "extra": {
+     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch.",
+     "img_hash": "a7db1bbf32b8c2ce"
+    },
+    "key": "zonaprop:59559291"
+   },
+   "verdict": {
+    "status": "match",
+    "reason": "exact",
+    "locality": "Alta Gracia",
+    "bedrooms": 3
+   },
+   "first_seen": "2026-09-11T00:45:38+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
+   "gone_since": null,
+   "back_at": null,
+   "price_changed_at": null,
+   "price_history": [
+    {
+     "at": "2026-09-11T00:45:38+00:00",
+     "price": 1800.0,
+     "currency": "USD"
+    }
+   ]
+  },
   "zonaprop:59793406": {
    "listing": {
     "source": "zonaprop",
@@ -956,7 +1046,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T19:25:33+00:00",
+   "last_seen": "2026-09-11T00:45:38+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -971,137 +1061,137 @@
  },
  "sources": {
   "consulting": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "facundosanchez": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 0,
-   "zero_streak": 11,
+   "zero_streak": 12,
    "error": null,
    "error_streak": 0
   },
   "faretta": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 7,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "fiornovelli": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 9,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "goyatucci": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 11,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "guillermocortes": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 18,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "invertir": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 6,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "juarezbeltran": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 68,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lavoz": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 15,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lequio": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "mercadolibre": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 39,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "raices": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 0,
-   "zero_streak": 12,
+   "zero_streak": 13,
    "error": null,
    "error_streak": 0
   },
   "ruartemoyano": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 11,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "terra": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
-   "last_count": 12,
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
+   "last_count": 13,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "villalosaromos": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 29,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zaratemedinadiaz": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zonaprop": {
-   "last_run": "2026-09-10T19:25:33+00:00",
-   "last_ok": "2026-09-10T19:25:33+00:00",
-   "last_count": 13,
+   "last_run": "2026-09-11T00:45:38+00:00",
+   "last_ok": "2026-09-11T00:45:38+00:00",
+   "last_count": 17,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
@@ -2018,6 +2108,83 @@
     },
     "terra": {
      "count": 12,
+     "error": null
+    },
+    "faretta": {
+     "count": 7,
+     "error": null
+    },
+    "fiornovelli": {
+     "count": 9,
+     "error": null
+    },
+    "raices": {
+     "count": 0,
+     "error": null
+    },
+    "facundosanchez": {
+     "count": 0,
+     "error": null
+    },
+    "villalosaromos": {
+     "count": 29,
+     "error": null
+    },
+    "lequio": {
+     "count": 12,
+     "error": null
+    },
+    "ruartemoyano": {
+     "count": 11,
+     "error": null
+    },
+    "juarezbeltran": {
+     "count": 68,
+     "error": null
+    },
+    "zaratemedinadiaz": {
+     "count": 2,
+     "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-09-11T00:45:38+00:00",
+   "baseline": false,
+   "new": 2,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "lavoz": {
+     "count": 15,
+     "error": null
+    },
+    "mercadolibre": {
+     "count": 39,
+     "error": null
+    },
+    "zonaprop": {
+     "count": 17,
+     "error": null
+    },
+    "consulting": {
+     "count": 2,
+     "error": null
+    },
+    "guillermocortes": {
+     "count": 18,
+     "error": null
+    },
+    "invertir": {
+     "count": 6,
+     "error": null
+    },
+    "goyatucci": {
+     "count": 11,
+     "error": null
+    },
+    "terra": {
+     "count": 13,
      "error": null
     },
     "faretta": {
