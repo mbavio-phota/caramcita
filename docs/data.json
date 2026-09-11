@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T14:46:48+00:00",
+ "generated": "2026-09-11T19:23:30+00:00",
  "cards": [
   {
    "key": "mercadolibre:MLA3936489568",
@@ -32,7 +32,7 @@
    "first_seen_day": "2026-09-11",
    "first_seen_iso": "2026-09-11T09:18:24+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 09:18:24 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "attrs": "8 ambs. | 2 baños | 200 m² cubiertos",
@@ -75,7 +75,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
@@ -112,7 +112,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
@@ -149,7 +149,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T19:25:33+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 19:25:33 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 2 baños | 230 m² cubiertos",
@@ -192,7 +192,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T14:43:39+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 14:43:39 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "bathrooms": 3,
@@ -274,7 +274,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -316,7 +316,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -362,7 +362,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -410,7 +410,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -453,7 +453,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -496,7 +496,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -538,7 +538,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -581,7 +581,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -611,18 +611,23 @@
      "name": "Pusiolfloriani",
      "url": "https://casa.mercadolibre.com.ar/MLA-1972660245-casa-de-3-dormitorios-en-alquiler-en-reserva-tajamar-2-_JM",
      "source": "mercadolibre"
+    },
+    {
+     "name": "Zonaprop",
+     "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
+     "source": "zonaprop"
     }
    ],
    "status": "match",
    "is_new": false,
-   "is_gone": true,
+   "is_gone": false,
    "is_back": false,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "09/09 21:45",
-   "gone_since": "10/09 06:19",
+   "last_seen": "11/09 16:23",
+   "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 4 baños | 150 m² cubiertos",
     "bathrooms": "4",
@@ -664,7 +669,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -706,7 +711,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -749,7 +754,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
@@ -823,7 +828,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "11/09 11:46",
+   "last_seen": "11/09 16:23",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
