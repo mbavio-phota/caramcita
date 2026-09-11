@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-11T10:45:33+00:00",
+ "fetched_at": "2026-09-11T16:45:36+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -27,51 +27,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59035074",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-reserva-tajamar-59035074.html",
-   "title": "Casa en alquiler en reserva tajamar",
-   "description": "Casa en alquiler en Reserva Tajamar, Alta Gracia, ideal para quienes buscan confort, seguridad y un entorno tranquilo. La propiedad cuenta con dos cómodas habitaciones y dos baños completos, pensados para brindar practicidad y privacidad. Dispone de una cocina funcional integrada a un luminoso living/comedor, creando un espacio cálido y acogedor para compartir en familia o con amigos. En el exterior se destaca un amplio quincho con asador y estufa, perfecto para reuniones durante todo el año. Además, la casa ofrece una hermosa pileta de fondo infinito climatizada, ideal para disfrutar en cualquier momento, sin importar la estación. La propiedad incluye cochera para dos vehículos y está equipada con termo solar, lo que aporta eficiencia energética. También cuenta con sistema de alarma y seguridad las 24 horas, garantizando tranquilidad permanente. Ubicada en un entorno familiar, seguro y rodeado de naturaleza, esta casa es una excelente opción para vivir o descansar con total comodidad. Condiciones de alquiler: contrato por 2 años, valor mensual de $1. 500. 000 con actualización cada 3 meses.",
-   "price": 1350000.0,
+   "source_id": "60125473",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
+   "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
+   "description": "Alquiler en Barrio Reserva Tajamar 2. Viví la tranquilidad y el confort que ofrece este exclusivo barrio con seguridad 24hs de dia, a minutos del centro de la ciudad. La propiedad cuenta con 3 dormitorios luminosos y 4 baños, ideales para una vida cómoda y práctica. Quincho amplio con cerramiento y pileta, cochera cerrada para un vehiculo. Disfrutá de ambientes modernos, 5 aires acondicionado frio calor, en todos los ambientes. Estufa a leña y calefactor. Excelente iluminación natural, un entorno seguro, arbolado y bien cuidado. Ubicado en Reserva Tajamar, con acceso rápido, todos los servicios. Perfecto para quienes buscan calidad de vida y un hogar para disfrutar. Disponible a partir de Octubre de 2026.",
+   "price": 1500000.0,
    "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 2,
+   "address": "Reserva Tajamar, Reserva Tajamar, Alta Gracia",
+   "bedrooms": 3,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/03/50/74/360x266/2050786507.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/73/360x266/2077797147.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "429 m² tot. 5 amb. 2 dorm. 2 baños 2 coch."
+    "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
    },
-   "key": "zonaprop:59035074"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "59446204",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-dos-dorm.-en-alquiler-en-reserva-tajamar-59446204.html",
-   "title": "Casa de dos dorm. en alquiler en reserva tajamar",
-   "description": "Casa en alquiler en Reserva Tajamar, Alta Gracia. 2 habitaciones. 2 baños. Cocina + living/comedor integrados. Cochera para 2 vehículos techada. seguridad 24 hs. Entorno tranquilo y familiar, ideal para disfrutar todo el año. $950. 000/mes. Contrato por 2 años. Actualización cada 3 meses. Consultanos para más info o coordinar una visita",
-   "price": 950000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/44/62/04/360x266/2061414291.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "480 m² tot. 4 amb. 2 dorm. 2 baños 2 coch."
-   },
-   "key": "zonaprop:59446204"
+   "key": "zonaprop:60125473"
   },
   {
    "source": "zonaprop",
@@ -99,6 +75,30 @@
   },
   {
    "source": "zonaprop",
+   "source_id": "60125444",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-propiedad-amoblada-en-alquiler-potrerillo-de-larreta-60125444.html",
+   "title": "Propiedad amoblada en alquiler potrerillo de larreta",
+   "description": "Exclusiva propiedad ubicada en Potrerillo de Larreta Country Club, uno de los barrios cerrados más prestigiosos de la provincia de Córdoba, en un entorno privilegiado de naturaleza, tranquilidad y seguridad. Situada en el corazón de las Sierras de Córdoba, ofrece la posibilidad de disfrutar de un estilo de vida rodeado de naturaleza, con paisajes únicos y la tranquilidad propia de un entorno residencial exclusivo, sin alejarse de los principales puntos de interés de la provincia. Potrerillo de Larreta se destaca por su reconocida cancha de golf, su arroyo natural, sus espacios verdes y una amplia variedad de servicios y amenities, entre ellos canchas de tenis, club house, restaurant, hostería y helipuerto. La propiedad. La vivienda se desarrolla íntegramente en una planta y se encuentra emplazada sobre un terreno de 1. 450 m², con una superficie cubierta de 153 m². Cuenta con: - Dos dormitorios amplios, cada uno con baño en suite. - Cocina completa. - Amplio estar-comedor. - Baño de visitas. - Excelente iluminación y ventilación natural. - Amplia galería exterior. - Asador. - Piscina con una inmejorable vista a las sierras. La propiedad fue pensada para disfrutar tanto de la comodidad y funcionalidad de sus espacios interiores como de la belleza del entorno natural. Su galería, piscina y vistas abiertas a las sierras permiten aprovechar plenamente los espacios exteriores durante todo el año. Servicios Y características. - Servicio de electricidad y agua. - Calles adoquinadas. - Entorno seguro y exclusivo. - Servicio de jardinero y piletero incluido. - Una propiedad ideal para quienes buscan combinar naturaleza, tranquilidad, seguridad y confort, en uno de los entornos más exclusivos de las Sierras de Córdoba. Consultar condiciones de alquiler y disponibilidad.",
+   "price": 2100000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 2,
+   "property_type": "",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/44/360x266/2077796062.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1450 m² tot. 5 amb. 2 dorm. 3 baños 2 coch."
+   },
+   "key": "zonaprop:60125444"
+  },
+  {
+   "source": "zonaprop",
    "source_id": "59559291",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
    "title": "Casa de categoria amoblada en alquiler frente al golf",
@@ -123,30 +123,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60008685",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-b-portales-del-tala-alta-gracia-60008685.html",
-   "title": "Casa en alquiler en b portales del tala alta gracia",
-   "description": "En esta oportunidad grupo vag servicios inmobiliarios te ofrece esta hermosa casa en alquiler ubicada en barrio portales del tala en Alta Gracia, Ubicada en barrio semi cerrado con vigilancia, en pleno crecimiento, con calles adoquinadas y seguridad nocturna, tranquilo y familiar, entorno agradable, vistas a las sierras y agil acceso, cerco perimetral, alumbrado público y espacios verdes; A solo 30 minutos de Cordoba Capital y a 4 minutos del centro de Alta Gracia, altura Ruta Provincial C45 camino a Falda del CarmenLa propiedad posee: 2 dormitorios1 bañoliving/comedorcocina integradapatio grandecochera semicubiertaprecio de alquiler: $600. 000Tiene gas envasado¡¡Escribimos y coordinamos para visitarla!!",
-   "price": 600000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Numero 2, Alta Gracia, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/00/86/85/360x266/2074958352.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "400 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:60008685"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "52371416",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
    "title": "Departamento en alquiler en barrio v. camiares alta",
@@ -168,6 +144,30 @@
     "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
    },
    "key": "zonaprop:52371416"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "60008685",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-b-portales-del-tala-alta-gracia-60008685.html",
+   "title": "Casa en alquiler en b portales del tala alta gracia",
+   "description": "En esta oportunidad grupo vag servicios inmobiliarios te ofrece esta hermosa casa en alquiler ubicada en barrio portales del tala en Alta Gracia, Ubicada en barrio semi cerrado con vigilancia, en pleno crecimiento, con calles adoquinadas y seguridad nocturna, tranquilo y familiar, entorno agradable, vistas a las sierras y agil acceso, cerco perimetral, alumbrado público y espacios verdes; A solo 30 minutos de Cordoba Capital y a 4 minutos del centro de Alta Gracia, altura Ruta Provincial C45 camino a Falda del CarmenLa propiedad posee: 2 dormitorios1 bañoliving/comedorcocina integradapatio grandecochera semicubiertaprecio de alquiler: $600. 000Tiene gas envasado¡¡Escribimos y coordinamos para visitarla!!",
+   "price": 600000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Numero 2, Alta Gracia, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/00/86/85/360x266/2074958352.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "400 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:60008685"
   },
   {
    "source": "zonaprop",
@@ -267,30 +267,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59898621",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
-   "title": "Casa en alquiler un dormitorio villa los aromos",
-   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
-   "price": 400000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:59898621"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "58556420",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alq.-exc-casa-2-dor.-amoblada-villa-los-aromos!-58556420.html",
    "title": "Alq. exc casa 2 dor. amoblada villa los aromos!",
@@ -315,30 +291,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59852272",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
-   "title": "Casa en venta o alquiler en los aromos a 200 m del",
-   "description": "Inmobiliaria Casermeiro",
-   "price": 800000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
-   },
-   "key": "zonaprop:59852272"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "50356032",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
    "title": "Casa en alquiler dos dorm. anisacate",
@@ -360,6 +312,54 @@
     "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:50356032"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:59898621"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59852272",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
+   "title": "Casa en venta o alquiler en los aromos a 200 m del",
+   "description": "Inmobiliaria Casermeiro",
+   "price": 800000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
+   },
+   "key": "zonaprop:59852272"
   },
   {
    "source": "zonaprop",
