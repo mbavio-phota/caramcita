@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<title>Caramcita · jueves 10 de septiembre de 2026, 21:45</title>
+<title>Caramcita · viernes 11 de septiembre de 2026, 03:27</title>
 <link rel="alternate" type="application/rss+xml" title="Caramcita" href="feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -92,9 +92,9 @@ img{display:block;max-width:100%}
 .plate .none{height:100%;display:flex;align-items:end;padding:8px;font-size:12px;color:var(--ink-2)}
 .entry.compact .plate{aspect-ratio:1/1}
 
-/* hidden entries */
-.entry.is-hidden{display:none}
-.entry.is-hidden.reveal{display:flex;justify-content:space-between;gap:16px;padding:10px 0;color:var(--ink-2);font-size:14px}
+/* hidden entries (la regla de la grilla .rack .entry viene después y tiene la misma especificidad: por eso el !important) */
+.entry.is-hidden{display:none !important}
+.entry.is-hidden.reveal{display:flex !important;flex-direction:row;justify-content:space-between;gap:16px;padding:10px 0;color:var(--ink-2);font-size:14px}
 .entry.is-hidden.reveal .text,.entry.is-hidden.reveal .plate{display:none}
 .entry .ghost{display:none}
 .entry.is-hidden.reveal .ghost{display:contents}
@@ -137,7 +137,7 @@ footer{margin-top:64px;padding-top:12px;border-top:1px solid var(--rule);font-si
   .rack > .entry:only-child .meta{margin-top:14px}
   .rack .entry .desc{-webkit-line-clamp:3}
   .rack .entry .meta{margin-top:auto;padding-top:12px}
-  .rack .entry.is-hidden.reveal{flex-direction:row;align-items:baseline}
+  .rack .entry.is-hidden.reveal{flex-direction:row;align-items:baseline;grid-column:1 / -1;border-left:0;padding-left:0}
   .entry:has(+ .sec){border-bottom:0}
   .rack:has(+ .sec){border-bottom:0}
 }
@@ -165,7 +165,7 @@ footer{margin-top:64px;padding-top:12px;border-top:1px solid var(--rule);font-si
 
 <header class="mast">
   <a class="name" href="./">Caramcita</a>
-  <div class="edition">Edición del jueves 10 de septiembre de 2026, 21:45</div>
+  <div class="edition">Edición del viernes 11 de septiembre de 2026, 03:27</div>
   <div class="count">
     <span class="new">6 nuevas</span> · <b>14</b> vigentes
   </div>
@@ -183,7 +183,7 @@ footer{margin-top:64px;padding-top:12px;border-top:1px solid var(--rule);font-si
 <div class="sec"><h2>Novedades</h2><span class="note">Últimos 7 días</span></div>
 
   
-  <div class="day" data-day><span>Hoy</span><span>4</span></div>
+  <div class="day" data-day><span>Ayer</span><span>4</span></div>
   <div class="rack">
 <article class="entry" data-key="zonaprop:58810024">
   <div class="text">
@@ -838,7 +838,7 @@ footer{margin-top:64px;padding-top:12px;border-top:1px solid var(--rule);font-si
 
 <tr>
   <td><a href="https://clasificados.lavoz.com.ar/inmuebles/casas/alquileres?ciudad=alta-gracia" target="_blank" rel="noopener">Clasificados La Voz</a></td>
-  <td class="dim">10/09 21:45</td>
+  <td class="dim">11/09 03:27</td>
   <td class="n">15</td>
   <td class="dim">ok</td>
 </tr>
