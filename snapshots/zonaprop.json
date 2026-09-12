@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-09-11T22:45:33+00:00",
+ "fetched_at": "2026-09-12T10:45:31+00:00",
  "listings": [
+  {
+   "source": "zonaprop",
+   "source_id": "60125473",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
+   "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
+   "description": "Alquiler en Barrio Reserva Tajamar 2. Viví la tranquilidad y el confort que ofrece este exclusivo barrio con seguridad 24hs de dia, a minutos del centro de la ciudad. La propiedad cuenta con 3 dormitorios luminosos y 4 baños, ideales para una vida cómoda y práctica. Quincho amplio con cerramiento y pileta, cochera cerrada para un vehiculo. Disfrutá de ambientes modernos, 5 aires acondicionado frio calor, en todos los ambientes. Estufa a leña y calefactor. Excelente iluminación natural, un entorno seguro, arbolado y bien cuidado. Ubicado en Reserva Tajamar, con acceso rápido, todos los servicios. Perfecto para quienes buscan calidad de vida y un hogar para disfrutar. Disponible a partir de Octubre de 2026.",
+   "price": 1500000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Reserva Tajamar, Reserva Tajamar, Alta Gracia",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/73/360x266/2077797147.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
+   },
+   "key": "zonaprop:60125473"
+  },
   {
    "source": "zonaprop",
    "source_id": "60125444",
@@ -48,30 +72,6 @@
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
    },
    "key": "zonaprop:58810024"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "60125473",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
-   "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
-   "description": "Alquiler en Barrio Reserva Tajamar 2. Viví la tranquilidad y el confort que ofrece este exclusivo barrio con seguridad 24hs de dia, a minutos del centro de la ciudad. La propiedad cuenta con 3 dormitorios luminosos y 4 baños, ideales para una vida cómoda y práctica. Quincho amplio con cerramiento y pileta, cochera cerrada para un vehiculo. Disfrutá de ambientes modernos, 5 aires acondicionado frio calor, en todos los ambientes. Estufa a leña y calefactor. Excelente iluminación natural, un entorno seguro, arbolado y bien cuidado. Ubicado en Reserva Tajamar, con acceso rápido, todos los servicios. Perfecto para quienes buscan calidad de vida y un hogar para disfrutar. Disponible a partir de Octubre de 2026.",
-   "price": 1500000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Reserva Tajamar, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 3,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/73/360x266/2077797147.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
-   },
-   "key": "zonaprop:60125473"
   },
   {
    "source": "zonaprop",
@@ -267,30 +267,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59655839",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
-   "title": "Se alquila casa de 2 dorm. en anisacate",
-   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
-   "price": 900000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
-   },
-   "key": "zonaprop:59655839"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "50356032",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
    "title": "Casa en alquiler dos dorm. anisacate",
@@ -312,30 +288,6 @@
     "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:50356032"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "58556420",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alq.-exc-casa-2-dor.-amoblada-villa-los-aromos!-58556420.html",
-   "title": "Alq. exc casa 2 dor. amoblada villa los aromos!",
-   "description": "Alquilo excelente casa de 2 dormitorios con pileta en las sierras! se encuentra amoblada como se ve en fotos (pueden sacarse los muebles). Ideal para pasar un semestre O un año en las sierras de córdoba con naturaleza plena. ubicación: A 45 min de Córdoba, - A 15 min de Alta Gracia, - A 5 min de La Bolsa, - A 2 cuadras del Rioservicios activos: luz - agua - gasrequisitos casa Villa Los Aromos: 3 garantes recibo superior a $1. 300. 000 c/u. Alquiler inicial $600. 000, contrato anual o por 2 años, aumento cuatrimestral. Impuestos muni, renta + agua + luz + gas depende el consumo, paga el inquilino. Espero tu consulta al Ver datos cari.",
-   "price": 600000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Avenida los Aromos al 5000, Villa Los Aromos, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/58/55/64/20/360x266/2038172026.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "450 m² tot. 3 amb. 2 dorm. 2 baños 2 coch."
-   },
-   "key": "zonaprop:58556420"
   },
   {
    "source": "zonaprop",
@@ -363,6 +315,30 @@
   },
   {
    "source": "zonaprop",
+   "source_id": "58556420",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alq.-exc-casa-2-dor.-amoblada-villa-los-aromos!-58556420.html",
+   "title": "Alq. exc casa 2 dor. amoblada villa los aromos!",
+   "description": "Alquilo excelente casa de 2 dormitorios con pileta en las sierras! se encuentra amoblada como se ve en fotos (pueden sacarse los muebles). Ideal para pasar un semestre O un año en las sierras de córdoba con naturaleza plena. ubicación: A 45 min de Córdoba, - A 15 min de Alta Gracia, - A 5 min de La Bolsa, - A 2 cuadras del Rioservicios activos: luz - agua - gasrequisitos casa Villa Los Aromos: 3 garantes recibo superior a $1. 300. 000 c/u. Alquiler inicial $600. 000, contrato anual o por 2 años, aumento cuatrimestral. Impuestos muni, renta + agua + luz + gas depende el consumo, paga el inquilino. Espero tu consulta al Ver datos cari.",
+   "price": 600000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Avenida los Aromos al 5000, Villa Los Aromos, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/58/55/64/20/360x266/2038172026.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "450 m² tot. 3 amb. 2 dorm. 2 baños 2 coch."
+   },
+   "key": "zonaprop:58556420"
+  },
+  {
+   "source": "zonaprop",
    "source_id": "59898621",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
    "title": "Casa en alquiler un dormitorio villa los aromos",
@@ -384,6 +360,30 @@
     "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:59898621"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59655839",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
+   "title": "Se alquila casa de 2 dorm. en anisacate",
+   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
+   "price": 900000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
+   },
+   "key": "zonaprop:59655839"
   },
   {
    "source": "zonaprop",
