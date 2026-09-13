@@ -1,54 +1,6 @@
 {
- "fetched_at": "2026-09-13T04:48:52+00:00",
+ "fetched_at": "2026-09-13T10:45:34+00:00",
  "listings": [
-  {
-   "source": "zonaprop",
-   "source_id": "59219512",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
-   "title": "Casa en alquiler reserva tajamar",
-   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
-   "price": 650000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
-   },
-   "key": "zonaprop:59219512"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "60125444",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-propiedad-amoblada-en-alquiler-potrerillo-de-larreta-60125444.html",
-   "title": "Propiedad amoblada en alquiler potrerillo de larreta",
-   "description": "Exclusiva propiedad ubicada en Potrerillo de Larreta Country Club, uno de los barrios cerrados más prestigiosos de la provincia de Córdoba, en un entorno privilegiado de naturaleza, tranquilidad y seguridad. Situada en el corazón de las Sierras de Córdoba, ofrece la posibilidad de disfrutar de un estilo de vida rodeado de naturaleza, con paisajes únicos y la tranquilidad propia de un entorno residencial exclusivo, sin alejarse de los principales puntos de interés de la provincia. Potrerillo de Larreta se destaca por su reconocida cancha de golf, su arroyo natural, sus espacios verdes y una amplia variedad de servicios y amenities, entre ellos canchas de tenis, club house, restaurant, hostería y helipuerto. La propiedad. La vivienda se desarrolla íntegramente en una planta y se encuentra emplazada sobre un terreno de 1. 450 m², con una superficie cubierta de 153 m². Cuenta con: - Dos dormitorios amplios, cada uno con baño en suite. - Cocina completa. - Amplio estar-comedor. - Baño de visitas. - Excelente iluminación y ventilación natural. - Amplia galería exterior. - Asador. - Piscina con una inmejorable vista a las sierras. La propiedad fue pensada para disfrutar tanto de la comodidad y funcionalidad de sus espacios interiores como de la belleza del entorno natural. Su galería, piscina y vistas abiertas a las sierras permiten aprovechar plenamente los espacios exteriores durante todo el año. Servicios Y características. - Servicio de electricidad y agua. - Calles adoquinadas. - Entorno seguro y exclusivo. - Servicio de jardinero y piletero incluido. - Una propiedad ideal para quienes buscan combinar naturaleza, tranquilidad, seguridad y confort, en uno de los entornos más exclusivos de las Sierras de Córdoba. Consultar condiciones de alquiler y disponibilidad.",
-   "price": 2100000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 2,
-   "property_type": "",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/44/360x266/2077796062.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1450 m² tot. 5 amb. 2 dorm. 3 baños 2 coch."
-   },
-   "key": "zonaprop:60125444"
-  },
   {
    "source": "zonaprop",
    "source_id": "60125473",
@@ -96,6 +48,54 @@
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
    },
    "key": "zonaprop:58810024"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59219512",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
+   "title": "Casa en alquiler reserva tajamar",
+   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
+   "price": 650000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
+   },
+   "key": "zonaprop:59219512"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "60125444",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-propiedad-amoblada-en-alquiler-potrerillo-de-larreta-60125444.html",
+   "title": "Propiedad amoblada en alquiler potrerillo de larreta",
+   "description": "Exclusiva propiedad ubicada en Potrerillo de Larreta Country Club, uno de los barrios cerrados más prestigiosos de la provincia de Córdoba, en un entorno privilegiado de naturaleza, tranquilidad y seguridad. Situada en el corazón de las Sierras de Córdoba, ofrece la posibilidad de disfrutar de un estilo de vida rodeado de naturaleza, con paisajes únicos y la tranquilidad propia de un entorno residencial exclusivo, sin alejarse de los principales puntos de interés de la provincia. Potrerillo de Larreta se destaca por su reconocida cancha de golf, su arroyo natural, sus espacios verdes y una amplia variedad de servicios y amenities, entre ellos canchas de tenis, club house, restaurant, hostería y helipuerto. La propiedad. La vivienda se desarrolla íntegramente en una planta y se encuentra emplazada sobre un terreno de 1. 450 m², con una superficie cubierta de 153 m². Cuenta con: - Dos dormitorios amplios, cada uno con baño en suite. - Cocina completa. - Amplio estar-comedor. - Baño de visitas. - Excelente iluminación y ventilación natural. - Amplia galería exterior. - Asador. - Piscina con una inmejorable vista a las sierras. La propiedad fue pensada para disfrutar tanto de la comodidad y funcionalidad de sus espacios interiores como de la belleza del entorno natural. Su galería, piscina y vistas abiertas a las sierras permiten aprovechar plenamente los espacios exteriores durante todo el año. Servicios Y características. - Servicio de electricidad y agua. - Calles adoquinadas. - Entorno seguro y exclusivo. - Servicio de jardinero y piletero incluido. - Una propiedad ideal para quienes buscan combinar naturaleza, tranquilidad, seguridad y confort, en uno de los entornos más exclusivos de las Sierras de Córdoba. Consultar condiciones de alquiler y disponibilidad.",
+   "price": 2100000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 2,
+   "property_type": "",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/44/360x266/2077796062.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1450 m² tot. 5 amb. 2 dorm. 3 baños 2 coch."
+   },
+   "key": "zonaprop:60125444"
   },
   {
    "source": "zonaprop",
@@ -267,30 +267,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59898621",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
-   "title": "Casa en alquiler un dormitorio villa los aromos",
-   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
-   "price": 400000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:59898621"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59655839",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
    "title": "Se alquila casa de 2 dorm. en anisacate",
@@ -312,6 +288,54 @@
     "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
    },
    "key": "zonaprop:59655839"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "50356032",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
+   "title": "Casa en alquiler dos dorm. anisacate",
+   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
+   "price": 480000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "El Ombú 100, Anisacate, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:50356032"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:59898621"
   },
   {
    "source": "zonaprop",
@@ -360,30 +384,6 @@
     "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
    },
    "key": "zonaprop:59852272"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "50356032",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
-   "title": "Casa en alquiler dos dorm. anisacate",
-   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
-   "price": 480000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "El Ombú 100, Anisacate, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:50356032"
   },
   {
    "source": "zonaprop",
