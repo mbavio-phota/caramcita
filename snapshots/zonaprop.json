@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-14T10:45:33+00:00",
+ "fetched_at": "2026-09-14T16:45:35+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -24,30 +24,6 @@
     "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
    },
    "key": "zonaprop:59219512"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "58810024",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
-   "title": "Casa en alquiler en potrerillo de larreta",
-   "description": "Ubicada en el exclusivo entorno de Potrerillo de Larreta Country Golf Club, esta residencia ofrece una experiencia única de confort, estilo y contacto con la naturaleza. Con una arquitectura de líneas elegantes y una calidad constructiva excepcional, cada espacio ha sido diseñado para disfrutar de la tranquilidad y el paisaje serrano. La propiedad cuenta con amplios y luminosos ambientes, totalizando 4 habitaciones y 4 baños, brindando privacidad y comodidad para toda la familia. Características destacadas: - Cuatro dormitorios de generosas dimensiones. - Cuatro baños completos con terminaciones de primera calidad. - Amplio living comedor con vistas panorámicas a las sierras. - Cocina totalmente equipada. - Calefacción central por loza radiante. - Gran galería con área de parrilla. - Piscina con vista abierta. - Seguridad las 24hs, barrio cerrado. - Campo de Golf de primera categoría. Con una ubicación privilegiada dentro del country, esta casa ofrece un equilibrio perfecto entre naturaleza, confort y exclusividad. Ideal para quienes buscan disfrutar de la vida en un entorno seguro, con servicios de primer nivel y un paisaje incomparable.",
-   "price": 2000.0,
-   "currency": "USD",
-   "locality": "Alta Gracia",
-   "address": "camino a los paredones km3, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 4,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/58/81/00/24/360x266/2062133401.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
-   },
-   "key": "zonaprop:58810024"
   },
   {
    "source": "zonaprop",
@@ -123,27 +99,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "52371416",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
-   "title": "Departamento en alquiler en barrio v. camiares alta",
-   "description": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ comedor amplia, baño, cochera y patio con asador. Techo de losa - Pisos de porcelanato. Villa Camiares - Alta Gracia. Servicios: Agua Corriente, Electricidad",
-   "price": 650000.0,
-   "currency": "ARS",
+   "source_id": "58810024",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
+   "title": "Casa en alquiler en potrerillo de larreta",
+   "description": "Ubicada en el exclusivo entorno de Potrerillo de Larreta Country Golf Club, esta residencia ofrece una experiencia única de confort, estilo y contacto con la naturaleza. Con una arquitectura de líneas elegantes y una calidad constructiva excepcional, cada espacio ha sido diseñado para disfrutar de la tranquilidad y el paisaje serrano. La propiedad cuenta con amplios y luminosos ambientes, totalizando 4 habitaciones y 4 baños, brindando privacidad y comodidad para toda la familia. Características destacadas: - Cuatro dormitorios de generosas dimensiones. - Cuatro baños completos con terminaciones de primera calidad. - Amplio living comedor con vistas panorámicas a las sierras. - Cocina totalmente equipada. - Calefacción central por loza radiante. - Gran galería con área de parrilla. - Piscina con vista abierta. - Seguridad las 24hs, barrio cerrado. - Campo de Golf de primera categoría. Con una ubicación privilegiada dentro del country, esta casa ofrece un equilibrio perfecto entre naturaleza, confort y exclusividad. Ideal para quienes buscan disfrutar de la vida en un entorno seguro, con servicios de primer nivel y un paisaje incomparable.",
+   "price": 2000.0,
+   "currency": "USD",
    "locality": "Alta Gracia",
-   "address": "Jasilsacat 247, Villa Camiares, Alta Gracia",
-   "bedrooms": 2,
-   "property_type": "Departamento",
+   "address": "camino a los paredones km3, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 4,
+   "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/52/37/14/16/360x266/1882197217.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/58/81/00/24/360x266/2062133401.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
+    "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
    },
-   "key": "zonaprop:52371416"
+   "key": "zonaprop:58810024"
   },
   {
    "source": "zonaprop",
@@ -168,6 +144,30 @@
     "features": "400 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:60008685"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "52371416",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
+   "title": "Departamento en alquiler en barrio v. camiares alta",
+   "description": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ comedor amplia, baño, cochera y patio con asador. Techo de losa - Pisos de porcelanato. Villa Camiares - Alta Gracia. Servicios: Agua Corriente, Electricidad",
+   "price": 650000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Jasilsacat 247, Villa Camiares, Alta Gracia",
+   "bedrooms": 2,
+   "property_type": "Departamento",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/52/37/14/16/360x266/1882197217.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
+   },
+   "key": "zonaprop:52371416"
   },
   {
    "source": "zonaprop",
@@ -267,54 +267,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "50356032",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
-   "title": "Casa en alquiler dos dorm. anisacate",
-   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
-   "price": 480000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "El Ombú 100, Anisacate, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:50356032"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "58556420",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alq.-exc-casa-2-dor.-amoblada-villa-los-aromos!-58556420.html",
-   "title": "Alq. exc casa 2 dor. amoblada villa los aromos!",
-   "description": "Alquilo excelente casa de 2 dormitorios con pileta en las sierras! se encuentra amoblada como se ve en fotos (pueden sacarse los muebles). Ideal para pasar un semestre O un año en las sierras de córdoba con naturaleza plena. ubicación: A 45 min de Córdoba, - A 15 min de Alta Gracia, - A 5 min de La Bolsa, - A 2 cuadras del Rioservicios activos: luz - agua - gasrequisitos casa Villa Los Aromos: 3 garantes recibo superior a $1. 300. 000 c/u. Alquiler inicial $600. 000, contrato anual o por 2 años, aumento cuatrimestral. Impuestos muni, renta + agua + luz + gas depende el consumo, paga el inquilino. Espero tu consulta al Ver datos cari.",
-   "price": 600000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Avenida los Aromos al 5000, Villa Los Aromos, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/58/55/64/20/360x266/2038172026.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "450 m² tot. 3 amb. 2 dorm. 2 baños 2 coch."
-   },
-   "key": "zonaprop:58556420"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59898621",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
    "title": "Casa en alquiler un dormitorio villa los aromos",
@@ -339,27 +291,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60142047",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-anisacate-60142047.html",
-   "title": "Casa en anisacate",
-   "description": "Casa ubicada en Barrio Villa Monte Negro, Anisacate, en un entorno residencial muy tranquilo, con calles de tierra y una linda arboleda, ideal para quien buscan vivir en contacto con la naturaleza sin alejarse de la ciudad. La propiedad se encuentra a pocos minutos de la ciudad de Alta Gracia, lo que permite combinar tranquilidad y fácil acceso a servicios, comercios, colegios y centros de salud. Aviso: Sujeto a disponibilidad \"La información contenida en este mensaje es meramente referencial. Los datos incorporados en el mismo no constituyen oferta alguna, la cual se encuentra sujeta a la confirmación del propietario, por lo que sus términos no resultarán vinculantes debiendo los interesados comunicarse con alguno de nuestros asesores a los efectos de procurarse toda información que pudiera resultar de relevancia a los efectos de la adquisición de una unidad\".",
-   "price": 1200000.0,
+   "source_id": "59852272",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
+   "title": "Casa en venta o alquiler en los aromos a 200 m del",
+   "description": "Inmobiliaria Casermeiro",
+   "price": 800000.0,
    "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "Barrio Villa Monte Negro, Anisacate, Anisacate, Córdoba",
-   "bedrooms": 3,
+   "locality": "Villa Los Aromos",
+   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
+   "bedrooms": 2,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/14/20/47/360x266/2078212283.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "1250 m² tot. 9 amb. 3 dorm. 2 baños 3 coch."
+    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
    },
-   "key": "zonaprop:60142047"
+   "key": "zonaprop:59852272"
   },
   {
    "source": "zonaprop",
@@ -387,27 +339,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59852272",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
-   "title": "Casa en venta o alquiler en los aromos a 200 m del",
-   "description": "Inmobiliaria Casermeiro",
-   "price": 800000.0,
+   "source_id": "50356032",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
+   "title": "Casa en alquiler dos dorm. anisacate",
+   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
+   "price": 480000.0,
    "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
+   "locality": "Anisacate",
+   "address": "El Ombú 100, Anisacate, Córdoba",
    "bedrooms": 2,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
+    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
    },
-   "key": "zonaprop:59852272"
+   "key": "zonaprop:50356032"
   },
   {
    "source": "zonaprop",
