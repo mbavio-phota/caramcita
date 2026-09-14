@@ -1217,12 +1217,12 @@
  },
  "sources": {
   "consulting": {
-   "last_run": "2026-09-14T16:44:06+00:00",
-   "last_ok": "2026-09-14T10:15:04+00:00",
+   "last_run": "2026-09-14T16:50:20+00:00",
+   "last_ok": "2026-09-14T16:50:20+00:00",
    "last_count": 2,
    "zero_streak": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://consultinginmobiliaria.com/inmuebles.php?propiedad=2&localidad=1&paginador_pagina=0'\nFor more information check: https://developer.mozill",
-   "error_streak": 1
+   "error": null,
+   "error_streak": 0
   },
   "facundosanchez": {
    "last_run": "2026-09-14T16:44:06+00:00",
@@ -1233,12 +1233,12 @@
    "error_streak": 0
   },
   "faretta": {
-   "last_run": "2026-09-14T16:44:06+00:00",
-   "last_ok": "2026-09-14T10:15:04+00:00",
+   "last_run": "2026-09-14T16:50:20+00:00",
+   "last_ok": "2026-09-14T16:50:20+00:00",
    "last_count": 7,
    "zero_streak": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://arielfaretta.com.ar/wp-json/wp/v2/properties?per_page=50&_embed=1&page=1'\nFor more information check: https://developer.mozilla.org/en-US",
-   "error_streak": 1
+   "error": null,
+   "error_streak": 0
   },
   "fiornovelli": {
    "last_run": "2026-09-14T16:44:06+00:00",
@@ -1257,12 +1257,12 @@
    "error_streak": 0
   },
   "guillermocortes": {
-   "last_run": "2026-09-14T16:44:06+00:00",
-   "last_ok": "2026-09-14T10:15:04+00:00",
+   "last_run": "2026-09-14T16:50:20+00:00",
+   "last_ok": "2026-09-14T16:50:20+00:00",
    "last_count": 18,
    "zero_streak": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://guillermocortes.com.ar/alquileres'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-   "error_streak": 1
+   "error": null,
+   "error_streak": 0
   },
   "invertir": {
    "last_run": "2026-09-14T16:44:06+00:00",
@@ -1321,12 +1321,12 @@
    "error_streak": 0
   },
   "terra": {
-   "last_run": "2026-09-14T16:44:06+00:00",
-   "last_ok": "2026-09-14T10:15:04+00:00",
+   "last_run": "2026-09-14T16:50:20+00:00",
+   "last_ok": "2026-09-14T16:50:20+00:00",
    "last_count": 12,
    "zero_streak": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://inmobiliaria-terra.com.ar/wp-json/wp/v2/properties?per_page=50&_embed=1&page=1'\nFor more information check: https://developer.mozilla.org",
-   "error_streak": 1
+   "error": null,
+   "error_streak": 0
   },
   "villalosaromos": {
    "last_run": "2026-09-14T16:44:06+00:00",
@@ -3468,6 +3468,31 @@
     },
     "zaratemedinadiaz": {
      "count": 2,
+     "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-09-14T16:50:20+00:00",
+   "baseline": false,
+   "new": 0,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "consulting": {
+     "count": 2,
+     "error": null
+    },
+    "guillermocortes": {
+     "count": 18,
+     "error": null
+    },
+    "terra": {
+     "count": 12,
+     "error": null
+    },
+    "faretta": {
+     "count": 7,
      "error": null
     }
    }
