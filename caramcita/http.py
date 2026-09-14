@@ -16,9 +16,10 @@ UA = (
 
 
 class Http:
-    def __init__(self, delay: float = 3.0, timeout: float = 30.0, retries: int = 2):
+    def __init__(self, delay: float = 3.0, timeout: float = 30.0, retries: int = 2, forbidden_pause: float = 20.0):
         self.delay = delay
         self.retries = retries
+        self.forbidden_pause = forbidden_pause
         self._last = 0.0
         self.client = httpx.Client(
             headers={
@@ -42,6 +43,12 @@ class Http:
             self._pace()
             try:
                 r = self.client.get(url, **kw)
+                if r.status_code == 403 and attempt == 0:
+                    # los firewalls de hosting compartido a veces bloquean al runner por un rato:
+                    # un solo reintento con pausa larga absorbe la mayoría de esos bloqueos
+                    log.warning("GET %s → 403; reintento en %ss", url, self.forbidden_pause)
+                    time.sleep(self.forbidden_pause)
+                    continue
                 if 400 <= r.status_code < 500 and r.status_code != 429:
                     r.raise_for_status()  # 4xx: no tiene sentido reintentar
                 if r.status_code >= 500 or r.status_code == 429:
