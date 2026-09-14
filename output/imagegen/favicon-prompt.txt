@@ -1,0 +1,14 @@
+Generated with the built-in image generation tool.
+Final asset: docs/favicon.png
+
+Initial generation prompt:
+Use case: logo-brand
+Asset type: production favicon for Caramcita, a daily house-rental listings website with restrained Nordic newspaper typography.
+Primary request: Generate one square favicon image: a single bold uppercase C, near-black #111111, on pure white #ffffff.
+Style: precise flat typographic mark inspired by extra-bold Schibsted Grotesk; confident editorial newspaper masthead, clean geometric curves and open counter, crisp edges.
+Composition: centered optically, C fills approximately 78 percent of canvas height, generous clear opening on its right so it remains instantly readable at 16x16 pixels. Pure white square background extends to all four edges.
+Text (verbatim): "C"
+Constraints: only one C. No roof, house, extra symbol, border, frame, rounded tile, shadow, gradients, texture, mockup, watermark or additional text. Output a single square image, not a presentation sheet.
+
+Final edit prompt:
+Edit this favicon. Preserve the exact bold C shape, placement, size and near-black color. Change only the background: place the C on a completely opaque solid pure white #ffffff square background, including inside the counter of the C and everywhere outside the C. All four corners must be solid opaque white. The result must have no transparency at all. Flat black letter on white paper. Do not add any other element.
