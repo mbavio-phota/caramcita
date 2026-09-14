@@ -1,6 +1,43 @@
 {
- "generated": "2026-09-13T19:10:31+00:00",
+ "generated": "2026-09-14T00:35:12+00:00",
  "cards": [
+  {
+   "key": "zonaprop:60142047",
+   "title": "Casa en anisacate",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-anisacate-60142047.html",
+   "image": "https://imgar.zonapropcdn.com/avisos/1/00/60/14/20/47/360x266/2078212283.jpg?isFirstImage=true",
+   "locality": "Anisacate",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 1.200.000",
+   "price_raw": 1200000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Barrio Villa Monte Negro, Anisacate, Anisacate, Córdoba",
+   "description": "Casa ubicada en Barrio Villa Monte Negro, Anisacate, en un entorno residencial muy tranquilo, con calles de tierra y una linda arboleda, ideal para quien buscan vivir en contacto con la naturaleza sin alejarse de la ciudad. La propiedad se encuentra a pocos minutos de la ciudad de Alta Gracia, lo que permite combinar tranquilidad y fácil acceso a servicios, comercios, colegios y centros de salud. ",
+   "agency": "Zonaprop",
+   "sources": [
+    {
+     "name": "Zonaprop",
+     "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-anisacate-60142047.html",
+     "source": "zonaprop"
+    }
+   ],
+   "status": "match",
+   "is_new": true,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "13/09 21:35",
+   "first_seen_day": "2026-09-13",
+   "first_seen_iso": "2026-09-14T00:35:12+00:00",
+   "first_seen_rfc822": "Mon, 14 Sep 2026 00:35:12 +0000",
+   "last_seen": "13/09 21:35",
+   "gone_since": null,
+   "extra": {
+    "features": "1250 m² tot. 9 amb. 3 dorm. 2 baños 3 coch."
+   }
+  },
   {
    "key": "mercadolibre:MLA3936489568",
    "title": "Alquiler Casa 3 Dormitorios Alta Gracia Barrio El Golf",
@@ -32,7 +69,7 @@
    "first_seen_day": "2026-09-11",
    "first_seen_iso": "2026-09-11T09:18:24+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 09:18:24 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "attrs": "8 ambs. | 2 baños | 200 m² cubiertos",
@@ -75,7 +112,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
@@ -112,7 +149,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
@@ -149,7 +186,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T19:25:33+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 19:25:33 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 2 baños | 230 m² cubiertos",
@@ -192,7 +229,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T14:43:39+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 14:43:39 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "bathrooms": 3,
@@ -274,7 +311,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -316,7 +353,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -362,7 +399,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -410,7 +447,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -453,7 +490,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -496,7 +533,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -538,7 +575,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -581,7 +618,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -626,7 +663,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 4 baños | 150 m² cubiertos",
@@ -669,7 +706,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -711,7 +748,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -754,7 +791,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
@@ -828,7 +865,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "13/09 16:10",
+   "last_seen": "13/09 21:35",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
