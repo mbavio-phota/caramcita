@@ -17,7 +17,7 @@ from .http import Http
 from .images import image_hash
 from .models import Verdict
 from .notify import Telegram, esc, listing_message, price_message
-from .report import render
+from .report import build_context, render
 from .sources import build_source
 from .state import SourceResult, State, apply_run
 
@@ -192,12 +192,12 @@ def _health_alerts(state: State, cfg, tg: Telegram) -> None:
         _safe_send(tg, "<b>⚠️ Fuentes con problemas</b>\n" + "\n".join(bad))
 
 
-def _daily_summary(state: State, cfg, tg: Telegram, ctx, now: datetime) -> None:
+def _daily_summary(state: State, cfg, tg: Telegram, ctx, now: datetime, force: bool = False) -> None:
     tz = ZoneInfo(cfg["telegram"]["timezone"])
     local = now.astimezone(tz)
     hour = int(cfg["telegram"].get("daily_summary_hour_local", 8))
     today = local.strftime("%Y-%m-%d")
-    if local.hour < hour or state.last_summary_date == today:
+    if not force and (local.hour < hour or state.last_summary_date == today):
         return
     last24 = [c for d in ctx["news"] for c in d["cards"]
               if (now - datetime.fromisoformat(c["first_seen_iso"])).total_seconds() < 24 * 3600]
@@ -241,6 +241,23 @@ def cmd_snapshot(args) -> int:
                                   ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"{slug}: {len(res.listings)} avisos → {out}")
     return rc
+
+
+def cmd_summary(args) -> int:
+    """Manda ahora el resumen diario por Telegram con el estado guardado (no scrapea)."""
+    cfg = load_config()
+    specs = load_sources()
+    state = State.load(Path(args.state))
+    now = _now()
+    ctx = build_context(state, cfg, specs, now)
+    tg = Telegram(chat_id=os.environ.get("TELEGRAM_CHAT_ID") or state.telegram_chat_id)
+    if not tg.enabled:
+        print("Telegram no configurado (falta token o chat_id)", file=sys.stderr)
+        return 1
+    state.last_summary_date = None  # forzar el envío aunque ya haya salido hoy
+    _daily_summary(state, cfg, tg, ctx, now, force=True)
+    print("resumen enviado")
+    return 0
 
 
 def cmd_render(args) -> int:
@@ -301,6 +318,10 @@ def main(argv=None) -> int:
     sn.add_argument("--mac", action="store_true", help="todas las fuentes con run_from: mac")
     sn.add_argument("--snapshots", default=str(ROOT / "snapshots"))
     sn.set_defaults(fn=cmd_snapshot)
+
+    sm = sub.add_parser("summary", help="manda ahora el resumen diario por Telegram")
+    sm.add_argument("--state", default=str(ROOT / "state.json"))
+    sm.set_defaults(fn=cmd_summary)
 
     rr = sub.add_parser("render", help="regenera el diario desde el estado guardado")
     rr.add_argument("--state", default=str(ROOT / "state.json"))

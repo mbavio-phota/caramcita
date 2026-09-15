@@ -10,6 +10,10 @@ on:
         description: "slugs de fuentes a correr (separados por espacio); vacío = todas"
         required: false
         default: ""
+      summary_only:
+        description: "sólo mandar el resumen diario por Telegram, sin scrapear"
+        type: boolean
+        default: false
 
 concurrency:
   group: caramcita-run
@@ -43,6 +47,9 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TZ: America/Argentina/Cordoba
         run: |
+          if [ "${{ github.event.inputs.summary_only }}" = "true" ]; then
+            caramcita summary; exit 0
+          fi
           ONLY="${{ github.event.inputs.only }}"
           if [ -n "$ONLY" ]; then
             caramcita run --browser --only $ONLY
