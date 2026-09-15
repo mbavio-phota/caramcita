@@ -3,7 +3,7 @@
  "baseline_done": true,
  "baseline_at": null,
  "last_summary_date": "2026-09-14",
- "telegram_chat_id": null,
+ "telegram_chat_id": "-5358394525",
  "listings": {
   "fiornovelli:12287": {
    "listing": {
@@ -296,7 +296,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-15T01:07:35+00:00",
+   "last_seen": "2026-09-15T03:18:28+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1281,8 +1281,8 @@
    "error_streak": 0
   },
   "lavoz": {
-   "last_run": "2026-09-15T01:07:35+00:00",
-   "last_ok": "2026-09-15T01:07:35+00:00",
+   "last_run": "2026-09-15T03:18:28+00:00",
+   "last_ok": "2026-09-15T03:18:28+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
@@ -3647,6 +3647,19 @@
     },
     "zaratemedinadiaz": {
      "count": 0,
+     "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-09-15T03:18:28+00:00",
+   "baseline": false,
+   "new": 0,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "lavoz": {
+     "count": 12,
      "error": null
     }
    }
