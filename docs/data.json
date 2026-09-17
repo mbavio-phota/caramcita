@@ -1,6 +1,45 @@
 {
- "generated": "2026-09-17T09:46:17+00:00",
+ "generated": "2026-09-17T15:24:14+00:00",
  "cards": [
+  {
+   "key": "ruartemoyano:2519898",
+   "title": "Casa en Alquiler en Alta Gracia, Santa Maria",
+   "url": "https://www.ruartemoyano.com.ar/p/2519898-Casa-en-Alquiler-en-Alta-Gracia-3-Dormitorios---Con-Pileta---Frente-al-Parque-García-Lorca-",
+   "image": "https://static.tokkobroker.com/pictures/66233882413432834363910452883933100750575007532499468536560220490625963159665.jpg",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 1.500.000",
+   "price_raw": 1500000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Alta Gracia",
+   "description": "3 Dormitorios - Con Pileta -Frente al Parque García Lorca",
+   "agency": "Ruarte Moyano",
+   "sources": [
+    {
+     "name": "Ruarte Moyano",
+     "url": "https://www.ruartemoyano.com.ar/p/2519898-Casa-en-Alquiler-en-Alta-Gracia-3-Dormitorios---Con-Pileta---Frente-al-Parque-García-Lorca-",
+     "source": "ruartemoyano"
+    }
+   ],
+   "status": "match",
+   "is_new": true,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "17/09 12:24",
+   "first_seen_day": "2026-09-17",
+   "first_seen_iso": "2026-09-17T15:24:14+00:00",
+   "first_seen_rfc822": "Thu, 17 Sep 2026 15:24:14 +0000",
+   "last_seen": "17/09 12:24",
+   "gone_since": null,
+   "extra": {
+    "codref": "IHO2519898",
+    "surface": "240 m²",
+    "ambientes": 3
+   }
+  },
   {
    "key": "terra:19904",
    "title": "Alquiler en Calle Chile-barrio Camara-alta Gracia.",
@@ -32,7 +71,7 @@
    "first_seen_day": "2026-09-16",
    "first_seen_iso": "2026-09-16T19:49:34+00:00",
    "first_seen_rfc822": "Wed, 16 Sep 2026 19:49:34 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "banos": "1"
@@ -106,7 +145,7 @@
    "first_seen_day": "2026-09-11",
    "first_seen_iso": "2026-09-11T19:23:30+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 19:23:30 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
@@ -143,7 +182,7 @@
    "first_seen_day": "2026-09-11",
    "first_seen_iso": "2026-09-11T09:18:24+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 09:18:24 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "attrs": "8 ambs. | 2 baños | 200 m² cubiertos",
@@ -186,7 +225,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
@@ -223,7 +262,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
@@ -260,7 +299,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T19:25:33+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 19:25:33 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 2 baños | 230 m² cubiertos",
@@ -296,7 +335,7 @@
     }
    ],
    "status": "maybe_location",
-   "is_new": true,
+   "is_new": false,
    "is_gone": true,
    "is_back": false,
    "first_seen": "10/09 11:43",
@@ -309,49 +348,6 @@
     "bathrooms": 3,
     "surface": "Sup. Total 140 m 2",
     "region": "Cordoba"
-   }
-  },
-  {
-   "key": "mercadolibre:MLA3931140660",
-   "title": "Casa En Alquiler C/ Cochera Y Quincho En Alta Gracia",
-   "url": "https://casa.mercadolibre.com.ar/MLA-3931140660-casa-en-alquiler-c-cochera-y-quincho-en-alta-gracia-_JM",
-   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_790245-MLA115945691714_092026-E.webp",
-   "locality": "Alta Gracia",
-   "locality_confirmed": true,
-   "bedrooms": 3,
-   "price": "$ 860.000",
-   "price_raw": 860000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "Manuel Solares 516",
-   "description": "",
-   "agency": "Carloshernncortez",
-   "sources": [
-    {
-     "name": "Carloshernncortez",
-     "url": "https://casa.mercadolibre.com.ar/MLA-3931140660-casa-en-alquiler-c-cochera-y-quincho-en-alta-gracia-_JM",
-     "source": "mercadolibre"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": true,
-   "is_back": false,
-   "first_seen": "09/09 11:58",
-   "first_seen_day": "2026-09-09",
-   "first_seen_iso": "2026-09-09T14:58:10+00:00",
-   "first_seen_rfc822": "Wed, 09 Sep 2026 14:58:10 +0000",
-   "last_seen": "10/09 06:19",
-   "gone_since": "10/09 11:43",
-   "extra": {
-    "attrs": "6 ambs. | 2 baños | 80 m² cubiertos",
-    "bathrooms": "2",
-    "rooms": "6",
-    "covered_m2": "80",
-    "floor_size": 80,
-    "date_posted": "2026-09-09",
-    "ml_locality": "Alta Gracia"
    }
   },
   {
@@ -385,7 +381,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -427,7 +423,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -473,7 +469,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -521,7 +517,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -649,7 +645,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -692,7 +688,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -732,7 +728,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -769,12 +765,12 @@
    "status": "match",
    "is_new": false,
    "is_gone": false,
-   "is_back": true,
+   "is_back": false,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -817,7 +813,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
@@ -891,7 +887,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "17/09 06:46",
+   "last_seen": "17/09 12:24",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"

@@ -6,7 +6,15 @@
 <atom:link href="https://mbavio-phota.github.io/caramcita/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Casas en alquiler anual · Alta Gracia, Falda del Carmen, Anisacate, Valle de Anisacate y Villa La Bolsa</description>
 <language>es-AR</language>
-<lastBuildDate>Thu, 17 Sep 2026 09:46:17 +0000</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 15:24:14 +0000</lastBuildDate>
+
+<item>
+<title>Casa en Alquiler en Alta Gracia, Santa Maria · Alta Gracia · 3 dorm · $ 1.500.000</title>
+<link>https://www.ruartemoyano.com.ar/p/2519898-Casa-en-Alquiler-en-Alta-Gracia-3-Dormitorios---Con-Pileta---Frente-al-Parque-García-Lorca-</link>
+<guid isPermaLink="false">ruartemoyano:2519898</guid>
+<pubDate>Thu, 17 Sep 2026 15:24:14 +0000</pubDate>
+<description>Ruarte Moyano — 3 Dormitorios - Con Pileta -Frente al Parque García Lorca</description>
+</item>
 
 <item>
 <title>Alquiler en Calle Chile-barrio Camara-alta Gracia. · Alta Gracia · 3 dorm · $ 950.000</title>
@@ -62,14 +70,6 @@
 <guid isPermaLink="false">mercadolibre:MLA3936330828</guid>
 <pubDate>Thu, 10 Sep 2026 19:25:33 +0000</pubDate>
 <description>Ultraremax20221121185234 — </description>
-</item>
-
-<item>
-<title>[?] 3 dormitorios. 3 baños. Amplio. Luminoso. Disponible a partir del 15/09. · Urca · 3 dorm · $ 1.350.000</title>
-<link>https://juarezbeltran.com.ar/propiedad/3-dormitorios-3-banos-amplio-luminoso-disponible-a-partir-del-1509--4485864</link>
-<guid isPermaLink="false">juarezbeltran:4485864</guid>
-<pubDate>Thu, 10 Sep 2026 14:43:39 +0000</pubDate>
-<description>Juárez Beltrán — Duplex 3 dormitorios. 3 baños. Amplio. Luminoso. Jardín con asador. Disponible a partir del 15 de seotiembre. UBICACIÓN: Mariano Pelliza 1339, Barr...</description>
 </item>
 
 </channel>
