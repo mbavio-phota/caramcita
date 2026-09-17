@@ -44,7 +44,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -95,7 +95,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -146,7 +146,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -196,7 +196,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -296,7 +296,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -345,7 +345,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T19:22:36+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -393,7 +393,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -444,7 +444,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -453,57 +453,6 @@
      "at": "2026-09-08T18:58:45+00:00",
      "price": 2000.0,
      "currency": "USD"
-    }
-   ]
-  },
-  "mercadolibre:MLA1972660245": {
-   "listing": {
-    "source": "mercadolibre",
-    "source_id": "MLA1972660245",
-    "url": "https://casa.mercadolibre.com.ar/MLA-1972660245-casa-de-3-dormitorios-en-alquiler-en-reserva-tajamar-2-_JM",
-    "title": "Casa De 3 Dormitorios En Alquiler En Reserva Tajamar 2",
-    "description": "",
-    "price": 1500000.0,
-    "currency": "ARS",
-    "locality": "Alta Gracia",
-    "address": "Alta Gracia Liliana, Córdoba, Villa Juana",
-    "bedrooms": 3,
-    "property_type": "Casa",
-    "operation": "Alquiler",
-    "images": [
-     "https://http2.mlstatic.com/D_NQ_NP_2X_989327-MLA115899215671_082026-E.webp"
-    ],
-    "agency": "PUSIOLFLORIANI",
-    "lat": null,
-    "lng": null,
-    "extra": {
-     "attrs": "6 ambs. | 4 baños | 150 m² cubiertos",
-     "bathrooms": "4",
-     "rooms": "6",
-     "covered_m2": "150",
-     "floor_size": 150,
-     "date_posted": "2026-08-10",
-     "ml_locality": "Alta Gracia",
-     "img_hash": "eb9657616938c342"
-    },
-    "key": "mercadolibre:MLA1972660245"
-   },
-   "verdict": {
-    "status": "match",
-    "reason": "exact",
-    "locality": "Alta Gracia",
-    "bedrooms": 3
-   },
-   "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T00:45:11+00:00",
-   "gone_since": "2026-09-10T09:19:43+00:00",
-   "back_at": null,
-   "price_changed_at": null,
-   "price_history": [
-    {
-     "at": "2026-09-08T18:58:45+00:00",
-     "price": 1500000.0,
-     "currency": "ARS"
     }
    ]
   },
@@ -545,7 +494,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-09T00:57:42+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -596,7 +545,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -646,7 +595,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": "2026-09-12T18:53:37+00:00",
@@ -702,7 +651,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": "2026-09-10T14:43:39+00:00",
    "price_changed_at": null,
@@ -804,7 +753,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-10T19:25:33+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -855,7 +804,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T09:18:24+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -900,7 +849,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-16T19:49:34+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -957,7 +906,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": "2026-09-17T01:00:58+00:00",
    "price_changed_at": "2026-09-15T19:57:13+00:00",
@@ -1077,7 +1026,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-11T00:45:38+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1122,7 +1071,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T00:45:38+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1167,7 +1116,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1212,7 +1161,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T19:23:30+00:00",
-   "last_seen": "2026-09-17T01:00:58+00:00",
+   "last_seen": "2026-09-17T09:46:17+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1272,136 +1221,136 @@
  },
  "sources": {
   "consulting": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "facundosanchez": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 0,
-   "zero_streak": 35,
+   "zero_streak": 36,
    "error": null,
    "error_streak": 0
   },
   "faretta": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 7,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "fiornovelli": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 9,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "goyatucci": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 10,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "guillermocortes": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 17,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "invertir": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 6,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "juarezbeltran": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 65,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lavoz": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lequio": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "mercadolibre": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
-   "last_count": 48,
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
+   "last_count": 49,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "raices": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 0,
-   "zero_streak": 37,
+   "zero_streak": 38,
    "error": null,
    "error_streak": 0
   },
   "ruartemoyano": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 5,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "terra": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 14,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "villalosaromos": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 29,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zaratemedinadiaz": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zonaprop": {
-   "last_run": "2026-09-17T01:00:58+00:00",
-   "last_ok": "2026-09-17T01:00:58+00:00",
+   "last_run": "2026-09-17T09:46:17+00:00",
+   "last_ok": "2026-09-17T09:46:17+00:00",
    "last_count": 16,
    "zero_streak": 0,
    "error": null,
@@ -4267,6 +4216,83 @@
     },
     "mercadolibre": {
      "count": 48,
+     "error": null
+    },
+    "zonaprop": {
+     "count": 16,
+     "error": null
+    },
+    "consulting": {
+     "count": 2,
+     "error": null
+    },
+    "guillermocortes": {
+     "count": 17,
+     "error": null
+    },
+    "invertir": {
+     "count": 6,
+     "error": null
+    },
+    "goyatucci": {
+     "count": 10,
+     "error": null
+    },
+    "terra": {
+     "count": 14,
+     "error": null
+    },
+    "faretta": {
+     "count": 7,
+     "error": null
+    },
+    "fiornovelli": {
+     "count": 9,
+     "error": null
+    },
+    "raices": {
+     "count": 0,
+     "error": null
+    },
+    "facundosanchez": {
+     "count": 0,
+     "error": null
+    },
+    "villalosaromos": {
+     "count": 29,
+     "error": null
+    },
+    "lequio": {
+     "count": 12,
+     "error": null
+    },
+    "ruartemoyano": {
+     "count": 5,
+     "error": null
+    },
+    "juarezbeltran": {
+     "count": 65,
+     "error": null
+    },
+    "zaratemedinadiaz": {
+     "count": 2,
+     "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-09-17T09:46:17+00:00",
+   "baseline": false,
+   "new": 0,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "lavoz": {
+     "count": 12,
+     "error": null
+    },
+    "mercadolibre": {
+     "count": 49,
      "error": null
     },
     "zonaprop": {

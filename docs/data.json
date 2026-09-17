@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T01:00:58+00:00",
+ "generated": "2026-09-17T09:46:17+00:00",
  "cards": [
   {
    "key": "terra:19904",
@@ -32,7 +32,7 @@
    "first_seen_day": "2026-09-16",
    "first_seen_iso": "2026-09-16T19:49:34+00:00",
    "first_seen_rfc822": "Wed, 16 Sep 2026 19:49:34 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "banos": "1"
@@ -76,6 +76,43 @@
    }
   },
   {
+   "key": "zonaprop:60125473",
+   "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
+   "image": "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/73/360x266/2077797147.jpg?isFirstImage=true",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 1.500.000",
+   "price_raw": 1500000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Reserva Tajamar, Reserva Tajamar, Alta Gracia",
+   "description": "Alquiler en Barrio Reserva Tajamar 2. Viví la tranquilidad y el confort que ofrece este exclusivo barrio con seguridad 24hs de dia, a minutos del centro de la ciudad. La propiedad cuenta con 3 dormitorios luminosos y 4 baños, ideales para una vida cómoda y práctica. Quincho amplio con cerramiento y pileta, cochera cerrada para un vehiculo. Disfrutá de ambientes modernos, 5 aires acondicionado frio",
+   "agency": "Zonaprop",
+   "sources": [
+    {
+     "name": "Zonaprop",
+     "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
+     "source": "zonaprop"
+    }
+   ],
+   "status": "match",
+   "is_new": true,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "11/09 16:23",
+   "first_seen_day": "2026-09-11",
+   "first_seen_iso": "2026-09-11T19:23:30+00:00",
+   "first_seen_rfc822": "Fri, 11 Sep 2026 19:23:30 +0000",
+   "last_seen": "17/09 06:46",
+   "gone_since": null,
+   "extra": {
+    "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
+   }
+  },
+  {
    "key": "mercadolibre:MLA3936489568",
    "title": "Alquiler Casa 3 Dormitorios Alta Gracia Barrio El Golf",
    "url": "https://casa.mercadolibre.com.ar/MLA-3936489568-alquiler-casa-3-dormitorios-alta-gracia-barrio-el-golf-_JM",
@@ -106,7 +143,7 @@
    "first_seen_day": "2026-09-11",
    "first_seen_iso": "2026-09-11T09:18:24+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 09:18:24 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "attrs": "8 ambs. | 2 baños | 200 m² cubiertos",
@@ -149,7 +186,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
@@ -186,7 +223,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
@@ -223,7 +260,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-10T19:25:33+00:00",
    "first_seen_rfc822": "Thu, 10 Sep 2026 19:25:33 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 2 baños | 230 m² cubiertos",
@@ -348,7 +385,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -390,7 +427,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -436,7 +473,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -484,7 +521,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -527,7 +564,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -570,7 +607,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -612,7 +649,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -655,61 +692,13 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
     "bathrooms": "2",
     "date_posted": "2026-07-03",
     "ml_locality": "Santa María"
-   }
-  },
-  {
-   "key": "mercadolibre:MLA1972660245",
-   "title": "Casa De 3 Dormitorios En Alquiler En Reserva Tajamar 2",
-   "url": "https://casa.mercadolibre.com.ar/MLA-1972660245-casa-de-3-dormitorios-en-alquiler-en-reserva-tajamar-2-_JM",
-   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_989327-MLA115899215671_082026-E.webp",
-   "locality": "Alta Gracia",
-   "locality_confirmed": true,
-   "bedrooms": 3,
-   "price": "$ 1.500.000",
-   "price_raw": 1500000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "Alta Gracia Liliana, Córdoba, Villa Juana",
-   "description": "",
-   "agency": "Pusiolfloriani",
-   "sources": [
-    {
-     "name": "Pusiolfloriani",
-     "url": "https://casa.mercadolibre.com.ar/MLA-1972660245-casa-de-3-dormitorios-en-alquiler-en-reserva-tajamar-2-_JM",
-     "source": "mercadolibre"
-    },
-    {
-     "name": "Zonaprop",
-     "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
-     "source": "zonaprop"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": false,
-   "is_back": false,
-   "first_seen": "08/09 15:58",
-   "first_seen_day": "2026-09-08",
-   "first_seen_iso": "2026-09-08T18:58:45+00:00",
-   "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
-   "gone_since": null,
-   "extra": {
-    "attrs": "6 ambs. | 4 baños | 150 m² cubiertos",
-    "bathrooms": "4",
-    "rooms": "6",
-    "covered_m2": "150",
-    "floor_size": 150,
-    "date_posted": "2026-08-10",
-    "ml_locality": "Alta Gracia"
    }
   },
   {
@@ -743,7 +732,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -785,7 +774,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -828,7 +817,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
@@ -902,7 +891,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "16/09 22:00",
+   "last_seen": "17/09 06:46",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
