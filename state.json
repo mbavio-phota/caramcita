@@ -44,7 +44,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T09:46:17+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -95,7 +95,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T09:46:17+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -146,7 +146,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T09:46:17+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -196,7 +196,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T09:46:17+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -296,7 +296,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -345,7 +345,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T19:22:36+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -393,7 +393,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -444,7 +444,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -494,7 +494,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-09T00:57:42+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -502,6 +502,56 @@
     {
      "at": "2026-09-09T00:57:42+00:00",
      "price": 1950000.0,
+     "currency": "ARS"
+    }
+   ]
+  },
+  "mercadolibre:MLA2100609211": {
+   "listing": {
+    "source": "mercadolibre",
+    "source_id": "MLA2100609211",
+    "url": "https://casa.mercadolibre.com.ar/MLA-2100609211-alquiler-3-dormitorios-con-pileta-frente-al-parque-garcia-lorca-_JM",
+    "title": "Alquiler - 3 Dormitorios - Con Pileta -frente Al Parque Garcia Lorca",
+    "description": "",
+    "price": 1500000.0,
+    "currency": "ARS",
+    "locality": "Alta Gracia",
+    "address": "3 Dormitorios - Con Pileta -frente Al Parque García Lorca",
+    "bedrooms": 3,
+    "property_type": "Casa",
+    "operation": "Alquiler",
+    "images": [
+     "https://http2.mlstatic.com/D_NQ_NP_2X_786324-MLA116315982298_092026-E.webp"
+    ],
+    "agency": "INMOBILIARIA RUATEMOYANO",
+    "lat": null,
+    "lng": null,
+    "extra": {
+     "attrs": "4 ambs. | 2 baños | 1.200 m² totales",
+     "bathrooms": "2",
+     "rooms": "4",
+     "covered_m2": "1.200",
+     "date_posted": "2026-09-17",
+     "ml_locality": "Alta Gracia",
+     "img_hash": "f1f3666f39699d32"
+    },
+    "key": "mercadolibre:MLA2100609211"
+   },
+   "verdict": {
+    "status": "match",
+    "reason": "exact",
+    "locality": "Alta Gracia",
+    "bedrooms": 3
+   },
+   "first_seen": "2026-09-17T19:57:37+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
+   "gone_since": null,
+   "back_at": null,
+   "price_changed_at": null,
+   "price_history": [
+    {
+     "at": "2026-09-17T19:57:37+00:00",
+     "price": 1500000.0,
      "currency": "ARS"
     }
    ]
@@ -545,7 +595,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -595,7 +645,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": "2026-09-12T18:53:37+00:00",
@@ -651,7 +701,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": "2026-09-10T14:43:39+00:00",
    "price_changed_at": null,
@@ -702,7 +752,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-10T19:25:33+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -753,7 +803,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T09:18:24+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -800,7 +850,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-17T15:24:14+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -902,7 +952,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": "2026-09-17T01:00:58+00:00",
    "price_changed_at": "2026-09-15T19:57:13+00:00",
@@ -944,51 +994,6 @@
     }
    ]
   },
-  "zonaprop:58369751": {
-   "listing": {
-    "source": "zonaprop",
-    "source_id": "58369751",
-    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-el-potrerillo-de-larreta-58369751.html",
-    "title": "Casa el potrerillo de larreta",
-    "description": "Franco zamoraservicios inmobiliariosofreceen venta Y/O alquiler permanentecasaubicación: spa resort potrerillo de larretacomodidades: 3 dormitorios uno con baño en suite, todos con placarddos baños completos/ un toilletegalería techadacochera semi cubiertaasadorpileta con hidromasajeen caso de alquiler( x 1 año) venta usd 350. 000documentación al día! franco zamoraservicios inmobiliarioscpi 7972",
-    "price": 1450.0,
-    "currency": "USD",
-    "locality": "Alta Gracia",
-    "address": "Mza al 400, El Potrerillo de Larreta, Alta Gracia",
-    "bedrooms": 3,
-    "property_type": "Casa",
-    "operation": "Alquiler",
-    "images": [
-     "https://imgar.zonapropcdn.com/avisos/1/00/58/36/97/51/360x266/2033015038.jpg?isFirstImage=true"
-    ],
-    "agency": "Zonaprop",
-    "lat": null,
-    "lng": null,
-    "extra": {
-     "features": "1177 m² tot. 12 amb. 3 dorm. 2 coch.",
-     "img_hash": "d9cd4c0c36eb4853"
-    },
-    "key": "zonaprop:58369751"
-   },
-   "verdict": {
-    "status": "match",
-    "reason": "exact",
-    "locality": "Alta Gracia",
-    "bedrooms": 3
-   },
-   "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-10T14:43:39+00:00",
-   "gone_since": "2026-09-10T19:25:33+00:00",
-   "back_at": null,
-   "price_changed_at": null,
-   "price_history": [
-    {
-     "at": "2026-09-08T18:58:45+00:00",
-     "price": 1450.0,
-     "currency": "USD"
-    }
-   ]
-  },
   "zonaprop:58810024": {
    "listing": {
     "source": "zonaprop",
@@ -1022,7 +1027,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-11T00:45:38+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1067,7 +1072,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T00:45:38+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1112,7 +1117,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1157,7 +1162,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T19:23:30+00:00",
-   "last_seen": "2026-09-17T15:24:14+00:00",
+   "last_seen": "2026-09-17T19:57:37+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1217,137 +1222,137 @@
  },
  "sources": {
   "consulting": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "facundosanchez": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 0,
-   "zero_streak": 37,
+   "zero_streak": 38,
    "error": null,
    "error_streak": 0
   },
   "faretta": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 7,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "fiornovelli": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T09:46:17+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 9,
    "zero_streak": 0,
-   "error": "ConnectTimeout: timed out",
-   "error_streak": 1
+   "error": null,
+   "error_streak": 0
   },
   "goyatucci": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T09:46:17+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 10,
    "zero_streak": 0,
-   "error": "ConnectTimeout: timed out",
-   "error_streak": 1
+   "error": null,
+   "error_streak": 0
   },
   "guillermocortes": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 17,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "invertir": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 6,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "juarezbeltran": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 66,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lavoz": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 11,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lequio": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "mercadolibre": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
-   "last_count": 49,
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
+   "last_count": 50,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "raices": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 0,
-   "zero_streak": 39,
+   "zero_streak": 40,
    "error": null,
    "error_streak": 0
   },
   "ruartemoyano": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 6,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "terra": {
-   "last_run": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
    "last_ok": "2026-09-17T15:24:14+00:00",
    "last_count": 14,
    "zero_streak": 0,
-   "error": null,
-   "error_streak": 0
+   "error": "HTTPStatusError: 503 en https://inmobiliaria-terra.com.ar/wp-json/wp/v2/properties?per_page=50&_embed=1&page=1",
+   "error_streak": 1
   },
   "villalosaromos": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
-   "last_count": 29,
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
+   "last_count": 7,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zaratemedinadiaz": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zonaprop": {
-   "last_run": "2026-09-17T15:24:14+00:00",
-   "last_ok": "2026-09-17T15:24:14+00:00",
-   "last_count": 16,
+   "last_run": "2026-09-17T19:57:37+00:00",
+   "last_ok": "2026-09-17T19:57:37+00:00",
+   "last_count": 15,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
@@ -4410,6 +4415,83 @@
     },
     "villalosaromos": {
      "count": 29,
+     "error": null
+    },
+    "lequio": {
+     "count": 12,
+     "error": null
+    },
+    "ruartemoyano": {
+     "count": 6,
+     "error": null
+    },
+    "juarezbeltran": {
+     "count": 66,
+     "error": null
+    },
+    "zaratemedinadiaz": {
+     "count": 2,
+     "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-09-17T19:57:37+00:00",
+   "baseline": false,
+   "new": 1,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "lavoz": {
+     "count": 11,
+     "error": null
+    },
+    "mercadolibre": {
+     "count": 50,
+     "error": null
+    },
+    "zonaprop": {
+     "count": 15,
+     "error": null
+    },
+    "consulting": {
+     "count": 2,
+     "error": null
+    },
+    "guillermocortes": {
+     "count": 17,
+     "error": null
+    },
+    "invertir": {
+     "count": 6,
+     "error": null
+    },
+    "goyatucci": {
+     "count": 10,
+     "error": null
+    },
+    "terra": {
+     "count": 0,
+     "error": "HTTPStatusError: 503 en https://inmobiliaria-terra.com.ar/wp-json/wp/v2/properties?per_page=50&_embed=1&page=1"
+    },
+    "faretta": {
+     "count": 7,
+     "error": null
+    },
+    "fiornovelli": {
+     "count": 9,
+     "error": null
+    },
+    "raices": {
+     "count": 0,
+     "error": null
+    },
+    "facundosanchez": {
+     "count": 0,
+     "error": null
+    },
+    "villalosaromos": {
+     "count": 7,
      "error": null
     },
     "lequio": {
