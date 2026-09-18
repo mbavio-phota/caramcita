@@ -44,7 +44,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -95,7 +95,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -296,7 +296,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -345,7 +345,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T19:22:36+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -393,7 +393,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -444,7 +444,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -494,7 +494,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-09T00:57:42+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -544,7 +544,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-17T19:57:37+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -595,7 +595,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -645,7 +645,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": "2026-09-12T18:53:37+00:00",
@@ -701,7 +701,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": "2026-09-10T14:43:39+00:00",
    "price_changed_at": null,
@@ -752,7 +752,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-10T19:25:33+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -803,7 +803,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T09:18:24+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -850,7 +850,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-17T15:24:14+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -895,7 +895,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-16T19:49:34+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -912,29 +912,25 @@
     "source": "villalosaromos",
     "source_id": "7930",
     "url": "https://inmobiliariavillalosaromos.com.ar/property/alquiler-permanente-el-descanso-anisacate/",
-    "title": "ALQUILER PERMANENTE – EL DESCANSO ANISACATE",
-    "description": "CASA EN ALQUILER PERMANENTE Ubicada en El Descanso- Anisacate. A dos cuadras de ruta 5 Posee 4 dormitorios, amplia galería, parque , pileta. Precio mensual: $800.000 Viví rodeado de naturaleza, con espacio, comodidad para toda la familia.",
-    "price": 800000.0,
-    "currency": "ARS",
+    "title": "ALQUILER PERMANENTE – VALLE DE ALTA GRACIA",
+    "description": "CASA EN ALQUILER PERMANENTE",
+    "price": null,
+    "currency": null,
     "locality": "",
     "address": "",
     "bedrooms": null,
     "property_type": "",
     "operation": "Alquiler",
     "images": [
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/9c13f3f7-96f0-4ebb-bfad-74bf404fb05e.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/137de96b-9fed-425d-8a93-f41f8618ff90.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/861edd5c-053a-406a-b973-e2951b371502.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/99f7d07d-8237-41a4-892d-2cba22973470.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/525dd8a3-93ac-4c22-9a6f-5db2b5fa13c4.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/96dda441-17db-4b72-b023-ab10bc321754.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/7fcd7f15-bcc2-4c2f-8d7c-54d2960c94c8.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/6f9d75b5-aa8d-4a6d-9102-159643715fd8.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/6a18c772-90bc-4e60-a020-e8e0c87b15cf.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/2b465ba3-da3a-41c4-b8ce-04ee40fd3796.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/0bed6f7e-2195-4981-91bc-20918e8c5090.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/2976a2a2-5aa8-4596-93f7-fa24d572021f.jpeg",
-     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/a83790ca-56ab-4a19-b7be-a3381aeddb09.jpeg"
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/11c778a1-5d39-4c0b-b32a-1ac34ce4826c.jpeg",
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/0e4720fb-ac16-4a28-9fcf-02244a00acfd.jpeg",
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/31860261-fabd-4651-885a-61d55127c152.jpeg",
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/2b5f0d22-ff39-4d47-ac6b-fc1be2dab4e1.jpeg",
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/6c0f7a74-4bea-4f7c-8608-d6ded4e70f63.jpeg",
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/57169fb5-a768-4e74-ad6f-3caca25f6d22.jpeg",
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/dbfec3c8-577a-4310-b2b8-3e69b02c7c84.jpeg",
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/e0c483f8-38bb-4854-b2ef-a348dd9530ef.jpeg",
+     "https://inmobiliariavillalosaromos.com.ar/wp-content/uploads/2026/06/ef41785f-7a91-4020-95a7-ed7bef1362f2.jpeg"
     ],
     "agency": "Inmobiliaria Villa Los Aromos",
     "lat": null,
@@ -946,16 +942,16 @@
     "key": "villalosaromos:7930"
    },
    "verdict": {
-    "status": "match",
-    "reason": "text",
-    "locality": "Anisacate",
-    "bedrooms": 4
+    "status": "maybe_bedrooms",
+    "reason": "dormitorios sin dato",
+    "locality": "Alta Gracia",
+    "bedrooms": null
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": "2026-09-17T01:00:58+00:00",
-   "price_changed_at": "2026-09-15T19:57:13+00:00",
+   "price_changed_at": "2026-09-18T09:19:56+00:00",
    "price_history": [
     {
      "at": "2026-09-08T18:58:45+00:00",
@@ -991,6 +987,11 @@
      "at": "2026-09-15T19:57:13+00:00",
      "price": 800000.0,
      "currency": "ARS"
+    },
+    {
+     "at": "2026-09-18T09:19:56+00:00",
+     "price": null,
+     "currency": null
     }
    ]
   },
@@ -1027,7 +1028,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-11T00:45:38+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": "2026-09-18T00:56:55+00:00",
@@ -1077,7 +1078,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T00:45:38+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1122,7 +1123,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1167,7 +1168,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T19:23:30+00:00",
-   "last_seen": "2026-09-18T00:56:55+00:00",
+   "last_seen": "2026-09-18T09:19:56+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1227,136 +1228,136 @@
  },
  "sources": {
   "consulting": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "facundosanchez": {
-   "last_run": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
    "last_ok": "2026-09-18T00:56:55+00:00",
    "last_count": 0,
    "zero_streak": 39,
-   "error": null,
-   "error_streak": 0
+   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://facundosanchez.com.ar/wp-json/wp/v2/property?per_page=50&_embed=1&page=1'\nFor more information check: https://developer.mozilla.org/en-US",
+   "error_streak": 1
   },
   "faretta": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 7,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "fiornovelli": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 9,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "goyatucci": {
-   "last_run": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
    "last_ok": "2026-09-17T19:57:37+00:00",
    "last_count": 10,
    "zero_streak": 0,
    "error": "ConnectError: [Errno -2] Name or service not known",
-   "error_streak": 1
+   "error_streak": 2
   },
   "guillermocortes": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 17,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "invertir": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 6,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "juarezbeltran": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 66,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lavoz": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 11,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lequio": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "mercadolibre": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 51,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "raices": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 0,
-   "zero_streak": 41,
+   "zero_streak": 42,
    "error": null,
    "error_streak": 0
   },
   "ruartemoyano": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 6,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "terra": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 15,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "villalosaromos": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 29,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zaratemedinadiaz": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zonaprop": {
-   "last_run": "2026-09-18T00:56:55+00:00",
-   "last_ok": "2026-09-18T00:56:55+00:00",
+   "last_run": "2026-09-18T09:19:56+00:00",
+   "last_ok": "2026-09-18T09:19:56+00:00",
    "last_count": 15,
    "zero_streak": 0,
    "error": null,
@@ -4571,6 +4572,83 @@
     "facundosanchez": {
      "count": 0,
      "error": null
+    },
+    "villalosaromos": {
+     "count": 29,
+     "error": null
+    },
+    "lequio": {
+     "count": 12,
+     "error": null
+    },
+    "ruartemoyano": {
+     "count": 6,
+     "error": null
+    },
+    "juarezbeltran": {
+     "count": 66,
+     "error": null
+    },
+    "zaratemedinadiaz": {
+     "count": 2,
+     "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-09-18T09:19:56+00:00",
+   "baseline": false,
+   "new": 0,
+   "gone": 0,
+   "price_changed": 0,
+   "sources": {
+    "lavoz": {
+     "count": 11,
+     "error": null
+    },
+    "mercadolibre": {
+     "count": 51,
+     "error": null
+    },
+    "zonaprop": {
+     "count": 15,
+     "error": null
+    },
+    "consulting": {
+     "count": 2,
+     "error": null
+    },
+    "guillermocortes": {
+     "count": 17,
+     "error": null
+    },
+    "invertir": {
+     "count": 6,
+     "error": null
+    },
+    "goyatucci": {
+     "count": 0,
+     "error": "ConnectError: [Errno -2] Name or service not known"
+    },
+    "terra": {
+     "count": 15,
+     "error": null
+    },
+    "faretta": {
+     "count": 7,
+     "error": null
+    },
+    "fiornovelli": {
+     "count": 9,
+     "error": null
+    },
+    "raices": {
+     "count": 0,
+     "error": null
+    },
+    "facundosanchez": {
+     "count": 0,
+     "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://facundosanchez.com.ar/wp-json/wp/v2/property?per_page=50&_embed=1&page=1'\nFor more information check: https://developer.mozilla.org/en-US"
     },
     "villalosaromos": {
      "count": 29,
