@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-19T10:45:31+00:00",
+ "fetched_at": "2026-09-19T16:45:35+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -75,30 +75,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "58810024",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
-   "title": "Casa en alquiler en potrerillo de larreta",
-   "description": "Ubicada en el exclusivo entorno de Potrerillo de Larreta Country Golf Club, esta residencia ofrece una experiencia única de confort, estilo y contacto con la naturaleza. Con una arquitectura de líneas elegantes y una calidad constructiva excepcional, cada espacio ha sido diseñado para disfrutar de la tranquilidad y el paisaje serrano. La propiedad cuenta con amplios y luminosos ambientes, totalizando 4 habitaciones y 4 baños, brindando privacidad y comodidad para toda la familia. Características destacadas: - Cuatro dormitorios de generosas dimensiones. - Cuatro baños completos con terminaciones de primera calidad. - Amplio living comedor con vistas panorámicas a las sierras. - Cocina totalmente equipada. - Calefacción central por loza radiante. - Gran galería con área de parrilla. - Piscina con vista abierta. - Seguridad las 24hs, barrio cerrado. - Campo de Golf de primera categoría. Con una ubicación privilegiada dentro del country, esta casa ofrece un equilibrio perfecto entre naturaleza, confort y exclusividad. Ideal para quienes buscan disfrutar de la vida en un entorno seguro, con servicios de primer nivel y un paisaje incomparable.",
-   "price": 2500000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "camino a los paredones km3, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 4,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/58/81/00/24/360x266/2062133401.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
-   },
-   "key": "zonaprop:58810024"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59559291",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
    "title": "Casa de categoria amoblada en alquiler frente al golf",
@@ -120,6 +96,30 @@
     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
    },
    "key": "zonaprop:59559291"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "58810024",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
+   "title": "Casa en alquiler en potrerillo de larreta",
+   "description": "Ubicada en el exclusivo entorno de Potrerillo de Larreta Country Golf Club, esta residencia ofrece una experiencia única de confort, estilo y contacto con la naturaleza. Con una arquitectura de líneas elegantes y una calidad constructiva excepcional, cada espacio ha sido diseñado para disfrutar de la tranquilidad y el paisaje serrano. La propiedad cuenta con amplios y luminosos ambientes, totalizando 4 habitaciones y 4 baños, brindando privacidad y comodidad para toda la familia. Características destacadas: - Cuatro dormitorios de generosas dimensiones. - Cuatro baños completos con terminaciones de primera calidad. - Amplio living comedor con vistas panorámicas a las sierras. - Cocina totalmente equipada. - Calefacción central por loza radiante. - Gran galería con área de parrilla. - Piscina con vista abierta. - Seguridad las 24hs, barrio cerrado. - Campo de Golf de primera categoría. Con una ubicación privilegiada dentro del country, esta casa ofrece un equilibrio perfecto entre naturaleza, confort y exclusividad. Ideal para quienes buscan disfrutar de la vida en un entorno seguro, con servicios de primer nivel y un paisaje incomparable.",
+   "price": 2500000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "camino a los paredones km3, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 4,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/58/81/00/24/360x266/2062133401.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
+   },
+   "key": "zonaprop:58810024"
   },
   {
    "source": "zonaprop",
@@ -243,30 +243,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59852272",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
-   "title": "Casa en venta o alquiler en los aromos a 200 m del",
-   "description": "Inmobiliaria Casermeiro",
-   "price": 800000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
-   },
-   "key": "zonaprop:59852272"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59655839",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
    "title": "Se alquila casa de 2 dorm. en anisacate",
@@ -291,27 +267,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "50356032",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
-   "title": "Casa en alquiler dos dorm. anisacate",
-   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
-   "price": 480000.0,
+   "source_id": "59852272",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
+   "title": "Casa en venta o alquiler en los aromos a 200 m del",
+   "description": "Inmobiliaria Casermeiro",
+   "price": 800000.0,
    "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "El Ombú 100, Anisacate, Córdoba",
+   "locality": "Villa Los Aromos",
+   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
    "bedrooms": 2,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
    },
-   "key": "zonaprop:50356032"
+   "key": "zonaprop:59852272"
   },
   {
    "source": "zonaprop",
@@ -336,6 +312,30 @@
     "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:59898621"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "50356032",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
+   "title": "Casa en alquiler dos dorm. anisacate",
+   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
+   "price": 480000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "El Ombú 100, Anisacate, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:50356032"
   },
   {
    "source": "zonaprop",
