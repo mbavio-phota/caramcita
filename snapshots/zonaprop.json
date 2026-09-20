@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-20T04:45:34+00:00",
+ "fetched_at": "2026-09-20T10:45:31+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -75,30 +75,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "58810024",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
-   "title": "Casa en alquiler en potrerillo de larreta",
-   "description": "Ubicada en el exclusivo entorno de Potrerillo de Larreta Country Golf Club, esta residencia ofrece una experiencia única de confort, estilo y contacto con la naturaleza. Con una arquitectura de líneas elegantes y una calidad constructiva excepcional, cada espacio ha sido diseñado para disfrutar de la tranquilidad y el paisaje serrano. La propiedad cuenta con amplios y luminosos ambientes, totalizando 4 habitaciones y 4 baños, brindando privacidad y comodidad para toda la familia. Características destacadas: - Cuatro dormitorios de generosas dimensiones. - Cuatro baños completos con terminaciones de primera calidad. - Amplio living comedor con vistas panorámicas a las sierras. - Cocina totalmente equipada. - Calefacción central por loza radiante. - Gran galería con área de parrilla. - Piscina con vista abierta. - Seguridad las 24hs, barrio cerrado. - Campo de Golf de primera categoría. Con una ubicación privilegiada dentro del country, esta casa ofrece un equilibrio perfecto entre naturaleza, confort y exclusividad. Ideal para quienes buscan disfrutar de la vida en un entorno seguro, con servicios de primer nivel y un paisaje incomparable.",
-   "price": 2500000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "camino a los paredones km3, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 4,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/58/81/00/24/360x266/2062133401.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
-   },
-   "key": "zonaprop:58810024"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59559291",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
    "title": "Casa de categoria amoblada en alquiler frente al golf",
@@ -120,6 +96,30 @@
     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
    },
    "key": "zonaprop:59559291"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "58810024",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-en-potrerillo-de-larreta-58810024.html",
+   "title": "Casa en alquiler en potrerillo de larreta",
+   "description": "Ubicada en el exclusivo entorno de Potrerillo de Larreta Country Golf Club, esta residencia ofrece una experiencia única de confort, estilo y contacto con la naturaleza. Con una arquitectura de líneas elegantes y una calidad constructiva excepcional, cada espacio ha sido diseñado para disfrutar de la tranquilidad y el paisaje serrano. La propiedad cuenta con amplios y luminosos ambientes, totalizando 4 habitaciones y 4 baños, brindando privacidad y comodidad para toda la familia. Características destacadas: - Cuatro dormitorios de generosas dimensiones. - Cuatro baños completos con terminaciones de primera calidad. - Amplio living comedor con vistas panorámicas a las sierras. - Cocina totalmente equipada. - Calefacción central por loza radiante. - Gran galería con área de parrilla. - Piscina con vista abierta. - Seguridad las 24hs, barrio cerrado. - Campo de Golf de primera categoría. Con una ubicación privilegiada dentro del country, esta casa ofrece un equilibrio perfecto entre naturaleza, confort y exclusividad. Ideal para quienes buscan disfrutar de la vida en un entorno seguro, con servicios de primer nivel y un paisaje incomparable.",
+   "price": 2500000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "camino a los paredones km3, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 4,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/58/81/00/24/360x266/2062133401.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
+   },
+   "key": "zonaprop:58810024"
   },
   {
    "source": "zonaprop",
@@ -243,27 +243,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59898621",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
-   "title": "Casa en alquiler un dormitorio villa los aromos",
-   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
-   "price": 400000.0,
+   "source_id": "59655839",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
+   "title": "Se alquila casa de 2 dorm. en anisacate",
+   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
+   "price": 900000.0,
    "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
-   "bedrooms": 1,
+   "locality": "Anisacate",
+   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
+   "bedrooms": 2,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
+    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
    },
-   "key": "zonaprop:59898621"
+   "key": "zonaprop:59655839"
   },
   {
    "source": "zonaprop",
@@ -315,27 +315,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59655839",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
-   "title": "Se alquila casa de 2 dorm. en anisacate",
-   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
-   "price": 900000.0,
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
    "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
-   "bedrooms": 2,
+   "locality": "Villa Los Aromos",
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
    },
-   "key": "zonaprop:59655839"
+   "key": "zonaprop:59898621"
   },
   {
    "source": "zonaprop",
