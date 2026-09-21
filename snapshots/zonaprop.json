@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-09-20T22:45:36+00:00",
+ "fetched_at": "2026-09-21T04:45:34+00:00",
  "listings": [
+  {
+   "source": "zonaprop",
+   "source_id": "59219512",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
+   "title": "Casa en alquiler reserva tajamar",
+   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
+   "price": 650000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
+   },
+   "key": "zonaprop:59219512"
+  },
   {
    "source": "zonaprop",
    "source_id": "60125444",
@@ -48,30 +72,6 @@
     "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
    },
    "key": "zonaprop:60125473"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "59219512",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
-   "title": "Casa en alquiler reserva tajamar",
-   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
-   "price": 650000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
-   },
-   "key": "zonaprop:59219512"
   },
   {
    "source": "zonaprop",
@@ -267,27 +267,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59852272",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
-   "title": "Casa en venta o alquiler en los aromos a 200 m del",
-   "description": "Inmobiliaria Casermeiro",
-   "price": 800000.0,
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
    "currency": "ARS",
    "locality": "Villa Los Aromos",
-   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
-   "bedrooms": 2,
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
    },
-   "key": "zonaprop:59852272"
+   "key": "zonaprop:59898621"
   },
   {
    "source": "zonaprop",
@@ -315,27 +315,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59898621",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
-   "title": "Casa en alquiler un dormitorio villa los aromos",
-   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
-   "price": 400000.0,
+   "source_id": "59852272",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
+   "title": "Casa en venta o alquiler en los aromos a 200 m del",
+   "description": "Inmobiliaria Casermeiro",
+   "price": 800000.0,
    "currency": "ARS",
    "locality": "Villa Los Aromos",
-   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
-   "bedrooms": 1,
+   "address": "Los Jazmine 200, Villa Los Aromos, Córdoba",
+   "bedrooms": 2,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/85/22/72/360x266/2071262098.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
+    "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
    },
-   "key": "zonaprop:59898621"
+   "key": "zonaprop:59852272"
   },
   {
    "source": "zonaprop",
