@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-23T04:45:38+00:00",
+ "fetched_at": "2026-09-23T10:45:42+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -27,30 +27,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60125473",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
-   "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
-   "description": "Alquiler en Barrio Reserva Tajamar 2. Viví la tranquilidad y el confort que ofrece este exclusivo barrio con seguridad 24hs de dia, a minutos del centro de la ciudad. La propiedad cuenta con 3 dormitorios luminosos y 4 baños, ideales para una vida cómoda y práctica. Quincho amplio con cerramiento y pileta, cochera cerrada para un vehiculo. Disfrutá de ambientes modernos, 5 aires acondicionado frio calor, en todos los ambientes. Estufa a leña y calefactor. Excelente iluminación natural, un entorno seguro, arbolado y bien cuidado. Ubicado en Reserva Tajamar, con acceso rápido, todos los servicios. Perfecto para quienes buscan calidad de vida y un hogar para disfrutar. Disponible a partir de Octubre de 2026.",
-   "price": 1500000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Reserva Tajamar, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 3,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/73/360x266/2077797147.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
-   },
-   "key": "zonaprop:60125473"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "60125444",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-propiedad-amoblada-en-alquiler-potrerillo-de-larreta-60125444.html",
    "title": "Propiedad amoblada en alquiler potrerillo de larreta",
@@ -75,27 +51,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59559291",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
-   "title": "Casa de categoria amoblada en alquiler frente al golf",
-   "description": "Esta residencia, ubicada frente al hoyo 1 de Potrerillo de Larreta Country Golf Club, ofrece una de las vistas más privilegiadas del barrio, con un paisaje abierto e ininterrumpido hacia las sierras que transforma cada amanecer y atardecer en un verdadero espectáculo. Desarrollada íntegramente en una sola planta sobre un imponente lote de 2. 300 m², la casa cuenta con 190 m² cubiertos, donde la amplitud, la funcionalidad y la conexión con el exterior son protagonistas. El área social está compuesta por un amplio y luminoso living-comedor, con grandes visuales hacia el jardín y el paisaje. Dispone de tres dormitorios, destacándose la suite principal con baño privado y vestidor abierto, además de un segundo baño completo que aporta comodidad para toda la familia. El exterior invita a disfrutar al máximo del entorno, con un amplio jardín, una gran piscina y una espaciosa galería quincho con asador, ideal para reuniones, momentos de descanso o simplemente para contemplar la tranquilidad y las vistas. Alquilar esta propiedad significa acceder a un estilo de vida privilegiado dentro de Potrerillo de Larreta Country Golf Club, un entorno que combina naturaleza, seguridad, privacidad y una de las mejores canchas de golf de la región, a pocos minutos de la ciudad de Córdoba y de Alta Gracia. Una oportunidad para quienes buscan vivir rodeados de naturaleza, con confort, privacidad y un paisaje incomparable. Características destacadas. Lote de 2. 300 m². 190 m² cubiertos. Desarrollada completamente en una sola planta. Frente al hoyo 1 de la cancha de golf. Espectaculares vistas abiertas a las sierras. 3 dormitorios. Suite principal con baño privado y vestidor abierto. 2 baños. Amplio living-comedor. Gran piscina. Galería quincho con asador. Excelente orientación y entorno de máxima privacidad. Consultanos por disponibilidad, plazo de alquiler y condiciones.",
-   "price": 1800.0,
-   "currency": "USD",
+   "source_id": "60125473",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
+   "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
+   "description": "Alquiler en Barrio Reserva Tajamar 2. Viví la tranquilidad y el confort que ofrece este exclusivo barrio con seguridad 24hs de dia, a minutos del centro de la ciudad. La propiedad cuenta con 3 dormitorios luminosos y 4 baños, ideales para una vida cómoda y práctica. Quincho amplio con cerramiento y pileta, cochera cerrada para un vehiculo. Disfrutá de ambientes modernos, 5 aires acondicionado frio calor, en todos los ambientes. Estufa a leña y calefactor. Excelente iluminación natural, un entorno seguro, arbolado y bien cuidado. Ubicado en Reserva Tajamar, con acceso rápido, todos los servicios. Perfecto para quienes buscan calidad de vida y un hogar para disfrutar. Disponible a partir de Octubre de 2026.",
+   "price": 1500000.0,
+   "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "address": "Reserva Tajamar, Reserva Tajamar, Alta Gracia",
    "bedrooms": 3,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/55/92/91/360x266/2064162668.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/73/360x266/2077797147.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
+    "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
    },
-   "key": "zonaprop:59559291"
+   "key": "zonaprop:60125473"
   },
   {
    "source": "zonaprop",
@@ -120,6 +96,30 @@
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
    },
    "key": "zonaprop:58810024"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59559291",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
+   "title": "Casa de categoria amoblada en alquiler frente al golf",
+   "description": "Esta residencia, ubicada frente al hoyo 1 de Potrerillo de Larreta Country Golf Club, ofrece una de las vistas más privilegiadas del barrio, con un paisaje abierto e ininterrumpido hacia las sierras que transforma cada amanecer y atardecer en un verdadero espectáculo. Desarrollada íntegramente en una sola planta sobre un imponente lote de 2. 300 m², la casa cuenta con 190 m² cubiertos, donde la amplitud, la funcionalidad y la conexión con el exterior son protagonistas. El área social está compuesta por un amplio y luminoso living-comedor, con grandes visuales hacia el jardín y el paisaje. Dispone de tres dormitorios, destacándose la suite principal con baño privado y vestidor abierto, además de un segundo baño completo que aporta comodidad para toda la familia. El exterior invita a disfrutar al máximo del entorno, con un amplio jardín, una gran piscina y una espaciosa galería quincho con asador, ideal para reuniones, momentos de descanso o simplemente para contemplar la tranquilidad y las vistas. Alquilar esta propiedad significa acceder a un estilo de vida privilegiado dentro de Potrerillo de Larreta Country Golf Club, un entorno que combina naturaleza, seguridad, privacidad y una de las mejores canchas de golf de la región, a pocos minutos de la ciudad de Córdoba y de Alta Gracia. Una oportunidad para quienes buscan vivir rodeados de naturaleza, con confort, privacidad y un paisaje incomparable. Características destacadas. Lote de 2. 300 m². 190 m² cubiertos. Desarrollada completamente en una sola planta. Frente al hoyo 1 de la cancha de golf. Espectaculares vistas abiertas a las sierras. 3 dormitorios. Suite principal con baño privado y vestidor abierto. 2 baños. Amplio living-comedor. Gran piscina. Galería quincho con asador. Excelente orientación y entorno de máxima privacidad. Consultanos por disponibilidad, plazo de alquiler y condiciones.",
+   "price": 1800.0,
+   "currency": "USD",
+   "locality": "Alta Gracia",
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/55/92/91/360x266/2064162668.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
+   },
+   "key": "zonaprop:59559291"
   },
   {
    "source": "zonaprop",
@@ -267,27 +267,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59655839",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
-   "title": "Se alquila casa de 2 dorm. en anisacate",
-   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
-   "price": 900000.0,
+   "source_id": "50356032",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
+   "title": "Casa en alquiler dos dorm. anisacate",
+   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
+   "price": 480000.0,
    "currency": "ARS",
    "locality": "Anisacate",
-   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
+   "address": "El Ombú 100, Anisacate, Córdoba",
    "bedrooms": 2,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
+    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
    },
-   "key": "zonaprop:59655839"
+   "key": "zonaprop:50356032"
   },
   {
    "source": "zonaprop",
@@ -315,27 +315,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "50356032",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
-   "title": "Casa en alquiler dos dorm. anisacate",
-   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
-   "price": 480000.0,
+   "source_id": "59655839",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
+   "title": "Se alquila casa de 2 dorm. en anisacate",
+   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
+   "price": 900000.0,
    "currency": "ARS",
    "locality": "Anisacate",
-   "address": "El Ombú 100, Anisacate, Córdoba",
+   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
    "bedrooms": 2,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
    },
-   "key": "zonaprop:50356032"
+   "key": "zonaprop:59655839"
   },
   {
    "source": "zonaprop",
