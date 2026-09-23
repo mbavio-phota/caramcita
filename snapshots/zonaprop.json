@@ -1,30 +1,6 @@
 {
- "fetched_at": "2026-09-23T16:45:36+00:00",
+ "fetched_at": "2026-09-23T22:45:34+00:00",
  "listings": [
-  {
-   "source": "zonaprop",
-   "source_id": "60125444",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-propiedad-amoblada-en-alquiler-potrerillo-de-larreta-60125444.html",
-   "title": "Propiedad amoblada en alquiler potrerillo de larreta",
-   "description": "Exclusiva propiedad ubicada en Potrerillo de Larreta Country Club, uno de los barrios cerrados más prestigiosos de la provincia de Córdoba, en un entorno privilegiado de naturaleza, tranquilidad y seguridad. Situada en el corazón de las Sierras de Córdoba, ofrece la posibilidad de disfrutar de un estilo de vida rodeado de naturaleza, con paisajes únicos y la tranquilidad propia de un entorno residencial exclusivo, sin alejarse de los principales puntos de interés de la provincia. Potrerillo de Larreta se destaca por su reconocida cancha de golf, su arroyo natural, sus espacios verdes y una amplia variedad de servicios y amenities, entre ellos canchas de tenis, club house, restaurant, hostería y helipuerto. La propiedad. La vivienda se desarrolla íntegramente en una planta y se encuentra emplazada sobre un terreno de 1. 450 m², con una superficie cubierta de 153 m². Cuenta con: - Dos dormitorios amplios, cada uno con baño en suite. - Cocina completa. - Amplio estar-comedor. - Baño de visitas. - Excelente iluminación y ventilación natural. - Amplia galería exterior. - Asador. - Piscina con una inmejorable vista a las sierras. La propiedad fue pensada para disfrutar tanto de la comodidad y funcionalidad de sus espacios interiores como de la belleza del entorno natural. Su galería, piscina y vistas abiertas a las sierras permiten aprovechar plenamente los espacios exteriores durante todo el año. Servicios Y características. - Servicio de electricidad y agua. - Calles adoquinadas. - Entorno seguro y exclusivo. - Servicio de jardinero y piletero incluido. - Una propiedad ideal para quienes buscan combinar naturaleza, tranquilidad, seguridad y confort, en uno de los entornos más exclusivos de las Sierras de Córdoba. Consultar condiciones de alquiler y disponibilidad.",
-   "price": 2100000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 2,
-   "property_type": "",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/44/360x266/2077796062.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1450 m² tot. 5 amb. 2 dorm. 3 baños 2 coch."
-   },
-   "key": "zonaprop:60125444"
-  },
   {
    "source": "zonaprop",
    "source_id": "59219512",
@@ -72,6 +48,30 @@
     "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
    },
    "key": "zonaprop:60125473"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "60125444",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-propiedad-amoblada-en-alquiler-potrerillo-de-larreta-60125444.html",
+   "title": "Propiedad amoblada en alquiler potrerillo de larreta",
+   "description": "Exclusiva propiedad ubicada en Potrerillo de Larreta Country Club, uno de los barrios cerrados más prestigiosos de la provincia de Córdoba, en un entorno privilegiado de naturaleza, tranquilidad y seguridad. Situada en el corazón de las Sierras de Córdoba, ofrece la posibilidad de disfrutar de un estilo de vida rodeado de naturaleza, con paisajes únicos y la tranquilidad propia de un entorno residencial exclusivo, sin alejarse de los principales puntos de interés de la provincia. Potrerillo de Larreta se destaca por su reconocida cancha de golf, su arroyo natural, sus espacios verdes y una amplia variedad de servicios y amenities, entre ellos canchas de tenis, club house, restaurant, hostería y helipuerto. La propiedad. La vivienda se desarrolla íntegramente en una planta y se encuentra emplazada sobre un terreno de 1. 450 m², con una superficie cubierta de 153 m². Cuenta con: - Dos dormitorios amplios, cada uno con baño en suite. - Cocina completa. - Amplio estar-comedor. - Baño de visitas. - Excelente iluminación y ventilación natural. - Amplia galería exterior. - Asador. - Piscina con una inmejorable vista a las sierras. La propiedad fue pensada para disfrutar tanto de la comodidad y funcionalidad de sus espacios interiores como de la belleza del entorno natural. Su galería, piscina y vistas abiertas a las sierras permiten aprovechar plenamente los espacios exteriores durante todo el año. Servicios Y características. - Servicio de electricidad y agua. - Calles adoquinadas. - Entorno seguro y exclusivo. - Servicio de jardinero y piletero incluido. - Una propiedad ideal para quienes buscan combinar naturaleza, tranquilidad, seguridad y confort, en uno de los entornos más exclusivos de las Sierras de Córdoba. Consultar condiciones de alquiler y disponibilidad.",
+   "price": 2100000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 2,
+   "property_type": "",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/44/360x266/2077796062.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1450 m² tot. 5 amb. 2 dorm. 3 baños 2 coch."
+   },
+   "key": "zonaprop:60125444"
   },
   {
    "source": "zonaprop",
@@ -243,30 +243,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59571635",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-anisacate-con-pileta-59571635.html",
-   "title": "Casa en alquiler anisacate con pileta",
-   "description": "Casa en AnisacateUbicada en el mejor barrio de Anisacate, muy tranquilo y arbolado, a 1000 mts del rio y a 40 minutos del centro de la ciudad CórdobaPisos de madera lustrados, construcción sólida, fresca y bien mantenida, un parque enormeTerreno de 1000 metros cuadradosParquización de arboles añososPileta de 3x7 mts. AsadorCuarto de HerramientasSistema de riego por aspersiónCochera / galería Living con hogar a leña y piso de parquetSala de Lectura con hogar y piso de parquetBaño Principal con bañera Cocina Lavadero Comedor diario Comedor Dormitorio Principal Dormitorio secundario Baño secundario ferrer lanfranchi | Inmuebles y DesarrollosConsultá por más propiedades en Docta Urbanización (Boulevard, Avenida, Central, Parque), Nobu, Siete Soles (Heredades, Alqarias, Parterres, Mitte, Verandas, Duplares), Manantiales (Campos, Colinas, Costas, Cuestas, Pampas, Prados, Quebradas, Rincones, San Ignacio, Solares, Terrazas, Riberas, Brisas, Manantiales Country, Altos, Miradores, Lomas, Abras, Las Tipas) Cañuelas, La Cascada, La Ernestina, Claros del Bosque, Claros Village, AcquaVista, Tejas 3, Tejas 4, Distrito Sur, Greenville, La Calandria, Campo Chico, Mansos del sur, Valle Cercano, Carrara de Horizonte, Universitario de Horizonte, Lomas del Chateau, Balcones del Este, Tejas 4, Las Cañitas, Valle del Golf, Paso de Piedra, Estación del Carmen, Causana, Nuevo Malagueño, La Arbolada, Carlos Paz, Tres Gracias, Potrerillo de Larreta, Campos del Virrey, La Melinca, El Anglo, Lomas de la Estancia, Puerto del Águila, Comarca de Allende, Antigua Estancia, Barrio Norte 1 y 2, La Morada, San Isidro, Chacras de la Villa, La Cercanía, San Francisco, Las Corzuelas, Aires del Noreste, Villa Catalina, Bela Vista, Talar de Mendiolaza, Talar del Este, Cuatro Vientos, Molinos de Viento, San Alfonso del Talar, Estancia El Terrón, Cuatro Hojas, Estancia Q2, La Herradura, La Serena, Fincas del Sol, Sierranueva, La Paloma, Cumbres del Golf, Terrazas de Villa Allende, Bosque Alegre, Corral de Barrancas, Lomas del Cigarral, La Adela, La Pampeana, Estancia San Miguel, Lomas del Chañar, La Bancaria, Santina Norte, Piana, Jardin Ingles, Lomas de la Carolina, Las Delicias, La Pankana, Cinco Lomas, El Bosque, La Rufina, Chacra del Norte, Chacras Green, La Deseada, Colinas de la Deseada, Maitenes de la Deseada, Vistas de la Deseada, Cuesta Colorada, La Estanzuela, La Cuesta, El Buen Aire (Ascochinga), Camino del Alba (Ascochinga), Estancia La Julieta (San Clemente), Lomas del Rey (Mayu Sumaj), El Condor (Potrero de Garay) y otros!",
-   "price": 1000000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "Casa en Alquiler con Pileta y Parque en Anisacate, Anisacate, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/57/16/35/360x266/2064439517.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1000 m² tot. 5 amb. 2 dorm. 2 baños 3 coch."
-   },
-   "key": "zonaprop:59571635"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59655839",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
    "title": "Se alquila casa de 2 dorm. en anisacate",
@@ -315,30 +291,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59898621",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
-   "title": "Casa en alquiler un dormitorio villa los aromos",
-   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
-   "price": 400000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:59898621"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59852272",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
    "title": "Casa en venta o alquiler en los aromos a 200 m del",
@@ -360,6 +312,30 @@
     "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
    },
    "key": "zonaprop:59852272"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:59898621"
   },
   {
    "source": "zonaprop",
