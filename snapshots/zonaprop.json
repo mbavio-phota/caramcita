@@ -1,6 +1,30 @@
 {
- "fetched_at": "2026-09-25T10:45:33+00:00",
+ "fetched_at": "2026-09-25T16:45:36+00:00",
  "listings": [
+  {
+   "source": "zonaprop",
+   "source_id": "60125444",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-propiedad-amoblada-en-alquiler-potrerillo-de-larreta-60125444.html",
+   "title": "Propiedad amoblada en alquiler potrerillo de larreta",
+   "description": "Exclusiva propiedad ubicada en Potrerillo de Larreta Country Club, uno de los barrios cerrados más prestigiosos de la provincia de Córdoba, en un entorno privilegiado de naturaleza, tranquilidad y seguridad. Situada en el corazón de las Sierras de Córdoba, ofrece la posibilidad de disfrutar de un estilo de vida rodeado de naturaleza, con paisajes únicos y la tranquilidad propia de un entorno residencial exclusivo, sin alejarse de los principales puntos de interés de la provincia. Potrerillo de Larreta se destaca por su reconocida cancha de golf, su arroyo natural, sus espacios verdes y una amplia variedad de servicios y amenities, entre ellos canchas de tenis, club house, restaurant, hostería y helipuerto. La propiedad. La vivienda se desarrolla íntegramente en una planta y se encuentra emplazada sobre un terreno de 1. 450 m², con una superficie cubierta de 153 m². Cuenta con: - Dos dormitorios amplios, cada uno con baño en suite. - Cocina completa. - Amplio estar-comedor. - Baño de visitas. - Excelente iluminación y ventilación natural. - Amplia galería exterior. - Asador. - Piscina con una inmejorable vista a las sierras. La propiedad fue pensada para disfrutar tanto de la comodidad y funcionalidad de sus espacios interiores como de la belleza del entorno natural. Su galería, piscina y vistas abiertas a las sierras permiten aprovechar plenamente los espacios exteriores durante todo el año. Servicios Y características. - Servicio de electricidad y agua. - Calles adoquinadas. - Entorno seguro y exclusivo. - Servicio de jardinero y piletero incluido. - Una propiedad ideal para quienes buscan combinar naturaleza, tranquilidad, seguridad y confort, en uno de los entornos más exclusivos de las Sierras de Córdoba. Consultar condiciones de alquiler y disponibilidad.",
+   "price": 2100000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 2,
+   "property_type": "",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/44/360x266/2077796062.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1450 m² tot. 5 amb. 2 dorm. 3 baños 2 coch."
+   },
+   "key": "zonaprop:60125444"
+  },
   {
    "source": "zonaprop",
    "source_id": "60125473",
@@ -48,30 +72,6 @@
     "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
    },
    "key": "zonaprop:59219512"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "60125444",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-propiedad-amoblada-en-alquiler-potrerillo-de-larreta-60125444.html",
-   "title": "Propiedad amoblada en alquiler potrerillo de larreta",
-   "description": "Exclusiva propiedad ubicada en Potrerillo de Larreta Country Club, uno de los barrios cerrados más prestigiosos de la provincia de Córdoba, en un entorno privilegiado de naturaleza, tranquilidad y seguridad. Situada en el corazón de las Sierras de Córdoba, ofrece la posibilidad de disfrutar de un estilo de vida rodeado de naturaleza, con paisajes únicos y la tranquilidad propia de un entorno residencial exclusivo, sin alejarse de los principales puntos de interés de la provincia. Potrerillo de Larreta se destaca por su reconocida cancha de golf, su arroyo natural, sus espacios verdes y una amplia variedad de servicios y amenities, entre ellos canchas de tenis, club house, restaurant, hostería y helipuerto. La propiedad. La vivienda se desarrolla íntegramente en una planta y se encuentra emplazada sobre un terreno de 1. 450 m², con una superficie cubierta de 153 m². Cuenta con: - Dos dormitorios amplios, cada uno con baño en suite. - Cocina completa. - Amplio estar-comedor. - Baño de visitas. - Excelente iluminación y ventilación natural. - Amplia galería exterior. - Asador. - Piscina con una inmejorable vista a las sierras. La propiedad fue pensada para disfrutar tanto de la comodidad y funcionalidad de sus espacios interiores como de la belleza del entorno natural. Su galería, piscina y vistas abiertas a las sierras permiten aprovechar plenamente los espacios exteriores durante todo el año. Servicios Y características. - Servicio de electricidad y agua. - Calles adoquinadas. - Entorno seguro y exclusivo. - Servicio de jardinero y piletero incluido. - Una propiedad ideal para quienes buscan combinar naturaleza, tranquilidad, seguridad y confort, en uno de los entornos más exclusivos de las Sierras de Córdoba. Consultar condiciones de alquiler y disponibilidad.",
-   "price": 2100000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 2,
-   "property_type": "",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/44/360x266/2077796062.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1450 m² tot. 5 amb. 2 dorm. 3 baños 2 coch."
-   },
-   "key": "zonaprop:60125444"
   },
   {
    "source": "zonaprop",
@@ -243,8 +243,8 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59344948",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-villa-los-aromos-59344948.html",
+   "source_id": "60244450",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-villa-los-aromos-60244450.html",
    "title": "Casa en villa los aromos",
    "description": "Alquiler Casa Los Aromos amoblada. Viví con comodidad y tranquilidad en esta casa de 2 dormitorios, ubicada en una zona segura de Villa Los Aromos, a solo 400 metros del río. Construida en 2022, ofrece 75 m² totales sobre lote de 100 m², pensados para mudarte sin preocuparte por nada: está completamente amoblada y lista para entrar. Los ambientes son luminosos y funcionales, con aire acondicionado para tu confort. Dispone de 1 baño, cochera techada para 2 vehículos y gas natural, ideal para un consumo eficiente. El corazón social de la casa es su espacio con asador tradicional y anafe, perfecto para reuniones y buenos momentos al aire libre. Acepta mascotas. Un hogar listo, cómodo y en excelentes condiciones, en un entorno natural y seguro donde vas a querer quedarte. Consultanos para coordinar tu visita y conocé tu próxima casa en Los Aromos.",
    "price": 900000.0,
@@ -255,7 +255,7 @@
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/34/49/48/360x266/2058914608.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/24/44/50/360x266/2080795709.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
@@ -263,7 +263,7 @@
    "extra": {
     "features": "500 m² tot. 3 amb. 2 dorm. 1 baño 2 coch."
    },
-   "key": "zonaprop:59344948"
+   "key": "zonaprop:60244450"
   },
   {
    "source": "zonaprop",
@@ -315,30 +315,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59898621",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
-   "title": "Casa en alquiler un dormitorio villa los aromos",
-   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
-   "price": 400000.0,
-   "currency": "ARS",
-   "locality": "Villa Los Aromos",
-   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:59898621"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "50356032",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
    "title": "Casa en alquiler dos dorm. anisacate",
@@ -363,27 +339,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59506827",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-exc.-de-2-o-3-dorm.-gran-terreno.-anisacate-59506827.html",
-   "title": "Casa exc. de 2 o 3 dorm. gran terreno. anisacate",
-   "description": "Casa de 2 o 3 dormitorios (uno grande con baño en suite), baño principal, Living, cocina/ comedor, lavadero, galería/ cochera, asador y patio con terreno amplio. Barrio El Aromo - Anisacate. Servicios: Electricidad",
-   "price": 750000.0,
+   "source_id": "59898621",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-un-dormitorio-villa-los-aromos-59898621.html",
+   "title": "Casa en alquiler un dormitorio villa los aromos",
+   "description": "Casa en alquiler de un dormitorio, baño, cocina/ comedor, y cochera/ asador. Para una persona. Calle Los Robles 300, Villa Los Aromos, Córdoba.",
+   "price": 400000.0,
    "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "La Bolsa 450, Anisacate, Córdoba",
-   "bedrooms": 2,
+   "locality": "Villa Los Aromos",
+   "address": "Los Robles 300, Villa Los Aromos, Córdoba",
+   "bedrooms": 1,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/50/68/27/360x266/2062884089.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/89/86/21/360x266/2072354345.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "600 m² tot. 3 amb. 2 dorm. 2 baños"
+    "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
    },
-   "key": "zonaprop:59506827"
+   "key": "zonaprop:59898621"
   }
  ]
 }
