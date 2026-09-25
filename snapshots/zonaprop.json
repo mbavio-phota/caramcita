@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-25T16:45:36+00:00",
+ "fetched_at": "2026-09-25T22:45:36+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -123,30 +123,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "52371416",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
-   "title": "Departamento en alquiler en barrio v. camiares alta",
-   "description": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ comedor amplia, baño, cochera y patio con asador. Techo de losa - Pisos de porcelanato. Villa Camiares - Alta Gracia. Servicios: Agua Corriente, Electricidad",
-   "price": 650000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Jasilsacat 247, Villa Camiares, Alta Gracia",
-   "bedrooms": 2,
-   "property_type": "Departamento",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/52/37/14/16/360x266/2080269279.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
-   },
-   "key": "zonaprop:52371416"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "60237040",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-quinta-en-alquiler-alta-gracia-amplio-parque-60237040.html",
    "title": "Casa quinta en alquiler alta gracia amplio parque",
@@ -171,27 +147,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59793406",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcapa-casa-potrerillo-de-larreta-59793406.html",
-   "title": "Casa potrerillo de larreta",
-   "description": "Viví la experiencia Potrerillo de Larreta. Esta excelente casa de 3 dormitorios combina diseño, comodidad y naturaleza en un entorno único. Cuenta con un amplio living-comedor con hogar a leña, cocina integrada, ambientes muy luminosos y climatizados con aire acondicionado. El sector exterior invita a disfrutar cada momento: gran galería con asador, pileta, parque con frondosa arboleda y cochera. Un espacio pensado para quienes valoran la tranquilidad, la privacidad y el contacto con la naturaleza, sin resignar confort. Una oportunidad para vivir en uno de los barrios más exclusivos de Córdoba, rodeado de paisajes serranos y un ambiente inmejorable.",
-   "price": 2100000.0,
+   "source_id": "52371416",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
+   "title": "Departamento en alquiler en barrio v. camiares alta",
+   "description": "Departamento dúplex en dos plantas, de dos dormitorios y baño en planta alta; cocina/ comedor amplia, baño, cochera y patio con asador. Techo de losa - Pisos de porcelanato. Villa Camiares - Alta Gracia. Servicios: Agua Corriente, Electricidad",
+   "price": 650000.0,
    "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Potrerillo de Larreta Country Club Acceso, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 3,
-   "property_type": "Casa",
+   "address": "Jasilsacat 247, Villa Camiares, Alta Gracia",
+   "bedrooms": 2,
+   "property_type": "Departamento",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/79/34/06/360x266/2069824833.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/52/37/14/16/360x266/2080269279.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "220 m² tot. 3 dorm. 2 baños"
+    "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
    },
-   "key": "zonaprop:59793406"
+   "key": "zonaprop:52371416"
   },
   {
    "source": "zonaprop",
@@ -216,6 +192,30 @@
     "features": "800 m² tot. 4 amb. 4 dorm. 3 baños 3 coch."
    },
    "key": "zonaprop:60215548"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59793406",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcapa-casa-potrerillo-de-larreta-59793406.html",
+   "title": "Casa potrerillo de larreta",
+   "description": "Viví la experiencia Potrerillo de Larreta. Esta excelente casa de 3 dormitorios combina diseño, comodidad y naturaleza en un entorno único. Cuenta con un amplio living-comedor con hogar a leña, cocina integrada, ambientes muy luminosos y climatizados con aire acondicionado. El sector exterior invita a disfrutar cada momento: gran galería con asador, pileta, parque con frondosa arboleda y cochera. Un espacio pensado para quienes valoran la tranquilidad, la privacidad y el contacto con la naturaleza, sin resignar confort. Una oportunidad para vivir en uno de los barrios más exclusivos de Córdoba, rodeado de paisajes serranos y un ambiente inmejorable.",
+   "price": 2100000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Potrerillo de Larreta Country Club Acceso, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/79/34/06/360x266/2069824833.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "220 m² tot. 3 dorm. 2 baños"
+   },
+   "key": "zonaprop:59793406"
   },
   {
    "source": "zonaprop",
@@ -267,30 +267,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59655839",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
-   "title": "Se alquila casa de 2 dorm. en anisacate",
-   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
-   "price": 900000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
-   },
-   "key": "zonaprop:59655839"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59852272",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-venta-o-alquiler-en-los-aromos-a-200-m-del-59852272.html",
    "title": "Casa en venta o alquiler en los aromos a 200 m del",
@@ -312,6 +288,30 @@
     "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
    },
    "key": "zonaprop:59852272"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "59655839",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
+   "title": "Se alquila casa de 2 dorm. en anisacate",
+   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
+   "price": 900000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
+   },
+   "key": "zonaprop:59655839"
   },
   {
    "source": "zonaprop",
