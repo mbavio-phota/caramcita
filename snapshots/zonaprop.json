@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-26T10:45:36+00:00",
+ "fetched_at": "2026-09-26T16:45:35+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -123,30 +123,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60237040",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-quinta-en-alquiler-alta-gracia-amplio-parque-60237040.html",
-   "title": "Casa quinta en alquiler alta gracia amplio parque",
-   "description": "Ubicada sobre Camino al Valle Buena Esperanza, Lote N. º 9, Alta Gracia, esta propiedad se destaca por su gran superficie de terreno, amplitud y entorno natural, ofreciendo una combinación ideal de espacio, privacidad y tranquilidad. La propiedad cuenta con un terreno de aproximadamente 8. 737 m² y una superficie cubierta total de 360 m², desarrollándose como una residencia de características semirrurales, rodeada de amplios espacios verdes parquizados. La vivienda principal dispone de: Amplio living-comedor integrado. Cocina independiente con bajo mesada y alacenas. Baño principal completo. Baño de servicio. Dormitorios, incluyendo una habitación principal con vestidor y baño en suite. Lavadero. En el exterior se destaca una importante piscina de natación, rodeada de espacios verdes, ideal para disfrutar del entorno natural de la propiedad. Además, cuenta con una construcción independiente de usos múltiples, equipada con baño completo y kitchenette, que puede adaptarse como espacio para gimnasio, estudio, reuniones, actividades recreativas o diferentes necesidades del grupo familiar. El amplio terreno y la baja densidad de ocupación brindan una sensación de privacidad y contacto con la naturaleza difícil de encontrar en propiedades residenciales tradicionales. La zona se caracteriza por un entorno tranquilo, residencial y de vegetación serrana. Características destacadas: Amplio parque. Piscina. Vivienda de grandes dimensiones. Dormitorio principal con vestidor y baño en suite. Cocina independiente. Lavadero. Construcción independiente con baño y kitchenette. Entorno natural y tranquilo. Gran superficie de terreno. Una propiedad especialmente indicada para quienes buscan amplitud, privacidad y un entorno natural, sin resignar comodidad y funcionalidad. Consultanos para mayor información Y coordinar una visita. Aviso: Sujeto a disponibilidad \"La información contenida en esta publicación es meramente referencial. Los datos incorporados en el mismo no constituyen oferta alguna, sujeta a la confirmación del propietario, por lo que sus términos no resultarán vinculantes, debiendo los interesados comunicarse al teléfono informado en el presente a los fines de concretar una entrevista para evaluar posibilidad de operación inmobiliaria\"",
-   "price": 1500000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Cno. Valle Buena Esperanza, Alta Gracia, Córdoba",
-   "bedrooms": 3,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/23/70/40/360x266/2080604888.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "8737 m² tot. 10 amb. 3 dorm. 2 baños 1 coch."
-   },
-   "key": "zonaprop:60237040"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "52371416",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
    "title": "Departamento en alquiler en barrio v. camiares alta",
@@ -168,6 +144,30 @@
     "features": "140 m² tot. 3 amb. 2 dorm. 2 baños 1 coch."
    },
    "key": "zonaprop:52371416"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "60237040",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-quinta-en-alquiler-alta-gracia-amplio-parque-60237040.html",
+   "title": "Casa quinta en alquiler alta gracia amplio parque",
+   "description": "Ubicada sobre Camino al Valle Buena Esperanza, Lote N. º 9, Alta Gracia, esta propiedad se destaca por su gran superficie de terreno, amplitud y entorno natural, ofreciendo una combinación ideal de espacio, privacidad y tranquilidad. La propiedad cuenta con un terreno de aproximadamente 8. 737 m² y una superficie cubierta total de 360 m², desarrollándose como una residencia de características semirrurales, rodeada de amplios espacios verdes parquizados. La vivienda principal dispone de: Amplio living-comedor integrado. Cocina independiente con bajo mesada y alacenas. Baño principal completo. Baño de servicio. Dormitorios, incluyendo una habitación principal con vestidor y baño en suite. Lavadero. En el exterior se destaca una importante piscina de natación, rodeada de espacios verdes, ideal para disfrutar del entorno natural de la propiedad. Además, cuenta con una construcción independiente de usos múltiples, equipada con baño completo y kitchenette, que puede adaptarse como espacio para gimnasio, estudio, reuniones, actividades recreativas o diferentes necesidades del grupo familiar. El amplio terreno y la baja densidad de ocupación brindan una sensación de privacidad y contacto con la naturaleza difícil de encontrar en propiedades residenciales tradicionales. La zona se caracteriza por un entorno tranquilo, residencial y de vegetación serrana. Características destacadas: Amplio parque. Piscina. Vivienda de grandes dimensiones. Dormitorio principal con vestidor y baño en suite. Cocina independiente. Lavadero. Construcción independiente con baño y kitchenette. Entorno natural y tranquilo. Gran superficie de terreno. Una propiedad especialmente indicada para quienes buscan amplitud, privacidad y un entorno natural, sin resignar comodidad y funcionalidad. Consultanos para mayor información Y coordinar una visita. Aviso: Sujeto a disponibilidad \"La información contenida en esta publicación es meramente referencial. Los datos incorporados en el mismo no constituyen oferta alguna, sujeta a la confirmación del propietario, por lo que sus términos no resultarán vinculantes, debiendo los interesados comunicarse al teléfono informado en el presente a los fines de concretar una entrevista para evaluar posibilidad de operación inmobiliaria\"",
+   "price": 1500000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Cno. Valle Buena Esperanza, Alta Gracia, Córdoba",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/23/70/40/360x266/2080604888.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "8737 m² tot. 10 amb. 3 dorm. 2 baños 1 coch."
+   },
+   "key": "zonaprop:60237040"
   },
   {
    "source": "zonaprop",
@@ -291,6 +291,30 @@
   },
   {
    "source": "zonaprop",
+   "source_id": "59655839",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
+   "title": "Se alquila casa de 2 dorm. en anisacate",
+   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
+   "price": 900000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
+   },
+   "key": "zonaprop:59655839"
+  },
+  {
+   "source": "zonaprop",
    "source_id": "50356032",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
    "title": "Casa en alquiler dos dorm. anisacate",
@@ -336,30 +360,6 @@
     "features": "710 m² tot. 5 amb. 2 dorm. 1 baño"
    },
    "key": "zonaprop:59852272"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "59655839",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
-   "title": "Se alquila casa de 2 dorm. en anisacate",
-   "description": "Grupo Horus Servicios Inmobiliarios ofrece: Acogedora casa en Anisacate, ubicada en la esquina de Av. Los Naranjos y La Cumbrecita, a solo 12 cuadras de la ruta y a 4/5 cuadras del río. Perfecta ubicación a 15 minutos de Alta Gracia y 35 de Córdoba. La propiedad cuenta con 2 dormitorios, el principal amplio con vestidor, living, comedor, cocina, baño y depósito. Gran patio con galería y piscina. Se requiere garantía propietaria más recibos de sueldo, o 3 recibos de sueldos. Contrato por 2 años con ajuste por ipc cada 4 meses. Con opción de alquilarlo amoblado. Contáctanos para mas información.",
-   "price": 900000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "AV LOS NARANJOS, Los Algarrobos, Anisacate",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/65/58/39/360x266/2066496484.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño"
-   },
-   "key": "zonaprop:59655839"
   }
  ]
 }
