@@ -1,6 +1,92 @@
 {
- "generated": "2026-09-29T11:00:49+00:00",
+ "generated": "2026-09-29T21:12:21+00:00",
  "cards": [
+  {
+   "key": "mercadolibre:MLA4010362230",
+   "title": "Alquiler Casa 4 Dormitorios Campos Del Virrey",
+   "url": "https://casa.mercadolibre.com.ar/MLA-4010362230-alquiler-casa-4-dormitorios-campos-del-virrey-_JM",
+   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_988918-MLA118463098001_092026-E.webp",
+   "locality": "Santa María",
+   "locality_confirmed": false,
+   "bedrooms": 4,
+   "price": "$ 2.200.000",
+   "price_raw": 2200000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Campos Del Virrey",
+   "description": "",
+   "agency": "Remax Jardin",
+   "sources": [
+    {
+     "name": "Remax Jardin",
+     "url": "https://casa.mercadolibre.com.ar/MLA-4010362230-alquiler-casa-4-dormitorios-campos-del-virrey-_JM",
+     "source": "mercadolibre"
+    }
+   ],
+   "status": "maybe_location",
+   "is_new": false,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "29/09 18:12",
+   "first_seen_day": "2026-09-29",
+   "first_seen_iso": "2026-09-29T21:12:21+00:00",
+   "first_seen_rfc822": "Tue, 29 Sep 2026 21:12:21 +0000",
+   "last_seen": "29/09 18:12",
+   "gone_since": null,
+   "extra": {
+    "attrs": "8 ambs. | 4 baños | 380 m² cubiertos",
+    "bathrooms": "4",
+    "rooms": "8",
+    "covered_m2": "380",
+    "floor_size": 380,
+    "date_posted": "2026-09-29",
+    "ml_locality": "Santa María"
+   }
+  },
+  {
+   "key": "mercadolibre:MLA2137730201",
+   "title": "Alquiler Anual Casa 3 Dormitorios - Villa La Bolsa - Alta Gracia",
+   "url": "https://casa.mercadolibre.com.ar/MLA-2137730201-alquiler-anual-casa-3-dormitorios-villa-la-bolsa-alta-gracia-_JM",
+   "image": "https://http2.mlstatic.com/D_NQ_NP_2X_927680-MLA118456058999_092026-E.webp",
+   "locality": "Villa La Bolsa",
+   "locality_confirmed": true,
+   "bedrooms": 3,
+   "price": "$ 595.000",
+   "price_raw": 595000.0,
+   "currency": "ARS",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "San Marcelino Champagnat 18, X5189 Villa La Bolsa, Córdoba, Argentina, Villa La Bolsa",
+   "description": "",
+   "agency": "Paulaespindolapaulaespindola",
+   "sources": [
+    {
+     "name": "Paulaespindolapaulaespindola",
+     "url": "https://casa.mercadolibre.com.ar/MLA-2137730201-alquiler-anual-casa-3-dormitorios-villa-la-bolsa-alta-gracia-_JM",
+     "source": "mercadolibre"
+    }
+   ],
+   "status": "match",
+   "is_new": false,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "29/09 18:12",
+   "first_seen_day": "2026-09-29",
+   "first_seen_iso": "2026-09-29T21:12:21+00:00",
+   "first_seen_rfc822": "Tue, 29 Sep 2026 21:12:21 +0000",
+   "last_seen": "29/09 18:12",
+   "gone_since": null,
+   "extra": {
+    "attrs": "5 ambs. | 1 baño | 70 m² cubiertos",
+    "bathrooms": "1",
+    "rooms": "5",
+    "covered_m2": "70",
+    "floor_size": 70,
+    "date_posted": "2026-09-29",
+    "ml_locality": "Santa María"
+   }
+  },
   {
    "key": "zonaprop:60237040",
    "title": "Casa quinta en alquiler alta gracia amplio parque",
@@ -32,7 +118,7 @@
    "first_seen_day": "2026-09-24",
    "first_seen_iso": "2026-09-24T20:14:15+00:00",
    "first_seen_rfc822": "Thu, 24 Sep 2026 20:14:15 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "features": "8737 m² tot. 10 amb. 3 dorm. 2 baños 1 coch."
@@ -69,54 +155,10 @@
    "first_seen_day": "2026-09-22",
    "first_seen_iso": "2026-09-23T01:08:32+00:00",
    "first_seen_rfc822": "Wed, 23 Sep 2026 01:08:32 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "features": "800 m² tot. 4 amb. 4 dorm. 3 baños 3 coch."
-   }
-  },
-  {
-   "key": "ruartemoyano:2519898",
-   "title": "Casa en Alquiler en Alta Gracia, Santa Maria",
-   "url": "https://www.ruartemoyano.com.ar/p/2519898-Casa-en-Alquiler-en-Alta-Gracia-3-Dormitorios---Con-Pileta---Frente-al-Parque-García-Lorca-",
-   "image": "https://static.tokkobroker.com/pictures/66233882413432834363910452883933100750575007532499468536560220490625963159665.jpg",
-   "locality": "Alta Gracia",
-   "locality_confirmed": true,
-   "bedrooms": 3,
-   "price": "$ 1.500.000",
-   "price_raw": 1500000.0,
-   "currency": "ARS",
-   "prev_price": null,
-   "price_dir": null,
-   "address": "Alta Gracia",
-   "description": "3 Dormitorios - Con Pileta -Frente al Parque García Lorca",
-   "agency": "Ruarte Moyano",
-   "sources": [
-    {
-     "name": "Ruarte Moyano",
-     "url": "https://www.ruartemoyano.com.ar/p/2519898-Casa-en-Alquiler-en-Alta-Gracia-3-Dormitorios---Con-Pileta---Frente-al-Parque-García-Lorca-",
-     "source": "ruartemoyano"
-    },
-    {
-     "name": "Inmobiliaria Ruatemoyano",
-     "url": "https://casa.mercadolibre.com.ar/MLA-2100609211-alquiler-3-dormitorios-con-pileta-frente-al-parque-garcia-lorca-_JM",
-     "source": "mercadolibre"
-    }
-   ],
-   "status": "match",
-   "is_new": false,
-   "is_gone": true,
-   "is_back": false,
-   "first_seen": "17/09 12:24",
-   "first_seen_day": "2026-09-17",
-   "first_seen_iso": "2026-09-17T15:24:14+00:00",
-   "first_seen_rfc822": "Thu, 17 Sep 2026 15:24:14 +0000",
-   "last_seen": "22/09 06:35",
-   "gone_since": "22/09 12:20",
-   "extra": {
-    "codref": "IHO2519898",
-    "surface": "240 m²",
-    "ambientes": 3
    }
   },
   {
@@ -150,7 +192,7 @@
    "first_seen_day": "2026-09-16",
    "first_seen_iso": "2026-09-16T19:49:34+00:00",
    "first_seen_rfc822": "Wed, 16 Sep 2026 19:49:34 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "banos": "1"
@@ -187,7 +229,7 @@
    "first_seen_day": "2026-09-11",
    "first_seen_iso": "2026-09-11T19:23:30+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 19:23:30 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
@@ -272,7 +314,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
@@ -309,7 +351,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
@@ -389,7 +431,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -431,7 +473,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -477,7 +519,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -525,7 +567,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -568,7 +610,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -611,7 +653,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -653,7 +695,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -696,7 +738,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -736,7 +778,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -778,7 +820,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -815,14 +857,14 @@
    ],
    "status": "maybe_bedrooms",
    "is_new": false,
-   "is_gone": true,
-   "is_back": false,
+   "is_gone": false,
+   "is_back": true,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "28/09 23:27",
-   "gone_since": "29/09 08:00",
+   "last_seen": "29/09 18:12",
+   "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
    }
@@ -858,7 +900,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "29/09 08:00",
+   "last_seen": "29/09 18:12",
    "gone_since": null,
    "extra": {
     "features": "220 m² tot. 3 dorm. 2 baños"
