@@ -44,7 +44,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -95,7 +95,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -146,7 +146,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -196,7 +196,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -204,6 +204,53 @@
     {
      "at": "2026-09-08T18:58:45+00:00",
      "price": 800000.0,
+     "currency": "ARS"
+    }
+   ]
+  },
+  "invertir:4020": {
+   "listing": {
+    "source": "invertir",
+    "source_id": "4020",
+    "url": "https://inmobiliariainvertir.com/inmueble/alquiler-alta-gracia-barrio-camara-casa-de-3-dormitorios-con-cochera/",
+    "title": "Alquiler Alta Gracia Barrio Cámara Casa de 3 dormitorios con Cochera",
+    "description": "Inmobiliaria Invertir presenta una casa en alquiler permanente en Alta Gracia!! Ubicada en Barrio Cámara, sobre calle Saieg esquina Bolivia. Consta de: – 3 dormitorios – cocina comedor – baño – garaje Con servicios de gas y cloacas. Requisitos: – 2 garantías de recibo de sueldo. – Mes adelantado. – Mes de depósito (reintegrable hasta 3 cuotas). – Comisión inmobiliaria (equivalente a un mes que se puede abonar en 3 cuotas).",
+    "price": 700000.0,
+    "currency": "ARS",
+    "locality": "Alta Gracia",
+    "address": "Ubicada en Barrio Cámara, sobre calle Saieg esquina Bolivia.",
+    "bedrooms": 3,
+    "property_type": "Casa",
+    "operation": "Alquiler",
+    "images": [
+     "https://inmobiliariainvertir.com/wp-content/uploads/jet-engine-forms/7/2026/10/Captura-de-pantalla-2026-10-02-132906.png"
+    ],
+    "agency": "Inmobiliaria Invertir",
+    "lat": null,
+    "lng": null,
+    "extra": {
+     "banios": 1,
+     "superficie": "225 m²",
+     "slug": "alquiler-alta-gracia-barrio-camara-casa-de-3-dormitorios-con-cochera",
+     "img_hash": "02a2d6c39bb12df8"
+    },
+    "key": "invertir:4020"
+   },
+   "verdict": {
+    "status": "match",
+    "reason": "exact",
+    "locality": "Alta Gracia",
+    "bedrooms": 3
+   },
+   "first_seen": "2026-10-02T21:07:45+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
+   "gone_since": null,
+   "back_at": null,
+   "price_changed_at": null,
+   "price_history": [
+    {
+     "at": "2026-10-02T21:07:45+00:00",
+     "price": 700000.0,
      "currency": "ARS"
     }
    ]
@@ -249,7 +296,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": "2026-09-24T00:59:57+00:00",
    "price_changed_at": null,
@@ -298,7 +345,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T19:22:36+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -397,7 +444,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -447,7 +494,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-09T00:57:42+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -498,7 +545,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-23T19:56:48+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -549,7 +596,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-29T21:12:21+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -557,6 +604,56 @@
     {
      "at": "2026-09-29T21:12:21+00:00",
      "price": 595000.0,
+     "currency": "ARS"
+    }
+   ]
+  },
+  "mercadolibre:MLA2146571569": {
+   "listing": {
+    "source": "mercadolibre",
+    "source_id": "MLA2146571569",
+    "url": "https://casa.mercadolibre.com.ar/MLA-2146571569-casa-en-alquiler-de-tres-dormitorio-y-pileta-en-alta-garcia-barrio-exclusivo-_JM",
+    "title": "Casa En Alquiler De Tres Dormitorio Y Pileta En Alta Garcia - Barrio Exclusivo",
+    "description": "",
+    "price": 2000000.0,
+    "currency": "ARS",
+    "locality": "Santa María",
+    "address": "Campos Del Virrey Country 1, Villa Parque Santa Ana",
+    "bedrooms": 4,
+    "property_type": "Casa",
+    "operation": "Alquiler",
+    "images": [
+     "https://http2.mlstatic.com/D_NQ_NP_2X_980988-MLA117054224822_102026-E.webp"
+    ],
+    "agency": "CASTINEIRASALGUERO",
+    "lat": null,
+    "lng": null,
+    "extra": {
+     "attrs": "8 ambs. | 4 baños | 3.000 m² totales",
+     "bathrooms": "4",
+     "rooms": "8",
+     "covered_m2": "3.000",
+     "date_posted": "2026-10-02",
+     "ml_locality": "Santa María",
+     "img_hash": "8761692b39383919"
+    },
+    "key": "mercadolibre:MLA2146571569"
+   },
+   "verdict": {
+    "status": "match",
+    "reason": "barrio",
+    "locality": "Alta Gracia",
+    "bedrooms": 4
+   },
+   "first_seen": "2026-10-02T21:07:45+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
+   "gone_since": null,
+   "back_at": null,
+   "price_changed_at": null,
+   "price_history": [
+    {
+     "at": "2026-10-02T21:07:45+00:00",
+     "price": 2000000.0,
      "currency": "ARS"
     }
    ]
@@ -600,7 +697,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -650,7 +747,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": "2026-09-12T18:53:37+00:00",
@@ -706,7 +803,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": "2026-09-10T14:43:39+00:00",
    "price_changed_at": null,
@@ -769,57 +866,6 @@
     }
    ]
   },
-  "mercadolibre:MLA3936489568": {
-   "listing": {
-    "source": "mercadolibre",
-    "source_id": "MLA3936489568",
-    "url": "https://casa.mercadolibre.com.ar/MLA-3936489568-alquiler-casa-3-dormitorios-alta-gracia-barrio-el-golf-_JM",
-    "title": "Alquiler Casa 3 Dormitorios Alta Gracia Barrio El Golf",
-    "description": "",
-    "price": 1600000.0,
-    "currency": "ARS",
-    "locality": "Alta Gracia",
-    "address": "Eva Perón 765, X5186 Alta Gracia, Córdoba, Argentina, El Golf Club",
-    "bedrooms": 3,
-    "property_type": "Casa",
-    "operation": "Alquiler",
-    "images": [
-     "https://http2.mlstatic.com/D_NQ_NP_2X_970637-MLA116017809396_092026-E.webp"
-    ],
-    "agency": "MICHALÓPULOS PROPIEDADES",
-    "lat": null,
-    "lng": null,
-    "extra": {
-     "attrs": "8 ambs. | 2 baños | 200 m² cubiertos",
-     "bathrooms": "2",
-     "rooms": "8",
-     "covered_m2": "200",
-     "floor_size": 200,
-     "date_posted": "2026-09-11",
-     "ml_locality": "Alta Gracia",
-     "img_hash": "78787fc2304a4ec4"
-    },
-    "key": "mercadolibre:MLA3936489568"
-   },
-   "verdict": {
-    "status": "match",
-    "reason": "exact",
-    "locality": "Alta Gracia",
-    "bedrooms": 3
-   },
-   "first_seen": "2026-09-11T09:18:24+00:00",
-   "last_seen": "2026-09-25T15:42:23+00:00",
-   "gone_since": "2026-09-25T20:12:16+00:00",
-   "back_at": null,
-   "price_changed_at": null,
-   "price_history": [
-    {
-     "at": "2026-09-11T09:18:24+00:00",
-     "price": 1600000.0,
-     "currency": "ARS"
-    }
-   ]
-  },
   "mercadolibre:MLA4010362230": {
    "listing": {
     "source": "mercadolibre",
@@ -831,7 +877,7 @@
     "currency": "ARS",
     "locality": "Santa María",
     "address": "Campos Del Virrey",
-    "bedrooms": 4,
+    "bedrooms": 5,
     "property_type": "Casa",
     "operation": "Alquiler",
     "images": [
@@ -856,10 +902,10 @@
     "status": "maybe_location",
     "reason": "ubicación sin confirmar",
     "locality": null,
-    "bedrooms": 4
+    "bedrooms": 5
    },
    "first_seen": "2026-09-29T21:12:21+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -907,7 +953,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-10-01T11:18:12+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -952,7 +998,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-16T19:49:34+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1006,7 +1052,7 @@
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
    "last_seen": "2026-10-02T16:27:28+00:00",
-   "gone_since": null,
+   "gone_since": "2026-10-02T21:07:45+00:00",
    "back_at": "2026-10-02T16:27:28+00:00",
    "price_changed_at": "2026-09-18T09:19:56+00:00",
    "price_history": [
@@ -1085,7 +1131,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-11T00:45:38+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": "2026-09-18T00:56:55+00:00",
@@ -1135,7 +1181,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T00:45:38+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1180,7 +1226,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-08T18:58:45+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1225,7 +1271,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-11T19:23:30+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1270,7 +1316,7 @@
     "bedrooms": 4
    },
    "first_seen": "2026-09-23T01:08:32+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1315,7 +1361,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-09-24T20:14:15+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1360,7 +1406,7 @@
     "bedrooms": 3
    },
    "first_seen": "2026-10-02T01:56:38+00:00",
-   "last_seen": "2026-10-02T16:27:28+00:00",
+   "last_seen": "2026-10-02T21:07:45+00:00",
    "gone_since": null,
    "back_at": null,
    "price_changed_at": null,
@@ -1375,136 +1421,136 @@
  },
  "sources": {
   "consulting": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "facundosanchez": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 0,
-   "zero_streak": 91,
+   "zero_streak": 92,
    "error": null,
    "error_streak": 0
   },
   "faretta": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 7,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "fiornovelli": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 8,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "goyatucci": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 9,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "guillermocortes": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "invertir": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
-   "last_count": 8,
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
+   "last_count": 9,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "juarezbeltran": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 56,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lavoz": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "lequio": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 12,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "mercadolibre": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
-   "last_count": 48,
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
+   "last_count": 49,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "raices": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 0,
-   "zero_streak": 92,
+   "zero_streak": 93,
    "error": null,
    "error_streak": 0
   },
   "ruartemoyano": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 9,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "terra": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 14,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "villalosaromos": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
-   "last_count": 27,
-   "zero_streak": 0,
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
+   "last_count": 0,
+   "zero_streak": 1,
    "error": null,
    "error_streak": 0
   },
   "zaratemedinadiaz": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 2,
    "zero_streak": 0,
    "error": null,
    "error_streak": 0
   },
   "zonaprop": {
-   "last_run": "2026-10-02T16:27:28+00:00",
-   "last_ok": "2026-10-02T16:27:28+00:00",
+   "last_run": "2026-10-02T21:07:45+00:00",
+   "last_ok": "2026-10-02T21:07:45+00:00",
    "last_count": 14,
    "zero_streak": 0,
    "error": null,
@@ -1512,83 +1558,6 @@
   }
  },
  "runs": [
-  {
-   "at": "2026-09-17T01:00:58+00:00",
-   "baseline": false,
-   "new": 0,
-   "gone": 0,
-   "price_changed": 0,
-   "sources": {
-    "lavoz": {
-     "count": 12,
-     "error": null
-    },
-    "mercadolibre": {
-     "count": 48,
-     "error": null
-    },
-    "zonaprop": {
-     "count": 16,
-     "error": null
-    },
-    "consulting": {
-     "count": 2,
-     "error": null
-    },
-    "guillermocortes": {
-     "count": 17,
-     "error": null
-    },
-    "invertir": {
-     "count": 6,
-     "error": null
-    },
-    "goyatucci": {
-     "count": 10,
-     "error": null
-    },
-    "terra": {
-     "count": 14,
-     "error": null
-    },
-    "faretta": {
-     "count": 7,
-     "error": null
-    },
-    "fiornovelli": {
-     "count": 9,
-     "error": null
-    },
-    "raices": {
-     "count": 0,
-     "error": null
-    },
-    "facundosanchez": {
-     "count": 0,
-     "error": null
-    },
-    "villalosaromos": {
-     "count": 29,
-     "error": null
-    },
-    "lequio": {
-     "count": 12,
-     "error": null
-    },
-    "ruartemoyano": {
-     "count": 5,
-     "error": null
-    },
-    "juarezbeltran": {
-     "count": 65,
-     "error": null
-    },
-    "zaratemedinadiaz": {
-     "count": 2,
-     "error": null
-    }
-   }
-  },
   {
    "at": "2026-09-17T09:46:17+00:00",
    "baseline": false,
@@ -6112,6 +6081,83 @@
     },
     "villalosaromos": {
      "count": 27,
+     "error": null
+    },
+    "lequio": {
+     "count": 12,
+     "error": null
+    },
+    "ruartemoyano": {
+     "count": 9,
+     "error": null
+    },
+    "juarezbeltran": {
+     "count": 56,
+     "error": null
+    },
+    "zaratemedinadiaz": {
+     "count": 2,
+     "error": null
+    }
+   }
+  },
+  {
+   "at": "2026-10-02T21:07:45+00:00",
+   "baseline": false,
+   "new": 2,
+   "gone": 1,
+   "price_changed": 0,
+   "sources": {
+    "lavoz": {
+     "count": 12,
+     "error": null
+    },
+    "mercadolibre": {
+     "count": 49,
+     "error": null
+    },
+    "zonaprop": {
+     "count": 14,
+     "error": null
+    },
+    "consulting": {
+     "count": 2,
+     "error": null
+    },
+    "guillermocortes": {
+     "count": 12,
+     "error": null
+    },
+    "invertir": {
+     "count": 9,
+     "error": null
+    },
+    "goyatucci": {
+     "count": 9,
+     "error": null
+    },
+    "terra": {
+     "count": 14,
+     "error": null
+    },
+    "faretta": {
+     "count": 7,
+     "error": null
+    },
+    "fiornovelli": {
+     "count": 8,
+     "error": null
+    },
+    "raices": {
+     "count": 0,
+     "error": null
+    },
+    "facundosanchez": {
+     "count": 0,
+     "error": null
+    },
+    "villalosaromos": {
+     "count": 0,
      "error": null
     },
     "lequio": {
