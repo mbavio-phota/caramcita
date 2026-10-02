@@ -1,29 +1,29 @@
 {
- "fetched_at": "2026-10-01T22:46:30+00:00",
+ "fetched_at": "2026-10-02T04:45:38+00:00",
  "listings": [
   {
    "source": "zonaprop",
-   "source_id": "59219512",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
-   "title": "Casa en alquiler reserva tajamar",
-   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
-   "price": 650000.0,
+   "source_id": "60125473",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
+   "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
+   "description": "Alquiler en Barrio Reserva Tajamar 2. Viví la tranquilidad y el confort que ofrece este exclusivo barrio con seguridad 24hs de dia, a minutos del centro de la ciudad. La propiedad cuenta con 3 dormitorios luminosos y 4 baños, ideales para una vida cómoda y práctica. Quincho amplio con cerramiento y pileta, cochera cerrada para un vehiculo. Disfrutá de ambientes modernos, 5 aires acondicionado frio calor, en todos los ambientes. Estufa a leña y calefactor. Excelente iluminación natural, un entorno seguro, arbolado y bien cuidado. Ubicado en Reserva Tajamar, con acceso rápido, todos los servicios. Perfecto para quienes buscan calidad de vida y un hogar para disfrutar. Disponible a partir de Octubre de 2026.",
+   "price": 1500000.0,
    "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 1,
+   "address": "Reserva Tajamar, Reserva Tajamar, Alta Gracia",
+   "bedrooms": 3,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/73/360x266/2077797147.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
+    "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
    },
-   "key": "zonaprop:59219512"
+   "key": "zonaprop:60125473"
   },
   {
    "source": "zonaprop",
@@ -51,27 +51,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60125473",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
-   "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
-   "description": "Alquiler en Barrio Reserva Tajamar 2. Viví la tranquilidad y el confort que ofrece este exclusivo barrio con seguridad 24hs de dia, a minutos del centro de la ciudad. La propiedad cuenta con 3 dormitorios luminosos y 4 baños, ideales para una vida cómoda y práctica. Quincho amplio con cerramiento y pileta, cochera cerrada para un vehiculo. Disfrutá de ambientes modernos, 5 aires acondicionado frio calor, en todos los ambientes. Estufa a leña y calefactor. Excelente iluminación natural, un entorno seguro, arbolado y bien cuidado. Ubicado en Reserva Tajamar, con acceso rápido, todos los servicios. Perfecto para quienes buscan calidad de vida y un hogar para disfrutar. Disponible a partir de Octubre de 2026.",
-   "price": 1500000.0,
+   "source_id": "59219512",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
+   "title": "Casa en alquiler reserva tajamar",
+   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
+   "price": 650000.0,
    "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Reserva Tajamar, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 3,
+   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
+   "bedrooms": 1,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/12/54/73/360x266/2077797147.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
+    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
    },
-   "key": "zonaprop:60125473"
+   "key": "zonaprop:59219512"
   },
   {
    "source": "zonaprop",
@@ -123,30 +123,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60307160",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alquiler-casa-3-dorm.-complejo-acacias-del-golf-60307160.html",
-   "title": "Alquiler casa 3 dorm. complejo acacias del golf",
-   "description": "Casa en alquiler - complejo cerrado acacias del golf. Excelente casa desarrollada en dos plantas, ubicada en Complejo Cerrado Acacias del Golf. El complejo está compuesto por 8 unidades distribuidas en 2 tipologías, con perímetro cerrado mediante alambrado olímpico, ingreso por portón automatizado y cámaras de seguridad. Planta baja Living comedor. Toilette. Cocina separada con muebles sobre y bajo mesada en melamina y bacha doble. Planta alta 3 dormitorios en total. Dormitorio principal en suite. 2 dormitorios adicionales. Baño completo compartido para los dos dormitorios restantes. Características Portero eléctrico con visor. Calefacción central por radiadores en todos los ambientes. Porcelanato de primera calidad. Puertas exteriores de seguridad. Aberturas de aluminio de primera calidad. Placares de madera enchapados en melamina con interiores completos. Preinstalación para aire acondicionado Split en living comedor y dormitorios. Servicios generales subterráneos. Seguridad Y acceso Complejo cerrado de 8 unidades. Alambrado olímpico perimetral. Portón de ingreso automatizado. Cámaras de seguridad. Impuestos Rentas a cargo del propietario. Municipalidad a cargo del inquilino.",
-   "price": 1800000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Acacias del Golf, El Golf, Alta Gracia",
-   "bedrooms": null,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/30/71/60/360x266/2082362137.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "745 m² tot. 2 coch."
-   },
-   "key": "zonaprop:60307160"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "52371416",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-departamento-en-alquiler-en-barrio-v.-camiares-alta-52371416.html",
    "title": "Departamento en alquiler en barrio v. camiares alta",
@@ -192,6 +168,30 @@
     "features": "8737 m² tot. 10 amb. 3 dorm. 2 baños 1 coch."
    },
    "key": "zonaprop:60237040"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "60307160",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alquiler-casa-3-dorm.-complejo-acacias-del-golf-60307160.html",
+   "title": "Alquiler casa 3 dorm. complejo acacias del golf",
+   "description": "Casa en alquiler - complejo cerrado acacias del golf. Excelente casa desarrollada en dos plantas, ubicada en Complejo Cerrado Acacias del Golf. El complejo está compuesto por 8 unidades distribuidas en 2 tipologías, con perímetro cerrado mediante alambrado olímpico, ingreso por portón automatizado y cámaras de seguridad. Planta baja Living comedor. Toilette. Cocina separada con muebles sobre y bajo mesada en melamina y bacha doble. Planta alta 3 dormitorios en total. Dormitorio principal en suite. 2 dormitorios adicionales. Baño completo compartido para los dos dormitorios restantes. Características Portero eléctrico con visor. Calefacción central por radiadores en todos los ambientes. Porcelanato de primera calidad. Puertas exteriores de seguridad. Aberturas de aluminio de primera calidad. Placares de madera enchapados en melamina con interiores completos. Preinstalación para aire acondicionado Split en living comedor y dormitorios. Servicios generales subterráneos. Seguridad Y acceso Complejo cerrado de 8 unidades. Alambrado olímpico perimetral. Portón de ingreso automatizado. Cámaras de seguridad. Impuestos Rentas a cargo del propietario. Municipalidad a cargo del inquilino.",
+   "price": 1800000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Acacias del Golf, El Golf, Alta Gracia",
+   "bedrooms": null,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/30/71/60/360x266/2082362137.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "745 m² tot. 2 coch."
+   },
+   "key": "zonaprop:60307160"
   },
   {
    "source": "zonaprop",
@@ -291,30 +291,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "50356032",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
-   "title": "Casa en alquiler dos dorm. anisacate",
-   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
-   "price": 480000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "El Ombú 100, Anisacate, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:50356032"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "59655839",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-se-alquila-casa-de-2-dorm.-en-anisacate-59655839.html",
    "title": "Se alquila casa de 2 dorm. en anisacate",
@@ -336,6 +312,30 @@
     "features": "1300 m² tot. 5 amb. 2 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:59655839"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "50356032",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
+   "title": "Casa en alquiler dos dorm. anisacate",
+   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
+   "price": 480000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "El Ombú 100, Anisacate, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:50356032"
   }
  ]
 }
