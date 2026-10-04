@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-03T16:45:36+00:00",
+ "fetched_at": "2026-10-04T22:42:59+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -123,6 +123,30 @@
   },
   {
    "source": "zonaprop",
+   "source_id": "60307160",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alquiler-casa-3-dorm.-complejo-acacias-del-golf-60307160.html",
+   "title": "Alquiler casa 3 dorm. complejo acacias del golf",
+   "description": "Casa en alquiler - complejo cerrado acacias del golf. Excelente casa desarrollada en dos plantas, ubicada en Complejo Cerrado Acacias del Golf. El complejo está compuesto por 8 unidades distribuidas en 2 tipologías, con perímetro cerrado mediante alambrado olímpico, ingreso por portón automatizado y cámaras de seguridad. Planta baja Living comedor. Toilette. Cocina separada con muebles sobre y bajo mesada en melamina y bacha doble. Planta alta 3 dormitorios en total. Dormitorio principal en suite. 2 dormitorios adicionales. Baño completo compartido para los dos dormitorios restantes. Características Portero eléctrico con visor. Calefacción central por radiadores en todos los ambientes. Porcelanato de primera calidad. Puertas exteriores de seguridad. Aberturas de aluminio de primera calidad. Placares de madera enchapados en melamina con interiores completos. Preinstalación para aire acondicionado Split en living comedor y dormitorios. Servicios generales subterráneos. Seguridad Y acceso Complejo cerrado de 8 unidades. Alambrado olímpico perimetral. Portón de ingreso automatizado. Cámaras de seguridad. Impuestos Rentas a cargo del propietario. Municipalidad a cargo del inquilino.",
+   "price": 1800000.0,
+   "currency": "ARS",
+   "locality": "Alta Gracia",
+   "address": "Acacias del Golf, El Golf, Alta Gracia",
+   "bedrooms": null,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/30/71/60/360x266/2082362137.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "745 m² tot. 2 coch."
+   },
+   "key": "zonaprop:60307160"
+  },
+  {
+   "source": "zonaprop",
    "source_id": "60237040",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-quinta-en-alquiler-alta-gracia-amplio-parque-60237040.html",
    "title": "Casa quinta en alquiler alta gracia amplio parque",
@@ -171,27 +195,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60307160",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alquiler-casa-3-dorm.-complejo-acacias-del-golf-60307160.html",
-   "title": "Alquiler casa 3 dorm. complejo acacias del golf",
-   "description": "Casa en alquiler - complejo cerrado acacias del golf. Excelente casa desarrollada en dos plantas, ubicada en Complejo Cerrado Acacias del Golf. El complejo está compuesto por 8 unidades distribuidas en 2 tipologías, con perímetro cerrado mediante alambrado olímpico, ingreso por portón automatizado y cámaras de seguridad. Planta baja Living comedor. Toilette. Cocina separada con muebles sobre y bajo mesada en melamina y bacha doble. Planta alta 3 dormitorios en total. Dormitorio principal en suite. 2 dormitorios adicionales. Baño completo compartido para los dos dormitorios restantes. Características Portero eléctrico con visor. Calefacción central por radiadores en todos los ambientes. Porcelanato de primera calidad. Puertas exteriores de seguridad. Aberturas de aluminio de primera calidad. Placares de madera enchapados en melamina con interiores completos. Preinstalación para aire acondicionado Split en living comedor y dormitorios. Servicios generales subterráneos. Seguridad Y acceso Complejo cerrado de 8 unidades. Alambrado olímpico perimetral. Portón de ingreso automatizado. Cámaras de seguridad. Impuestos Rentas a cargo del propietario. Municipalidad a cargo del inquilino.",
-   "price": 1800000.0,
+   "source_id": "59793406",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcapa-casa-potrerillo-de-larreta-59793406.html",
+   "title": "Casa potrerillo de larreta",
+   "description": "Viví la experiencia Potrerillo de Larreta. Esta excelente casa de 3 dormitorios combina diseño, comodidad y naturaleza en un entorno único. Cuenta con un amplio living-comedor con hogar a leña, cocina integrada, ambientes muy luminosos y climatizados con aire acondicionado. El sector exterior invita a disfrutar cada momento: gran galería con asador, pileta, parque con frondosa arboleda y cochera. Un espacio pensado para quienes valoran la tranquilidad, la privacidad y el contacto con la naturaleza, sin resignar confort. Una oportunidad para vivir en uno de los barrios más exclusivos de Córdoba, rodeado de paisajes serranos y un ambiente inmejorable.",
+   "price": 2100000.0,
    "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Acacias del Golf, El Golf, Alta Gracia",
-   "bedrooms": null,
+   "address": "Potrerillo de Larreta Country Club Acceso, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 3,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/30/71/60/360x266/2082362137.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/79/34/06/360x266/2069824833.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "745 m² tot. 2 coch."
+    "features": "220 m² tot. 3 dorm. 2 baños"
    },
-   "key": "zonaprop:60307160"
+   "key": "zonaprop:59793406"
   },
   {
    "source": "zonaprop",
@@ -216,30 +240,6 @@
     "features": "800 m² tot. 4 amb. 4 dorm. 3 baños 3 coch."
    },
    "key": "zonaprop:60215548"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "59793406",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcapa-casa-potrerillo-de-larreta-59793406.html",
-   "title": "Casa potrerillo de larreta",
-   "description": "Viví la experiencia Potrerillo de Larreta. Esta excelente casa de 3 dormitorios combina diseño, comodidad y naturaleza en un entorno único. Cuenta con un amplio living-comedor con hogar a leña, cocina integrada, ambientes muy luminosos y climatizados con aire acondicionado. El sector exterior invita a disfrutar cada momento: gran galería con asador, pileta, parque con frondosa arboleda y cochera. Un espacio pensado para quienes valoran la tranquilidad, la privacidad y el contacto con la naturaleza, sin resignar confort. Una oportunidad para vivir en uno de los barrios más exclusivos de Córdoba, rodeado de paisajes serranos y un ambiente inmejorable.",
-   "price": 2100000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Potrerillo de Larreta Country Club Acceso, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 3,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/79/34/06/360x266/2069824833.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "220 m² tot. 3 dorm. 2 baños"
-   },
-   "key": "zonaprop:59793406"
   },
   {
    "source": "zonaprop",
