@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-05T16:45:36+00:00",
+ "fetched_at": "2026-10-07T16:46:56+00:00",
  "listings": [
   {
    "source": "zonaprop",
@@ -27,30 +27,6 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59219512",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
-   "title": "Casa en alquiler reserva tajamar",
-   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
-   "price": 650000.0,
-   "currency": "ARS",
-   "locality": "Alta Gracia",
-   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
-   "bedrooms": 1,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
-   },
-   "key": "zonaprop:59219512"
-  },
-  {
-   "source": "zonaprop",
    "source_id": "60125473",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-3-dorm.-en-alquiler-en-reserva-tajamar-60125473.html",
    "title": "Casa de 3 dorm. en alquiler en reserva tajamar",
@@ -75,27 +51,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "59559291",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
-   "title": "Casa de categoria amoblada en alquiler frente al golf",
-   "description": "Esta residencia, ubicada frente al hoyo 1 de Potrerillo de Larreta Country Golf Club, ofrece una de las vistas más privilegiadas del barrio, con un paisaje abierto e ininterrumpido hacia las sierras que transforma cada amanecer y atardecer en un verdadero espectáculo. Desarrollada íntegramente en una sola planta sobre un imponente lote de 2. 300 m², la casa cuenta con 190 m² cubiertos, donde la amplitud, la funcionalidad y la conexión con el exterior son protagonistas. El área social está compuesta por un amplio y luminoso living-comedor, con grandes visuales hacia el jardín y el paisaje. Dispone de tres dormitorios, destacándose la suite principal con baño privado y vestidor abierto, además de un segundo baño completo que aporta comodidad para toda la familia. El exterior invita a disfrutar al máximo del entorno, con un amplio jardín, una gran piscina y una espaciosa galería quincho con asador, ideal para reuniones, momentos de descanso o simplemente para contemplar la tranquilidad y las vistas. Alquilar esta propiedad significa acceder a un estilo de vida privilegiado dentro de Potrerillo de Larreta Country Golf Club, un entorno que combina naturaleza, seguridad, privacidad y una de las mejores canchas de golf de la región, a pocos minutos de la ciudad de Córdoba y de Alta Gracia. Una oportunidad para quienes buscan vivir rodeados de naturaleza, con confort, privacidad y un paisaje incomparable. Características destacadas. Lote de 2. 300 m². 190 m² cubiertos. Desarrollada completamente en una sola planta. Frente al hoyo 1 de la cancha de golf. Espectaculares vistas abiertas a las sierras. 3 dormitorios. Suite principal con baño privado y vestidor abierto. 2 baños. Amplio living-comedor. Gran piscina. Galería quincho con asador. Excelente orientación y entorno de máxima privacidad. Consultanos por disponibilidad, plazo de alquiler y condiciones.",
-   "price": 1800.0,
-   "currency": "USD",
+   "source_id": "59219512",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-reserva-tajamar-59219512.html",
+   "title": "Casa en alquiler reserva tajamar",
+   "description": "Propiedad ubicada en reserva tajamar, alta gracia (Barrio Cerrado con seguridad las 24 hs) Distribución de ambientes: *Cocina totalmente equipada con muebles bajo mesada y colgantes. *Living comedor amplio con salida al patio. *Dos habitaciones con placares con interiores completos, puertas espejadas. * Un baño. *Un ante bañó. * Patio amplio con asador.",
+   "price": 650000.0,
+   "currency": "ARS",
    "locality": "Alta Gracia",
-   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
-   "bedrooms": 3,
+   "address": "Reserva Tajamar Barrio de Campo, Reserva Tajamar, Alta Gracia",
+   "bedrooms": 1,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/59/55/92/91/360x266/2064162668.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/21/95/12/360x266/2055588026.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
+    "features": "80 m² tot. 1 amb. 1 dorm. 1 baño"
    },
-   "key": "zonaprop:59559291"
+   "key": "zonaprop:59219512"
   },
   {
    "source": "zonaprop",
@@ -123,27 +99,27 @@
   },
   {
    "source": "zonaprop",
-   "source_id": "60307160",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alquiler-casa-3-dorm.-complejo-acacias-del-golf-60307160.html",
-   "title": "Alquiler casa 3 dorm. complejo acacias del golf",
-   "description": "Casa en alquiler - complejo cerrado acacias del golf. Excelente casa desarrollada en dos plantas, ubicada en Complejo Cerrado Acacias del Golf. El complejo está compuesto por 8 unidades distribuidas en 2 tipologías, con perímetro cerrado mediante alambrado olímpico, ingreso por portón automatizado y cámaras de seguridad. Planta baja Living comedor. Toilette. Cocina separada con muebles sobre y bajo mesada en melamina y bacha doble. Planta alta 3 dormitorios en total. Dormitorio principal en suite. 2 dormitorios adicionales. Baño completo compartido para los dos dormitorios restantes. Características Portero eléctrico con visor. Calefacción central por radiadores en todos los ambientes. Porcelanato de primera calidad. Puertas exteriores de seguridad. Aberturas de aluminio de primera calidad. Placares de madera enchapados en melamina con interiores completos. Preinstalación para aire acondicionado Split en living comedor y dormitorios. Servicios generales subterráneos. Seguridad Y acceso Complejo cerrado de 8 unidades. Alambrado olímpico perimetral. Portón de ingreso automatizado. Cámaras de seguridad. Impuestos Rentas a cargo del propietario. Municipalidad a cargo del inquilino.",
-   "price": 1800000.0,
-   "currency": "ARS",
+   "source_id": "59559291",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-de-categoria-amoblada-en-alquiler-frente-al-golf-59559291.html",
+   "title": "Casa de categoria amoblada en alquiler frente al golf",
+   "description": "Esta residencia, ubicada frente al hoyo 1 de Potrerillo de Larreta Country Golf Club, ofrece una de las vistas más privilegiadas del barrio, con un paisaje abierto e ininterrumpido hacia las sierras que transforma cada amanecer y atardecer en un verdadero espectáculo. Desarrollada íntegramente en una sola planta sobre un imponente lote de 2. 300 m², la casa cuenta con 190 m² cubiertos, donde la amplitud, la funcionalidad y la conexión con el exterior son protagonistas. El área social está compuesta por un amplio y luminoso living-comedor, con grandes visuales hacia el jardín y el paisaje. Dispone de tres dormitorios, destacándose la suite principal con baño privado y vestidor abierto, además de un segundo baño completo que aporta comodidad para toda la familia. El exterior invita a disfrutar al máximo del entorno, con un amplio jardín, una gran piscina y una espaciosa galería quincho con asador, ideal para reuniones, momentos de descanso o simplemente para contemplar la tranquilidad y las vistas. Alquilar esta propiedad significa acceder a un estilo de vida privilegiado dentro de Potrerillo de Larreta Country Golf Club, un entorno que combina naturaleza, seguridad, privacidad y una de las mejores canchas de golf de la región, a pocos minutos de la ciudad de Córdoba y de Alta Gracia. Una oportunidad para quienes buscan vivir rodeados de naturaleza, con confort, privacidad y un paisaje incomparable. Características destacadas. Lote de 2. 300 m². 190 m² cubiertos. Desarrollada completamente en una sola planta. Frente al hoyo 1 de la cancha de golf. Espectaculares vistas abiertas a las sierras. 3 dormitorios. Suite principal con baño privado y vestidor abierto. 2 baños. Amplio living-comedor. Gran piscina. Galería quincho con asador. Excelente orientación y entorno de máxima privacidad. Consultanos por disponibilidad, plazo de alquiler y condiciones.",
+   "price": 1800.0,
+   "currency": "USD",
    "locality": "Alta Gracia",
-   "address": "Acacias del Golf, El Golf, Alta Gracia",
-   "bedrooms": null,
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 3,
    "property_type": "Casa",
    "operation": "Alquiler",
    "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/60/30/71/60/360x266/2082362137.jpg?isFirstImage=true"
+    "https://imgar.zonapropcdn.com/avisos/1/00/59/55/92/91/360x266/2064162668.jpg?isFirstImage=true"
    ],
    "agency": "Zonaprop",
    "lat": null,
    "lng": null,
    "extra": {
-    "features": "745 m² tot. 2 coch."
+    "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
    },
-   "key": "zonaprop:60307160"
+   "key": "zonaprop:59559291"
   },
   {
    "source": "zonaprop",
@@ -195,6 +171,30 @@
   },
   {
    "source": "zonaprop",
+   "source_id": "60360169",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-potrerillo-de-la-reta-4-dorm.-financiacion-60360169.html",
+   "title": "Casa en potrerillo de la reta 4 dorm. financiacion",
+   "description": "Exclusiva Casa en Potrerillo de Larreta – 4 dormitorios ( posible financiación propia) Ubicada en el exclusivo Country Potrerillo de Larreta en Alta Gracia, esta casa de un año de antigüedad ofrece lujo y confort. Construida sobre un terreno de 1. 378, 98 m², la propiedad cuenta con 4 dormitorios en suite, cada uno con antebaño y placares. El amplio living-cocina-comedor integrado se complementa con un parque de aproximadamente 1. 400 m² y una piscina de 8. 5 x 3. 5 m. La casa dispone de pisos de porcelanato, aberturas de pvc alemanas con dvh, y una cocina equipada con muebles de primera calidad y mesada de granito negro. Los dormitorios y el living-comedor están climatizados con aire acondicionado frío/calor, y equipados con ventiladores de techo con control remoto. La propiedad también ofrece un quincho-cochera con asador, cocheras para dos autos, cortinas roller motorizadas y servicios de agua corriente y electricidad. Cuenta con seguridad nocturna y calefacción por aire. Condiciones de venta y facilidades: Apta crédito. Se reciben vehículos en parte de pago. Posibilidad de financiación propiaOpción Alquiler: usd 2. 000 por mes. Una residencia de alta gama ideal para quienes buscan una propiedad exclusiva en una ubicación privilegiada.",
+   "price": 2000.0,
+   "currency": "USD",
+   "locality": "Alta Gracia",
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "bedrooms": 4,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/60/36/01/69/360x266/2083531707.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "1380 m² tot. 6 amb. 4 dorm. 5 baños 2 coch."
+   },
+   "key": "zonaprop:60360169"
+  },
+  {
+   "source": "zonaprop",
    "source_id": "60215548",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcapa-casa-excelente-ubicacion-60215548.html",
    "title": "Casa excelente ubicacion",
@@ -219,6 +219,30 @@
   },
   {
    "source": "zonaprop",
+   "source_id": "57998459",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-alquiler-casa-amoblada-y-con-pileta!-villa-los-aromos-57998459.html",
+   "title": "Alquiler casa amoblada y con pileta! villa los aromos",
+   "description": "Casa amoblada en villa los aromos!! Alquiler: $950. 000 + impuestos Y servicios. completamente amoblada! 3 dormitorios. 1 baño completo. cocina semi integrada. living comedor amplio. galeria muy amplia. 2000M2 de terreno aproximadamente. pileta con sistema de filtrado. asador Y horno chileno. requisitos: 3 recibos de sueldo O 2 recibos de sueldo Y una garantia propietaria. gastos: comision inmobiliaria: 5% del monto total del contrato. certificacion de firmas ante escribano, aproximadamente $18. 000 cada firma.",
+   "price": 900000.0,
+   "currency": "ARS",
+   "locality": "Villa Los Aromos",
+   "address": "las cascadas 150, Villa Los Aromos, Córdoba",
+   "bedrooms": 3,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/57/99/84/59/360x266/2022662880.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "2000 m² tot. 5 amb. 3 dorm. 1 baño 2 coch."
+   },
+   "key": "zonaprop:57998459"
+  },
+  {
+   "source": "zonaprop",
    "source_id": "60244450",
    "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-villa-los-aromos-60244450.html",
    "title": "Casa en villa los aromos",
@@ -240,6 +264,30 @@
     "features": "500 m² tot. 3 amb. 2 dorm. 1 baño 2 coch."
    },
    "key": "zonaprop:60244450"
+  },
+  {
+   "source": "zonaprop",
+   "source_id": "50356032",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
+   "title": "Casa en alquiler dos dorm. anisacate",
+   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
+   "price": 480000.0,
+   "currency": "ARS",
+   "locality": "Anisacate",
+   "address": "El Ombú 100, Anisacate, Córdoba",
+   "bedrooms": 2,
+   "property_type": "Casa",
+   "operation": "Alquiler",
+   "images": [
+    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
+   ],
+   "agency": "Zonaprop",
+   "lat": null,
+   "lng": null,
+   "extra": {
+    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
+   },
+   "key": "zonaprop:50356032"
   },
   {
    "source": "zonaprop",
@@ -288,30 +336,6 @@
     "features": "60 m² tot. 2 amb. 1 dorm. 1 baño 1 coch."
    },
    "key": "zonaprop:59898621"
-  },
-  {
-   "source": "zonaprop",
-   "source_id": "50356032",
-   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-dos-dorm.-anisacate-50356032.html",
-   "title": "Casa en alquiler dos dorm. anisacate",
-   "description": "Casa de dos dormitorios, baño, cocina/ comedor, lavadero semi cubierto con parrilla, patio delantero con ingreso para vehículo y patio trasero. Barrio El Aromo Anisacate Córdoba. Servicios: Agua Corriente, Electricidad. Otros Servicios: Parrilla",
-   "price": 480000.0,
-   "currency": "ARS",
-   "locality": "Anisacate",
-   "address": "El Ombú 100, Anisacate, Córdoba",
-   "bedrooms": 2,
-   "property_type": "Casa",
-   "operation": "Alquiler",
-   "images": [
-    "https://imgar.zonapropcdn.com/avisos/1/00/50/35/60/32/360x266/1830990915.jpg?isFirstImage=true"
-   ],
-   "agency": "Zonaprop",
-   "lat": null,
-   "lng": null,
-   "extra": {
-    "features": "250 m² tot. 3 amb. 2 dorm. 1 baño 1 coch."
-   },
-   "key": "zonaprop:50356032"
   }
  ]
 }
