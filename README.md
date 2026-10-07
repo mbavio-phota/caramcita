@@ -1,5 +1,18 @@
 # Caramcita
 
+> **Pausado desde el 7 de octubre de 2026.** Casa encontrada, ya no hace falta buscar. No se borró nada:
+> el estado, el diario publicado y todo el código quedan como estaban. Para reactivarlo:
+>
+> ```bash
+> gh workflow enable caramcita --repo mbavio-phota/caramcita   # vuelve el cron cada 6 h
+> cp launchd/com.mrbavio.caramcita.snapshot.plist ~/Library/LaunchAgents/
+> launchctl load ~/Library/LaunchAgents/com.mrbavio.caramcita.snapshot.plist   # Zonaprop y Lequio desde la Mac
+> ```
+>
+> Al reactivarlo, la primera corrida va a marcar como "nuevo" todo lo que haya aparecido mientras estuvo
+> apagado. Si preferís empezar de cero, borrá `state.json` antes: esa corrida queda como línea base y no
+> avisa nada.
+
 Buscador automático de **casas en alquiler anual con 3+ dormitorios** en Alta Gracia, Falda del Carmen,
 Anisacate, Valle de Anisacate y Villa La Bolsa. Corre solo cada 6 horas en GitHub Actions, publica un
 diario en HTML y avisa por Telegram cuando aparece algo nuevo.
