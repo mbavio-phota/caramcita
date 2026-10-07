@@ -1,6 +1,43 @@
 {
- "generated": "2026-10-07T01:57:38+00:00",
+ "generated": "2026-10-07T11:28:02+00:00",
  "cards": [
+  {
+   "key": "zonaprop:60360169",
+   "title": "Casa en potrerillo de la reta 4 dorm. financiacion",
+   "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-potrerillo-de-la-reta-4-dorm.-financiacion-60360169.html",
+   "image": "https://imgar.zonapropcdn.com/avisos/1/00/60/36/01/69/360x266/2083531707.jpg?isFirstImage=true",
+   "locality": "Alta Gracia",
+   "locality_confirmed": true,
+   "bedrooms": 4,
+   "price": "USD 2.000",
+   "price_raw": 2000.0,
+   "currency": "USD",
+   "prev_price": null,
+   "price_dir": null,
+   "address": "Potrerillo de Larreta, El Potrerillo de Larreta, Alta Gracia",
+   "description": "Exclusiva Casa en Potrerillo de Larreta – 4 dormitorios ( posible financiación propia) Ubicada en el exclusivo Country Potrerillo de Larreta en Alta Gracia, esta casa de un año de antigüedad ofrece lujo y confort. Construida sobre un terreno de 1. 378, 98 m², la propiedad cuenta con 4 dormitorios en suite, cada uno con antebaño y placares. El amplio living-cocina-comedor integrado se complementa c",
+   "agency": "Zonaprop",
+   "sources": [
+    {
+     "name": "Zonaprop",
+     "url": "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-potrerillo-de-la-reta-4-dorm.-financiacion-60360169.html",
+     "source": "zonaprop"
+    }
+   ],
+   "status": "match",
+   "is_new": false,
+   "is_gone": false,
+   "is_back": false,
+   "first_seen": "07/10 08:28",
+   "first_seen_day": "2026-10-07",
+   "first_seen_iso": "2026-10-07T11:28:02+00:00",
+   "first_seen_rfc822": "Wed, 07 Oct 2026 11:28:02 +0000",
+   "last_seen": "07/10 08:28",
+   "gone_since": null,
+   "extra": {
+    "features": "1380 m² tot. 6 amb. 4 dorm. 5 baños 2 coch."
+   }
+  },
   {
    "key": "mercadolibre:MLA2156958243",
    "title": "Casa En Potrerillo De La Reta - 4 Dormitorios - Financiacion Propia/recibo Vehículo",
@@ -32,7 +69,7 @@
    "first_seen_day": "2026-10-06",
    "first_seen_iso": "2026-10-06T21:24:59+00:00",
    "first_seen_rfc822": "Tue, 06 Oct 2026 21:24:59 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 5 baños | 1.380 m² totales",
@@ -117,7 +154,7 @@
    "first_seen_day": "2026-10-02",
    "first_seen_iso": "2026-10-02T21:07:45+00:00",
    "first_seen_rfc822": "Fri, 02 Oct 2026 21:07:45 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "banios": 1,
@@ -156,7 +193,7 @@
    "first_seen_day": "2026-10-02",
    "first_seen_iso": "2026-10-02T21:07:45+00:00",
    "first_seen_rfc822": "Fri, 02 Oct 2026 21:07:45 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "attrs": "8 ambs. | 4 baños | 3.000 m² totales",
@@ -192,14 +229,14 @@
    ],
    "status": "match",
    "is_new": false,
-   "is_gone": false,
+   "is_gone": true,
    "is_back": false,
    "first_seen": "01/10 22:56",
    "first_seen_day": "2026-10-01",
    "first_seen_iso": "2026-10-02T01:56:38+00:00",
    "first_seen_rfc822": "Fri, 02 Oct 2026 01:56:38 +0000",
    "last_seen": "06/10 08:39",
-   "gone_since": null,
+   "gone_since": "07/10 08:28",
    "extra": {
     "features": "745 m² tot. 2 coch."
    }
@@ -235,7 +272,7 @@
    "first_seen_day": "2026-10-01",
    "first_seen_iso": "2026-10-01T11:18:12+00:00",
    "first_seen_rfc822": "Thu, 01 Oct 2026 11:18:12 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños",
@@ -275,7 +312,7 @@
    "first_seen_day": "2026-09-29",
    "first_seen_iso": "2026-09-29T21:12:21+00:00",
    "first_seen_rfc822": "Tue, 29 Sep 2026 21:12:21 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "attrs": "5 ambs. | 1 baño | 70 m² cubiertos",
@@ -318,7 +355,7 @@
    "first_seen_day": "2026-09-29",
    "first_seen_iso": "2026-09-29T21:12:21+00:00",
    "first_seen_rfc822": "Tue, 29 Sep 2026 21:12:21 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "attrs": "8 ambs. | 4 baños | 380 m² cubiertos",
@@ -361,7 +398,7 @@
    "first_seen_day": "2026-09-24",
    "first_seen_iso": "2026-09-24T20:14:15+00:00",
    "first_seen_rfc822": "Thu, 24 Sep 2026 20:14:15 +0000",
-   "last_seen": "06/10 08:39",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "features": "8737 m² tot. 10 amb. 3 dorm. 2 baños 1 coch."
@@ -398,7 +435,7 @@
    "first_seen_day": "2026-09-22",
    "first_seen_iso": "2026-09-23T01:08:32+00:00",
    "first_seen_rfc822": "Wed, 23 Sep 2026 01:08:32 +0000",
-   "last_seen": "06/10 08:39",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "features": "800 m² tot. 4 amb. 4 dorm. 3 baños 3 coch."
@@ -435,7 +472,7 @@
    "first_seen_day": "2026-09-16",
    "first_seen_iso": "2026-09-16T19:49:34+00:00",
    "first_seen_rfc822": "Wed, 16 Sep 2026 19:49:34 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "banos": "1"
@@ -472,7 +509,7 @@
    "first_seen_day": "2026-09-11",
    "first_seen_iso": "2026-09-11T19:23:30+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 19:23:30 +0000",
-   "last_seen": "06/10 08:39",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "features": "480 m² tot. 7 amb. 3 dorm. 4 baños 1 coch."
@@ -514,7 +551,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "features": "1742 m² tot. 7 amb. 4 dorm. 4 baños 2 coch."
@@ -551,7 +588,7 @@
    "first_seen_day": "2026-09-10",
    "first_seen_iso": "2026-09-11T00:45:38+00:00",
    "first_seen_rfc822": "Fri, 11 Sep 2026 00:45:38 +0000",
-   "last_seen": "06/10 08:39",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "features": "2300 m² tot. 7 amb. 3 dorm. 2 baños 2 coch."
@@ -588,7 +625,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-09T00:57:42+00:00",
    "first_seen_rfc822": "Wed, 09 Sep 2026 00:57:42 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 2 baños | 220 m² cubiertos",
@@ -630,7 +667,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T19:22:36+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 19:22:36 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "slug": "alquiler-propiedad-anisacate-cordoba",
@@ -676,7 +713,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "area": "Potrerillo de Larreta",
@@ -724,7 +761,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "area": "Villa La Bolsa",
@@ -767,7 +804,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "06/10 18:24",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "area": "La Hornilla",
@@ -810,7 +847,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "06/10 18:24",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "area": "Barrio Norte",
@@ -852,7 +889,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "bathrooms": "2 Baños",
@@ -935,7 +972,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "attrs": "3 dormitorios | 1 baño | 100 m² cubiertos",
@@ -977,7 +1014,7 @@
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "06/10 22:57",
+   "last_seen": "07/10 08:28",
    "gone_since": null,
    "extra": {
     "attrs": "6 ambs. | 3 baños | 290 m² cubiertos",
@@ -1014,14 +1051,14 @@
    ],
    "status": "maybe_bedrooms",
    "is_new": false,
-   "is_gone": true,
-   "is_back": false,
+   "is_gone": false,
+   "is_back": true,
    "first_seen": "08/09 15:58",
    "first_seen_day": "2026-09-08",
    "first_seen_iso": "2026-09-08T18:58:45+00:00",
    "first_seen_rfc822": "Tue, 08 Sep 2026 18:58:45 +0000",
-   "last_seen": "06/10 18:24",
-   "gone_since": "06/10 22:57",
+   "last_seen": "07/10 08:28",
+   "gone_since": null,
    "extra": {
     "categoria": "Alquiler Permanente"
    }
